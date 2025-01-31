@@ -1,4 +1,7 @@
-# IAI Project Template
+# [STG0008079] Improving Decision-Making Abilities of Generative Large Language Models by Combining Multiple Points of View
+
+## Authors: Alexander Kvalvaag & Viacheslav Nikolaichuk
+##  Course coordinator: Petra Galuscakova
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/vinaysetty/1cc32e6b43d911995bf07adb1cce4e89/raw/coverage.template-project.main.json)
