@@ -1,0 +1,85 @@
+{
+    "scenarios": [
+        {
+            "scenario_1": {
+                "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
+                "questions": [
+                    {
+                        "q1": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+                        "difficulty": "easy",
+                        "ground truth": "Despite your friend’s recent win, this isolated success does not undermine the established house edge. Most players still face a negative expected value over the long run, so gambling remains unprofitable in expectation.",
+                        "model_answers": [
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "Bayesian Updating",
+                                "answer": "I barely update my belief. One person's lucky win is weak evidence against the house edge. My posterior still strongly favors that the house wins overall."
+                            },
+                            {
+                                "model": "Expected Value",
+                                "answer": "It's one lucky accident and does not change the long-run negative expected value of most casino games. It's possible to win in the short term, but on average the house still keeps an advantage."
+                            },
+                            {
+                                "model": "Bayesian Updating + Expected Value",
+                                "answer": "Your friend’s big win provides only weak evidence against your prior belief in the house edge, so you make only a small Bayesian update. The long-run negative expected value of casino games remains unchanged, indicating gambling is still unprofitable in the long run."
+                            }
+                        ]
+                    },
+                    {
+                        "q2": "",
+                        "difficulty": "",
+                        "ground truth": "",
+                        "model_answers": [
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "scenario_2": {
+                "context": "",
+                "questions": [
+                    {
+                        "q1": "",
+                        "difficulty": "",
+                        "ground truth": "",
+                        "model_answers": [
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            },
+                            {
+                                "model": "",
+                                "answer": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
