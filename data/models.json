@@ -1,0 +1,118 @@
+[
+    {
+        "model_name": "Affordability Heuristic",
+        "model_description": "A decision-making shortcut that evaluates purchases based on percentage of income allocated to specific budget categories"
+    },
+    {
+        "model_name": "Social Signaling",
+        "model_description": "Using possessions/behaviors to communicate status, often confusing perceived success with actual professional competence"
+    },
+    {
+        "model_name": "Total Cost of Ownership (TCO)",
+        "model_description": "Holistic assessment of all direct/indirect costs associated with an asset over its entire lifecycle"
+    },
+    {
+        "model_name": "ROI Analysis",
+        "model_description": "Calculation comparing magnitude/timing of returns to investment costs using net present value principles"
+    },
+    {
+        "model_name": "Halo Effect",
+        "model_description": "Cognitive bias where positive perception of one trait positively influences overall evaluation"
+    },
+    {
+        "model_name": "Present Bias",
+        "model_description": "Tendency to prioritize immediate gratification while disproportionately discounting future consequences"
+    },
+    {
+        "model_name": "Precautionary Principle",
+        "model_description": "Risk management strategy that avoids actions with potential severe harm despite uncertainty about probabilities"
+    },
+    {
+        "model_name": "Marginal Value of Accuracy",
+        "model_description": "Assessment of incremental benefits from small improvements in precision, particularly critical in high-stakes domains"
+    },
+    {
+        "model_name": "Type I/II Errors",
+        "model_description": "Statistical framework distinguishing false positives (incorrect rejection of null) vs false negatives (failure to reject false null)"
+    },
+    {
+        "model_name": "Confusion Matrix",
+        "model_description": "Tabular layout visualizing performance of classification models through true/false positive/negative rates"
+    },
+    {
+        "model_name": "Complementarity",
+        "model_description": "Strategic combination of distinct capabilities where strengths of one component offset weaknesses of another"
+    },
+    {
+        "model_name": "Swiss Cheese Model",
+        "model_description": "Risk analysis metaphor where layered defenses (cheese slices) prevent hazards when holes in protections align"
+    },
+    {
+        "model_name": "Crowding-Out Effect",
+        "model_description": "Economic phenomenon where external incentives reduce intrinsic motivation to perform activities"
+    },
+    {
+        "model_name": "Maslow's Hierarchy",
+        "model_description": "Psychological theory prioritizing human needs from physiological requirements to self-actualization"
+    },
+    {
+        "model_name": "Pareto Efficiency",
+        "model_description": "Economic state where resources can't be reallocated to improve one individual without harming another"
+    },
+    {
+        "model_name": "Lump of Labor Fallacy",
+        "model_description": "Mistaken belief that automation reduces total employment rather than reshaping job distribution"
+    },
+    {
+        "model_name": "Policy Gradient",
+        "model_description": "Reinforcement learning technique optimizing decision parameters through reward signal feedback loops"
+    },
+    {
+        "model_name": "Veil of Ignorance",
+        "model_description": "Ethical framework for designing systems without knowledge of one's own position within them"
+    },
+    {
+        "model_name": "Sunk Cost Fallacy",
+        "model_description": "Behavioral trap where prior investments justify continued commitment despite negative future prospects"
+    },
+    {
+        "model_name": "Risk Assessment",
+        "model_description": "Systematic process identifying/evaluating potential hazards and developing mitigation strategies"
+    },
+    {
+        "model_name": "Systems Thinking",
+        "model_description": "Analytical approach examining interdependencies between components within complex adaptive systems"
+    },
+    {
+        "model_name": "Resilience Theory",
+        "model_description": "Design philosophy emphasizing adaptive capacity to absorb disturbance while maintaining core functions"
+    },
+    {
+        "model_name": "Discounted Cash Flow (DCF)",
+        "model_description": "Financial valuation method estimating present value of future cash flows using time-adjusted discount rates"
+    },
+    {
+        "model_name": "Real Options Analysis",
+        "model_description": "Investment evaluation approach treating decisions as financial options to account for uncertainty value"
+    },
+    {
+        "model_name": "Bayesian Reasoning",
+        "model_description": "Probabilistic method updating beliefs through sequential incorporation of new evidence"
+    },
+    {
+        "model_name": "Expected Value",
+        "model_description": "Decision-making framework calculating average outcome of probabilistic events using (Probability × Payoff)"
+    },
+    {
+        "model_name": "Hyperbolic Discounting",
+        "model_description": "Tendency to prefer smaller immediate rewards over larger future gains"
+    },
+    {
+        "model_name": "Externality Pricing",
+        "model_description": "Internalizing societal costs into market prices through taxes/fees"
+    },
+    {
+        "model_name": "Embodied Energy",
+        "model_description": "Total energy consumed during a product's lifecycle from production to disposal"
+    }
+]
