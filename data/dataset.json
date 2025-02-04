@@ -1,85 +1,106 @@
 {
-    "scenarios": [
-        {
-            "scenario_1": {
-                "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
-                "questions": [
-                    {
-                        "q1": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
-                        "difficulty": "easy",
-                        "ground truth": "Despite your friend’s recent win, this isolated success does not undermine the established house edge. Most players still face a negative expected value over the long run, so gambling remains unprofitable in expectation.",
-                        "model_answers": [
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "Bayesian Updating",
-                                "answer": "I barely update my belief. One person's lucky win is weak evidence against the house edge. My posterior still strongly favors that the house wins overall."
-                            },
-                            {
-                                "model": "Expected Value",
-                                "answer": "It's one lucky accident and does not change the long-run negative expected value of most casino games. It's possible to win in the short term, but on average the house still keeps an advantage."
-                            },
-                            {
-                                "model": "Bayesian Updating + Expected Value",
-                                "answer": "Your friend’s big win provides only weak evidence against your prior belief in the house edge, so you make only a small Bayesian update. The long-run negative expected value of casino games remains unchanged, indicating gambling is still unprofitable in the long run."
-                            }
-                        ]
-                    },
-                    {
-                        "q2": "",
-                        "difficulty": "",
-                        "ground truth": "",
-                        "model_answers": [
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            "scenario_2": {
-                "context": "",
-                "questions": [
-                    {
-                        "q1": "",
-                        "difficulty": "",
-                        "ground truth": "",
-                        "model_answers": [
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            },
-                            {
-                                "model": "",
-                                "answer": ""
-                            }
-                        ]
-                    }
-                ]
+    "scenarios": {
+        "scenario1": {
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
+            "questions": {
+                "question1": {
+                    "question": "Is this a financially sound decision?",
+                    "difficulty": "easy",
+                    "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+                    "model_answers": [
+                        {
+                            "model": "No-Model",
+                            "answer": "Buying a car that costs almost double your salary will likely cause money problems"
+                        },
+                        {
+                            "model": "Affordability Heuristic",
+                            "answer": "Monthly payments would exceed recommended 10-15% transportation budget allocation"
+                        },
+                        {
+                            "model": "Social Signaling",
+                            "answer": "Professional success depends on skills/output, not conspicuous consumption"
+                        },
+                        {
+                            "model": "Affordability + Signaling",
+                            "answer": "Even if status mattered, financial instability from overspending would damage professional reputation more"
+                        }
+                    ]
+                },
+                "question2": {
+                    "question": "What psychological factors drive this reasoning?",
+                    "difficulty": "easy",
+                    "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
+                    "model_answers": [
+                        {
+                            "model": "No-Model",
+                            "answer": "They're mixing up 'looking successful' with actually being successful"
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Assuming expensive possessions will positively bias others' overall perception"
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "Prioritizing immediate gratification over long-term financial security"
+                        },
+                        {
+                            "model": "Halo Effect + Present Bias",
+                            "answer": "Double distortion: overvaluing current social perception while discounting future consequences"
+                        }
+                    ]
+                },
+                "question3": {
+                    "question": "How should they approach this decision?",
+                    "difficulty": "easy",
+                    "ground_truth": "Compare total ownership costs against proven career advancement methods",
+                    "model_answers": [
+                        {
+                            "model": "No-Model",
+                            "answer": "Test if a cheaper car achieves the same result before committing"
+                        },
+                        {
+                            "model": "Total Cost of Ownership",
+                            "answer": "Calculate insurance, maintenance, and depreciation over 5 years"
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "Estimate if car-related career gains offset $30k+ annual costs"
+                        },
+                        {
+                            "model": "TCO + ROI",
+                            "answer": "Only proceed if verifiable income increases exceed all cumulative vehicle expenses"
+                        }
+                    ]
+                }
+            }
+        },
+        "scenario2": {
+            "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
+            "questions": {
+                "question1": {
+                    "question": "Should they fully automate diagnostics?",
+                    "difficulty": "easy",
+                    "ground_truth": "No - the 6% accuracy gap represents critical life-or-death differences in healthcare",
+                    "model_answers": [
+                        {
+                            "model": "No-Model",
+                            "answer": "Machines making more mistakes could literally kill people"
+                        },
+                        {
+                            "model": "Precautionary Principle",
+                            "answer": "Avoid irreversible harm by maintaining human oversight until parity is proven"
+                        },
+                        {
+                            "model": "Marginal Value of Accuracy",
+                            "answer": "Each percentage point gain prevents hundreds of misdiagnoses annually"
+                        },
+                        {
+                            "model": "Precautionary + Marginal Value",
+                            "answer": "Hybrid system where AI triages cases but humans verify high-risk decisions"
+                        }
+                    ]
+                }
             }
         }
-    ]
+  }
 }
