@@ -8,7 +8,7 @@
         "model_description": "Using possessions/behaviors to communicate status, often confusing perceived success with actual professional competence"
     },
     {
-        "model_name": "Total Cost of Ownership (TCO)",
+        "model_name": "Total Cost of Ownership",
         "model_description": "Holistic assessment of all direct/indirect costs associated with an asset over its entire lifecycle"
     },
     {
@@ -48,34 +48,6 @@
         "model_description": "Risk analysis metaphor where layered defenses (cheese slices) prevent hazards when holes in protections align"
     },
     {
-        "model_name": "Crowding-Out Effect",
-        "model_description": "Economic phenomenon where external incentives reduce intrinsic motivation to perform activities"
-    },
-    {
-        "model_name": "Maslow's Hierarchy",
-        "model_description": "Psychological theory prioritizing human needs from physiological requirements to self-actualization"
-    },
-    {
-        "model_name": "Pareto Efficiency",
-        "model_description": "Economic state where resources can't be reallocated to improve one individual without harming another"
-    },
-    {
-        "model_name": "Lump of Labor Fallacy",
-        "model_description": "Mistaken belief that automation reduces total employment rather than reshaping job distribution"
-    },
-    {
-        "model_name": "Policy Gradient",
-        "model_description": "Reinforcement learning technique optimizing decision parameters through reward signal feedback loops"
-    },
-    {
-        "model_name": "Veil of Ignorance",
-        "model_description": "Ethical framework for designing systems without knowledge of one's own position within them"
-    },
-    {
-        "model_name": "Sunk Cost Fallacy",
-        "model_description": "Behavioral trap where prior investments justify continued commitment despite negative future prospects"
-    },
-    {
         "model_name": "Risk Assessment",
         "model_description": "Systematic process identifying/evaluating potential hazards and developing mitigation strategies"
     },
@@ -84,20 +56,8 @@
         "model_description": "Analytical approach examining interdependencies between components within complex adaptive systems"
     },
     {
-        "model_name": "Resilience Theory",
-        "model_description": "Design philosophy emphasizing adaptive capacity to absorb disturbance while maintaining core functions"
-    },
-    {
-        "model_name": "Discounted Cash Flow (DCF)",
-        "model_description": "Financial valuation method estimating present value of future cash flows using time-adjusted discount rates"
-    },
-    {
-        "model_name": "Real Options Analysis",
-        "model_description": "Investment evaluation approach treating decisions as financial options to account for uncertainty value"
-    },
-    {
-        "model_name": "Bayesian Reasoning",
-        "model_description": "Probabilistic method updating beliefs through sequential incorporation of new evidence"
+        "model_name": "Bayesian Updating",
+        "model_description": "Statistical technique revising prior probabilities based on new data to generate posterior probabilities"
     },
     {
         "model_name": "Expected Value",
@@ -114,5 +74,37 @@
     {
         "model_name": "Embodied Energy",
         "model_description": "Total energy consumed during a product's lifecycle from production to disposal"
+    },
+    {
+        "model_name": "Tragedy of the Commons",
+        "model_description": "Economic theory where shared resources are depleted due to individual self-interest"
+    },
+    {
+        "model_name": "Base Rate Fallacy",
+        "model_description": "Cognitive error where prior probabilities are ignored in favor of specific case information"
+    },
+    {
+        "model_name": "Risk Compensation",
+        "model_description": "Behavioral response to increased safety measures by engaging in riskier activities"
+    },
+    {
+        "model_name": "Nudge Theory",
+        "model_description": "Behavioral economics concept using positive reinforcement and indirect suggestions to influence decisions"
+    },
+    {
+        "model_name": "Rebound Effect",
+        "model_description": "Unintended consequence where efficiency gains lead to increased consumption"
+    },
+    {
+        "model_name": "Circular Economy",
+        "model_description": "Economic system emphasizing resource regeneration, waste reduction, and closed-loop production"
+    },
+    {
+        "model_name": "Induced Demand",
+        "model_description": "Phenomenon where increased supply of a good/service leads to greater demand"
+    },
+    {
+        "model_name": "",
+        "model_description": ""
     }
 ]

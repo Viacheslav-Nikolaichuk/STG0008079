@@ -21,7 +21,7 @@
                             "answer": "Professional success depends on skills/output, not conspicuous consumption"
                         },
                         {
-                            "model": "Affordability + Signaling",
+                            "model": "Affordability Heuristic + Social Signaling",
                             "answer": "Even if status mattered, financial instability from overspending would damage professional reputation more"
                         }
                     ]
@@ -67,7 +67,7 @@
                             "answer": "Estimate if car-related career gains offset $30k+ annual costs"
                         },
                         {
-                            "model": "TCO + ROI",
+                            "model": "Total Cost of Ownership + ROI Analysis",
                             "answer": "Only proceed if verifiable income increases exceed all cumulative vehicle expenses"
                         }
                     ]
@@ -95,7 +95,7 @@
                             "answer": "Each percentage point gain prevents hundreds of misdiagnoses annually"
                         },
                         {
-                            "model": "Precautionary + Marginal Value",
+                            "model": "Precautionary Principle + Marginal Value of Accuracy",
                             "answer": "Hybrid system where AI triages cases but humans verify high-risk decisions"
                         }
                     ]
@@ -118,7 +118,7 @@
                             "answer": "Visualizing trade-offs between AI's true/false positive/negative rates"
                         },
                         {
-                            "model": "Type I/II + Confusion Matrix",
+                            "model": "Type I/II Errors + Confusion Matrix",
                             "answer": "Understanding AI's diagnostic performance in terms of misdiagnosis risks"
                         }
                     ]
@@ -141,7 +141,7 @@
                             "answer": "Layered defenses: AI flags cases, radiologists confirm, and system learns from feedback"
                         },
                         {
-                            "model": "Complementarity + Swiss Cheese",
+                            "model": "Complementarity + Swiss Cheese Model",
                             "answer": "Hybrid system where AI and humans reinforce each other's strengths"
                         }
                     ]
@@ -150,9 +150,9 @@
         },
         "scenario-3": {
             "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
-            "questions": [
-                {
-                    "question-1": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+            "questions": {
+                "question-1": { 
+                    "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
                     "difficulty": "easy",
                     "ground truth": "Despite your friend's recent win, this isolated success does not undermine the established house edge. Most players still face a negative expected value over the long run, so gambling remains unprofitable in expectation.",
                     "model_answers": [
@@ -174,8 +174,8 @@
                         }
                     ]
                 },
-                {
-                    "question-2": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
+                "question-2": {
+                    "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
                     "difficulty": "easy",
                     "ground truth": "Blackjack indeed has a lower house edge than most slot machines, especially with proper strategy. However, it still carries a long-term negative expectation unless you employ advanced skills like card counting, which casinos typically prohibit or discourage.",
                     "model_answers": [
@@ -197,8 +197,8 @@
                         }
                     ]
                 },
-                {
-                    "question-3": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+                "question-3": {
+                    "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
                     "difficulty": "easy",
                     "ground truth": "Modern slot machines use random number generators that are independent from one spin to another. A recent win does not increase the odds of another in the short term. Past results do not predict future outcomes for slot machines.",
                     "model_answers": [
@@ -220,8 +220,8 @@
                         }
                     ]
                 },
-                {
-                    "question-4": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
+                "question-4": {
+                    "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
                     "difficulty": "medium",
                     "ground truth": "Increasing stakes based on a recent win is a common but misguided approach. Luck does not persist in a predictable way, and higher stakes merely expose you to larger potential losses without improving the underlying odds.",
                     "model_answers": [
@@ -243,8 +243,8 @@
                         }
                     ]
                 },
-                {
-                    "question-5": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
+                "question-5": {
+                    "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
                     "difficulty": "medium",
                     "ground truth": "Baccarat's bet on the banker does offer one of the lowest house edges in the casino, but it is still designed to be in the casino's favor. Over time, the casino retains a small but consistent edge.",
                     "model_answers": [
@@ -266,8 +266,8 @@
                         }
                     ]
                 },
-                {
-                    "question-6": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
+                "question-6": {
+                    "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
                     "difficulty": "hard",
                     "ground truth": "The Martingale strategy cannot negate the house edge. While it can produce short-term gains, the risk of large losses grows exponentially, and table limits, along with personal bankroll limits, eventually break the system over the long run.",
                     "model_answers": [
@@ -289,8 +289,8 @@
                         }
                     ]
                 },
-                {
-                    "question-7": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
+                "question-7": {
+                    "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
                     "difficulty": "medium",
                     "ground truth": "Money won is still money. Treating it as 'house money' might lead to riskier bets without changing the underlying probabilities or expected losses. You are never inherently ‘safe' from the house edge just because you're currently up.",
                     "model_answers": [
@@ -312,8 +312,8 @@
                         }
                     ]
                 },
-                {
-                    "question-8": "Another player claims they ‘always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
+                "question-8": {
+                    "question": "Another player claims they ‘always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
                     "difficulty": "easy",
                     "ground truth": "No. Stopping at a certain time does not change the probability of each bet. Over many plays, the house edge remains in effect and leads to a negative expectation, regardless of ‘quitting strategies.'",
                     "model_answers": [
@@ -335,8 +335,8 @@
                         }
                     ]
                 },
-                {
-                    "question-9": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+                "question-9": {
+                    "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
                     "difficulty": "hard",
                     "ground truth": "While rewards and comps can reduce a player's effective loss, they typically do not exceed the built-in house advantage. These perks are designed to keep you playing, not to give you a true positive expected value.",
                     "model_answers": [
@@ -358,8 +358,8 @@
                         }
                     ]
                 },
-                {
-                    "question-10": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
+                "question-10": {
+                    "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
                     "difficulty": "medium",
                     "ground truth": "Each spin of a fair roulette wheel is an independent event. Observing recent big wins does not affect future outcomes. The house edge on each bet remains the same regardless of past results.",
                     "model_answers": [
@@ -381,13 +381,13 @@
                         }
                     ]
                 }
-            ]
+            }
         },
         "scenario-4": {
             "context": "A major city introduces shared electric scooters to reduce traffic congestion, but faces chaotic parking and accident surges",
-            "questions": [
-                {
-                    "question-1": "Why are people misparking scooters despite clear docking stations?",
+            "questions": {
+                "question-1": {
+                    "question": "Why are people misparking scooters despite clear docking stations?",
                     "difficulty": "medium",
                     "ground truth": "Users prioritize immediate convenience over communal rules despite docking infrastructure.",
                     "model_answers": [
@@ -404,13 +404,13 @@
                             "answer": "Individual incentives (quick parking) conflict with collective good (neat sidewalks)"
                         },
                         {
-                            "model": "Hyperbolic + Commons",
+                            "model": "Hyperbolic Discounting + Tragedy of the Commons",
                             "answer": "Real-time parking fines proportional to sidewalk congestion levels in each zone"
                         }
                     ]
                 },
-                {
-                    "question-2": "How dangerous are scooters compared to other transport?",
+                "question-2": {
+                    "question": "How dangerous are scooters compared to other transport?",
                     "difficulty": "medium",
                     "ground truth": "Scooters have higher injury rates per mile than cars but lower fatality risks due to slower speeds.",
                     "model_answers": [
@@ -427,13 +427,13 @@
                             "answer": "Riders take more risks because scooters feel safer than motorcycles"
                         },
                         {
-                            "model": "Base Rate + Compensation",
+                            "model": "Base Rate Fallacy + Risk Compensation",
                             "answer": "True risk = (low inherent danger) x (high-risk behavior from perceived safety)"
                         }
                     ]
                 },
-                {
-                    "question-3": "Should scooters be banned from pedestrian zones?",
+                "question-3": {
+                    "question": "Should scooters be banned from pedestrian zones?",
                     "difficulty": "medium",
                     "ground truth": "Scooters should be restricted from crowded pedestrian areas but allowed in designated lanes/streets.",
                     "model_answers": [
@@ -450,13 +450,13 @@
                             "answer": "Charge $0.30/min sidewalk riding vs $0.15/min street use"
                         },
                         {
-                            "model": "Nudge + Externality",
+                            "model": "Nudge Theory + Externality Pricing",
                             "answer": "Auto-reduce speed + triple fees in pedestrian zones during busy hours"
                         }
                     ]
                 },
-                {
-                    "question-4": "What's the environmental trade-off?",
+                "question-4": {
+                    "question": "What's the environmental trade-off?",
                     "difficulty": "hard",
                     "ground truth": "Scooters reduce urban emissions but create lifecycle environmental costs from production/charging.",
                     "model_answers": [
@@ -473,13 +473,13 @@
                             "answer": "Easy scooters enable longer commutes that might not otherwise occur"
                         },
                         {
-                            "model": "Embodied + Rebound",
+                            "model": "Embodied Energy + Rebound Effect",
                             "answer": "Net benefit only if daily use exceeds 2.1 miles/user (current avg: 1.8 miles)"
                         }
                     ]
                 },
-                {
-                    "question-5": "How to sustainably integrate scooters long-term?",
+                "question-5": {
+                    "question": "How to sustainably integrate scooters long-term?",
                     "difficulty": "hard",
                     "ground truth": "Integrate via dedicated parking hubs, adaptive regulations, and partnerships with public transit systems.",
                     "model_answers": [
@@ -496,19 +496,18 @@
                             "answer": "Lease rather than sell scooters to ensure proper recycling/refurbishing"
                         },
                         {
-                            "model": "Induced + Circular",
+                            "model": "Induced Demand+ Circular Economy",
                             "answer": "Infrastructure investments tied to manufacturer take-back programs"
                         }
                     ]
                 }
-                
-            ]
+            }
         },
         "scenario-5": {
             "context": "A tech startup considers switching to a four-day workweek to improve employee well-being but worries about maintaining productivity",
-            "questions": [
-                {
-                    "question-1": "Should they implement the four-day workweek immediately?",
+            "questions": {
+                "question-1": {
+                    "question": "Should they implement the four-day workweek immediately?",
                     "difficulty": "easy",
                     "ground truth": "No, phased implementation reduces risk while testing outcomes",
                     "model_answers": [
@@ -530,8 +529,8 @@
                         }
                     ]
                 },
-                {
-                    "question-2": "How should they measure policy effectiveness?",
+                "question-2": {
+                    "question": "How should they measure policy effectiveness?",
                     "difficulty": "medium",
                     "ground truth": "Track both output metrics (e.g., code commits) and well-being indicators (e.g., burnout surveys)",
                     "model_answers": [
@@ -548,19 +547,18 @@
                             "answer": "Map how design team's 4-day schedule creates bottlenecks for QA engineers working 5 days"
                         },
                         {
-                            "model": "ROI + Systems Thinking",
+                            "model": "ROI Analysis + Systems Thinking",
                             "answer": "If financial ROI is positive BUT creates cross-team delays, implement department-specific schedules with handoff buffers"
                         }
                     ]
                 }
-                
-            ]
+            }
         },
         "scenario-x": {
             "context": "",
-            "questions": [
-                {
-                    "question-1": "",
+            "questions": {
+                "question-1": {
+                    "question": "",
                     "difficulty": "",
                     "ground truth": "",
                     "model_answers": [
@@ -582,9 +580,7 @@
                         }
                     ]
                 }
-                
-            ]
+            }
         }
-        
     }
 }
