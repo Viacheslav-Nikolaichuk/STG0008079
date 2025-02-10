@@ -1,50 +1,49 @@
 import json
 
-def check_model_exists(json_file_path, model_name):
-    """
-    Check if a given model name exists in the JSON file.
-    
-    Args:
-    json_file_path (str): Path to the JSON file
-    model_name (str): Name of the model to search for
-    
-    Returns:
-    bool: True if model exists, False otherwise
-    """
+def load_json(file_path):
+    """Loads a JSON file and returns the data."""
     try:
-        with open(json_file_path, 'r') as file:
-            models = json.load(file)
-        
-        # Check if the model name exists (case-insensitive)
-        for model in models:
-            if model['model_name'].lower() == model_name.lower():
-                return True
-        
-        return False
-    
-    except FileNotFoundError:
-        print(f"Error: File {json_file_path} not found.")
-        return False
-    except json.JSONDecodeError:
-        print(f"Error: Invalid JSON in {json_file_path}")
-        return False
+        with open(file_path, 'r') as file:
+            return json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print(f"Error: Failed to load {file_path}")
+        return None
+
+def check_models_in_dataset(dataset_file_path, models_file_path):
+    """
+    Checks:
+    1. Models in the dataset that do not exist in the models file.
+    2. Models in the models file that are not used in the dataset.
+    """
+    dataset = load_json(dataset_file_path)
+    models_data = load_json(models_file_path)
+
+    if not dataset or not models_data:
+        return
+
+    valid_models = {model['model_name'].strip().lower() for model in models_data if isinstance(model, dict)}
+
+    used_models = set()
+
+    for scenario in dataset.get('scenarios', {}).values():
+        for question in scenario.get('questions', {}).values():
+            for model_answer in question.get('model_answers', []):
+                if isinstance(model_answer, dict) and 'model' in model_answer:
+                    for model in map(str.strip, model_answer['model'].split('+')):
+                        model_lower = model.lower()
+                        used_models.add(model_lower)
+                        if model_lower not in valid_models:
+                            print(f"✗ The model '{model}' does NOT exist in the file.")
+
+    # Find models in models.json that are not used in the dataset
+    unused_models = valid_models - used_models
+    if unused_models:
+        print("\n✓ Models in models.json but NOT used in the dataset:")
+        for model in sorted(unused_models):
+            print(f"  - {model}")
 
 def main():
-    JSON_FILE_PATH = 'models.json'
-    
-    # Get model name from user input
-    while True:
-        model_name = input("Enter a model name to check (or 'quit' to exit): ").strip()
-        
-        # Allow user to quit
-        if model_name.lower() == 'quit':
-            break
-        
-        # Check if model exists
-        if check_model_exists(JSON_FILE_PATH, model_name):
-            print(f"✓ The model '{model_name}' ALREADY EXISTS in the file.")
-        else:
-            print(f"✗ The model '{model_name}' does NOT exist in the file.")
+    check_models_in_dataset('data/dataset.json', 'data/models.json')
 
 if __name__ == "__main__":
     main()
