@@ -1,6 +1,7 @@
 {
     "scenarios": {
-        "scenario-1": {
+        "scenario": {
+            "id": "1",
             "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
             "questions": {
                 "question-1": {
@@ -669,6 +670,85 @@
                         {
                             "model": "Cost-Benefit Analysis + Change Management",
                             "answer": "Prematurely adding forecasting features demands high investment and can trigger resistance. Phased adoption ensures both a better ROI and smoother staff transition."
+                        }
+                    ]
+                }
+            }
+        },
+        "scenario-7": {
+            "context": "A large manufacturing company is considering integrating automation into its assembly lines to improve efficiency, but there's concern over job displacement and transition costs.",
+            "questions": {
+                "question-1": {
+                    "question": "Should the company immediately replace human workers with automation?",
+                    "difficulty": "easy",
+                    "ground truth": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Begin by automating one section of the line while monitoring productivity and employee morale."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Our natural preference for traditional methods might lead us to underestimate the benefits of a gradual transition."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "A detailed financial analysis indicates that a pilot rollout could yield a 15% efficiency improvement while mitigating risks."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Status Quo Bias",
+                            "answer": "Although our comfort with current methods might slow change, the projected gains from a phased automation approach justify a pilot before full implementation."
+                        }
+                    ]
+                },
+                "question-2": {
+                    "question": "How should they address concerns about potential job losses?",
+                    "difficulty": "medium",
+                    "ground truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offer comprehensive retraining programs and a gradual transition plan to help employees move into new positions."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Engage with employees early to discuss career pathways and provide transparent support options."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Analyze how automation in one area affects overall workflow and develop retraining strategies that account for interdepartmental dependencies."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Systems Thinking",
+                            "answer": "By combining early employee involvement with a systems-level analysis, the company can design retraining programs that maintain productivity while easing workforce transitions."
+                        }
+                    ]
+                }
+            }
+        },
+        "scenario-8": {
+            "context": "A university is exploring a shift to a pass/fail grading system to alleviate student stress and foster deeper learning, yet faculty worry that academic performance may suffer.",
+            "questions": {
+                "question-1": {
+                    "question": "Should the university adopt a pass/fail grading system for all courses?",
+                    "difficulty": "medium",
+                    "ground truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Implement a trial where certain courses offer pass/fail grading alongside traditional grading to compare outcomes."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "A complete shift may undermine academic standards, a hybrid approach minimizes this risk."
+                        },
+                        {
+                            "model": "Educational Outcomes Analysis",
+                            "answer": "Evidence from peer institutions suggests that a mixed grading system can lower stress without compromising rigor."
+                        },
+                        {
+                            "model": "Risk Aversion + Educational Outcomes Analysis",
+                            "answer": "A carefully designed hybrid model offers a balance, reducing stress while ensuring that academic benchmarks remain high."
                         }
                     ]
                 }
