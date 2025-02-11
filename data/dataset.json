@@ -1,10 +1,11 @@
 {
-    "scenarios": {
-        "scenario": {
+    "scenarios": [
+        {
             "id": "1",
             "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Is this a financially sound decision?",
                     "difficulty": "easy",
                     "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
@@ -27,7 +28,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "What psychological factors drive this reasoning?",
                     "difficulty": "easy",
                     "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
@@ -50,7 +52,8 @@
                         }
                     ]
                 },
-                "question-3": {
+                {
+                    "id": "3",
                     "question": "How should they approach this decision?",
                     "difficulty": "easy",
                     "ground_truth": "Compare total ownership costs against proven career advancement methods",
@@ -73,12 +76,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-2": {
+        {
+            "id": "2",
             "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Should they fully automate diagnostics?",
                     "difficulty": "easy",
                     "ground_truth": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
@@ -101,7 +106,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "What risks does full automation pose?",
                     "difficulty": "easy",
                     "ground_truth": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
@@ -124,7 +130,8 @@
                         }
                     ]
                 },
-                "question-3": {
+                {
+                    "id": "3",
                     "question": "How can they optimize AI integration?",
                     "difficulty": "easy",
                     "ground_truth": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
@@ -147,12 +154,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-3": {
+        {
+            "id": "3",
             "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
-            "questions": {
-                "question-1": { 
+            "questions": [
+                {
+                    "id": "1", 
                     "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
                     "difficulty": "easy",
                     "ground truth": "Despite your friend's recent win, this isolated success does not undermine the established house edge. Most players still face a negative expected value over the long run, so gambling remains unprofitable in expectation.",
@@ -175,7 +184,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
                     "difficulty": "easy",
                     "ground truth": "Blackjack indeed has a lower house edge than most slot machines, especially with proper strategy. However, it still carries a long-term negative expectation unless you employ advanced skills like card counting, which casinos typically prohibit or discourage.",
@@ -198,7 +208,8 @@
                         }
                     ]
                 },
-                "question-3": {
+                {
+                    "id": "3",
                     "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
                     "difficulty": "easy",
                     "ground truth": "Modern slot machines use random number generators that are independent from one spin to another. A recent win does not increase the odds of another in the short term. Past results do not predict future outcomes for slot machines.",
@@ -221,7 +232,8 @@
                         }
                     ]
                 },
-                "question-4": {
+                {
+                    "id": "4",
                     "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
                     "difficulty": "medium",
                     "ground truth": "Increasing stakes based on a recent win is a common but misguided approach. Luck does not persist in a predictable way, and higher stakes merely expose you to larger potential losses without improving the underlying odds.",
@@ -244,7 +256,8 @@
                         }
                     ]
                 },
-                "question-5": {
+                {
+                    "id": "5",
                     "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
                     "difficulty": "medium",
                     "ground truth": "Baccarat's bet on the banker does offer one of the lowest house edges in the casino, but it is still designed to be in the casino's favor. Over time, the casino retains a small but consistent edge.",
@@ -267,7 +280,8 @@
                         }
                     ]
                 },
-                "question-6": {
+                {
+                    "id": "6",
                     "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
                     "difficulty": "hard",
                     "ground truth": "The Martingale strategy cannot negate the house edge. While it can produce short-term gains, the risk of large losses grows exponentially, and table limits, along with personal bankroll limits, eventually break the system over the long run.",
@@ -290,7 +304,8 @@
                         }
                     ]
                 },
-                "question-7": {
+                {
+                    "id": "7",
                     "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
                     "difficulty": "medium",
                     "ground truth": "Money won is still money. Treating it as 'house money' might lead to riskier bets without changing the underlying probabilities or expected losses. You are never inherently ‘safe' from the house edge just because you're currently up.",
@@ -313,7 +328,8 @@
                         }
                     ]
                 },
-                "question-8": {
+                {
+                    "id": "8",
                     "question": "Another player claims they ‘always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
                     "difficulty": "easy",
                     "ground truth": "No. Stopping at a certain time does not change the probability of each bet. Over many plays, the house edge remains in effect and leads to a negative expectation, regardless of ‘quitting strategies.'",
@@ -336,7 +352,8 @@
                         }
                     ]
                 },
-                "question-9": {
+                {
+                    "id": "9",
                     "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
                     "difficulty": "hard",
                     "ground truth": "While rewards and comps can reduce a player's effective loss, they typically do not exceed the built-in house advantage. These perks are designed to keep you playing, not to give you a true positive expected value.",
@@ -359,7 +376,8 @@
                         }
                     ]
                 },
-                "question-10": {
+                {
+                    "id": "10",
                     "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
                     "difficulty": "medium",
                     "ground truth": "Each spin of a fair roulette wheel is an independent event. Observing recent big wins does not affect future outcomes. The house edge on each bet remains the same regardless of past results.",
@@ -382,12 +400,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-4": {
+        {
+            "id": "4",
             "context": "A major city introduces shared electric scooters to reduce traffic congestion, but faces chaotic parking and accident surges",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Why are people misparking scooters despite clear docking stations?",
                     "difficulty": "medium",
                     "ground truth": "Users prioritize immediate convenience over communal rules despite docking infrastructure.",
@@ -410,7 +430,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "How dangerous are scooters compared to other transport?",
                     "difficulty": "medium",
                     "ground truth": "Scooters have higher injury rates per mile than cars but lower fatality risks due to slower speeds.",
@@ -433,7 +454,8 @@
                         }
                     ]
                 },
-                "question-3": {
+                {   
+                    "id": "3",
                     "question": "Should scooters be banned from pedestrian zones?",
                     "difficulty": "medium",
                     "ground truth": "Scooters should be restricted from crowded pedestrian areas but allowed in designated lanes/streets.",
@@ -456,7 +478,8 @@
                         }
                     ]
                 },
-                "question-4": {
+                {
+                    "id": "4",
                     "question": "What's the environmental trade-off?",
                     "difficulty": "hard",
                     "ground truth": "Scooters reduce urban emissions but create lifecycle environmental costs from production/charging.",
@@ -479,7 +502,8 @@
                         }
                     ]
                 },
-                "question-5": {
+                {
+                    "id": "5",
                     "question": "How to sustainably integrate scooters long-term?",
                     "difficulty": "hard",
                     "ground truth": "Integrate via dedicated parking hubs, adaptive regulations, and partnerships with public transit systems.",
@@ -497,17 +521,19 @@
                             "answer": "Lease rather than sell scooters to ensure proper recycling/refurbishing"
                         },
                         {
-                            "model": "Induced Demand+ Circular Economy",
+                            "model": "Induced Demand + Circular Economy",
                             "answer": "Infrastructure investments tied to manufacturer take-back programs"
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-5": {
+        {
+            "id": "5",
             "context": "A tech startup considers switching to a four-day workweek to improve employee well-being but worries about maintaining productivity",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Should they implement the four-day workweek immediately?",
                     "difficulty": "easy",
                     "ground truth": "No, phased implementation reduces risk while testing outcomes",
@@ -530,7 +556,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "How should they measure policy effectiveness?",
                     "difficulty": "medium",
                     "ground truth": "Track both output metrics (e.g., code commits) and well-being indicators (e.g., burnout surveys)",
@@ -553,12 +580,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-6": {
+        {
+            "id": "6",
             "context": "A small e-commerce business is considering implementing a new AI-driven inventory management system to streamline operations and reduce costs, but leadership is concerned about data security and how employees will adapt to the change.",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Should they roll out the AI inventory system to all departments at once?",
                     "difficulty": "easy",
                     "ground truth": "No, a phased rollout or pilot test reduces risks and helps gather feedback for improvements",
@@ -581,7 +610,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "How should they train employees to ensure successful adoption of the new system?",
                     "difficulty": "medium",
                     "ground truth": "Provide hands-on workshops, clear documentation, and ongoing support to address employee concerns and knowledge gaps",
@@ -604,7 +634,8 @@
                         }
                     ]
                 },
-                "question-3": {
+                {
+                    "id": "3",
                     "question": "How should they measure the success of the AI-based inventory system after implementation?",
                     "difficulty": "hard",
                     "ground truth": "Track quantitative metrics like error rate, cost savings, inventory turnover, and qualitative feedback like employee satisfaction and system usability",
@@ -627,7 +658,8 @@
                         }
                     ]
                 },
-                "question-4": {
+                {
+                    "id": "4",
                     "question": "How should they address data security concerns—internally or via an external vendor?",
                     "difficulty": "medium",
                     "ground truth": "A hybrid approach balancing cost, in-house expertise, and specialized external knowledge can mitigate data security risks effectively",
@@ -650,7 +682,8 @@
                         }
                     ]
                 },
-                "question-5": {
+                {
+                    "id": "5",
                     "question": "Should they add advanced demand forecasting features now or wait until they refine basic inventory processes?",
                     "difficulty": "hard",
                     "ground truth": "Gradually integrate advanced forecasting after ensuring the core inventory system is stable and user adoption is robust",
@@ -673,12 +706,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-7": {
+        {
+            "id": "7",
             "context": "A large manufacturing company is considering integrating automation into its assembly lines to improve efficiency, but there's concern over job displacement and transition costs.",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Should the company immediately replace human workers with automation?",
                     "difficulty": "easy",
                     "ground truth": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
@@ -701,7 +736,8 @@
                         }
                     ]
                 },
-                "question-2": {
+                {
+                    "id": "2",
                     "question": "How should they address concerns about potential job losses?",
                     "difficulty": "medium",
                     "ground truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
@@ -724,12 +760,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-8": {
+        {
+            "id": "8",
             "context": "A university is exploring a shift to a pass/fail grading system to alleviate student stress and foster deeper learning, yet faculty worry that academic performance may suffer.",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "Should the university adopt a pass/fail grading system for all courses?",
                     "difficulty": "medium",
                     "ground truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
@@ -752,12 +790,14 @@
                         }
                     ]
                 }
-            }
+            ]
         },
-        "scenario-x": {
+        {
+            "id": "x",
             "context": "",
-            "questions": {
-                "question-1": {
+            "questions": [
+                {
+                    "id": "1",
                     "question": "",
                     "difficulty": "",
                     "ground truth": "",
@@ -780,7 +820,7 @@
                         }
                     ]
                 }
-            }
+            ]
         }
-    }
+    ]
 }
