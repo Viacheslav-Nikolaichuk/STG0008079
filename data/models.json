@@ -114,5 +114,25 @@
     {
         "model_name": "",
         "model_description": ""
+    },
+    {
+        "model_name": "Status Quo Bias",
+        "model_description": "Tendency to prefer current state of affairs due to familiarity and aversion to change"
+    },
+    {
+        "model_name": "Stakeholder Engagement",
+        "model_description": "Process of involving individuals/groups who have a vested interest in the outcome of a project or decision"
+    },
+    {
+        "model_name": "Risk Aversion",
+        "model_description": "Preference for certainty over uncertainty, often leading to conservative decision-making"
+    },
+    {
+        "model_name": "Educational Outcomes Analysis",
+        "model_description": "Evaluation of educational programs to determine effectiveness, efficiency, and impact on student learning"
+    },
+    {
+        "model_name": "",
+        "model_description": ""
     }
 ]
