@@ -554,6 +554,126 @@
                 }
             }
         },
+        "scenario-6": {
+            "context": "A small e-commerce business is considering implementing a new AI-driven inventory management system to streamline operations and reduce costs, but leadership is concerned about data security and how employees will adapt to the change.",
+            "questions": {
+                "question-1": {
+                    "question": "Should they roll out the AI inventory system to all departments at once?",
+                    "difficulty": "easy",
+                    "ground truth": "No, a phased rollout or pilot test reduces risks and helps gather feedback for improvements",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Start with a limited pilot for one product line to verify benefits and address any security or adoption issues before full-scale implementation."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "By piloting first, they minimize potential costs (like lost sales if data integrity fails) compared to the high expense of a full launch that may face unforeseen problems."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Abrupt changes often create resistance. A phased approach allows employees to gradually adapt and provides time to train early adopters who can champion the system."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Change Management",
+                            "answer": "A small-scale pilot optimizes resource use and reduces staff pushback by demonstrating tangible benefits early, thereby increasing both cost-efficiency and employee acceptance."
+                        }
+                    ]
+                },
+                "question-2": {
+                    "question": "How should they train employees to ensure successful adoption of the new system?",
+                    "difficulty": "medium",
+                    "ground truth": "Provide hands-on workshops, clear documentation, and ongoing support to address employee concerns and knowledge gaps",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offer training sessions with practical demonstrations, supplemented by online resources and a dedicated support channel for questions."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Compare the short-term expense of comprehensive training to the long-term cost of frequent errors or employee disengagement if training is inadequate."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Focus on building a sense of ownership by involving employees as trainers or mentors; this reduces resistance and fosters a supportive learning culture."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Change Management",
+                            "answer": "While robust training increases upfront costs, it offsets future loss from errors and turnover. Empowering early adopters as trainers aligns with best practices in managing organizational change."
+                        }
+                    ]
+                },
+                "question-3": {
+                    "question": "How should they measure the success of the AI-based inventory system after implementation?",
+                    "difficulty": "hard",
+                    "ground truth": "Track quantitative metrics like error rate, cost savings, inventory turnover, and qualitative feedback like employee satisfaction and system usability",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Review operational costs, stock inaccuracies, and employee feedback at 3-, 6-, and 12-month intervals to determine whether the system meets performance targets."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Measure ROI by comparing the total cost (software licensing, training, maintenance) to savings from reduced overstock/understock and improved order fulfillment rates."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Track employee adoption rates, feedback in post-implementation surveys, and collaboration between teams to see if the new system is integrated into daily workflows."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Change Management",
+                            "answer": "Combine financial ROI metrics (inventory carrying costs, error reductions) with employee morale and usage analytics. Sustain buy-in by showcasing both cost savings and positive user experiences."
+                        }
+                    ]
+                },
+                "question-4": {
+                    "question": "How should they address data security concerns—internally or via an external vendor?",
+                    "difficulty": "medium",
+                    "ground truth": "A hybrid approach balancing cost, in-house expertise, and specialized external knowledge can mitigate data security risks effectively",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Consult a cybersecurity firm for specialized guidance but retain critical security protocols internally for better control."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Compare upfront in-house costs such as staff training and infrastructure, with recurring fees and reliability of an external vendor."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Involve key IT personnel early to ensure they understand and support security changes, reducing resistance and maintaining trust."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Change Management",
+                            "answer": "An external vendor might reduce immediate implementation costs, but internal adoption and oversight could suffer—use a mixed model to balance cost and stakeholder buy-in."
+                        }
+                    ]
+                },
+                "question-5": {
+                    "question": "Should they add advanced demand forecasting features now or wait until they refine basic inventory processes?",
+                    "difficulty": "hard",
+                    "ground truth": "Gradually integrate advanced forecasting after ensuring the core inventory system is stable and user adoption is robust",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Focus on perfecting the fundamental inventory tracking first, then expand into forecasting once the team is comfortable and data integrity is high."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Weigh the upfront cost of forecasting modules and training employees against expected gains in reduced stockouts and better customer satisfaction."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Adopting both features at once could overwhelm staff. Phasing in the changes allows employees time to adapt before adding complexity."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Change Management",
+                            "answer": "Prematurely adding forecasting features demands high investment and can trigger resistance. Phased adoption ensures both a better ROI and smoother staff transition."
+                        }
+                    ]
+                }
+            }
+        },
         "scenario-x": {
             "context": "",
             "questions": {
