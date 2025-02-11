@@ -104,6 +104,14 @@
         "model_description": "Phenomenon where increased supply of a good/service leads to greater demand"
     },
     {
+        "model_name": "Cost-Benefit Analysis",
+        "model_description": "A systematic process of comparing the total expected costs of a project or decision against its total expected benefits to determine if it's financially (or otherwise) worthwhile. It helps in deciding whether to pursue a project, continue one, or compare different options by quantifying both tangible and, where possible, intangible factors."
+    },
+    {
+        "model_name": "Change Management",
+        "model_description": "A a framework for guiding how organizations plan, implement, and support changes. It focuses on preparing and supporting individuals, teams, and entire organizations through transitions, ensuring that changes are adopted smoothly and effectively, minimizing resistance, and maximizing the likelihood of long-term success."
+    },
+    {
         "model_name": "",
         "model_description": ""
     }
