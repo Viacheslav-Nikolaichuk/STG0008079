@@ -198,10 +198,10 @@ def process_json_file(input_file: str, llama_output: str, openai_output: str, ge
 def main():
     # Configuration
     INPUT_FILE = "data/TempQuestions.json"
-    LLAMA_OUTPUT_FILE = "llama_responses.txt"
-    OPENAI_OUTPUT_FILE = "openai_responses.txt"
-    GEMINI_OUTPUT_FILE = "gemini_responses.txt"
-    DEEPSEEK_OUTPUT_FILE = "deepseek_responses.txt" 
+    LLAMA_OUTPUT_FILE = "LLM-responses/llama_responses.txt"
+    OPENAI_OUTPUT_FILE = "LLM-responses/openai_responses.txt"
+    GEMINI_OUTPUT_FILE = "LLM-responses/gemini_responses.txt"
+    DEEPSEEK_OUTPUT_FILE = "LLM-responses/deepseek_responses.txt" 
     LLAMA_MODEL_NAME = "llama3.1:8b"
     
     # Create interaction instances
