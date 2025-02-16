@@ -1,0 +1,16 @@
+[
+  {
+    "prediction": "hello there",
+    "reference": "hello there",
+    "f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  {
+    "prediction": "general kenobi",
+    "reference": "general kenobi",
+    "f1": 0.9999998807907104,
+    "precision": 0.9999998807907104,
+    "recall": 0.9999998807907104
+  }
+]
