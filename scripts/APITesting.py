@@ -30,7 +30,7 @@ except KeyError as e:
 
 
 class LlamaInteraction:
-    def __init__(self, model_name: str = "llama3.1", base_url: str = "http://localhost:11434"):
+    def __init__(self, model_name: str = "llama3.1:8b", base_url: str = "http://localhost:11434"):
         self.model_name = model_name
         self.base_url = base_url
         self.api_endpoint = f"{base_url}/api/generate"
@@ -197,12 +197,12 @@ def process_json_file(input_file: str, llama_output: str, openai_output: str, ge
 
 def main():
     # Configuration
-    INPUT_FILE = "TempQuestions.json"
+    INPUT_FILE = "data/TempQuestions.json"
     LLAMA_OUTPUT_FILE = "llama_responses.txt"
     OPENAI_OUTPUT_FILE = "openai_responses.txt"
     GEMINI_OUTPUT_FILE = "gemini_responses.txt"
     DEEPSEEK_OUTPUT_FILE = "deepseek_responses.txt" 
-    LLAMA_MODEL_NAME = "llama3.1"
+    LLAMA_MODEL_NAME = "llama3.1:8b"
     
     # Create interaction instances
     llama = LlamaInteraction(model_name=LLAMA_MODEL_NAME)
