@@ -793,6 +793,240 @@
             ]
         },
         {
+            "id": "9",
+            "context": "A small technology startup is considering transitioning to a permanent remote-work policy to attract top talent and reduce overhead costs, but some team members worry about reduced collaboration and waning company culture.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the startup adopt a fully remote work policy?",
+                    "difficulty": "medium",
+                    "ground truth": "Begin with a hybrid model, monitor productivity and engagement, and transition fully only if outcomes remain positive.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Conduct a short trial with select teams working remotely full-time to gather data before making a company-wide decision."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "A complete switch risks undermining team cohesion. A gradual, data-driven approach limits potential disruptions."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "Studies show employees can maintain or increase productivity remotely, but results vary by role and management style."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "Combining a measured rollout with data tracking on productivity can ensure a smooth transition while preserving company culture."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "How can the startup maintain high employee productivity in a remote setting?",
+                    "difficulty": "easy",
+                    "ground truth": "Establish clear performance metrics, regular check-ins, and foster open communication channels.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Implement weekly sprint meetings and set individual performance goals tracked via project management software."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "Frequent check-ins mitigate the risk of employees feeling isolated or veering off-track."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "Using metrics-driven evaluations highlights whether remote setups boost or hinder performance in various roles."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "Clear targets and consistent feedback reduce uncertainty, maintaining productivity while minimizing risk."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+                    "difficulty": "medium",
+                    "ground truth": "A balance of both methods is ideal, allowing synchronous discussions for high-priority or complex topics and asynchronous channels for routine updates.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Use live video calls for critical decisions and messaging apps for day-to-day coordination to keep teams aligned."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "Overusing synchronous communication can alienate globally dispersed teams and increase the risk of burnout."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "A mix of real-time and asynchronous channels reduces meeting overload and allows flexible scheduling."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "Balancing both methods supports collaboration without overwhelming staff, ultimately enhancing overall productivity."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "context": "A regional hospital is considering expanding telemedicine services to improve patient access, particularly for remote and underserved communities. While some medical staff see telemedicine as an efficient way to reduce overhead and improve patient outreach, others are concerned about maintaining the quality of care and addressing potential technology barriers.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the hospital expand telemedicine to cover all outpatient consultations immediately?",
+                    "difficulty": "medium",
+                    "ground truth": "Begin by piloting telemedicine within specific outpatient services to assess outcomes and patient satisfaction before a full rollout.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Launch a limited trial for telemedicine in a few departments to gather data, then scale gradually."
+                        },
+                        {
+                            "model": "Patient Safety Focus",
+                            "answer": "A cautious introduction minimizes clinical risk by allowing staff to refine telemedicine protocols and ensure care standards."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "A phased approach keeps initial investment lower and validates whether telemedicine produces sufficient ROI."
+                        },
+                        {
+                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
+                            "answer": "Starting small addresses safety concerns while providing cost data, paving the way for a well-informed expansion."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
+                    "difficulty": "medium",
+                    "ground truth": "Provide comprehensive training for healthcare providers, establish clear clinical protocols, and incorporate in-person follow-up when necessary.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offer telemedicine-specific training to physicians and nurses, and standardize remote examination procedures."
+                        },
+                        {
+                            "model": "Patient Safety Focus",
+                            "answer": "Ensure stringent patient evaluation guidelines and include a pathway for immediate in-person visits if remote assessment is inconclusive."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Invest in staff training materials that reduce long-term errors and legal risks, improving overall cost-effectiveness."
+                        },
+                        {
+                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
+                            "answer": "Balancing structured protocols and provider education ensures safe outcomes while reducing costs associated with misdiagnoses."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
+                    "difficulty": "medium",
+                    "ground truth": "Offer tech support, provide subsidized devices for low-income patients, and partner with community organizations to ensure equitable access.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Create a helpdesk to walk patients through setup and provide loaner devices for those without the necessary equipment."
+                        },
+                        {
+                            "model": "Patient Safety Focus",
+                            "answer": "Maintaining accessibility means patients won't avoid care due to technical hurdles, reducing risks of delayed treatment."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Subsidies may incur initial costs but expand patient base and prevent expensive emergency treatments down the line."
+                        },
+                        {
+                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
+                            "answer": "Combining community outreach with strategic investments ensures equitable care and offsets potential long-term costs."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "context": "A mid-sized city is debating whether to introduce a fleet of electric scooters as part of its public transportation system. While proponents argue that it will reduce traffic congestion and carbon emissions, critics warn about safety risks and sidewalk clutter.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the city implement electric scooters city-wide immediately?",
+                    "difficulty": "medium",
+                    "ground truth": "Begin with a pilot in select neighborhoods to evaluate usage, safety, and public feedback before a full rollout.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Launch a small pilot in high-traffic areas to assess how well scooters integrate with existing transit options."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "A city-wide launch might lead to unforeseen hazards. Starting small helps contain risks and refine policies."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "Collecting data from a limited trial measures whether scooters effectively reduce commute times and congestion."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "A phased approach addresses safety concerns while gathering operational insights on traffic flow and usage."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "How can the city ensure public safety while introducing electric scooters?",
+                    "difficulty": "easy",
+                    "ground truth": "Enforce regulations like speed limits, designated parking zones, and mandatory helmet guidelines.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Post speed limits, mark scooter lanes clearly, and launch a public safety campaign encouraging helmet use."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "Strict enforcement of rules and mandatory checks minimize accidents and create a safer environment for riders."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "Clear guidelines and well-structured regulations reduce disruptions, allowing efficient movement and usage."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "Combining firm safety standards with transparent enforcement keeps riders secure and maximizes system effectiveness."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How can the city prevent sidewalk clutter and neglected scooters from becoming a nuisance?",
+                    "difficulty": "medium",
+                    "ground truth": "Create designated scooter parking areas, fine operators for improperly parked devices, and require regular maintenance sweeps.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Establish clearly marked 'scooter parking zones' and coordinate swift removal of any abandoned scooters."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "Enforcing strict parking rules and penalties reduces the chance of scooters obstructing footpaths or causing accidents."
+                        },
+                        {
+                            "model": "Productivity Analysis",
+                            "answer": "Dedicated parking and timely maintenance keep walkways clear and city operations running smoothly."
+                        },
+                        {
+                            "model": "Risk Aversion + Productivity Analysis",
+                            "answer": "Balancing robust regulations with regular upkeep minimizes public hazards and ensures efficient scooter availability."
+                        }
+                    ]
+                }
+            ]
+        },          
+        {
             "id": "x",
             "context": "",
             "questions": [

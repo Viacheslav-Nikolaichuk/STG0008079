@@ -132,6 +132,14 @@
         "model_description": "Evaluation of educational programs to determine effectiveness, efficiency, and impact on student learning"
     },
     {
+        "model_name": "Productivity Analysis",
+        "model_description": "A decision-making approach that evaluates outcomes by measuring the efficiency and effectiveness of a given strategy or process. It focuses on quantifiable performance metrics (like output, time savings, or cost-effectiveness) to determine whether an initiative truly boosts productivity, optimizes resources, and justifies its implementation relative to alternatives. This model often involves collecting data, establishing benchmarks, and comparing measurable results over time to ensure continuous improvement."
+    },
+    {
+        "model_name": "Patient Safety Focus",
+        "model_description": "Approach prioritizing the well-being and protection of patients above all else. This model emphasizes identifying, mitigating, and preventing risks or potential harms within healthcare operations. It involves careful evaluation of clinical procedures, robust staff training, and clear protocols to reduce preventable errors. By maintaining strict standards for patient care and continuously monitoring safety metrics, organizations can ensure a higher level of trust, better patient outcomes, and a more resilient healthcare environment."
+    },
+    {
         "model_name": "",
         "model_description": ""
     }
