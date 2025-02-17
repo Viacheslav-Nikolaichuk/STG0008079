@@ -16,8 +16,9 @@ results = bertscore.compute(
     lang="en",
     model_type="microsoft/deberta-base-mnli",
     device=device,
-    use_fast_tokenizer=True
+    use_fast_tokenizer=False
 )
+
 
 # Convert results to JSON-serializable format
 output_data = [{
