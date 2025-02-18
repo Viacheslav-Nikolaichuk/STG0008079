@@ -12,11 +12,12 @@ os.environ["OPENAI_API_KEY"] = config.get("OPENAI_API_KEY")
 os.environ["GEMINI_API_KEY"] = config.get("GEMINI_API_KEY")
 os.environ["DEEPSEEK_API_KEY"] = config.get("DEEPSEEK_API_KEY")
 
+
 def main():
     test_case = LLMTestCase(
         input="What is the capital of France?",
         actual_output="Paris is the capital of France.",
-        retrieval_context=["Paris is the capital and largest city of France."]
+        retrieval_context=["Paris is the capital and largest city of France."],
     )
 
     # Initialize an evaluation metric.
@@ -31,6 +32,7 @@ def main():
     # Print out the evaluation results.
     print("Evaluation Results:")
     print(results)
+
 
 if __name__ == "__main__":
     main()

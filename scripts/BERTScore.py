@@ -16,24 +16,27 @@ results = bertscore.compute(
     lang="en",
     model_type="microsoft/deberta-base-mnli",
     device=device,
-    use_fast_tokenizer=False
+    use_fast_tokenizer=False,
 )
 
 
 # Convert results to JSON-serializable format
-output_data = [{
-    "prediction": pred,
-    "reference": ref,
-    "f1": float(f1),
-    "precision": float(prec),
-    "recall": float(rec)
-} for pred, ref, f1, prec, rec in zip(
-    predictions,
-    references,
-    results["f1"],
-    results["precision"],
-    results["recall"]
-)]
+output_data = [
+    {
+        "prediction": pred,
+        "reference": ref,
+        "f1": float(f1),
+        "precision": float(prec),
+        "recall": float(rec),
+    }
+    for pred, ref, f1, prec, rec in zip(
+        predictions,
+        references,
+        results["f1"],
+        results["precision"],
+        results["recall"],
+    )
+]
 
 with open("results/bertscore_results.json", "w") as f:
     json.dump(output_data, f, indent=2)
