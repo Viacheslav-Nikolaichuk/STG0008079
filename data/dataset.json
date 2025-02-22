@@ -7,6 +7,7 @@
                 {
                     "id": "1",
                     "question": "Is this a financially sound decision?",
+                    "question-type": "evaluative",
                     "difficulty": "easy",
                     "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
                     "model_answers": [
@@ -31,6 +32,7 @@
                 {
                     "id": "2",
                     "question": "What psychological factors drive this reasoning?",
+                    "question-type": "explanatory",
                     "difficulty": "easy",
                     "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
                     "model_answers": [
@@ -55,6 +57,7 @@
                 {
                     "id": "3",
                     "question": "How should they approach this decision?",
+                    "question-type": "prescriptive",
                     "difficulty": "easy",
                     "ground_truth": "Compare total ownership costs against proven career advancement methods",
                     "model_answers": [
@@ -85,6 +88,7 @@
                 {
                     "id": "1",
                     "question": "Should they fully automate diagnostics?",
+                    "question-type": "normative",
                     "difficulty": "easy",
                     "ground_truth": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
                     "model_answers": [
@@ -109,6 +113,7 @@
                 {
                     "id": "2",
                     "question": "What risks does full automation pose?",
+                    "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground_truth": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
                     "model_answers": [
@@ -133,6 +138,7 @@
                 {
                     "id": "3",
                     "question": "How can they optimize AI integration?",
+                    "question-type": "prescriptive",
                     "difficulty": "easy",
                     "ground_truth": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
                     "model_answers": [
@@ -163,6 +169,7 @@
                 {
                     "id": "1", 
                     "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+                    "question-type": "evaluative",
                     "difficulty": "easy",
                     "ground truth": "Despite your friend's recent win, this isolated success does not undermine the established house edge. Most players still face a negative expected value over the long run, so gambling remains unprofitable in expectation.",
                     "model_answers": [
@@ -187,6 +194,7 @@
                 {
                     "id": "2",
                     "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
+                    "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground truth": "Blackjack indeed has a lower house edge than most slot machines, especially with proper strategy. However, it still carries a long-term negative expectation unless you employ advanced skills like card counting, which casinos typically prohibit or discourage.",
                     "model_answers": [
@@ -211,6 +219,7 @@
                 {
                     "id": "3",
                     "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+                    "question-type": "explanatory",
                     "difficulty": "easy",
                     "ground truth": "Modern slot machines use random number generators that are independent from one spin to another. A recent win does not increase the odds of another in the short term. Past results do not predict future outcomes for slot machines.",
                     "model_answers": [
@@ -235,6 +244,7 @@
                 {
                     "id": "4",
                     "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
+                    "question-type": "evaluative",
                     "difficulty": "medium",
                     "ground truth": "Increasing stakes based on a recent win is a common but misguided approach. Luck does not persist in a predictable way, and higher stakes merely expose you to larger potential losses without improving the underlying odds.",
                     "model_answers": [
@@ -259,6 +269,7 @@
                 {
                     "id": "5",
                     "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
+                    "question-type": "descriptive",
                     "difficulty": "medium",
                     "ground truth": "Baccarat's bet on the banker does offer one of the lowest house edges in the casino, but it is still designed to be in the casino's favor. Over time, the casino retains a small but consistent edge.",
                     "model_answers": [
@@ -283,6 +294,7 @@
                 {
                     "id": "6",
                     "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
+                    "question-type": "normative",
                     "difficulty": "hard",
                     "ground truth": "The Martingale strategy cannot negate the house edge. While it can produce short-term gains, the risk of large losses grows exponentially, and table limits, along with personal bankroll limits, eventually break the system over the long run.",
                     "model_answers": [
@@ -307,6 +319,7 @@
                 {
                     "id": "7",
                     "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
+                    "question-type": "evaluative",
                     "difficulty": "medium",
                     "ground truth": "Money won is still money. Treating it as 'house money' might lead to riskier bets without changing the underlying probabilities or expected losses. You are never inherently ‘safe' from the house edge just because you're currently up.",
                     "model_answers": [
@@ -331,6 +344,7 @@
                 {
                     "id": "8",
                     "question": "Another player claims they ‘always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
+                    "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground truth": "No. Stopping at a certain time does not change the probability of each bet. Over many plays, the house edge remains in effect and leads to a negative expectation, regardless of ‘quitting strategies.'",
                     "model_answers": [
@@ -355,6 +369,7 @@
                 {
                     "id": "9",
                     "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+                    "question-type": "evaluative",
                     "difficulty": "hard",
                     "ground truth": "While rewards and comps can reduce a player's effective loss, they typically do not exceed the built-in house advantage. These perks are designed to keep you playing, not to give you a true positive expected value.",
                     "model_answers": [
@@ -379,6 +394,7 @@
                 {
                     "id": "10",
                     "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Each spin of a fair roulette wheel is an independent event. Observing recent big wins does not affect future outcomes. The house edge on each bet remains the same regardless of past results.",
                     "model_answers": [
@@ -409,6 +425,7 @@
                 {
                     "id": "1",
                     "question": "Why are people misparking scooters despite clear docking stations?",
+                    "question-type": "explanatory",
                     "difficulty": "medium",
                     "ground truth": "Users prioritize immediate convenience over communal rules despite docking infrastructure.",
                     "model_answers": [
@@ -433,6 +450,7 @@
                 {
                     "id": "2",
                     "question": "How dangerous are scooters compared to other transport?",
+                    "question-type": "descriptive",
                     "difficulty": "medium",
                     "ground truth": "Scooters have higher injury rates per mile than cars but lower fatality risks due to slower speeds.",
                     "model_answers": [
@@ -457,6 +475,7 @@
                 {   
                     "id": "3",
                     "question": "Should scooters be banned from pedestrian zones?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "Scooters should be restricted from crowded pedestrian areas but allowed in designated lanes/streets.",
                     "model_answers": [
@@ -481,6 +500,7 @@
                 {
                     "id": "4",
                     "question": "What's the environmental trade-off?",
+                    "question-type": "evaluative",
                     "difficulty": "hard",
                     "ground truth": "Scooters reduce urban emissions but create lifecycle environmental costs from production/charging.",
                     "model_answers": [
@@ -505,6 +525,7 @@
                 {
                     "id": "5",
                     "question": "How to sustainably integrate scooters long-term?",
+                    "question-type": "prescriptive",
                     "difficulty": "hard",
                     "ground truth": "Integrate via dedicated parking hubs, adaptive regulations, and partnerships with public transit systems.",
                     "model_answers": [
@@ -535,6 +556,7 @@
                 {
                     "id": "1",
                     "question": "Should they implement the four-day workweek immediately?",
+                    "question-type": "normative",
                     "difficulty": "easy",
                     "ground truth": "No, phased implementation reduces risk while testing outcomes",
                     "model_answers": [
@@ -559,6 +581,7 @@
                 {
                     "id": "2",
                     "question": "How should they measure policy effectiveness?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Track both output metrics (e.g., code commits) and well-being indicators (e.g., burnout surveys)",
                     "model_answers": [
@@ -589,6 +612,7 @@
                 {
                     "id": "1",
                     "question": "Should they roll out the AI inventory system to all departments at once?",
+                    "question-type": "normative",
                     "difficulty": "easy",
                     "ground truth": "No, a phased rollout or pilot test reduces risks and helps gather feedback for improvements",
                     "model_answers": [
@@ -613,6 +637,7 @@
                 {
                     "id": "2",
                     "question": "How should they train employees to ensure successful adoption of the new system?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Provide hands-on workshops, clear documentation, and ongoing support to address employee concerns and knowledge gaps",
                     "model_answers": [
@@ -637,6 +662,7 @@
                 {
                     "id": "3",
                     "question": "How should they measure the success of the AI-based inventory system after implementation?",
+                    "question-type": "prescriptive",
                     "difficulty": "hard",
                     "ground truth": "Track quantitative metrics like error rate, cost savings, inventory turnover, and qualitative feedback like employee satisfaction and system usability",
                     "model_answers": [
@@ -661,6 +687,7 @@
                 {
                     "id": "4",
                     "question": "How should they address data security concerns—internally or via an external vendor?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "A hybrid approach balancing cost, in-house expertise, and specialized external knowledge can mitigate data security risks effectively",
                     "model_answers": [
@@ -685,6 +712,7 @@
                 {
                     "id": "5",
                     "question": "Should they add advanced demand forecasting features now or wait until they refine basic inventory processes?",
+                    "question-type": "normative",
                     "difficulty": "hard",
                     "ground truth": "Gradually integrate advanced forecasting after ensuring the core inventory system is stable and user adoption is robust",
                     "model_answers": [
@@ -715,6 +743,7 @@
                 {
                     "id": "1",
                     "question": "Should the company immediately replace human workers with automation?",
+                    "question-type": "normative",
                     "difficulty": "easy",
                     "ground truth": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
                     "model_answers": [
@@ -739,6 +768,7 @@
                 {
                     "id": "2",
                     "question": "How should they address concerns about potential job losses?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
                     "model_answers": [
@@ -769,6 +799,7 @@
                 {
                     "id": "1",
                     "question": "Should the university adopt a pass/fail grading system for all courses?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
                     "model_answers": [
@@ -799,6 +830,7 @@
                 {
                     "id": "1",
                     "question": "Should the startup adopt a fully remote work policy?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "Begin with a hybrid model, monitor productivity and engagement, and transition fully only if outcomes remain positive.",
                     "model_answers": [
@@ -823,6 +855,7 @@
                 {
                     "id": "2",
                     "question": "How can the startup maintain high employee productivity in a remote setting?",
+                    "question-type": "prescriptive",
                     "difficulty": "easy",
                     "ground truth": "Establish clear performance metrics, regular check-ins, and foster open communication channels.",
                     "model_answers": [
@@ -847,6 +880,7 @@
                 {
                     "id": "3",
                     "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "A balance of both methods is ideal, allowing synchronous discussions for high-priority or complex topics and asynchronous channels for routine updates.",
                     "model_answers": [
@@ -877,6 +911,7 @@
                 {
                     "id": "1",
                     "question": "Should the hospital expand telemedicine to cover all outpatient consultations immediately?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "Begin by piloting telemedicine within specific outpatient services to assess outcomes and patient satisfaction before a full rollout.",
                     "model_answers": [
@@ -901,6 +936,7 @@
                 {
                     "id": "2",
                     "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Provide comprehensive training for healthcare providers, establish clear clinical protocols, and incorporate in-person follow-up when necessary.",
                     "model_answers": [
@@ -925,6 +961,7 @@
                 {
                     "id": "3",
                     "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Offer tech support, provide subsidized devices for low-income patients, and partner with community organizations to ensure equitable access.",
                     "model_answers": [
@@ -955,6 +992,7 @@
                 {
                     "id": "1",
                     "question": "Should the city implement electric scooters city-wide immediately?",
+                    "question-type": "normative",
                     "difficulty": "medium",
                     "ground truth": "Begin with a pilot in select neighborhoods to evaluate usage, safety, and public feedback before a full rollout.",
                     "model_answers": [
@@ -979,6 +1017,7 @@
                 {
                     "id": "2",
                     "question": "How can the city ensure public safety while introducing electric scooters?",
+                    "question-type": "prescriptive",
                     "difficulty": "easy",
                     "ground truth": "Enforce regulations like speed limits, designated parking zones, and mandatory helmet guidelines.",
                     "model_answers": [
@@ -1003,6 +1042,7 @@
                 {
                     "id": "3",
                     "question": "How can the city prevent sidewalk clutter and neglected scooters from becoming a nuisance?",
+                    "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "Create designated scooter parking areas, fine operators for improperly parked devices, and require regular maintenance sweeps.",
                     "model_answers": [
@@ -1033,6 +1073,7 @@
                 {
                     "id": "1",
                     "question": "",
+                    "question-type": "",
                     "difficulty": "",
                     "ground truth": "",
                     "model_answers": [
