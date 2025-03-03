@@ -1,0 +1,112 @@
+{
+  "overall": {
+    "score": 0.9555555555555556,
+    "pass_rate": 0.9166666666666666
+  },
+  "by_model": {
+    "": {
+      "score": 0.9722222222222222,
+      "pass_rate": 1.0
+    },
+    "Affordability Heuristic": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Social Signaling": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Affordability Heuristic + Social Signaling": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Halo Effect": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Present Bias": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Halo Effect + Present Bias": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Total Cost of Ownership": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "ROI Analysis": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Total Cost of Ownership + ROI Analysis": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Precautionary Principle": {
+      "score": 0.6666666666666666,
+      "pass_rate": 0.0
+    },
+    "Marginal Value of Accuracy": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Precautionary Principle + Marginal Value of Accuracy": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Type I/II Errors": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Confusion Matrix": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Type I/II Errors + Confusion Matrix": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "Complementarity": {
+      "score": 0.6,
+      "pass_rate": 0.0
+    },
+    "Swiss Cheese Model": {
+      "score": 0.8333333333333334,
+      "pass_rate": 1.0
+    },
+    "Complementarity + Swiss Cheese Model": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    }
+  },
+  "by_question_type": {
+    "evaluative": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "explanatory": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    },
+    "prescriptive": {
+      "score": 0.9083333333333333,
+      "pass_rate": 0.875
+    },
+    "normative": {
+      "score": 0.9166666666666666,
+      "pass_rate": 0.75
+    },
+    "descriptive": {
+      "score": 1.0,
+      "pass_rate": 1.0
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "score": 0.9555555555555556,
+      "pass_rate": 0.9166666666666666
+    }
+  }
+}

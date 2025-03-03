@@ -1,0 +1,138 @@
+{
+  "overall": {
+    "precision": 0.5666284486651421,
+    "recall": 0.6371396308143934,
+    "f1": 0.5995233605305353
+  },
+  "by_model": {
+    "": {
+      "precision": 0.5690698126951853,
+      "recall": 0.6163589358329773,
+      "f1": 0.5915826658407847
+    },
+    "Affordability Heuristic": {
+      "precision": 0.549294650554657,
+      "recall": 0.6359524130821228,
+      "f1": 0.5894556045532227
+    },
+    "Social Signaling": {
+      "precision": 0.5707762837409973,
+      "recall": 0.6224402189254761,
+      "f1": 0.5954897403717041
+    },
+    "Affordability Heuristic + Social Signaling": {
+      "precision": 0.5467938184738159,
+      "recall": 0.6347079277038574,
+      "f1": 0.5874800682067871
+    },
+    "Halo Effect": {
+      "precision": 0.5018435120582581,
+      "recall": 0.5368160605430603,
+      "f1": 0.5187410116195679
+    },
+    "Present Bias": {
+      "precision": 0.5559570789337158,
+      "recall": 0.5711024403572083,
+      "f1": 0.5634280443191528
+    },
+    "Halo Effect + Present Bias": {
+      "precision": 0.5076799392700195,
+      "recall": 0.5651422739028931,
+      "f1": 0.5348722338676453
+    },
+    "Total Cost of Ownership": {
+      "precision": 0.5416398644447327,
+      "recall": 0.6079159379005432,
+      "f1": 0.5728673338890076
+    },
+    "ROI Analysis": {
+      "precision": 0.5321303606033325,
+      "recall": 0.6018543839454651,
+      "f1": 0.5648488402366638
+    },
+    "Total Cost of Ownership + ROI Analysis": {
+      "precision": 0.5760369300842285,
+      "recall": 0.6872053742408752,
+      "f1": 0.6267296075820923
+    },
+    "Precautionary Principle": {
+      "precision": 0.5014982223510742,
+      "recall": 0.5816271901130676,
+      "f1": 0.5385988354682922
+    },
+    "Marginal Value of Accuracy": {
+      "precision": 0.605597972869873,
+      "recall": 0.6683186292648315,
+      "f1": 0.6354143023490906
+    },
+    "Precautionary Principle + Marginal Value of Accuracy": {
+      "precision": 0.5967214703559875,
+      "recall": 0.6713842749595642,
+      "f1": 0.6318548917770386
+    },
+    "Type I/II Errors": {
+      "precision": 0.6351653933525085,
+      "recall": 0.738263726234436,
+      "f1": 0.6828449964523315
+    },
+    "Confusion Matrix": {
+      "precision": 0.6698659062385559,
+      "recall": 0.7908825874328613,
+      "f1": 0.7253614068031311
+    },
+    "Type I/II Errors + Confusion Matrix": {
+      "precision": 0.6242395639419556,
+      "recall": 0.7395496368408203,
+      "f1": 0.6770198345184326
+    },
+    "Complementarity": {
+      "precision": 0.5659096240997314,
+      "recall": 0.6354719400405884,
+      "f1": 0.598676860332489
+    },
+    "Swiss Cheese Model": {
+      "precision": 0.5550894737243652,
+      "recall": 0.675674319267273,
+      "f1": 0.6094747185707092
+    },
+    "Complementarity + Swiss Cheese Model": {
+      "precision": 0.5484238266944885,
+      "recall": 0.6288881897926331,
+      "f1": 0.5859063267707825
+    }
+  },
+  "by_question_type": {
+    "evaluative": {
+      "precision": 0.5709855854511261,
+      "recall": 0.6448172181844711,
+      "f1": 0.6055542379617691
+    },
+    "explanatory": {
+      "precision": 0.5207753032445908,
+      "recall": 0.5490370541810989,
+      "f1": 0.5343452543020248
+    },
+    "prescriptive": {
+      "precision": 0.5546483471989632,
+      "recall": 0.6340000331401825,
+      "f1": 0.5914894267916679
+    },
+    "normative": {
+      "precision": 0.5761791914701462,
+      "recall": 0.6392742842435837,
+      "f1": 0.6059273779392242
+    },
+    "descriptive": {
+      "precision": 0.622533917427063,
+      "recall": 0.7217091619968414,
+      "f1": 0.6683344393968582
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "precision": 0.5666284486651421,
+      "recall": 0.6371396308143934,
+      "f1": 0.5995233605305353
+    }
+  }
+}
