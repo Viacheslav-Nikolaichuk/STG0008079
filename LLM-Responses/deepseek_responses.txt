@@ -1,8 +1,0 @@
-Question 1: Should I invest in Bitcoin?
-Answer 1: Error: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
---------------------------------------------------------------------------------
-
-Question 2: How many r's are in strawberry
-Answer 2: Error: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
---------------------------------------------------------------------------------
-
