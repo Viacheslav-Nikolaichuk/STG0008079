@@ -1065,6 +1065,735 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "12",
+            "context": "A local city council is debating whether to impose a sugar-sweetened beverage tax to combat rising obesity rates. Public health advocates argue that the tax will discourage excessive sugar consumption and generate revenue for health initiatives. However, small business owners worry about reduced sales, potential job losses, and an overall negative impact on their local economy.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Will a sugar-sweetened beverage tax substantially hurt local businesses, or are the potential health benefits compelling enough to justify the policy?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "While a tax may reduce beverage sales for local shops in the short term, evidence from similar taxes in other cities suggests that overall revenue effects can be modest and may be offset by improved public health and potential savings in healthcare costs. The net effect often depends on the size of the tax, local consumer habits, and the implementation of mitigating measures to help small businesses adapt.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Although a beverage tax may initially reduce sales for some local businesses, evidence from other jurisdictions shows that the overall impact on revenue tends to be modest, especially if some of the tax revenue is used to support small retailers or fund health initiatives. The potential health benefits—including lower obesity rates and reduced healthcare costs—often outweigh these short-term disadvantages, provided the policy is designed and implemented carefully."
+                        },
+                        {
+                            "model": "Bayesian Updating",
+                            "answer": "I would incorporate new data from similar beverage taxes in other areas. If the majority of studies show only moderate negative impacts on businesses and measurable public health improvements, I'd update my belief to support the tax. However, if fresh evidence suggests significant harm to local economies, I'd adjust my stance accordingly."
+                        },
+                        {
+                            "model": "Expected Value",
+                            "answer": "Assess the expected value for the community: potential reduced healthcare costs and improved public health on one side vs. possible revenue losses for local businesses on the other. If the expected public benefit (improved health, reduced future medical expenses) outweighs the financial downside for small businesses, the tax is justified on net."
+                        },
+                        {
+                            "model": "Bayesian Updating + Expected Value",
+                            "answer": "Combine the historical data from other regions (Bayesian approach) to update the prior that taxes modestly reduce consumption and have a limited negative effect on businesses, then compare it to the projected public health gains in monetary terms (Expected Value). If the net community benefit (health outcomes + healthcare cost savings) exceeds losses incurred by retailers, the policy is overall beneficial."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Does imposing a beverage tax significantly reduce sugar consumption in the broader population, or can consumers easily find alternatives to circumvent the measure?",
+                    "question-type": "descriptive",
+                    "difficulty": "medium",
+                    "ground truth": "Evidence suggests that a higher price on sugary beverages does reduce consumption to some degree, but the impact can vary depending on how readily consumers can substitute to other sugary products or shop outside the taxed area. The measure can still be effective, though not universally, in lowering overall sugar intake.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Most research suggests that when sugary drinks become more expensive, many consumers do reduce or switch their consumption. While some individuals may seek untaxed substitutes or purchase beverages outside the taxed area, overall sugar intake still tends to decrease, indicating that the policy can be effective in promoting healthier choices."
+                        },
+                        {
+                            "model": "Bayesian Updating",
+                            "answer": "If evidence from similar taxes shows consistent declines in soda purchases, I would update my belief that people do respond to price increases by buying fewer sugary drinks, though I might remain cautious about total sugar intake across all dietary sources."
+                        },
+                        {
+                            "model": "Expected Value",
+                            "answer": "The expected decrease in sugar consumption hinges on how much people value sugary beverages. If the price increase is large enough to change purchasing habits significantly, then the expected reduction in sugar intake is positive. However, if people switch to equally sugary products not covered by the tax, overall sugar consumption might not drop much."
+                        },
+                        {
+                            "model": "Bayesian Updating + Expected Value",
+                            "answer": "We use prior research on soda tax outcomes to update beliefs about consumption changes, then calculate the expected public health gains (lower obesity risk, reduced dental problems) versus possible substitution effects. If the net effect shows a statistically significant drop in sugar intake, the policy likely meets its objective."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Some argue that the immediate revenue generation from this tax may detract from the broader goal of long-term public health. Are these concerns valid?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground truth": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated—such as funding health programs or education—this revenue can reinforce public health goals rather than compete with them.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "These concerns can be valid if the revenue is merely seen as a cash source rather than a tool for improving health. However, if the tax proceeds are specifically allocated to programs like nutrition education, public health campaigns, or initiatives supporting healthier lifestyles, the immediate revenue can actually reinforce and amplify the overall health objectives."
+                        },
+                        {
+                            "model": "Bayesian Updating",
+                            "answer": "If historical data shows that policymakers redirect much of the revenue to healthcare or nutrition programs, my prior belief that the tax primarily benefits health remains strong. If data shows otherwise, I'd update toward believing that revenue might be the main driver."
+                        },
+                        {
+                            "model": "Expected Value",
+                            "answer": "The expected value of the tax depends on how the revenue is used. If it's allocated to health initiatives, the positive impact grows. If it's diverted to unrelated areas, the public health benefits may be undermined, reducing the long-term value of the tax."
+                        },
+                        {
+                            "model": "Bayesian Updating + Expected Value",
+                            "answer": "Combine the evidence on how local governments typically use such tax revenue with a cost-benefit analysis. If the data indicates that funds are often reinvested in preventative health or education, the overall expected benefit increases, and it aligns well with the original policy goal."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "context": "A mid-sized city is evaluating a plan to build a robust network of protected bike lanes to reduce car usage, cut carbon emissions, and promote healthy living. Local shop owners fear the reconfiguration may decrease vehicle traffic and reduce their sales, while some residents worry that lane conversions could worsen congestion in other parts of the city.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Local business owners fear that losing car lanes or parking spaces might hamper sales. Should the city still move forward with the bike lane project despite these concerns?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "While there may be short-term challenges for businesses near reduced parking, many cities find that enhanced bike and pedestrian infrastructure can eventually boost local commerce and improve overall quality of life, offsetting initial downsides over time.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Balancing the needs of businesses with the city's long-term sustainability and livability goals is key. In many cases, thoughtfully designed bike lanes can actually attract more foot traffic, ultimately benefiting local shops."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Weigh the potential drop in vehicle-based sales against broader benefits like reduced congestion, lower emissions, and healthier citizens. If the total projected benefits exceed the initial costs or losses, the city should proceed."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Consider the city's transportation ecosystem as a whole, including how rerouting traffic and adding bike lanes affects congestion patterns, public health, and environmental factors. Viewing these elements in an interconnected way can reveal net positive outcomes for both businesses and residents."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Systems Thinking",
+                            "answer": "Begin with a thorough cost-benefit analysis that factors in economic, social, and environmental impacts over time, and then apply a systems perspective to capture the ripple effects across the entire city. This dual approach often shows that short-term sacrifices for certain stakeholders may be outweighed by long-term benefits for the community."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Many people are interested in biking but hesitate due to safety concerns. Protected lanes can alleviate these worries and encourage more individuals to give cycling a try."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Compare the cost of installing and maintaining bike lanes to the potential savings from reduced road wear, traffic, and healthcare expenses. If even a modest fraction of drivers switch, the measurable benefits could justify the investment."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "View transportation choices as part of a wider urban environment. Improved bike infrastructure can integrate with public transit and pedestrian zones to create a seamless system that collectively reduces car dependency."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Systems Thinking",
+                            "answer": "Perform an initial cost-benefit analysis to evaluate the fiscal viability, and then consider how shifting some commuters from cars to bikes affects congestion, pollution, and urban development patterns. This combined lens can reveal hidden long-term gains in overall city planning."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Critics say allocating resources to bike lanes provides only marginal benefits for the environment compared to overall emissions. How might city officials justify the budget for such a project?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Although the immediate carbon reduction may seem modest, a consistent shift away from cars can have a meaningful cumulative impact. Additionally, bike lanes often promote healthier lifestyles, reduce road maintenance costs over time, and improve local air quality and public space utilization.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Even if the environmental gains are incremental, the broader benefits—improved public health, enhanced livability, and safer streets—strengthen the case for bike lane investments."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Quantify the environmental and public health improvements, future healthcare savings, and reduced car-related costs over time. If these long-term benefits exceed the project costs, it's worth pursuing."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Rather than viewing bike lanes in isolation, factor in how they interact with public transit, pedestrian infrastructure, and urban development. These interlinkages can amplify the benefits far beyond simple carbon metrics."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Systems Thinking",
+                            "answer": "Start with a cost-benefit evaluation that includes extended time horizons for environmental gains, then incorporate a systems view to track how safer, cleaner streets can influence urban growth, public health outcomes, and social equity. This fuller perspective often clarifies the value of seemingly marginal improvements."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "context": "A local government is proposing a ban on single-use plastics for restaurants and retail stores to reduce environmental waste. Many business owners worry about the increased costs of switching to alternative packaging, while some residents fear the ban may inconvenience customers accustomed to disposable options.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the ban proceed despite businesses' concerns about increased costs and potential pushback from customers?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "Although upfront costs may rise for businesses adopting alternatives, long-term environmental and societal benefits—reduced waste, lowered cleanup expenses—often outweigh initial financial hurdles. Proper planning and transitional support can mitigate the impact on businesses and consumers.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Short-term expenses for businesses are a valid concern, but the long-term environmental gains and potential savings from reduced waste management can justify the policy. Collaboration and incentives can help ease the transition."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Facilitating this transition involves not only enacting the ban but also helping businesses adapt through training, resources, and a structured timeline. Effective change management can minimize resistance and costs."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Actively including business owners, consumers, and local community groups in discussions ensures their concerns are heard, and that policies reflect a consensus-driven approach, increasing acceptance and smooth implementation."
+                        },
+                        {
+                            "model": "Change Management + Stakeholder Engagement",
+                            "answer": "By combining a structured transition plan with open dialogue among all parties, the government can address cost issues and customer concerns more effectively, ensuring the ban is both feasible and broadly supported."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Local shop owners worry that alternative packaging is more expensive and less reliable. How can the government address these concerns without delaying the environmental goals?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Government-led initiatives like subsidies, bulk purchasing programs, or partnering with eco-friendly suppliers can reduce costs for businesses. Providing technical assistance and clear guidelines helps owners confidently switch to sustainable packaging without significantly harming their profitability.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offering financial incentives and reliable information about reputable suppliers can ease the shift. Training sessions and pilot programs can also reassure local businesses that costs and reliability challenges are manageable."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "A well-planned rollout with phased deadlines, budget support, and education lowers uncertainty. By detailing steps and timelines, local shops have a clear roadmap for success and feel more prepared."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Engage businesses, environmental groups, and supply-chain experts in regular forums to share best practices and address specific worries. This fosters trust and co-creates practical solutions."
+                        },
+                        {
+                            "model": "Change Management + Stakeholder Engagement",
+                            "answer": "Start with a structured transition plan (clear goals, timelines, financial guidance) and ensure businesses have a say in shaping solutions. This dual approach builds consensus and alleviates cost-related fears."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Some residents prefer the convenience of single-use plastics and might resist changes to their routine. How can officials gain public support for this ban?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Educating residents on the environmental impact of plastics and highlighting viable, convenient alternatives can shift public opinion. Visible support from local leaders and early adopters often helps normalize new behaviors and ease the cultural shift away from disposables.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Public information campaigns, demonstrations of eco-friendly alternatives, and transparent communication about the ban's purpose can foster broader acceptance among residents."
+                        },
+                        {
+                            "model": "Change Management",
+                            "answer": "Implement targeted awareness programs and provide transitional resources (e.g., discounts on reusable bags) so that citizens feel prepared and supported, making the change less abrupt."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Host community forums, surveys, and social media discussions to understand residents' concerns. Showing responsiveness to their feedback increases the likelihood of buy-in and reduces pushback."
+                        },
+                        {
+                            "model": "Change Management + Stakeholder Engagement",
+                            "answer": "Combine structured public education about the ban with genuine citizen involvement in policymaking. Building trust through open dialogue and practical support fosters a smoother shift in consumption habits."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "context": "A local public library system is considering drastically reducing its physical book collection and moving to a nearly all-digital platform to cut costs and repurpose library space. Long-time patrons fear losing the traditional library experience, while staff members are concerned about job security and adapting to new technology-focused roles.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the library proceed with replacing most physical books with digital formats, even if it alienates some loyal patrons?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "While digital resources can improve accessibility and lower storage costs, a sudden or complete transition risks losing patrons who rely on physical books. Balancing innovation with community needs—through a phased rollout or a hybrid approach—can mitigate abrupt disruptions and preserve long-standing relationships.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A measured approach can help: gradually introduce more digital offerings while still maintaining a core physical collection. Engaging patrons for feedback will ensure the library evolves without sacrificing its community appeal."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Examine potential hazards like loss of patron loyalty and budget uncertainties for new technology. If the benefits of cost savings and modern services outweigh these risks—and mitigation measures are in place—proceed cautiously."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Recognize that resistance may be partly due to preference for the familiar. This bias can lead decision-makers to overvalue traditional formats, so weigh whether the comfort of the current system justifies foregoing efficiency gains."
+                        },
+                        {
+                            "model": "Risk Assessment + Status Quo Bias",
+                            "answer": "Combine a structured evaluation of the risks—like patron drop-off and tech adoption costs—with an awareness that clinging to the current model may simply be bias. A balanced approach ensures genuine concerns are addressed without letting undue fear of change hold the library back."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "How can the library address concerns from older patrons who have limited digital literacy or prefer physical collections?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Providing training programs, tech support, and transitional guidance can help older or tech-averse patrons feel more comfortable. Keeping a curated set of physical materials ensures those who cannot or will not adapt to digital remain served by the library.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offer free digital literacy workshops, set up user-friendly e-readers, and maintain a smaller but high-quality physical selection to accommodate differing preferences."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Identify potential pitfalls of full digital reliance, like alienating non-tech-savvy patrons. Then allocate resources to mitigate those issues: specialized staff training, in-person tutorials, and a safety net of physical collections."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Acknowledge many older patrons may be reluctant to leave behind familiar routines. By recognizing this bias, library leadership can proactively communicate the benefits of digital access while gently easing patrons into new habits."
+                        },
+                        {
+                            "model": "Risk Assessment + Status Quo Bias",
+                            "answer": "Assess the risk of losing older or less tech-savvy users if you eliminate physical options, and realize that part of their discomfort stems from attachment to the status quo. Combine practical safeguards (training, physical books) with empathetic outreach to minimize disruptions."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Some staff worry that a digital-focused library may lose its role as a community gathering place. Is this concern justified?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "While digital resources can streamline operations, libraries also serve as social and cultural hubs. Maintaining public spaces for workshops, reading areas, and community events can preserve the library's role beyond just book lending—even if the medium shifts from print to digital.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Libraries have long been more than book repositories, offering programs and communal spaces. Emphasizing these social functions can keep the community spirit alive, regardless of format changes."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Evaluate whether the shift could reduce in-person visits. If so, include plans for community-driven events, tech training labs, and collaborative workspaces in the new model to safeguard the library's social function."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Staff may conflate the familiar (physical books) with community value. While valid, this bias can overlook how digital services—like shared tech labs or digital reading clubs—may equally foster community engagement."
+                        },
+                        {
+                            "model": "Risk Assessment + Status Quo Bias",
+                            "answer": "Consider the concrete risk of fewer on-site visitors by going digital while recognizing some of the fear arises from attachment to traditional norms. Combining a robust community programming plan with digital innovation can address both real and perceived threats to the library's communal role."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "context": "A local nonprofit wants to expand its services to assist the homeless population by adding temporary shelters, job training workshops, and mental health counseling. Board members worry about overextending resources, while volunteers are concerned about managing a greater client load without adequate staffing.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is it wise for the nonprofit to rapidly scale up its offerings without fully knowing if there are enough staff and financial resources to sustain these new programs?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "A sudden expansion can overwhelm existing capacity. A phased approach that matches available funding and staff capabilities helps ensure services remain effective and consistent for clients.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Balancing ambition with practical limits is crucial. Start by assessing immediate resource gaps and create a measured timeline for growth to avoid harming current services."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Use subtle interventions (e.g., fundraising reminders, volunteer recruitment drives) to encourage incremental increases in support. Gradually ‘nudge' the community and donors, rather than relying on a single large push for expansion."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Analyze potential pitfalls—like volunteer burnout or budget shortfalls—before committing to rapid growth. Identifying these risks upfront helps prioritize which services to expand first."
+                        },
+                        {
+                            "model": "Nudge Theory + Risk Assessment",
+                            "answer": "Combine subtle community and donor engagement strategies with a structured evaluation of potential threats to ensure expansion is both sustainable and continuously supported."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Some donors hesitate to give more, fearing the nonprofit might over-promise. How could leadership address these concerns and maintain donor confidence?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Transparent communication about program objectives, budgets, and progress can reassure donors. Demonstrating careful planning and readiness to adapt as needs evolve fosters trust and continued financial support.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Regularly update donors on milestones, successes, and challenges. Show a clear plan for responsible use of funds, including contingency measures."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Offer low-commitment ways to increase giving, like matching programs or micro-donation campaigns, to gently encourage donors without pressuring them outright."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Outline the risks of underfunding and present clear strategies (diversified funding sources, incremental program rollouts) for mitigating these uncertainties, proving the nonprofit is prepared for various scenarios."
+                        },
+                        {
+                            "model": "Nudge Theory + Risk Assessment",
+                            "answer": "Use subtle donor engagement methods—like opt-in newsletters and progress dashboards—to keep supporters informed, and back this up with a transparent analysis of possible financial or operational risks."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Critics say the organization might lose its personal touch by expanding so quickly. Is the concern about reduced quality of care legitimate?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Growing too fast can strain staff and volunteers, leading to less individualized attention for clients. Implementing structured training and maintaining reasonable caseloads can help preserve quality as services expand.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Personal interactions are crucial in social services. Ensuring each client still receives adequate support and follow-up is essential for maintaining the nonprofit's reputation and impact."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Encourage volunteers and staff to embrace incremental changes—like new scheduling tools or streamlined onboarding—that make it easier to handle more clients without sacrificing personal connections."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Evaluate staff capacity, training needs, and potential burnout triggers. Address these risks systematically to keep service quality from declining under higher demand."
+                        },
+                        {
+                            "model": "Nudge Theory + Risk Assessment",
+                            "answer": "Leverage small, supportive adjustments to staff workflows, and back each step with data-driven evaluations of potential strain. This ensures growth remains aligned with the nonprofit's client-focused mission."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "context": "A small farm cooperative is debating whether to invest in state-of-the-art hydroponic systems. Proponents argue it will increase crop yields and use resources more efficiently, while skeptics worry about high upfront costs and the complexity of managing new technology.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the cooperative move forward with these hydroponic systems despite the substantial initial investment?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "Hydroponics can boost yields and conserve water, but they also come with steep learning curves and infrastructure costs. Carefully weighing long-term benefits against short-term financial strain is crucial before committing.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A pilot program can help gauge productivity improvements and financial viability without fully committing all resources at once."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "Compare the projected returns—like higher yield and resource savings—against the system's cost over its useful life. If the net present value is strongly positive, the investment is justifiable."
+                        },
+                        {
+                            "model": "Embodied Energy",
+                            "answer": "Account for the total energy used in manufacturing, transporting, and installing these systems. A system that saves water but has a high energy footprint might undercut some ecological benefits."
+                        },
+                        {
+                            "model": "ROI Analysis + Embodied Energy",
+                            "answer": "Determine the financial viability via ROI and incorporate a full lifecycle energy audit. This ensures both economic returns and sustainability factors guide the cooperative's decision."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Offering training and partnering with local agricultural colleges can develop in-house expertise, reducing reliance on external consultants. A small but trained core team can maintain and troubleshoot systems effectively.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Start by sending a few co-op members to specialized workshops or certification programs. They can then train others locally, fostering internal expertise."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "Budget for training as part of the initial outlay. If the system's long-term gains remain higher than these extra costs, the overall ROI can still be favorable."
+                        },
+                        {
+                            "model": "Embodied Energy",
+                            "answer": "Minimize additional energy usage or resource consumption by selecting eco-friendly training methods (online courses, local experts). This ensures learning doesn't greatly expand the project's total energy footprint."
+                        },
+                        {
+                            "model": "ROI Analysis + Embodied Energy",
+                            "answer": "Fold the training and resource impacts into the financial calculations and the sustainability assessment. That way, the cooperative makes decisions fully informed of both cost and ecological effects."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Critics say hydroponics isn't 'natural' farming and might alienate consumers who value traditional methods. Is this a legitimate risk?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits—pesticide reduction, water savings—can mitigate image concerns.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Marketing the system's eco-friendly aspects—like reduced chemical use—can attract conscious consumers who care about sustainability over purely traditional methods."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "Compare potential lost revenue from traditionalists with the potential for a new customer base interested in modern, sustainable agriculture. If net revenues increase, the transition remains financially sound."
+                        },
+                        {
+                            "model": "Embodied Energy",
+                            "answer": "Emphasize the smaller carbon footprint or water usage to appeal to sustainability-minded buyers. This data can validate hydroponics as an eco-friendly choice, offsetting concerns about it not being ‘natural.'"
+                        },
+                        {
+                            "model": "ROI Analysis + Embodied Energy",
+                            "answer": "Demonstrate strong financial returns while showcasing the reduced resource impact of hydroponics. This holistic picture can turn potential skeptics into supporters."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "context": "A city plans to develop an interconnected underground walkway system linking major downtown buildings to reduce street-level congestion and improve pedestrian safety, especially in harsh weather conditions. Some business owners worry about losing foot traffic in above-ground commercial areas, and the construction costs are considerable.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is the investment in a large underground walkway network worth the potential disruption to current street-level shops and the high construction expenses?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "Such walkway systems can ease congestion and enhance pedestrian comfort, but they require significant funding and risk diverting foot traffic. Balancing economic development strategies for both above-ground and below-ground areas is crucial for maximizing overall benefits.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A careful feasibility study can pinpoint how to balance the new underground route with measures that keep street-level businesses vibrant, such as signage or unique surface-level attractions."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Involve local business owners, residents, and transport officials in planning. Gathering input on how to minimize disruptions and maintain retail visibility can improve acceptance and outcome."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Evaluate how shifting pedestrian flows influences traffic, public transit usage, and commercial activity. Understanding these interconnections ensures the walkway complements the entire urban ecosystem."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Systems Thinking",
+                            "answer": "By combining broad community input with a holistic view of the city's transport and economic systems, planners can refine the design to boost synergy between the underground and street-level realms."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Some residents fear that navigating underground tunnels could be confusing or feel unsafe. How might the city address these concerns?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Clear signage, good lighting, security measures, and well-marked entry/exit points are vital. Ongoing community feedback and safety audits help maintain trust and user comfort in the subterranean environment.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The city could pilot a small section of the walkway first, gathering feedback on lighting, signage, and design improvements before rolling it out fully."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Include local neighborhoods, safety professionals, and community groups in the design process. This collaborative approach helps identify and address safety or accessibility concerns early."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Look beyond just aesthetics. Integrating the walkway design with public transit stations, traffic flow patterns, and above-ground pedestrian routes can reduce confusion and improve the perception of safety."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Systems Thinking",
+                            "answer": "Combine consistent community input (e.g., surveys, focus groups) with an integrated planning approach that aligns underground corridors with the broader city infrastructure, ensuring both comfort and utility."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Critics argue that the underground network may cause businesses to relocate or shift focus, altering the downtown economy. Is this a genuine risk?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Redirection of pedestrian traffic can indeed change how businesses operate. Cities with similar infrastructure often manage successful mixed-use areas if they plan for synergy—offering unique amenities both above and below ground.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Coordinating marketing efforts and having complementary retail can help both levels thrive. Distinct offerings in the underground system and on the surface can generate mutual traffic."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Conduct open forums with local merchants to address relocation concerns and explore solutions, like improved signage or joint promotions to draw customers between underground and street-level areas."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "View downtown commerce as a network of interdependent zones. Changes in one zone can redistribute activity in another. Planning for this flow can preserve and even enhance overall economic vibrancy."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Systems Thinking",
+                            "answer": "Engage businesses in a holistic analysis of downtown traffic patterns, ensuring the walkway's design fosters balanced foot traffic. Aligning interests across the whole system supports economic vitality citywide."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "context": "A local public school district is considering implementing a mandatory uniform policy to minimize socioeconomic disparities and reduce disciplinary issues. Parents and students worry about losing personal expression, while some teachers argue that uniforms might improve the school's overall atmosphere and focus on academics.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the school district enforce uniforms if it risks reducing students' individuality but potentially improves classroom discipline?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "Uniform policies can level the playing field by downplaying clothing-based social status differences and may reduce certain behavioral problems. However, care must be taken to maintain student autonomy and respect for personal identity.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A balanced approach could include allowing some personalized aspects (like accessories) while still reaping the benefits of a standardized dress code."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Uniforms might create a positive ‘halo' where orderly appearance is assumed to correlate with better behavior or academic performance. However, recognizing this bias is important so we don't overlook deeper issues affecting discipline."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Parents and students who resist might simply be attached to the current dress practices. Being aware of this bias helps us realize some of the opposition may stem more from discomfort with change rather than concrete downsides."
+                        },
+                        {
+                            "model": "Halo Effect + Status Quo Bias",
+                            "answer": "While uniforms can produce a surface-level ‘halo' of discipline and unity, administrators should also recognize that resistance may be fueled by familiarity with the status quo. Balancing these two biases can lead to a more thoughtful, inclusive policy implementation."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Parents worry that enforced uniforms might be expensive or cumbersome. How can the district address financial concerns and ensure equity?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Many districts using uniforms offer subsidies or have exchange programs to limit financial strain. Bulk purchasing agreements or donation drives can keep costs low. Communication about these resources is vital to reassure families.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Implement a secondhand uniform exchange program, and offer vouchers or subsidies for families in need, ensuring no student is excluded due to cost."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Some might assume that families who have uniforms also have the means to afford them. Recognizing that this perception can mislead, the district should proactively assess and address real financial burdens."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Parents accustomed to buying casual clothes might see uniform costs as an extra expense. Acknowledging the bias toward familiar spending can help the school communicate how uniforms could be cost-neutral (or cheaper) in the long run."
+                        },
+                        {
+                            "model": "Halo Effect + Status Quo Bias",
+                            "answer": "Dispel the notion that uniform-wearing families automatically have adequate financial resources (Halo Effect), and anticipate hesitation rooted in the preference for existing dress norms (Status Quo Bias). A robust aid program and clear communication can alleviate both issues."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Critics claim uniforms alone won't fix deeper issues such as bullying or academic underperformance. Is this a valid concern?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Uniforms may mitigate some social pressures, but they are not a cure-all for deeper systemic issues like bullying or inconsistent teaching quality. Comprehensive support programs and positive school culture initiatives remain essential.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Uniforms can help unify students on the surface, but meaningful progress requires robust counseling services, strong peer-support initiatives, and high-quality instruction."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "A uniform might create an illusion of a cohesive environment, but real solutions to bullying or poor academics involve addressing root causes rather than relying on appearances."
+                        },
+                        {
+                            "model": "Status Quo Bias",
+                            "answer": "Some might argue that since non-uniform policies haven't solved these deeper issues, a change could be beneficial. However, others resist because uniforms are unfamiliar, even if a more holistic approach is truly needed."
+                        },
+                        {
+                            "model": "Halo Effect + Status Quo Bias",
+                            "answer": "While uniforms can foster a positive look and feel (Halo Effect), deeper interventions are needed to tackle bullying and academic challenges. Resistance to new methods (Status Quo Bias) should not block broader reforms that go beyond dress codes."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "context": "A national chain of quick-service restaurants is considering switching to fully plant-based packaging to reduce waste and appeal to environmentally conscious consumers. Franchise owners worry about the higher costs of these materials, while customers are split between convenience and sustainability concerns.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the chain prioritize environmentally friendly plant-based packaging, even if it initially raises operational costs?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground truth": "Adopting plant-based packaging can reduce the chain's environmental footprint and potentially attract new customers. However, ensuring cost-effectiveness and maintaining product quality (e.g., food freshness) remains vital for broad adoption.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A phased rollout can let the chain test the market response in select regions, manage cost pressures, and adjust strategies based on consumer feedback."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "When each franchise uses conventional packaging, overall pollution and resource depletion rise, harming shared resources (like landfills and oceans). By embracing plant-based alternatives, the chain helps mitigate collective harm."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Influence franchise owners and customers subtly—like offering small discounts or loyalty points for choosing sustainable packaging options—thus encouraging adoption without forcing it outright."
+                        },
+                        {
+                            "model": "Tragedy of the Commons + Nudge Theory",
+                            "answer": "Recognize that widespread reliance on plastic packaging strains common environmental resources. Subtle incentives (for both franchisees and customers) can shift behavior collectively without heavy-handed mandates."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Some franchisees are concerned about passing higher packaging costs onto consumers. How might the chain address these pricing fears?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground truth": "Bulk purchasing agreements, partnerships with innovative suppliers, or moderate price increases can help manage higher costs. Effective marketing about sustainability can also justify slight price adjustments for eco-friendly alternatives.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Negotiate volume discounts with packaging suppliers, and consider absorbing some initial costs centrally so franchisees can transition smoothly."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Emphasize that saving the environment is a collective responsibility. Sharing cost burdens, if it helps reduce plastic waste globally, aligns with the broader societal interest in protecting communal resources."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Use positive framing—like highlighting the ‘eco-value meal'—so consumers feel they're contributing to sustainability with each purchase, making a minor price increase more acceptable."
+                        },
+                        {
+                            "model": "Tragedy of the Commons + Nudge Theory",
+                            "answer": "Frame the transition as a necessary step in collective resource stewardship, then implement small, supportive nudges (e.g., loyalty rewards, signage about carbon footprint) to ease franchisees and customers into accepting incremental cost changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "Environmentalists argue this switch alone won't solve the chain's overall waste problem unless combined with other measures. Are they right?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground truth": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Yes, focusing on packaging is beneficial, but a holistic approach that covers portion control, composting or recycling, and minimal plastic use is vital for true sustainability."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Merely substituting materials doesn't fully address the broader collective waste issue. Collective action—cutting overall waste and improving disposal systems—reduces strain on shared environmental resources more effectively."
+                        },
+                        {
+                            "model": "Nudge Theory",
+                            "answer": "Encourage consumers to properly dispose of or reuse packaging through gentle reminders and convenient recycling bins. Small tweaks in layout or signage can substantially improve recycling rates."
+                        },
+                        {
+                            "model": "Tragedy of the Commons + Nudge Theory",
+                            "answer": "Combining structural changes that benefit the shared environment with simple, well-placed nudges (like clear labelling or easy-return bins) aligns both the chain's practices and customer behavior with a larger goal of waste reduction."
+                        }
+                    ]
+                }
+            ]
         },          
         {
             "id": "x",
