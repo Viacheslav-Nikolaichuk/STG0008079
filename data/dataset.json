@@ -1794,7 +1794,213 @@
                     ]
                 }
             ]
-        },          
+        },
+        {
+            "id": "21",
+            "context": "A small town is evaluating a proposal to launch a new community recycling program aimed at reducing waste and promoting local sustainability.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should the town implement the community recycling program immediately?",
+                    "question-type": "Normative",
+                    "difficulty": "Medium",
+                    "ground truth": "Deciding on immediate implementation depends on the town’s budget, public support, and logistical readiness; a phased rollout might be more sustainable.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "If the fundamental goal is to reduce waste and promote sustainability, and the basic resources are in place, then implementing the program immediately could be justified."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Analyzing the town as an interconnected system suggests that immediate implementation may overwhelm existing infrastructure. A staged approach could help balance demand and resource allocation."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "By addressing the core need for waste reduction and considering the town’s systemic capacity, a phased yet prompt implementation ensures the program is both effective and sustainable."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What has been the recycling rate in similar towns over the past five years?",
+                    "question-type": "Descriptive",
+                    "difficulty": "Medium",
+                    "ground truth": "Data from comparable towns indicate an average annual recycling rate increase of 10-15% after implementing similar programs.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "Basic data from similar towns show steady annual improvements in recycling rates, typically in the 10-15% range."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Recycling rates are influenced by various factors including community policies, public engagement, and economic conditions, which together result in diverse performance metrics across towns."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "While core metrics indicate a 10-15% annual improvement, understanding the interplay of local policies and community dynamics is crucial for contextualizing these numbers."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should the town design the recycling program to maximize participation and minimize costs?",
+                    "question-type": "Prescriptive",
+                    "difficulty": "Hard",
+                    "ground truth": "The program should feature accessible recycling points, clear communication, incentives for participation, and ongoing monitoring to allow for adjustments over time.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "Focus on the essential elements: accessible drop-off points, simple instructions, and clear incentives to encourage participation, while minimizing unnecessary expenses."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Design the program as a dynamic system that integrates continuous feedback, coordinates with local waste management, and adapts to changes in public behavior and resource allocation."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "A well-designed program should combine clear, essential features for participation with an adaptive system that continuously optimizes resource use and responds to community feedback."
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "question": "What factors contribute to residents' reluctance to participate in community recycling programs?",
+                    "question-type": "Explanatory",
+                    "difficulty": "Medium",
+                    "ground truth": "Residents' reluctance is often due to lack of awareness, inconvenience, cultural habits, and skepticism about the program's impact.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "At its core, reluctance stems from basic human concerns such as convenience and trust. If a process is not perceived as simple or beneficial, participation will lag."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Multiple factors, including social norms, existing waste management practices, and communication channels, interact to influence participation rates in recycling programs."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "Fundamentally, if recycling isn’t easy or trusted, residents won’t participate; however, these basic concerns are amplified by broader social and systemic dynamics that must be addressed holistically."
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "question": "What recycling rate improvement can the town expect in the next three years if the program is implemented?",
+                    "question-type": "Predictive",
+                    "difficulty": "Hard",
+                    "ground truth": "Based on similar initiatives, an improvement of 10-20% over three years may be expected, although actual outcomes depend on local engagement and implementation quality.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "Assuming fundamental program success, the town might see a direct improvement in recycling rates of approximately 10-20% over three years."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Considering various interacting factors such as community behavior, infrastructure improvements, and policy adjustments, the predicted improvement could vary widely, but 10-20% is a reasonable estimate."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "Combining the straightforward projection with an understanding of systemic influences, the town can reasonably expect a 10-20% increase in recycling rates over three years, contingent on effective implementation and community engagement."
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "question": "How does the proposed recycling program compare to similar initiatives in terms of cost-effectiveness and community engagement?",
+                    "question-type": "Comparative",
+                    "difficulty": "Medium",
+                    "ground truth": "Comparative studies show that programs with strong community involvement tend to be more cost-effective and achieve higher engagement compared to more bureaucratic, top-down initiatives.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "By breaking down the key elements—cost and engagement—one can see that direct community involvement often lowers costs and increases participation compared to less interactive models."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "When comparing initiatives, it’s crucial to consider how community dynamics, local policies, and resource distribution affect both cost-effectiveness and engagement across different settings."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "A combined analysis reveals that while community-driven models inherently optimize for cost and engagement, their success is also dependent on the broader system dynamics, which need to be evaluated holistically."
+                        }
+                    ]
+                },
+                {
+                    "id": "7",
+                    "question": "How effective has community-led recycling been in reducing waste in similar towns?",
+                    "question-type": "Evaluative",
+                    "difficulty": "Medium",
+                    "ground truth": "Evaluations indicate mixed results; effectiveness often depends on local leadership, the clarity of communication, and the integration with existing waste management systems.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "Looking at basic outcomes, community-led recycling can be effective if it directly addresses waste reduction goals and is supported by clear guidelines and incentives."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Assessing overall effectiveness requires understanding the interplay between community initiatives, local infrastructure, and policy support, which collectively determine the success of waste reduction efforts."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "Evaluating community-led recycling should merge fundamental outcome measures with an analysis of the systemic factors that influence waste reduction, leading to a comprehensive understanding of its effectiveness."
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "question": "What innovative approaches could be introduced to enhance the town's recycling program?",
+                    "question-type": "Exploratory",
+                    "difficulty": "Hard",
+                    "ground truth": "Innovative approaches might include the use of smart recycling bins, community-based incentive programs, and digital platforms for education and feedback, though these require further investigation.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "First Principles",
+                            "answer": "Focusing on basic needs, innovations should simplify recycling processes and incentivize participation, such as through smart technology or rewards."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Exploring new approaches involves analyzing how different components—technology, policy, and community behavior—can be integrated to create a more effective and engaging recycling system."
+                        },
+                        {
+                            "model": "First Principles + Systems Thinking",
+                            "answer": "A combined approach suggests that innovative strategies should not only address the fundamental needs for ease and motivation but also be woven into the larger system of local policies and community interactions for lasting impact."
+                        }
+                    ]
+                }
+            ]
+        },                 
         {
             "id": "x",
             "context": "",
