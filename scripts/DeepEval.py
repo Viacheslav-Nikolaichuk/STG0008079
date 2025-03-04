@@ -8,7 +8,6 @@ from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 from deepeval.metrics import AnswerRelevancyMetric
 
-# Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def load_config():
@@ -44,7 +43,7 @@ def load_responses(responses_path):
         logging.error(f"Error loading responses: {str(e)}")
         return None
 
-def create_test_cases(dataset, responses):
+def create_test_cases(dataset, responses, reference_type='ground_truth'):
     """Create DeepEval test cases from dataset and responses"""
     test_cases = []
     metadata = []
@@ -73,7 +72,10 @@ def create_test_cases(dataset, responses):
                 logging.warning(f"Question {question_id} not found in scenario {scenario_id}")
                 continue
                 
-            ground_truth = orig_question.get("ground_truth", "")
+            if reference_type == 'ground_truth':
+                base_reference = orig_question.get("ground_truth", "")
+            else:
+                base_reference = None
             
             for model_answer in question.get("model_answers", []):
                 model_name = model_answer.get("model", "base")
@@ -83,17 +85,29 @@ def create_test_cases(dataset, responses):
                     logging.warning(f"Skipping empty/error answer for {scenario_id}/{question_id}/{model_name}")
                     continue
                 
-                # Create a test case
+                if reference_type == 'model_answer':
+                    orig_model_answer = next((a for a in orig_question.get("model_answers", [])
+                                            if a.get("model") == model_name), None)
+                    if not orig_model_answer:
+                        logging.warning(f"No original model answer found for {model_name} in {scenario_id}/{question_id}")
+                        continue
+                    reference = orig_model_answer.get("answer", "")
+                else:
+                    reference = base_reference
+                
+                if not reference:
+                    logging.warning(f"Empty reference for {scenario_id}/{question_id}/{model_name}")
+                    continue
+                
                 test_case = LLMTestCase(
                     input=f"Context: {context}\nQuestion: {question_text}",
                     actual_output=answer,
-                    expected_output=ground_truth,
+                    expected_output=reference,
                     retrieval_context=[context] if context else None
                 )
                 
                 test_cases.append(test_case)
                 
-                # Store metadata
                 meta = {
                     "scenario_id": scenario_id,
                     "question_id": question_id,
@@ -101,8 +115,8 @@ def create_test_cases(dataset, responses):
                     "question_type": question.get("question-type", ""),
                     "difficulty": question.get("difficulty", ""),
                     "question": question_text,
-                    "ground_truth": ground_truth,
-                    "answer": answer
+                    "reference": reference,
+                    "answer": answer,
                 }
                 metadata.append(meta)
     
@@ -112,7 +126,6 @@ def evaluate_test_cases(test_cases, eval_model="gpt-4o-mini", threshold=0.7, bat
     """Evaluate test cases using DeepEval's AnswerRelevancyMetric"""
     all_results = []
     
-    # Initialize the metric
     metric = AnswerRelevancyMetric(threshold=threshold, model=eval_model)
     
     # Process in batches
@@ -126,26 +139,38 @@ def evaluate_test_cases(test_cases, eval_model="gpt-4o-mini", threshold=0.7, bat
 def extract_scores(deepeval_results, metadata):
     """Extract scores from DeepEval results and combine with metadata"""
     combined_results = []
-    meta_idx = 0  # Separate index for metadata
+    meta_idx = 0
     
     for result in deepeval_results:
-        if isinstance(result, tuple) and len(result) >= 2:
-            _, test_results = result
-            if isinstance(test_results, list):
-                for test_result in test_results:
-                    if hasattr(test_result, 'metrics_data'):
-                        for metric in test_result.metrics_data:
-                            if metric.name == "Answer Relevancy":
-                                # Get the first matching metadata entry
-                                if meta_idx < len(metadata):
-                                    combined = {
-                                        "score": metric.score,
-                                        "passed": metric.success,
-                                        "reason": metric.reason,
-                                        **metadata[meta_idx]
-                                    }
-                                    combined_results.append(combined)
-                                    meta_idx += 1
+        # Skip results that don't match our expected structure
+        if not (isinstance(result, tuple) and len(result) >= 2):
+            continue
+            
+        _, test_results = result
+        if not isinstance(test_results, list):
+            continue
+            
+        for test_result in test_results:
+            if not hasattr(test_result, 'metrics_data'):
+                continue
+                
+            # Find the Answer Relevancy metric
+            relevancy_metrics = [m for m in test_result.metrics_data if m.name == "Answer Relevancy"]
+            
+            if relevancy_metrics and meta_idx < len(metadata):
+                metric = relevancy_metrics[0]
+                combined = {
+                    "score": metric.score,
+                    "passed": metric.success,
+                    "reason": metric.reason,
+                    **metadata[meta_idx]
+                }
+                combined_results.append(combined)
+                meta_idx += 1
+    
+    if meta_idx < len(metadata):
+        logging.warning(f"Only processed {meta_idx} out of {len(metadata)} metadata entries")
+    
     return combined_results
 
 def compute_aggregated_metrics(results):
@@ -210,6 +235,8 @@ def main():
     parser.add_argument('--eval-model', default='gpt-4o-mini', help='Model to use for evaluation')
     parser.add_argument('--threshold', type=float, default=0.7, help='Threshold for passing the metric')
     parser.add_argument('--batch-size', type=int, default=12, help='Batch size for evaluation')
+    parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
+                        help='Reference type to compare against (ground_truth or model_answer)')
     args = parser.parse_args()
     
     config = load_config()
@@ -217,11 +244,9 @@ def main():
         logging.error("Failed to load config. Exiting.")
         return
     
-    # Create output directory
     output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
     
-    # Load data
     dataset = load_dataset(args.dataset)
     responses = load_responses(args.responses)
     
@@ -232,9 +257,9 @@ def main():
     # Extract model name from responses filename
     model_name = Path(args.responses).stem.replace('_responses', '')
     logging.info(f"Evaluating responses from {model_name} using {args.eval_model}")
+    logging.info(f"Using reference type: {args.reference_type}")
     
-    # Create test cases
-    test_cases, metadata = create_test_cases(dataset, responses)
+    test_cases, metadata = create_test_cases(dataset, responses, args.reference_type)
     logging.info(f"Created {len(test_cases)} test cases")
     
     if not test_cases:
@@ -255,26 +280,33 @@ def main():
     # Compute aggregated metrics
     aggregated_metrics = compute_aggregated_metrics(combined_results)
     
-    # Save detailed results
-    detailed_output_path = output_dir / f"deepeval_detailed_{model_name}.json"
-    with open(detailed_output_path, 'w') as f:
-        json.dump(combined_results, f, indent=2)
+    detailed_results = {
+        "reference_type": args.reference_type,
+        "results": combined_results
+    }
     
-    # Save aggregated results
-    aggregated_output_path = output_dir / f"deepeval_aggregated_{model_name}.json"
+    aggregated_results = {
+        "reference_type": args.reference_type,
+        "metrics": aggregated_metrics
+    }
+    
+    # Tag output file names with the reference type
+    detailed_output_path = output_dir / f"deepeval_detailed_{model_name}_{args.reference_type}.json"
+    with open(detailed_output_path, 'w') as f:
+        json.dump(detailed_results, f, indent=2)
+    
+    aggregated_output_path = output_dir / f"deepeval_aggregated_{model_name}_{args.reference_type}.json"
     with open(aggregated_output_path, 'w') as f:
-        json.dump(aggregated_metrics, f, indent=2)
+        json.dump(aggregated_results, f, indent=2)
     
     logging.info(f"Successfully saved detailed results to {detailed_output_path}")
     logging.info(f"Successfully saved aggregated results to {aggregated_output_path}")
     
-    # Print overall performance
     overall_score = aggregated_metrics["overall"]["score"]
     overall_pass_rate = aggregated_metrics["overall"]["pass_rate"]
     logging.info(f"Overall DeepEval Score: {overall_score:.4f}")
     logging.info(f"Overall Pass Rate: {overall_pass_rate:.2%}")
     
-    # Print model performance
     logging.info("DeepEval Scores by model:")
     for model, metrics in aggregated_metrics["by_model"].items():
         model_name_display = model if model else "base"

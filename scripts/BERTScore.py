@@ -6,7 +6,6 @@ from evaluate import load
 import torch
 from tqdm import tqdm
 
-# Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def load_dataset(dataset_path):
@@ -27,28 +26,26 @@ def load_responses(responses_path):
         logging.error(f"Error loading responses: {str(e)}")
         return None
 
-def extract_comparisons(dataset, responses):
+def extract_comparisons(dataset, responses, reference_type='ground_truth'):
     """Extract prediction-reference pairs for BERTScore computation"""
     predictions = []
     references = []
     metadata = []
-    
-    # Maps scenario and question IDs to their indices in the arrays
     index_mapping = {}
     counter = 0
     
-    for scenario_idx, scenario in enumerate(responses.get("scenarios", [])):
+    for scenario in responses.get("scenarios", []):
         scenario_id = scenario.get("id")
         
         # Find matching scenario in original dataset
         orig_scenario = next((s for s in dataset.get("scenarios", []) 
-                             if s.get("id") == scenario_id), None)
+                            if s.get("id") == scenario_id), None)
         
         if not orig_scenario:
             logging.warning(f"Scenario {scenario_id} not found in original dataset")
             continue
             
-        for question_idx, question in enumerate(scenario.get("questions", [])):
+        for question in scenario.get("questions", []):
             question_id = question.get("id")
             
             # Find matching question in original dataset
@@ -59,9 +56,12 @@ def extract_comparisons(dataset, responses):
                 logging.warning(f"Question {question_id} not found in scenario {scenario_id}")
                 continue
                 
-            ground_truth = orig_question.get("ground_truth", "")
-            
-            for answer_idx, model_answer in enumerate(question.get("model_answers", [])):
+            if reference_type == 'ground_truth':
+                base_reference = orig_question.get("ground_truth", "")
+            else:
+                base_reference = None
+                
+            for model_answer in question.get("model_answers", []):
                 model_name = model_answer.get("model", "base")
                 answer = model_answer.get("answer", "")
                 
@@ -69,19 +69,33 @@ def extract_comparisons(dataset, responses):
                     logging.warning(f"Skipping empty/error answer for {scenario_id}/{question_id}/{model_name}")
                     continue
                 
+                if reference_type == 'model_answer':
+                    orig_model_answer = next((a for a in orig_question.get("model_answers", [])
+                                            if a.get("model") == model_name), None)
+                    if not orig_model_answer:
+                        logging.warning(f"No original model answer found for {model_name} in {scenario_id}/{question_id}")
+                        continue
+                    reference = orig_model_answer.get("answer", "")
+                else:
+                    reference = base_reference
+                
+                if not reference:
+                    logging.warning(f"Empty reference for {scenario_id}/{question_id}/{model_name}")
+                    continue
+                
                 predictions.append(answer)
-                references.append(ground_truth)
+                references.append(reference)
                 
                 meta = {
                     "scenario_id": scenario_id,
                     "question_id": question_id,
                     "model": model_name,
                     "question_type": question.get("question-type", ""),
-                    "difficulty": question.get("difficulty", "")
+                    "difficulty": question.get("difficulty", ""),
                 }
                 metadata.append(meta)
                 
-                # Store the index mapping
+                # Maintain index mapping
                 key = (scenario_id, question_id, model_name)
                 index_mapping[key] = counter
                 counter += 1
@@ -198,13 +212,13 @@ def main():
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
     parser.add_argument('--output-dir', default='Results', help='Output directory for results')
     parser.add_argument('--batch-size', type=int, default=8, help='Batch size for BERTScore computation')
+    parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
+                        help='Reference type to compare against (ground_truth or model_answer)')
     args = parser.parse_args()
     
-    # Create output directory
     output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
     
-    # Load data
     dataset = load_dataset(args.dataset)
     responses = load_responses(args.responses)
     
@@ -217,7 +231,11 @@ def main():
     logging.info(f"Evaluating responses from {model_name}")
     
     # Extract predictions and references
-    predictions, references, metadata, index_mapping = extract_comparisons(dataset, responses)
+    predictions, references, metadata, index_mapping = extract_comparisons(
+        dataset, 
+        responses,
+        args.reference_type
+    )
     logging.info(f"Extracted {len(predictions)} prediction-reference pairs")
     
     if not predictions:
@@ -230,24 +248,31 @@ def main():
     
     aggregated_metrics = compute_aggregated_metrics(combined_results, index_mapping)
     
-    # Save detailed results
-    detailed_output_path = output_dir / f"bertscore_detailed_{model_name}.json"
-    with open(detailed_output_path, 'w') as f:
-        json.dump(combined_results, f, indent=2)
+    # Add reference type marker in the output files
+    detailed_results = {
+        "reference_type": args.reference_type,
+        "results": combined_results
+    }
+    aggregated_results = {
+        "reference_type": args.reference_type,
+        "metrics": aggregated_metrics
+    }
     
-    # Save aggregated results
-    aggregated_output_path = output_dir / f"bertscore_aggregated_{model_name}.json"
+    # Tag output file names with the reference type
+    detailed_output_path = output_dir / f"bertscore_detailed_{model_name}_{args.reference_type}.json"
+    with open(detailed_output_path, 'w') as f:
+        json.dump(detailed_results, f, indent=2)
+    
+    aggregated_output_path = output_dir / f"bertscore_aggregated_{model_name}_{args.reference_type}.json"
     with open(aggregated_output_path, 'w') as f:
-        json.dump(aggregated_metrics, f, indent=2)
+        json.dump(aggregated_results, f, indent=2)
     
     logging.info(f"Successfully saved detailed results to {detailed_output_path}")
     logging.info(f"Successfully saved aggregated results to {aggregated_output_path}")
     
-    # Print overall performance
     overall_f1 = aggregated_metrics["overall"]["f1"]
     logging.info(f"Overall BERTScore F1: {overall_f1:.4f}")
     
-    # Print model performance
     logging.info("BERTScore F1 by model:")
     for model, metrics in aggregated_metrics["by_model"].items():
         model_name_display = model if model else "base"
