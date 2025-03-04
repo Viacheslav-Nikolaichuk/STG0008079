@@ -131,6 +131,10 @@ dmypy.json
 # Config
 config.json
 
+# Tools
+scripts/questions.py
+Results/questions.json
+
 # DeepEval
 .deepeval_telemetry.txt
 .deepeval-cache.json

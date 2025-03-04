@@ -112,10 +112,6 @@
         "model_description": "A a framework for guiding how organizations plan, implement, and support changes. It focuses on preparing and supporting individuals, teams, and entire organizations through transitions, ensuring that changes are adopted smoothly and effectively, minimizing resistance, and maximizing the likelihood of long-term success."
     },
     {
-        "model_name": "",
-        "model_description": ""
-    },
-    {
         "model_name": "Status Quo Bias",
         "model_description": "Tendency to prefer current state of affairs due to familiarity and aversion to change"
     },
@@ -138,6 +134,10 @@
     {
         "model_name": "Patient Safety Focus",
         "model_description": "Approach prioritizing the well-being and protection of patients above all else. This model emphasizes identifying, mitigating, and preventing risks or potential harms within healthcare operations. It involves careful evaluation of clinical procedures, robust staff training, and clear protocols to reduce preventable errors. By maintaining strict standards for patient care and continuously monitoring safety metrics, organizations can ensure a higher level of trust, better patient outcomes, and a more resilient healthcare environment."
+    },
+    {
+        "model_name": "First Principles",
+        "model_description": "A foundational approach to problem-solving that breaks down complex issues into basic elements or fundamental truths. By deconstructing challenges to their core components, this model enables innovative thinking, creative solutions, and a deeper understanding of underlying principles. It encourages critical analysis, independent reasoning, and the development of original ideas, helping individuals and organizations tackle problems from a fresh perspective and drive meaningful change."
     },
     {
         "model_name": "",

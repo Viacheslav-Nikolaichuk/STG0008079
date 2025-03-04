@@ -87,31 +87,6 @@
             "questions": [
                 {
                     "id": "1",
-                    "question": "Should they fully automate diagnostics?",
-                    "question-type": "normative",
-                    "difficulty": "easy",
-                    "ground_truth": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Machines making more mistakes could literally kill people"
-                        },
-                        {
-                            "model": "Precautionary Principle",
-                            "answer": "Avoid irreversible harm by maintaining human oversight until parity is proven"
-                        },
-                        {
-                            "model": "Marginal Value of Accuracy",
-                            "answer": "Each percentage point gain prevents hundreds of misdiagnoses annually"
-                        },
-                        {
-                            "model": "Precautionary Principle + Marginal Value of Accuracy",
-                            "answer": "Hybrid system where AI triages cases but humans verify high-risk decisions"
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
                     "question": "What risks does full automation pose?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -132,31 +107,6 @@
                         {
                             "model": "Type I/II Errors + Confusion Matrix",
                             "answer": "Understanding AI's diagnostic performance in terms of misdiagnosis risks"
-                        }
-                    ]
-                },
-                {
-                    "id": "3",
-                    "question": "How can they optimize AI integration?",
-                    "question-type": "prescriptive",
-                    "difficulty": "easy",
-                    "ground_truth": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Start with low-risk cases and expand as accuracy improves"
-                        },
-                        {
-                            "model": "Complementarity",
-                            "answer": "AI triages routine cases, freeing radiologists for complex diagnoses"
-                        },
-                        {
-                            "model": "Swiss Cheese Model",
-                            "answer": "Layered defenses: AI flags cases, radiologists confirm, and system learns from feedback"
-                        },
-                        {
-                            "model": "Complementarity + Swiss Cheese Model",
-                            "answer": "Hybrid system where AI and humans reinforce each other's strengths"
                         }
                     ]
                 }
@@ -343,7 +293,7 @@
                 },
                 {
                     "id": "8",
-                    "question": "Another player claims they ‘always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
+                    "question": "Another player claims they 'always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground truth": "No. Stopping at a certain time does not change the probability of each bet. Over many plays, the house edge remains in effect and leads to a negative expectation, regardless of ‘quitting strategies.'",
@@ -354,7 +304,7 @@
                         },
                         {
                             "model": "Bayesian Updating",
-                            "answer": "Encountering a claim of a ‘winning strategy' is weak evidence in light of the overwhelming data on house edges, so I don't shift my belief significantly."
+                            "answer": "Encountering a claim of a 'winning strategy' is weak evidence in light of the overwhelming data on house edges, so I don't shift my belief significantly."
                         },
                         {
                             "model": "Expected Value",
@@ -521,31 +471,6 @@
                             "answer": "Net benefit only if daily use exceeds 2.1 miles/user (current avg: 1.8 miles)"
                         }
                     ]
-                },
-                {
-                    "id": "5",
-                    "question": "How to sustainably integrate scooters long-term?",
-                    "question-type": "prescriptive",
-                    "difficulty": "hard",
-                    "ground truth": "Integrate via dedicated parking hubs, adaptive regulations, and partnerships with public transit systems.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Dedicate parking/storage hubs near transit stations"
-                        },
-                        {
-                            "model": "Induced Demand",
-                            "answer": "More lanes → more riders → need better infrastructure → cycle continues"
-                        },
-                        {
-                            "model": "Circular Economy",
-                            "answer": "Lease rather than sell scooters to ensure proper recycling/refurbishing"
-                        },
-                        {
-                            "model": "Induced Demand + Circular Economy",
-                            "answer": "Infrastructure investments tied to manufacturer take-back programs"
-                        }
-                    ]
                 }
             ]
         },
@@ -575,31 +500,6 @@
                         {
                             "model": "Present Bias + Risk Assessment",
                             "answer": "While we're drawn to quick wins, data shows high failure probability - implement a 3-month pilot with <10% of staff to contain risk"
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
-                    "question": "How should they measure policy effectiveness?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground truth": "Track both output metrics (e.g., code commits) and well-being indicators (e.g., burnout surveys)",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Compare productivity numbers before/after while checking if people seem happier"
-                        },
-                        {
-                            "model": "ROI Analysis",
-                            "answer": "Calculate: (Value of retained talent + hiring cost savings) / (Potential revenue loss from 5% slower delivery)"
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Map how design team's 4-day schedule creates bottlenecks for QA engineers working 5 days"
-                        },
-                        {
-                            "model": "ROI Analysis + Systems Thinking",
-                            "answer": "If financial ROI is positive BUT creates cross-team delays, implement department-specific schedules with handoff buffers"
                         }
                     ]
                 }
@@ -686,7 +586,7 @@
                 },
                 {
                     "id": "4",
-                    "question": "How should they address data security concerns—internally or via an external vendor?",
+                    "question": "How should they address data security concerns, internally or via an external vendor?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
                     "ground truth": "A hybrid approach balancing cost, in-house expertise, and specialized external knowledge can mitigate data security risks effectively",
@@ -910,31 +810,6 @@
             "questions": [
                 {
                     "id": "1",
-                    "question": "Should the hospital expand telemedicine to cover all outpatient consultations immediately?",
-                    "question-type": "normative",
-                    "difficulty": "medium",
-                    "ground truth": "Begin by piloting telemedicine within specific outpatient services to assess outcomes and patient satisfaction before a full rollout.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Launch a limited trial for telemedicine in a few departments to gather data, then scale gradually."
-                        },
-                        {
-                            "model": "Patient Safety Focus",
-                            "answer": "A cautious introduction minimizes clinical risk by allowing staff to refine telemedicine protocols and ensure care standards."
-                        },
-                        {
-                            "model": "Cost-Benefit Analysis",
-                            "answer": "A phased approach keeps initial investment lower and validates whether telemedicine produces sufficient ROI."
-                        },
-                        {
-                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
-                            "answer": "Starting small addresses safety concerns while providing cost data, paving the way for a well-informed expansion."
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
                     "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -959,7 +834,7 @@
                     ]
                 },
                 {
-                    "id": "3",
+                    "id": "2",
                     "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
