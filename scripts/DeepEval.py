@@ -291,11 +291,11 @@ def main():
     }
     
     # Tag output file names with the reference type
-    detailed_output_path = output_dir / f"deepeval_detailed_{model_name}_{args.reference_type}.json"
+    detailed_output_path = output_dir / f"deepeval_detailed_{model_name}_{args.reference_type}.json".replace(':', '-')
     with open(detailed_output_path, 'w') as f:
         json.dump(detailed_results, f, indent=2)
     
-    aggregated_output_path = output_dir / f"deepeval_aggregated_{model_name}_{args.reference_type}.json"
+    aggregated_output_path = output_dir / f"deepeval_aggregated_{model_name}_{args.reference_type}.json".replace(':', '-')
     with open(aggregated_output_path, 'w') as f:
         json.dump(aggregated_results, f, indent=2)
     

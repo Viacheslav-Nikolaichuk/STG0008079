@@ -13,19 +13,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it exceeds recommended spending limits and may lead to debt and financial strain."
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it significantly exceeds recommended spending limits and could lead to financial strain."
                         },
                         {
                             "model": "Affordability Heuristic",
-                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it exceeds the typical affordability threshold of 15% of annual income for car expenses, potentially leading to financial strain."
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it greatly exceeds typical affordability guidelines, potentially leading to unsustainable debt and financial strain."
                         },
                         {
                             "model": "Social Signaling",
-                            "answer": "Purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it prioritizes social signaling over practical financial stability and could lead to significant debt or financial strain."
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it prioritizes social signaling over practical financial stability, likely leading to unsustainable debt and hindering long-term career growth."
                         },
                         {
                             "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it relies on the affordability heuristic that underestimates long-term financial implications while overvaluing social signaling benefits that may not yield sufficient career returns."
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it disregards affordability principles and risks overextending financially while relying on social signaling that may not yield the expected career benefits."
                         }
                     ]
                 },
@@ -38,19 +38,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "The graduate's reasoning may be influenced by cognitive biases such as the optimism bias, a desire for social validation, and the belief in the halo effect, where they assume that owning an expensive car will enhance their professional image and opportunities."
+                            "answer": "The graduate's reasoning is likely influenced by social comparison, status anxiety, and the desire for validation, which can lead to impulsive financial decisions aimed at enhancing perceived social standing and professional prospects."
                         },
                         {
                             "model": "Halo Effect",
-                            "answer": "The graduate's reasoning is influenced by the Halo Effect, where the perceived positive attributes of owning a luxury car-such as success and status-may lead them to believe it will enhance their overall appeal and career prospects, despite financial impracticality."
+                            "answer": "The graduate's reasoning is influenced by the halo effect, where the positive perception of owning a luxury car is believed to enhance their overall image and credibility, leading to assumed increased career opportunities despite financial imprudence."
                         },
                         {
                             "model": "Present Bias",
-                            "answer": "The recent graduate's reasoning is driven by present bias, which prioritizes immediate gratification and the perceived social status from owning a luxury car over long-term financial stability and career advancement."
+                            "answer": "The graduate's reasoning is driven by present bias, leading them to prioritize immediate gratification and the perceived status boost from the luxury car over long-term financial stability and the potential career benefits that may not materialize immediately."
                         },
                         {
                             "model": "Halo Effect + Present Bias",
-                            "answer": "The graduate's reasoning is influenced by the Halo Effect, where the perceived prestige of the luxury car enhances their overall appeal and perceived competence, coupled with Present Bias, which prioritizes immediate gratification and status over long-term financial stability."
+                            "answer": "The graduate's reasoning is influenced by the Halo Effect, where they believe that owning a luxury car will enhance their overall image and perceived competence, combined with Present Bias, which leads them to prioritize immediate gratification and the short-term benefits of status over the long-term financial implications."
                         }
                     ]
                 },
@@ -63,19 +63,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "They should critically assess their financial situation, considering long-term implications and potential career benefits, while prioritizing a budget that aligns with their income and expenses."
+                            "answer": "They should carefully evaluate their financial stability, consider the long-term implications of such a purchase on their budget and savings, and explore more affordable options that align with their career goals without compromising their financial health."
                         },
                         {
                             "model": "Total Cost of Ownership",
-                            "answer": "The graduate should conduct a Total Cost of Ownership analysis, factoring in not just the purchase price but also insurance, maintenance, fuel, and depreciation, to determine if the long-term financial implications align with their current salary and career goals."
+                            "answer": "The graduate should thoroughly evaluate the total cost of ownership-including insurance, maintenance, fuel, and depreciation-against their income and financial goals to determine if the luxury car is a sustainable investment for enhancing career opportunities."
                         },
                         {
                             "model": "ROI Analysis",
-                            "answer": "The graduate should conduct a detailed ROI analysis by assessing the potential increase in career opportunities and income against the financial burden of purchasing the luxury car, including loan payments, insurance, and maintenance, to determine if the investment aligns with their long-term financial goals and career advancement."
+                            "answer": "The graduate should calculate the potential return on investment by assessing the likelihood of increased earnings and career opportunities against the financial burden of the car payment, insurance, and maintenance costs, ultimately determining if these outweigh the benefits within a realistic timeframe."
                         },
                         {
                             "model": "Total Cost of Ownership + ROI Analysis",
-                            "answer": "The graduate should conduct a Total Cost of Ownership analysis, including purchase price, insurance, maintenance, and depreciation, against the potential ROI from enhanced career opportunities to determine if the financial burden is justified by the expected benefits."
+                            "answer": "The graduate should conduct a Total Cost of Ownership (TCO) analysis-including depreciation, insurance, maintenance, and fuel costs-against potential career benefits and income growth to evaluate the return on investment (ROI) of purchasing the luxury car, ensuring that the long-term financial implications do not outweigh the perceived short-term advantages."
                         }
                     ]
                 }
@@ -94,19 +94,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "No, they should not fully automate diagnostics due to the significant difference in accuracy, which suggests that human oversight remains crucial for optimal patient care."
+                            "answer": "No, they should not fully automate diagnostics, as the higher accuracy of human radiologists suggests that human oversight is crucial for ensuring optimal patient outcomes."
                         },
                         {
                             "model": "Precautionary Principle",
-                            "answer": "The hospital should refrain from fully automating diagnostics due to the significant accuracy gap and the potential risks to patient safety, emphasizing the need for a cautious, balanced approach that integrates AI as a supportive tool rather than a complete replacement."
+                            "answer": "No, they should not fully automate diagnostics due to the Precautionary Principle, as the potential risks and ethical implications of relying solely on AI outweigh the marginal accuracy benefits."
                         },
                         {
                             "model": "Marginal Value of Accuracy",
-                            "answer": "They should consider maintaining human radiologists alongside AI, as the marginal value of the additional 6% accuracy in human performance may significantly impact patient outcomes and trust in diagnostics."
+                            "answer": "The hospital should carefully weigh the marginal value of the additional 6% accuracy provided by human radiologists against the potential risks, costs, and implications of fully automating diagnostics, as even small differences in accuracy can significantly impact patient outcomes."
                         },
                         {
                             "model": "Precautionary Principle + Marginal Value of Accuracy",
-                            "answer": "Given the Precautionary Principle and the Marginal Value of Accuracy, the hospital should not fully automate diagnostics as the small difference in accuracy could have significant implications for patient outcomes and trust in healthcare."
+                            "answer": "Given the Precautionary Principle and the Marginal Value of Accuracy, the hospital should refrain from fully automating diagnostics, as the 6% discrepancy in accuracy could significantly impact patient outcomes and highlights the value of human expertise in complex medical decisions."
                         }
                     ]
                 },
@@ -119,19 +119,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Full automation in radiology poses risks such as reduced diagnostic accuracy in complex cases, loss of human oversight, potential ethical issues in accountability, and diminished patient trust in AI-driven healthcare."
+                            "answer": "Full automation in radiology could lead to reduced diagnostic oversight, potential misinterpretation of nuanced cases, and diminished accountability, ultimately compromising patient safety and care quality."
                         },
                         {
                             "model": "Type I/II Errors",
-                            "answer": "Full automation could increase Type I errors (false positives) that lead to unnecessary treatments and anxiety, and Type II errors (false negatives) that result in missed diagnoses, potentially compromising patient safety and outcomes."
+                            "answer": "Full automation poses the risk of increased Type I errors (false negatives), where AI might miss critical diagnoses, and Type II errors (false positives), leading to unnecessary treatments, both of which could compromise patient safety and trust in medical care."
                         },
                         {
                             "model": "Confusion Matrix",
-                            "answer": "Full automation could lead to a higher rate of false negatives and false positives, as the 6% accuracy gap may result in missed diagnoses or unnecessary treatments, compromising patient safety and trust in the healthcare system."
+                            "answer": "Full automation poses risks such as misclassifying a significant number of cases (e.g., false negatives or positives), which could lead to critical diagnostic errors, patient harm, and a lack of accountability in clinical decision-making."
                         },
                         {
                             "model": "Type I/II Errors + Confusion Matrix",
-                            "answer": "Full automation in radiology risks increasing Type I errors (false negatives) that could lead to missed diagnoses, and Type II errors (false positives) that may cause unnecessary treatments, ultimately compromising patient safety and trust in medical decisions."
+                            "answer": "Full automation in radiology risks increasing Type I errors (false negatives) that could lead to missed diagnoses and subsequent patient harm, while also potentially heightening Type II errors (false positives) that may result in unnecessary treatments or anxiety, ultimately compromising patient care quality and safety compared to human radiologists."
                         }
                     ]
                 },
@@ -144,19 +144,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "The hospital can optimize AI integration by using it as a complementary tool to enhance human radiologist efficiency, allowing for collaborative decision-making that leverages AI's speed and consistency while maintaining human oversight for complex cases."
+                            "answer": "The hospital can optimize AI integration by using it as a supportive tool for radiologists, enhancing their diagnostic capabilities while maintaining a collaborative workflow that leverages both AI efficiency and human expertise."
                         },
                         {
                             "model": "Complementarity",
-                            "answer": "The hospital can optimize AI integration by using AI to assist radiologists by handling routine cases and flagging abnormalities for human review, thereby enhancing overall diagnostic efficiency and accuracy."
+                            "answer": "The hospital can optimize AI integration by utilizing AI to assist human radiologists, enhancing efficiency and diagnostic accuracy while allowing radiologists to focus on complex cases and patient care."
                         },
                         {
                             "model": "Swiss Cheese Model",
-                            "answer": "To optimize AI integration in radiology, the hospital should apply the Swiss Cheese Model by identifying and addressing potential weaknesses in AI systems while reinforcing human oversight, ensuring that the AI acts as a complementary tool rather than a replacement, thus creating multiple layers of safety and accuracy in diagnostics."
+                            "answer": "To optimize AI integration in radiology, the hospital should implement the Swiss Cheese Model by ensuring robust layers of human oversight, continuous training for radiologists to interpret AI findings, and a feedback loop for improving AI algorithms, thus minimizing system vulnerabilities and enhancing overall diagnostic accuracy."
                         },
                         {
                             "model": "Complementarity + Swiss Cheese Model",
-                            "answer": "The hospital can optimize AI integration by using the Swiss Cheese Model to identify and address potential gaps in AI diagnostics, ensuring that human radiologists complement AI's strengths by focusing on complex cases and decision-making, thus enhancing overall diagnostic accuracy and patient safety."
+                            "answer": "The hospital can optimize AI integration by employing the Swiss Cheese Model to identify and address potential failure points in AI diagnostics while leveraging the complementarity of human radiologists to fill gaps in accuracy and judgment, ultimately creating a robust system where AI assists rather than replaces human expertise."
                         }
                     ]
                 }

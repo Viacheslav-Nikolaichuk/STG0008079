@@ -305,7 +305,7 @@ def process_dataset(input_file, output_dir, selected_models, use_descriptions=Fa
 
         # Include temperature in the filename
         temp_suffix = f"_temp{temperature}".replace('.', '_')
-        output_file = output_directory / f"{model_name}{temp_suffix}_responses.json"
+        output_file = output_directory / f"{model_name}{temp_suffix}_responses.json".replace(':', '-')
         
         with open(output_file, 'w') as f:
             json.dump({"scenarios": output_scenarios}, f, indent=4)
