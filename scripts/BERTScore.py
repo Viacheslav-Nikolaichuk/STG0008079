@@ -102,7 +102,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
     
     return predictions, references, metadata, index_mapping
 
-def compute_bertscore(predictions, references, batch_size=8):
+def compute_bertscore(predictions, references, batch_size=12):
     """Compute BERTScore for prediction-reference pairs"""
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logging.info(f"Using device: {device}")
@@ -211,7 +211,7 @@ def main():
     parser.add_argument('--dataset', default='data/TempQuestions.json', help='Path to original dataset with ground truth')
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
     parser.add_argument('--output-dir', default='Results', help='Output directory for results')
-    parser.add_argument('--batch-size', type=int, default=8, help='Batch size for BERTScore computation')
+    parser.add_argument('--batch-size', type=int, default=12, help='Batch size for BERTScore computation')
     parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
                         help='Reference type to compare against (ground_truth or model_answer)')
     args = parser.parse_args()
