@@ -3,6 +3,7 @@ import requests
 import logging
 import argparse
 import re
+import time
 from pathlib import Path
 from openai import OpenAI
 
@@ -135,6 +136,16 @@ class GeminiAPI:
         self.api_url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent"
         self.conversation = []
         self.temperature = temperature
+        self.request_count = 0
+        self.last_reset_time = time.time()
+
+        # Set rate limits based on model
+        if "gemini-2.0-flash-thinking" in self.model_name:
+            self.rate_limit = 10 
+        elif "gemini-2.0-pro" in self.model_name:
+            self.rate_limit = 5 
+        else:
+            self.rate_limit = 1000
 
     def start_conversation(self):
         self.conversation = [{
@@ -145,6 +156,9 @@ class GeminiAPI:
         }]
 
     def generate_response(self, prompt: str) -> str:
+        # Check if we need to wait due to rate limiting
+        self._manage_rate_limit()
+        
         self.conversation.append({"role": "user", "parts": [{"text": prompt}]})
         
         try:
@@ -160,10 +174,36 @@ class GeminiAPI:
             )
             response.raise_for_status()
             content = response.json()["candidates"][0]["content"]["parts"][0]["text"]
+            self.request_count += 1
             return clean_response(content)
         except Exception as e:
             logging.error(f"Gemini error: {str(e)}")
+            
+            # If we get a 429 error (too many requests), wait and retry
+            if hasattr(e, 'response') and e.response.status_code == 429:
+                logging.info(f"Rate limit exceeded for {self.model_name}. Waiting 60 seconds.")
+                time.sleep(60)
+                return self.generate_response(prompt)
+                
             return "Error"
+    
+    def _manage_rate_limit(self):
+        """Manage the rate limit by checking if we need to wait"""
+        current_time = time.time()
+        elapsed_time = current_time - self.last_reset_time
+        
+        if elapsed_time >= 60:
+            self.request_count = 0
+            self.last_reset_time = current_time
+            return
+        
+        if self.request_count >= self.rate_limit:
+            wait_time = 60 - elapsed_time
+            if wait_time > 0:
+                logging.info(f"Rate limit reached for {self.model_name}. Waiting {wait_time:.2f} seconds.")
+                time.sleep(wait_time)
+                self.request_count = 0
+                self.last_reset_time = time.time()
 
 def clean_response(response: str) -> str:
     cleaned = re.sub(r'<think>.*?</think>', '', response, flags=re.DOTALL)

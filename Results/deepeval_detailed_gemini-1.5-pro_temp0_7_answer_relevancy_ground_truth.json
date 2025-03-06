@@ -1,0 +1,368 @@
+{
+  "reference_type": "ground_truth",
+  "metrics_used": [
+    "answer_relevancy"
+  ],
+  "results": [
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly and fully addresses the financial implications of the graduate's decision without including any irrelevant information."
+      },
+      "scenario_id": "1",
+      "question_id": "1",
+      "model": "",
+      "question_type": "evaluative",
+      "difficulty": "easy",
+      "question": "Is this a financially sound decision?",
+      "reference": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+      "answer": "No, financing a $70,000 car on a $45,000 salary is not financially sound and prioritizes perceived image over practical financial stability."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no irrelevant statements present in the actual output."
+      },
+      "scenario_id": "1",
+      "question_id": "1",
+      "model": "Affordability Heuristic",
+      "question_type": "evaluative",
+      "difficulty": "easy",
+      "question": "Is this a financially sound decision?",
+      "reference": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+      "answer": "No, spending nearly double one's annual income on a depreciating asset like a car, based on a speculative return, is financially unsound."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question regarding the financial soundness of the decision without including any irrelevant statements."
+      },
+      "scenario_id": "1",
+      "question_id": "1",
+      "model": "Social Signaling",
+      "question_type": "evaluative",
+      "difficulty": "easy",
+      "question": "Is this a financially sound decision?",
+      "reference": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+      "answer": "No, financing a $70,000 car on a $45,000 salary is financially unsound and prioritizes perceived status over long-term financial stability."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the financial soundness of buying a luxury car on a limited income without any irrelevant statements present."
+      },
+      "scenario_id": "1",
+      "question_id": "1",
+      "model": "Affordability Heuristic + Social Signaling",
+      "question_type": "evaluative",
+      "difficulty": "easy",
+      "question": "Is this a financially sound decision?",
+      "reference": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+      "answer": "No, prioritizing social signaling over affordability heuristics by purchasing a car significantly exceeding one's income is financially unsound and likely counterproductive to long-term career success."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addressed the question about psychological factors without including any irrelevant statements. The response effectively analyzed the reasoning behind the graduate's desire for a luxury car, showing a clear understanding of the psychological motivations involved."
+      },
+      "scenario_id": "1",
+      "question_id": "2",
+      "model": "",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "What psychological factors drive this reasoning?",
+      "reference": "Overestimating appearance's impact while underestimating financial risks",
+      "answer": "Status-seeking behavior and the illusion of upward mobility through material possessions drive the graduate's flawed reasoning."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there were no irrelevant statements in the actual output. The response directly addressed the financial implications of the car purchase, providing clear and relevant insights."
+      },
+      "scenario_id": "1",
+      "question_id": "2",
+      "model": "Halo Effect",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "What psychological factors drive this reasoning?",
+      "reference": "Overestimating appearance's impact while underestimating financial risks",
+      "answer": "The graduate's reasoning is flawed due to the halo effect, where the perceived positive qualities of the car (status, luxury) are illogically transferred to their own perceived image, creating an inaccurate belief that owning it will enhance their career prospects."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the graduate's decision-making process regarding a luxury car purchase. There are no irrelevant statements, which keeps the guidance focused and applicable."
+      },
+      "scenario_id": "1",
+      "question_id": "2",
+      "model": "Present Bias",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "What psychological factors drive this reasoning?",
+      "reference": "Overestimating appearance's impact while underestimating financial risks",
+      "answer": "Present bias prioritizes immediate gratification (the status symbol of the car) over long-term financial stability, discounting the future negative consequences of a significant debt burden."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no irrelevant statements present in the output, indicating a perfect alignment with the question regarding psychological factors."
+      },
+      "scenario_id": "1",
+      "question_id": "2",
+      "model": "Halo Effect + Present Bias",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "What psychological factors drive this reasoning?",
+      "reference": "Overestimating appearance's impact while underestimating financial risks",
+      "answer": "The graduate's reasoning is driven by the halo effect, assuming the car's prestige will positively influence others' perceptions of them, combined with present bias, prioritizing the immediate gratification of owning the car over the long-term financial consequences."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addressed the question with relevant advice tailored to the graduate's situation. There were no irrelevant statements, demonstrating a clear focus on the decision-making process."
+      },
+      "scenario_id": "1",
+      "question_id": "3",
+      "model": "",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How should they approach this decision?",
+      "reference": "Compare total ownership costs against proven career advancement methods",
+      "answer": "Reconsider; a $70,000 car represents a significant financial burden incongruent with their current income and unlikely to yield a comparable return in career advancement."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response effectively addresses the question regarding the graduate's decision-making process without introducing irrelevant information."
+      },
+      "scenario_id": "1",
+      "question_id": "3",
+      "model": "Total Cost of Ownership",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How should they approach this decision?",
+      "reference": "Compare total ownership costs against proven career advancement methods",
+      "answer": "They should calculate the total cost of ownership, including depreciation, insurance, maintenance, and interest, and compare that to their budget and the potential return on investment from enhanced career prospects, realistically assessing the likelihood of such returns."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no irrelevant statements in the response, indicating a perfectly relevant answer to the user's question about their decision-making process regarding a luxury car purchase."
+      },
+      "scenario_id": "1",
+      "question_id": "3",
+      "model": "ROI Analysis",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How should they approach this decision?",
+      "reference": "Compare total ownership costs against proven career advancement methods",
+      "answer": "They should calculate the total cost of ownership (including loan interest, insurance, maintenance) and compare the potential career return (quantified if possible) against the significant financial strain and negative ROI it likely presents."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.8,
+        "passed": true,
+        "reason": "The score is 0.80 because the output fails to explain the psychological factors driving the reasoning behind the graduate's desire for a luxury car, which is essential to fully address the question asked."
+      },
+      "scenario_id": "1",
+      "question_id": "3",
+      "model": "Total Cost of Ownership + ROI Analysis",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How should they approach this decision?",
+      "reference": "Compare total ownership costs against proven career advancement methods",
+      "answer": "A comprehensive total cost of ownership analysis, including depreciation, insurance, and maintenance, alongside a realistic ROI assessment of the car's impact on career advancement, is crucial before making such a financially significant purchase."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question about automating diagnostics without including any irrelevant information. It provides a clear perspective on the implications of using AI versus human radiologists, justifying the current score."
+      },
+      "scenario_id": "2",
+      "question_id": "1",
+      "model": "",
+      "question_type": "normative",
+      "difficulty": "easy",
+      "question": "Should they fully automate diagnostics?",
+      "reference": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
+      "answer": "Not yet; prioritizing the higher accuracy of human radiologists outweighs the potential cost savings of AI, especially in a high-stakes field like diagnostics."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no irrelevant statements in the output, demonstrating a perfect focus on how to optimize AI integration in the context provided."
+      },
+      "scenario_id": "2",
+      "question_id": "1",
+      "model": "Precautionary Principle",
+      "question_type": "normative",
+      "difficulty": "easy",
+      "question": "Should they fully automate diagnostics?",
+      "reference": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
+      "answer": "No, prioritizing patient safety under the Precautionary Principle necessitates retaining human oversight given the potential for severe consequences from even a small increase in diagnostic errors."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the output directly addressed the question about fully automating diagnostics without including any irrelevant statements. The clear and focused response provided valuable insight relevant to the context."
+      },
+      "scenario_id": "2",
+      "question_id": "1",
+      "model": "Marginal Value of Accuracy",
+      "question_type": "normative",
+      "difficulty": "easy",
+      "question": "Should they fully automate diagnostics?",
+      "reference": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
+      "answer": "No, because the marginal value of the remaining 6% accuracy likely outweighs the cost savings of full automation, especially given the potential impact on patient safety and public trust."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.75,
+        "passed": true,
+        "reason": "The score is 0.75 because the output included statements irrelevant to optimizing AI integration, like the mention of quality control by human radiologists, which distracts from actionable strategies. The score reflects a strong relevance overall, but the presence of unnecessary details limit its potential."
+      },
+      "scenario_id": "2",
+      "question_id": "1",
+      "model": "Precautionary Principle + Marginal Value of Accuracy",
+      "question_type": "normative",
+      "difficulty": "easy",
+      "question": "Should they fully automate diagnostics?",
+      "reference": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
+      "answer": "No, the marginal value of human accuracy outweighs the risks associated with premature automation given the precautionary principle's emphasis on avoiding potential harm from uncertain technologies."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addressed the risks of full automation in radiology without any irrelevant statements. This demonstrates a clear alignment with the question asked, ensuring optimal relevancy."
+      },
+      "scenario_id": "2",
+      "question_id": "2",
+      "model": "",
+      "question_type": "descriptive",
+      "difficulty": "easy",
+      "question": "What risks does full automation pose?",
+      "reference": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+      "answer": "Full automation risks a 6% increase in misdiagnosis, potentially impacting patient safety and increasing liability despite cost savings."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there were no irrelevant statements made in the actual output. The response addressed the question directly and provided relevant information on the topic of automating diagnostics."
+      },
+      "scenario_id": "2",
+      "question_id": "2",
+      "model": "Type I/II Errors",
+      "question_type": "descriptive",
+      "difficulty": "easy",
+      "question": "What risks does full automation pose?",
+      "reference": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+      "answer": "Full automation risks increased Type II errors (false negatives)-missing actual diseases-which, in a healthcare context, poses a greater threat to patient safety than the marginally higher Type I error (false positives) rate of human radiologists."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because the output was entirely relevant and did not include any irrelevant statements. This reflects a strong alignment with the input question regarding the automation of diagnostics."
+      },
+      "scenario_id": "2",
+      "question_id": "2",
+      "model": "Confusion Matrix",
+      "question_type": "descriptive",
+      "difficulty": "easy",
+      "question": "What risks does full automation pose?",
+      "reference": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+      "answer": "Focusing solely on slightly higher human accuracy ignores the potential for significantly increased false negatives from AI, leading to missed diagnoses and potentially life-threatening consequences for patients."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there were no irrelevant statements in the actual output, indicating that all content directly addressed the context of AI integration in diagnostics. This high score reflects a clear focus on the topic and a lack of distractions."
+      },
+      "scenario_id": "2",
+      "question_id": "2",
+      "model": "Type I/II Errors + Confusion Matrix",
+      "question_type": "descriptive",
+      "difficulty": "easy",
+      "question": "What risks does full automation pose?",
+      "reference": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+      "answer": "Full automation risks increased false negatives (missing actual diseases), potentially harming patients, despite fewer false positives (incorrect diagnoses), which primarily impact resource allocation."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.6,
+        "passed": false,
+        "reason": "The score is 0.60 because there are pertinent mentions of the diagnostics topic, but irrelevant statements about false positives and resource allocation distract from the specific risks posed by full automation. These irrelevant points prevent the score from being higher, as they fail to directly address the main question regarding patient and diagnostic risks."
+      },
+      "scenario_id": "2",
+      "question_id": "3",
+      "model": "",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How can they optimize AI integration?",
+      "reference": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
+      "answer": "Focus on augmenting radiologists' abilities with AI for preliminary screenings and complex case reviews, rather than full replacement, to leverage both speed and accuracy."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.75,
+        "passed": true,
+        "reason": "The score is 0.75 because while the response provides valuable insights on automation, it includes irrelevant statements about cost savings that detract from addressing the primary risks of patient safety and misdiagnosis associated with full automation."
+      },
+      "scenario_id": "2",
+      "question_id": "3",
+      "model": "Complementarity",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How can they optimize AI integration?",
+      "reference": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
+      "answer": "Leverage AI's speed and availability for preliminary screenings and triage, reserving human radiologists for complex cases and quality control to maximize the benefits of both."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.6,
+        "passed": false,
+        "reason": "The score is 0.60 because while the output provided some relevant insights into the risks of full automation, several statements focused more on explaining concepts and human error rates, rather than directly addressing the specific risks associated with replacing human radiologists. Thus, the score reflects a moderate level of relevance but falls short due to these irrelevant deviations."
+      },
+      "scenario_id": "2",
+      "question_id": "3",
+      "model": "Swiss Cheese Model",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How can they optimize AI integration?",
+      "reference": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
+      "answer": "Layer AI diagnostics with human oversight to catch errors that slip through the holes of each system, creating a more robust and reliable diagnostic process."
+    },
+    {
+      "answer_relevancy": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there were no irrelevant statements in the output, which means the response was fully focused on addressing the question about optimizing AI integration."
+      },
+      "scenario_id": "2",
+      "question_id": "3",
+      "model": "Complementarity + Swiss Cheese Model",
+      "question_type": "prescriptive",
+      "difficulty": "easy",
+      "question": "How can they optimize AI integration?",
+      "reference": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
+      "answer": "Layer AI diagnostics with human oversight to leverage AI's speed and efficiency while mitigating its lower accuracy, creating a more robust and reliable diagnostic process."
+    }
+  ]
+}
