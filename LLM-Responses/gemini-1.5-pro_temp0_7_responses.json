@@ -1,0 +1,166 @@
+{
+    "scenarios": [
+        {
+            "id": "1",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is this a financially sound decision?",
+                    "question-type": "evaluative",
+                    "difficulty": "easy",
+                    "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "No, financing a $70,000 car on a $45,000 salary is not financially sound and prioritizes perceived image over practical financial stability."
+                        },
+                        {
+                            "model": "Affordability Heuristic",
+                            "answer": "No, spending nearly double one's annual income on a depreciating asset like a car, based on a speculative return, is financially unsound."
+                        },
+                        {
+                            "model": "Social Signaling",
+                            "answer": "No, financing a $70,000 car on a $45,000 salary is financially unsound and prioritizes perceived status over long-term financial stability."
+                        },
+                        {
+                            "model": "Affordability Heuristic + Social Signaling",
+                            "answer": "No, prioritizing social signaling over affordability heuristics by purchasing a car significantly exceeding one's income is financially unsound and likely counterproductive to long-term career success."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What psychological factors drive this reasoning?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Status-seeking behavior and the illusion of upward mobility through material possessions drive the graduate's flawed reasoning."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "The graduate's reasoning is flawed due to the halo effect, where the perceived positive qualities of the car (status, luxury) are illogically transferred to their own perceived image, creating an inaccurate belief that owning it will enhance their career prospects."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "Present bias prioritizes immediate gratification (the status symbol of the car) over long-term financial stability, discounting the future negative consequences of a significant debt burden."
+                        },
+                        {
+                            "model": "Halo Effect + Present Bias",
+                            "answer": "The graduate's reasoning is driven by the halo effect, assuming the car's prestige will positively influence others' perceptions of them, combined with present bias, prioritizing the immediate gratification of owning the car over the long-term financial consequences."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should they approach this decision?",
+                    "question-type": "prescriptive",
+                    "difficulty": "easy",
+                    "ground_truth": "Compare total ownership costs against proven career advancement methods",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Reconsider; a $70,000 car represents a significant financial burden incongruent with their current income and unlikely to yield a comparable return in career advancement."
+                        },
+                        {
+                            "model": "Total Cost of Ownership",
+                            "answer": "They should calculate the total cost of ownership, including depreciation, insurance, maintenance, and interest, and compare that to their budget and the potential return on investment from enhanced career prospects, realistically assessing the likelihood of such returns."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "They should calculate the total cost of ownership (including loan interest, insurance, maintenance) and compare the potential career return (quantified if possible) against the significant financial strain and negative ROI it likely presents."
+                        },
+                        {
+                            "model": "Total Cost of Ownership + ROI Analysis",
+                            "answer": "A comprehensive total cost of ownership analysis, including depreciation, insurance, and maintenance, alongside a realistic ROI assessment of the car's impact on career advancement, is crucial before making such a financially significant purchase."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Should they fully automate diagnostics?",
+                    "question-type": "normative",
+                    "difficulty": "easy",
+                    "ground_truth": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Not yet; prioritizing the higher accuracy of human radiologists outweighs the potential cost savings of AI, especially in a high-stakes field like diagnostics."
+                        },
+                        {
+                            "model": "Precautionary Principle",
+                            "answer": "No, prioritizing patient safety under the Precautionary Principle necessitates retaining human oversight given the potential for severe consequences from even a small increase in diagnostic errors."
+                        },
+                        {
+                            "model": "Marginal Value of Accuracy",
+                            "answer": "No, because the marginal value of the remaining 6% accuracy likely outweighs the cost savings of full automation, especially given the potential impact on patient safety and public trust."
+                        },
+                        {
+                            "model": "Precautionary Principle + Marginal Value of Accuracy",
+                            "answer": "No, the marginal value of human accuracy outweighs the risks associated with premature automation given the precautionary principle's emphasis on avoiding potential harm from uncertain technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What risks does full automation pose?",
+                    "question-type": "descriptive",
+                    "difficulty": "easy",
+                    "ground_truth": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Full automation risks a 6% increase in misdiagnosis, potentially impacting patient safety and increasing liability despite cost savings."
+                        },
+                        {
+                            "model": "Type I/II Errors",
+                            "answer": "Full automation risks increased Type II errors (false negatives)-missing actual diseases-which, in a healthcare context, poses a greater threat to patient safety than the marginally higher Type I error (false positives) rate of human radiologists."
+                        },
+                        {
+                            "model": "Confusion Matrix",
+                            "answer": "Focusing solely on slightly higher human accuracy ignores the potential for significantly increased false negatives from AI, leading to missed diagnoses and potentially life-threatening consequences for patients."
+                        },
+                        {
+                            "model": "Type I/II Errors + Confusion Matrix",
+                            "answer": "Full automation risks increased false negatives (missing actual diseases), potentially harming patients, despite fewer false positives (incorrect diagnoses), which primarily impact resource allocation."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How can they optimize AI integration?",
+                    "question-type": "prescriptive",
+                    "difficulty": "easy",
+                    "ground_truth": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Focus on augmenting radiologists' abilities with AI for preliminary screenings and complex case reviews, rather than full replacement, to leverage both speed and accuracy."
+                        },
+                        {
+                            "model": "Complementarity",
+                            "answer": "Leverage AI's speed and availability for preliminary screenings and triage, reserving human radiologists for complex cases and quality control to maximize the benefits of both."
+                        },
+                        {
+                            "model": "Swiss Cheese Model",
+                            "answer": "Layer AI diagnostics with human oversight to catch errors that slip through the holes of each system, creating a more robust and reliable diagnostic process."
+                        },
+                        {
+                            "model": "Complementarity + Swiss Cheese Model",
+                            "answer": "Layer AI diagnostics with human oversight to leverage AI's speed and efficiency while mitigating its lower accuracy, creating a more robust and reliable diagnostic process."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
