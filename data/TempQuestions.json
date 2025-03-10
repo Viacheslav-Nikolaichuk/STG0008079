@@ -2,14 +2,14 @@
     "scenarios": [
         {
             "id": "1",
-            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
             "questions": [
                 {
                     "id": "1",
                     "question": "Is this a financially sound decision?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
-                    "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
                     "model_answers": [
                         {
                             "model": "",
@@ -17,15 +17,15 @@
                         },
                         {
                             "model": "Affordability Heuristic",
-                            "answer": "Monthly payments would exceed recommended 10-15% transportation budget allocation"
+                            "answer": "Based on the Affordability Heuristic, this is likely a financially unsound decision, as the perceived short-term boost is likely overvalued compared to the substantial and immediate financial burden it creates."
                         },
                         {
                             "model": "Social Signaling",
-                            "answer": "Professional success depends on skills/output, not conspicuous consumption"
+                            "answer": "No, this is financially unsound because the potential social signaling benefits of a luxury car are unlikely to outweigh the significant debt and financial burden it creates, potentially hindering long-term career advancement due to financial stress."
                         },
                         {
                             "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "Even if status mattered, financial instability from overspending would damage professional reputation more"
+                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Affordability Heuristic, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
                         }
                     ]
                 },
@@ -34,7 +34,7 @@
                     "question": "What psychological factors drive this reasoning?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
-                    "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
+                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
                     "model_answers": [
                         {
                             "model": "",
@@ -42,15 +42,15 @@
                         },
                         {
                             "model": "Halo Effect",
-                            "answer": "Assuming expensive possessions will positively bias others' overall perception"
+                            "answer": "The recent graduate is likely exhibiting the halo effect, irrationally believing the car's luxurious appearance will create an overwhelmingly positive perception, leading to career advancements unrelated to their actual skills or experience."
                         },
                         {
                             "model": "Present Bias",
-                            "answer": "Prioritizing immediate gratification over long-term financial security"
+                            "answer": "The recent graduate is heavily influenced by present bias, prioritizing the immediate gratification and perceived short-term career benefits of owning the car over the long-term financial consequences of their purchase decision."
                         },
                         {
                             "model": "Halo Effect + Present Bias",
-                            "answer": "Double distortion: overvaluing current social perception while discounting future consequences"
+                            "answer": "Driven by present bias, the graduate prioritizes the immediate gratification of the perceived halo effect from the car's status on their image, outweighing long-term financial consequences."
                         }
                     ]
                 },
@@ -59,104 +59,23 @@
                     "question": "How should they approach this decision?",
                     "question-type": "prescriptive",
                     "difficulty": "easy",
-                    "ground_truth": "Compare total ownership costs against proven career advancement methods",
+                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Test if a cheaper car achieves the same result before committing"
+                            "answer": "They should reconsider this decision and prioritize long-term financial stability over perceived image benefits."
                         },
                         {
                             "model": "Total Cost of Ownership",
-                            "answer": "Calculate insurance, maintenance, and depreciation over 5 years"
+                            "answer": "Instead of fixating on appearances, they should meticulously calculate the total cost of ownership (depreciation, insurance, maintenance, fuel, taxes) to understand if a $70,000 luxury car is financially sustainable with their $45,000 income, and explore more cost-effective alternatives that offer a similar image boost."
                         },
                         {
                             "model": "ROI Analysis",
-                            "answer": "Estimate if car-related career gains offset $30k+ annual costs"
+                            "answer": "Calculate if the increased earnings potential and career advancement from the car demonstrably outweigh the significant financial burden and opportunity cost associated with it."
                         },
                         {
                             "model": "Total Cost of Ownership + ROI Analysis",
-                            "answer": "Only proceed if verifiable income increases exceed all cumulative vehicle expenses"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "2",
-            "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
-            "questions": [
-                {
-                    "id": "1",
-                    "question": "Should they fully automate diagnostics?",
-                    "question-type": "normative",
-                    "difficulty": "easy",
-                    "ground_truth": "No, the 6% accuracy gap represents critical life-or-death differences in healthcare",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Machines making more mistakes could literally kill people"
-                        },
-                        {
-                            "model": "Precautionary Principle",
-                            "answer": "Avoid irreversible harm by maintaining human oversight until parity is proven"
-                        },
-                        {
-                            "model": "Marginal Value of Accuracy",
-                            "answer": "Each percentage point gain prevents hundreds of misdiagnoses annually"
-                        },
-                        {
-                            "model": "Precautionary Principle + Marginal Value of Accuracy",
-                            "answer": "Hybrid system where AI triages cases but humans verify high-risk decisions"
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
-                    "question": "What risks does full automation pose?",
-                    "question-type": "descriptive",
-                    "difficulty": "easy",
-                    "ground_truth": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "AI errors could cause patients to miss critical treatments or undergo unnecessary surgeries"
-                        },
-                        {
-                            "model": "Type I/II Errors",
-                            "answer": "Balancing false negatives (missed diagnoses) and false positives (unnecessary treatments)"
-                        },
-                        {
-                            "model": "Confusion Matrix",
-                            "answer": "Visualizing trade-offs between AI's true/false positive/negative rates"
-                        },
-                        {
-                            "model": "Type I/II Errors + Confusion Matrix",
-                            "answer": "Understanding AI's diagnostic performance in terms of misdiagnosis risks"
-                        }
-                    ]
-                },
-                {
-                    "id": "3",
-                    "question": "How can they optimize AI integration?",
-                    "question-type": "prescriptive",
-                    "difficulty": "easy",
-                    "ground_truth": "Gradual implementation with human oversight, continuous monitoring, and feedback loops",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Start with low-risk cases and expand as accuracy improves"
-                        },
-                        {
-                            "model": "Complementarity",
-                            "answer": "AI triages routine cases, freeing radiologists for complex diagnoses"
-                        },
-                        {
-                            "model": "Swiss Cheese Model",
-                            "answer": "Layered defenses: AI flags cases, radiologists confirm, and system learns from feedback"
-                        },
-                        {
-                            "model": "Complementarity + Swiss Cheese Model",
-                            "answer": "Hybrid system where AI and humans reinforce each other's strengths"
+                            "answer": "They should carefully analyze the potential ROI of the car on their career against the substantial total cost of ownership to determine if the perceived benefits outweigh the significant financial burden, considering more cost-effective alternatives to achieve a similar professional image."
                         }
                     ]
                 }
