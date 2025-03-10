@@ -2,14 +2,14 @@
     "scenarios": [
         {
             "id": "1",
-            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances'",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
             "questions": [
                 {
                     "id": "1",
                     "question": "Is this a financially sound decision?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
-                    "ground_truth": "No, spending disproportionately on depreciating assets risks debt and limits future flexibility",
+                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
                     "model_answers": [
                         {
                             "model": "",
@@ -17,15 +17,15 @@
                         },
                         {
                             "model": "Affordability Heuristic",
-                            "answer": "Monthly payments would exceed recommended 10-15% transportation budget allocation"
+                            "answer": "Based on the Affordability Heuristic, this is likely a financially unsound decision, as the perceived short-term boost is likely overvalued compared to the substantial and immediate financial burden it creates."
                         },
                         {
                             "model": "Social Signaling",
-                            "answer": "Professional success depends on skills/output, not conspicuous consumption"
+                            "answer": "No, this is financially unsound because the potential social signaling benefits of a luxury car are unlikely to outweigh the significant debt and financial burden it creates, potentially hindering long-term career advancement due to financial stress."
                         },
                         {
                             "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "Even if status mattered, financial instability from overspending would damage professional reputation more"
+                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Affordability Heuristic, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
                         }
                     ]
                 },
@@ -34,23 +34,23 @@
                     "question": "What psychological factors drive this reasoning?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
-                    "ground_truth": "Overestimating appearance's impact while underestimating financial risks",
+                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "They're mixing up 'looking successful' with actually being successful"
+                            "answer": "They're mixing up looking successful with actually being successful"
                         },
                         {
                             "model": "Halo Effect",
-                            "answer": "Assuming expensive possessions will positively bias others' overall perception"
+                            "answer": "The recent graduate is likely exhibiting the halo effect, irrationally believing the car's luxurious appearance will create an overwhelmingly positive perception, leading to career advancements unrelated to their actual skills or experience."
                         },
                         {
                             "model": "Present Bias",
-                            "answer": "Prioritizing immediate gratification over long-term financial security"
+                            "answer": "The recent graduate is heavily influenced by present bias, prioritizing the immediate gratification and perceived short-term career benefits of owning the car over the long-term financial consequences of their purchase decision."
                         },
                         {
                             "model": "Halo Effect + Present Bias",
-                            "answer": "Double distortion: overvaluing current social perception while discounting future consequences"
+                            "answer": "Driven by present bias, the graduate prioritizes the immediate gratification of the perceived halo effect from the car's status on their image, outweighing long-term financial consequences."
                         }
                     ]
                 },
@@ -59,23 +59,23 @@
                     "question": "How should they approach this decision?",
                     "question-type": "prescriptive",
                     "difficulty": "easy",
-                    "ground_truth": "Compare total ownership costs against proven career advancement methods",
+                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Test if a cheaper car achieves the same result before committing"
+                            "answer": "They should reconsider this decision and prioritize long-term financial stability over perceived image benefits."
                         },
                         {
                             "model": "Total Cost of Ownership",
-                            "answer": "Calculate insurance, maintenance, and depreciation over 5 years"
+                            "answer": "Instead of fixating on appearances, they should meticulously calculate the total cost of ownership (depreciation, insurance, maintenance, fuel, taxes) to understand if a $70,000 luxury car is financially sustainable with their $45,000 income, and explore more cost-effective alternatives that offer a similar image boost."
                         },
                         {
                             "model": "ROI Analysis",
-                            "answer": "Estimate if car-related career gains offset $30k+ annual costs"
+                            "answer": "Calculate if the increased earnings potential and career advancement from the car demonstrably outweigh the significant financial burden and opportunity cost associated with it."
                         },
                         {
                             "model": "Total Cost of Ownership + ROI Analysis",
-                            "answer": "Only proceed if verifiable income increases exceed all cumulative vehicle expenses"
+                            "answer": "They should carefully analyze the potential ROI of the car on their career against the substantial total cost of ownership to determine if the perceived benefits outweigh the significant financial burden, considering more cost-effective alternatives to achieve a similar professional image."
                         }
                     ]
                 }
@@ -90,23 +90,23 @@
                     "question": "What risks does full automation pose?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground_truth": "Increased false negatives/positives could lead to delayed treatment or unnecessary procedures",
+                    "ground_truth": "AI's 6% higher error rate would result in thousands of misdiagnoses annually. False negatives delay critical treatments while false positives trigger unnecessary procedures, creating both medical risks and systemic inefficiencies that outweigh cost benefits.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "AI errors could cause patients to miss critical treatments or undergo unnecessary surgeries"
+                            "answer": "Relying solely on AI risks overlooking crucial, diagnostic information leading to potentially compromised patient care despite a seemingly small accuracy difference."
                         },
                         {
                             "model": "Type I/II Errors",
-                            "answer": "Balancing false negatives (missed diagnoses) and false positives (unnecessary treatments)"
+                            "answer": "Full automation risks a higher rate of missed critical diagnoses (Type II error - false negative), leading to potentially fatal consequences, despite a reduced rate of false positives (Type I error - false positive), like unnecessary interventions."
                         },
                         {
                             "model": "Confusion Matrix",
-                            "answer": "Visualizing trade-offs between AI's true/false positive/negative rates"
+                            "answer": "Full automation risks increased false negatives compared to humans, leading to missed diagnoses and potentially outweighing the marginal gain in overall accuracy."
                         },
                         {
                             "model": "Type I/II Errors + Confusion Matrix",
-                            "answer": "Understanding AI's diagnostic performance in terms of misdiagnosis risks"
+                            "answer": "Relying solely on AI, despite lower accuracy, risks increased false negatives (Type II errors) leading to missed diagnoses and compromised patient outcomes while also introducing more false positives (Type I errors), which leads to unnecessary treatments and elevated patient anxiety compared to human oversight."
                         }
                     ]
                 }
@@ -122,6 +122,7 @@
                     "question-type": "evaluative",
                     "difficulty": "easy",
                     "ground truth": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -147,6 +148,7 @@
                     "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground truth": "Blackjack usually has a lower house edge than slots, especially when played with proper basic strategy, making it comparatively less costly in the long run. However, it still carries a negative expectation unless you employ advanced techniques like card counting, which casinos typically prohibit.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -171,7 +173,10 @@
                     "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
+                    "ground_truth": "No. Each spin on a modern slot machine is generated by an independent random number process. A recent payout does not increase the probability of another one; the notion of “hot” machines is a misconception.",
+
                     "ground truth": "No. Each spin on a modern slot machine is generated by an independent random number process. A recent payout does not increase the probability of another one; the notion of “hot” machines is a misconception.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -187,7 +192,7 @@
                         },
                         {
                             "model": "Bayesian Updating + Expected Value",
-                            "answer": "Bayesian reasoning suggests no meaningful update because a past win offers negligible predictive power. The EV perspective confirms no improvement in odds after a payout—each spin has the same negative expectation."
+                            "answer": "Bayesian reasoning suggests no meaningful update because a past win offers negligible predictive power. The EV perspective confirms no improvement in odds after a payout each spin has the same negative expectation."
                         }
                     ]
                 },
@@ -196,7 +201,8 @@
                     "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Raising your bets because of a perceived streak is misguided. Luck does not accumulate, and larger wagers simply increase potential losses without improving the odds. The house edge remains constant regardless of past outcomes.",
+                    "ground_truth": "Raising your bets because of a perceived streak is misguided. Luck does not accumulate, and larger wagers simply increase potential losses without improving the odds. The house edge remains constant regardless of past outcomes.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -221,7 +227,8 @@
                     "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
-                    "ground truth": "Betting on the banker in baccarat offers a relatively low house edge, but it remains in the casino's favor. While you may lose money more slowly than in other games, the expectation is still negative over time.",
+                    "ground_truth": "Betting on the banker in baccarat offers a relatively low house edge, but it remains in the casino's favor. While you may lose money more slowly than in other games, the expectation is still negative over time.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -246,7 +253,8 @@
                     "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
                     "question-type": "normative",
                     "difficulty": "hard",
-                    "ground truth": "No betting system, including the Martingale, can overcome the house edge. Doubling bets after losses only magnifies the risk of a catastrophic loss, and table limits plus bankroll constraints ensure the strategy eventually fails.",
+                    "ground_truth": "No betting system, including the Martingale, can overcome the house edge. Doubling bets after losses only magnifies the risk of a catastrophic loss, and table limits plus bankroll constraints ensure the strategy eventually fails.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -271,7 +279,8 @@
                     "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "All money in your possession is your own - there is no “house money.” The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+                    "ground_truth": "All money in your possession is your own - there is no “house money.” The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -297,6 +306,7 @@
                     "question-type": "descriptive",
                     "difficulty": "easy",
                     "ground truth": "Knowing when to quit does not negate the house edge. Over many plays, the negative expectation persists, so timing your exit does not guarantee overall profitability.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -322,6 +332,7 @@
                     "question-type": "evaluative",
                     "difficulty": "hard",
                     "ground truth": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -346,7 +357,8 @@
                     "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "No. Each roulette spin is independent, and the house edge remains the same regardless of past outcomes. Observing multiple big wins does not increase your odds on subsequent spins.",
+                    "ground_truth": "No. Each roulette spin is independent, and the house edge remains the same regardless of past outcomes. Observing multiple big wins does not increase your odds on subsequent spins.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -377,7 +389,7 @@
                     "question": "Why are people misparking scooters despite clear docking stations?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Users prioritize immediate convenience over communal rules despite docking infrastructure.",
+                    "ground_truth": "Despite clear docking stations, convenience, laziness, and a lack of sufficient enforcement outweigh the perceived benefits of proper parking for many users, leading to misparking.",
                     "model_answers": [
                         {
                             "model": "",
@@ -385,15 +397,15 @@
                         },
                         {
                             "model": "Hyperbolic Discounting",
-                            "answer": "Immediate time savings outweigh abstract future penalties for most riders"
+                            "answer": "The immediate convenience of dropping the scooter anywhere outweighs the future inconvenience or penalty associated with misparking, making immediate gratification the driving force."
                         },
                         {
                             "model": "Tragedy of the Commons",
-                            "answer": "Individual incentives (quick parking) conflict with collective good (neat sidewalks)"
+                            "answer": "Individuals prioritize personal convenience and short-term gain (avoiding docking station detours) over the long-term collective well-being (organized parking and safer streets), leading to widespread misparking."
                         },
                         {
                             "model": "Hyperbolic Discounting + Tragedy of the Commons",
-                            "answer": "Real-time parking fines proportional to sidewalk congestion levels in each zone"
+                            "answer": "Individuals prioritize the immediate convenience of leaving scooters wherever they finish their ride, even if it causes collective inconvenience, over the long-term benefits of properly parked scooters for the community and the future availability for themselves."
                         }
                     ]
                 },
@@ -402,23 +414,23 @@
                     "question": "How dangerous are scooters compared to other transport?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
-                    "ground truth": "Scooters have higher injury rates per mile than cars but lower fatality risks due to slower speeds.",
+                    "ground_truth": "Electric scooters, while potentially convenient, appear to increase accident risk compared to other modes of transport due to rider inexperience, infrastructure limitations, and reckless usage.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "More crashes than bikes but fewer deaths than cars per mile"
+                            "answer": "Scooters have higher injury rates per mile than cars but lower fatality risks due to slower speeds."
                         },
                         {
                             "model": "Base Rate Fallacy",
-                            "answer": "Media overemphasizes scooter accidents (0.02% of trips) vs car collisions (12% of trips)"
+                            "answer": "Scooters might appear dangerous due to their novelty and immediate accident data, but failing to consider the overall miles traveled compared to other transport methods susceptible to the base rate fallacy inflates the perceived risk."
                         },
                         {
                             "model": "Risk Compensation",
-                            "answer": "Riders take more risks because scooters feel safer than motorcycles"
+                            "answer": "The increased convenience and accessibility of scooters may encourage riskier behavior and more inexperienced riders, potentially offsetting safety benefits and leading to higher accident rates compared to established modes of transport with clearer rules and infrastructure."
                         },
                         {
                             "model": "Base Rate Fallacy + Risk Compensation",
-                            "answer": "True risk = (low inherent danger) x (high-risk behavior from perceived safety)"
+                            "answer": "Considering the base rate fallacy, focusing solely on the increased scooter accident rate ignores the overall prevalence of other, possibly riskier, modes of transportation, while risk compensation suggests riders may overestimate scooter safety, leading to riskier behavior that offsets the intended safety benefits."
                         }
                     ]
                 },
@@ -427,23 +439,23 @@
                     "question": "Should scooters be banned from pedestrian zones?",
                     "question-type": "normative",
                     "difficulty": "medium",
-                    "ground truth": "Scooters should be restricted from crowded pedestrian areas but allowed in designated lanes/streets.",
+                    "ground_truth": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Allow them in bike lanes but not crowded walking areas"
+                            "answer": "Scooters should be restricted from crowded pedestrian areas but allowed in designated lanes/streets."
                         },
                         {
                             "model": "Nudge Theory",
-                            "answer": "Geo-fence reduced speeds in pedestrian zones rather than full bans"
+                            "answer": "Implement designated scooter parking zones with incentives and enforce usage rules to nudge riders towards responsible behavior rather than outright banning them."
                         },
                         {
                             "model": "Externality Pricing",
-                            "answer": "Charge $0.30/min sidewalk riding vs $0.15/min street use"
+                            "answer": "By charging scooter users a higher fee for operating in pedestrian zones, the city can internalize the negative externalities of congestion and accidents, thus promoting responsible use without a full ban."
                         },
                         {
                             "model": "Nudge Theory + Externality Pricing",
-                            "answer": "Auto-reduce speed + triple fees in pedestrian zones during busy hours"
+                            "answer": "Instead of a complete ban, strategically apply Nudge Theory by incentivizing parking in designated zones and disincentivizing unsafe riding through usage-based externality pricing to internalize the true costs of scooter use and curb negative externalities."
                         }
                     ]
                 },
@@ -452,23 +464,23 @@
                     "question": "What's the environmental trade-off?",
                     "question-type": "evaluative",
                     "difficulty": "hard",
-                    "ground truth": "Scooters reduce urban emissions but create lifecycle environmental costs from production/charging.",
+                    "ground_truth": "Electric scooters offer a reduction in carbon emissions from individual car trips, but introduce new environmental impacts from scooter production, charging, and disposal, potentially offsetting some gains.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Scooters replace some car trips but require vans to collect/recharge them"
+                            "answer": "Scooters reduce emissions from short car trips but have their own environmental costs"
                         },
                         {
                             "model": "Embodied Energy",
-                            "answer": "Aluminum frames and lithium batteries offset 78% of emission savings"
+                            "answer": "While electric scooters themselves may reduce emissions from cars, the embodied energy in their production, distribution, frequent replacement due to damage, and eventual disposal could offset some of the intended environmental benefits if not managed sustainably."
                         },
                         {
                             "model": "Rebound Effect",
-                            "answer": "Easy scooters enable longer commutes that might not otherwise occur"
+                            "answer": "Despite potential emission reductions from electric vehicles, the increased accessibility might encourage more trips, offsetting environmental benefits due to expanded overall transportation demand."
                         },
                         {
                             "model": "Embodied Energy + Rebound Effect",
-                            "answer": "Net benefit only if daily use exceeds 2.1 miles/user (current avg: 1.8 miles)"
+                            "answer": "While scooters may reduce car trips (reducing tailpipe emissions), the Embodied Energy in scooter production, frequent replacement due to damage, and the Rebound Effect of increased overall travel activity could potentially negate or lessen the net environmental benefits."
                         }
                     ]
                 }
@@ -483,7 +495,7 @@
                     "question": "Should they implement the four-day workweek immediately?",
                     "question-type": "normative",
                     "difficulty": "easy",
-                    "ground truth": "No, phased implementation reduces risk while testing outcomes",
+                    "ground_truth": "Implementing a four-day workweek without thorough productivity analysis and optimized workflows risks output decline and lessens the intended benefits of improved well-being.",
                     "model_answers": [
                         {
                             "model": "",
@@ -491,15 +503,15 @@
                         },
                         {
                             "model": "Present Bias",
-                            "answer": "Our bias toward immediate well-being gains might make us ignore how rushed changes could damage client relationships long-term"
+                            "answer": "They should not immediately switch to a four-day workweek, as present bias suggests employees will overvalue the immediate benefit of an extra day off while underestimating potential future productivity losses, requiring careful phased implementation and monitoring."
                         },
                         {
                             "model": "Risk Assessment",
-                            "answer": "There's a 40% chance (based on industry data) that rushed implementation leads to missed deadlines exceeding 20% - unacceptably high for early-stage startups"
+                            "answer": "Implementing a four-day workweek without thorough risk assessment, including pilot programs and productivity monitoring, risks reduced output and project delays outweighing potential well-being benefits."
                         },
                         {
                             "model": "Present Bias + Risk Assessment",
-                            "answer": "While we're drawn to quick wins, data shows high failure probability - implement a 3-month pilot with <10% of staff to contain risk"
+                            "answer": "No, they shouldn't implement it immediately; they should pilot the four-day week on a small scale due to the risk-averse impulse to maintain present productivity levels versus the present bias towards short-term employee happiness."
                         }
                     ]
                 }
@@ -514,7 +526,7 @@
                     "question": "Should they roll out the AI inventory system to all departments at once?",
                     "question-type": "normative",
                     "difficulty": "easy",
-                    "ground truth": "No, a phased rollout or pilot test reduces risks and helps gather feedback for improvements",
+                    "ground_truth": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
                     "model_answers": [
                         {
                             "model": "",
@@ -522,7 +534,7 @@
                         },
                         {
                             "model": "Cost-Benefit Analysis",
-                            "answer": "By piloting first, they minimize potential costs (like lost sales if data integrity fails) compared to the high expense of a full launch that may face unforeseen problems."
+                            "answer": "To maximize benefits and minimize risks, the business should conduct a pilot program with the AI inventory system in a single department, allowing for a controlled evaluation of cost savings, data security vulnerabilities, and employee training needs before a full-scale implementation."
                         },
                         {
                             "model": "Change Management",
@@ -530,7 +542,7 @@
                         },
                         {
                             "model": "Cost-Benefit Analysis + Change Management",
-                            "answer": "A small-scale pilot optimizes resource use and reduces staff pushback by demonstrating tangible benefits early, thereby increasing both cost-efficiency and employee acceptance."
+                            "answer": "A small-scale pilot optimizes resource use and reduces staff pushback by demonstrating benefits early, increasing both cost-efficiency and employee acceptance."
                         }
                     ]
                 },
@@ -539,7 +551,7 @@
                     "question": "How should they train employees to ensure successful adoption of the new system?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "Provide hands-on workshops, clear documentation, and ongoing support to address employee concerns and knowledge gaps",
+                    "ground_truth": "Implement a phased training program focused on practical application, data security best practices, and ongoing support to address employee concerns and build confidence in the new AI system.",
                     "model_answers": [
                         {
                             "model": "",
@@ -564,7 +576,7 @@
                     "question": "How should they measure the success of the AI-based inventory system after implementation?",
                     "question-type": "prescriptive",
                     "difficulty": "hard",
-                    "ground truth": "Track quantitative metrics like error rate, cost savings, inventory turnover, and qualitative feedback like employee satisfaction and system usability",
+                    "ground_truth": "Success should be measured by the degree to which the system reduces inventory costs, minimizes stockouts, and improves order fulfillment rates while maintaining data security and positive employee adoption metrics.",
                     "model_answers": [
                         {
                             "model": "",
@@ -589,7 +601,7 @@
                     "question": "How should they address data security concerns, internally or via an external vendor?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "A hybrid approach balancing cost, in-house expertise, and specialized external knowledge can mitigate data security risks effectively",
+                    "ground_truth": "The business should prioritize a layered approach to data security, involving both robust internal protocols and an external vendor specializing in AI system security, to mitigate risks effectively and ensure comprehensive protection.",
                     "model_answers": [
                         {
                             "model": "",
@@ -597,40 +609,15 @@
                         },
                         {
                             "model": "Cost-Benefit Analysis",
-                            "answer": "Compare upfront in-house costs such as staff training and infrastructure, with recurring fees and reliability of an external vendor."
+                            "answer": "Weigh the upfront costs and ongoing liabilities of building internal data security expertise against the expense and potential risks of entrusting data protection to a specialized external vendor with a proven track record."
                         },
                         {
                             "model": "Change Management",
-                            "answer": "Involve key IT personnel early to ensure they understand and support security changes, reducing resistance and maintaining trust."
+                            "answer": "Addressing data security concerns for the new AI inventory system requires a change management strategy focused on transparent communication, robust training, and proactive mitigation of risks, either managed internally or outsourced to specialized security experts."
                         },
                         {
                             "model": "Cost-Benefit Analysis + Change Management",
-                            "answer": "An external vendor might reduce immediate implementation costs, but internal adoption and oversight could suffer—use a mixed model to balance cost and stakeholder buy-in."
-                        }
-                    ]
-                },
-                {
-                    "id": "5",
-                    "question": "Should they add advanced demand forecasting features now or wait until they refine basic inventory processes?",
-                    "question-type": "normative",
-                    "difficulty": "hard",
-                    "ground truth": "Gradually integrate advanced forecasting after ensuring the core inventory system is stable and user adoption is robust",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Focus on perfecting the fundamental inventory tracking first, then expand into forecasting once the team is comfortable and data integrity is high."
-                        },
-                        {
-                            "model": "Cost-Benefit Analysis",
-                            "answer": "Weigh the upfront cost of forecasting modules and training employees against expected gains in reduced stockouts and better customer satisfaction."
-                        },
-                        {
-                            "model": "Change Management",
-                            "answer": "Adopting both features at once could overwhelm staff. Phasing in the changes allows employees time to adapt before adding complexity."
-                        },
-                        {
-                            "model": "Cost-Benefit Analysis + Change Management",
-                            "answer": "Prematurely adding forecasting features demands high investment and can trigger resistance. Phased adoption ensures both a better ROI and smoother staff transition."
+                            "answer": "By weighing the cost of building internal data security expertise against the risk mitigation and employee training benefits offered by an external vendor, the company can determine if outsourcing balances security needs and facilitates smoother adoption."
                         }
                     ]
                 }
@@ -645,7 +632,7 @@
                     "question": "Should the company immediately replace human workers with automation?",
                     "question-type": "normative",
                     "difficulty": "easy",
-                    "ground truth": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+                    "ground_truth": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
                     "model_answers": [
                         {
                             "model": "",
@@ -670,7 +657,7 @@
                     "question": "How should they address concerns about potential job losses?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
+                    "ground_truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
                     "model_answers": [
                         {
                             "model": "",
@@ -701,7 +688,7 @@
                     "question": "Should the university adopt a pass/fail grading system for all courses?",
                     "question-type": "normative",
                     "difficulty": "medium",
-                    "ground truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
+                    "ground_truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
                     "model_answers": [
                         {
                             "model": "",
@@ -732,7 +719,8 @@
                     "question": "Should the startup adopt a fully remote work policy?",
                     "question-type": "normative",
                     "difficulty": "medium",
-                    "ground truth": "Adopt a staged or hybrid approach first, carefully tracking both productivity and employee engagement. If key metrics stay strong or improve over time, then consider transitioning fully to remote.",
+                    "ground_truth": "Adopt a staged or hybrid approach first, carefully tracking both productivity and employee engagement. If key metrics stay strong or improve over time, then consider transitioning fully to remote.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -758,6 +746,7 @@
                     "question-type": "prescriptive",
                     "difficulty": "easy",
                     "ground truth": "Use outcome-based performance measures, hold frequent but concise virtual check-ins, and facilitate open communication via digital collaboration tools. This ensures clarity in expectations and helps maintain accountability across remote teams.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -782,7 +771,8 @@
                     "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
                     "question-type": "normative",
                     "difficulty": "medium",
-                    "ground truth": "Employ synchronous methods for urgent issues, complex planning, and team bonding, while relying on asynchronous channels for routine updates and longer-term discussions. This balance reduces meeting fatigue and supports flexible schedules.",
+                    "ground_truth": "Employ synchronous methods for urgent issues, complex planning, and team bonding, while relying on asynchronous channels for routine updates and longer-term discussions. This balance reduces meeting fatigue and supports flexible schedules.",
+
                     "model_answers": [
                         {
                             "model": "",
@@ -813,7 +803,7 @@
                     "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "Provide comprehensive training for healthcare providers, establish clear clinical protocols, and incorporate in-person follow-up when necessary.",
+                    "ground_truth": "Provide comprehensive training for healthcare providers, establish clear clinical protocols, and incorporate in-person follow-up when necessary.",
                     "model_answers": [
                         {
                             "model": "",
@@ -838,7 +828,7 @@
                     "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
-                    "ground truth": "Offer tech support, provide subsidized devices for low-income patients, and partner with community organizations to ensure equitable access.",
+                    "ground_truth": "Offer tech support, provide subsidized devices for low-income patients, and partner with community organizations to ensure equitable access.",
                     "model_answers": [
                         {
                             "model": "",
@@ -862,87 +852,6 @@
         },
         {
             "id": "11",
-            "context": "A mid-sized city is debating whether to introduce a fleet of electric scooters as part of its public transportation system. While proponents argue that it will reduce traffic congestion and carbon emissions, critics warn about safety risks and sidewalk clutter.",
-            "questions": [
-                {
-                    "id": "1",
-                    "question": "Should the city implement electric scooters city-wide immediately?",
-                    "question-type": "normative",
-                    "difficulty": "medium",
-                    "ground truth": "Begin with a pilot in select neighborhoods to evaluate usage, safety, and public feedback before a full rollout.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Launch a small pilot in high-traffic areas to assess how well scooters integrate with existing transit options."
-                        },
-                        {
-                            "model": "Risk Aversion",
-                            "answer": "A city-wide launch might lead to unforeseen hazards. Starting small helps contain risks and refine policies."
-                        },
-                        {
-                            "model": "Productivity Analysis",
-                            "answer": "Collecting data from a limited trial measures whether scooters effectively reduce commute times and congestion."
-                        },
-                        {
-                            "model": "Risk Aversion + Productivity Analysis",
-                            "answer": "A phased approach addresses safety concerns while gathering operational insights on traffic flow and usage."
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
-                    "question": "How can the city ensure public safety while introducing electric scooters?",
-                    "question-type": "prescriptive",
-                    "difficulty": "easy",
-                    "ground truth": "Enforce regulations like speed limits, designated parking zones, and mandatory helmet guidelines.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Post speed limits, mark scooter lanes clearly, and launch a public safety campaign encouraging helmet use."
-                        },
-                        {
-                            "model": "Risk Aversion",
-                            "answer": "Strict enforcement of rules and mandatory checks minimize accidents and create a safer environment for riders."
-                        },
-                        {
-                            "model": "Productivity Analysis",
-                            "answer": "Clear guidelines and well-structured regulations reduce disruptions, allowing efficient movement and usage."
-                        },
-                        {
-                            "model": "Risk Aversion + Productivity Analysis",
-                            "answer": "Combining firm safety standards with transparent enforcement keeps riders secure and maximizes system effectiveness."
-                        }
-                    ]
-                },
-                {
-                    "id": "3",
-                    "question": "How can the city prevent sidewalk clutter and neglected scooters from becoming a nuisance?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground truth": "Create designated scooter parking areas, fine operators for improperly parked devices, and require regular maintenance sweeps.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Establish clearly marked 'scooter parking zones' and coordinate swift removal of any abandoned scooters."
-                        },
-                        {
-                            "model": "Risk Aversion",
-                            "answer": "Enforcing strict parking rules and penalties reduces the chance of scooters obstructing footpaths or causing accidents."
-                        },
-                        {
-                            "model": "Productivity Analysis",
-                            "answer": "Dedicated parking and timely maintenance keep walkways clear and city operations running smoothly."
-                        },
-                        {
-                            "model": "Risk Aversion + Productivity Analysis",
-                            "answer": "Balancing robust regulations with regular upkeep minimizes public hazards and ensures efficient scooter availability."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "12",
             "context": "A local city council is debating whether to impose a sugar-sweetened beverage tax to combat rising obesity rates. Public health advocates argue that the tax will discourage excessive sugar consumption and generate revenue for health initiatives. However, small business owners worry about reduced sales, potential job losses, and an overall negative impact on their local economy.",
             "questions": [
                 {
@@ -950,11 +859,11 @@
                     "question": "Will a sugar-sweetened beverage tax substantially hurt local businesses, or are the potential health benefits compelling enough to justify the policy?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "While a tax may reduce beverage sales for local shops in the short term, evidence from similar taxes in other cities suggests that overall revenue effects can be modest and may be offset by improved public health and potential savings in healthcare costs. The net effect often depends on the size of the tax, local consumer habits, and the implementation of mitigating measures to help small businesses adapt.",
+                    "ground_truth": "While a tax may reduce beverage sales for local shops in the short term, evidence from similar taxes in other cities suggests that overall revenue effects can be modest and may be offset by improved public health and potential savings in healthcare costs. The net effect often depends on the size of the tax, local consumer habits, and the implementation of mitigating measures to help small businesses adapt.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Although a beverage tax may initially reduce sales for some local businesses, evidence from other jurisdictions shows that the overall impact on revenue tends to be modest, especially if some of the tax revenue is used to support small retailers or fund health initiatives. The potential health benefits—including lower obesity rates and reduced healthcare costs—often outweigh these short-term disadvantages, provided the policy is designed and implemented carefully."
+                            "answer": "Although a beverage tax may initially reduce sales for some local businesses, evidence from other jurisdictions shows that the overall impact on revenue tends to be modest, especially if some of the tax revenue is used to support small retailers or fund health initiatives. The potential health benefits including lower obesity rates and reduced healthcare costs often outweigh these short-term disadvantages, provided the policy is designed and implemented carefully."
                         },
                         {
                             "model": "Bayesian Updating",
@@ -975,7 +884,7 @@
                     "question": "Does imposing a beverage tax significantly reduce sugar consumption in the broader population, or can consumers easily find alternatives to circumvent the measure?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
-                    "ground truth": "Evidence suggests that a higher price on sugary beverages does reduce consumption to some degree, but the impact can vary depending on how readily consumers can substitute to other sugary products or shop outside the taxed area. The measure can still be effective, though not universally, in lowering overall sugar intake.",
+                    "ground_truth": "Evidence suggests that a higher price on sugary beverages does reduce consumption to some degree, but the impact can vary depending on how readily consumers can substitute to other sugary products or shop outside the taxed area. The measure can still be effective, though not universally, in lowering overall sugar intake.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1000,7 +909,7 @@
                     "question": "Some argue that the immediate revenue generation from this tax may detract from the broader goal of long-term public health. Are these concerns valid?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
-                    "ground truth": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated—such as funding health programs or education—this revenue can reinforce public health goals rather than compete with them.",
+                    "ground_truth": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1023,7 +932,7 @@
             ]
         },
         {
-            "id": "13",
+            "id": "12",
             "context": "A mid-sized city is evaluating a plan to build a robust network of protected bike lanes to reduce car usage, cut carbon emissions, and promote healthy living. Local shop owners fear the reconfiguration may decrease vehicle traffic and reduce their sales, while some residents worry that lane conversions could worsen congestion in other parts of the city.",
             "questions": [
                 {
@@ -1031,7 +940,7 @@
                     "question": "Local business owners fear that losing car lanes or parking spaces might hamper sales. Should the city still move forward with the bike lane project despite these concerns?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "While there may be short-term challenges for businesses near reduced parking, many cities find that enhanced bike and pedestrian infrastructure can eventually boost local commerce and improve overall quality of life, offsetting initial downsides over time.",
+                    "ground_truth": "While there may be short-term challenges for businesses near reduced parking, many cities find that enhanced bike and pedestrian infrastructure can eventually boost local commerce and improve overall quality of life, offsetting initial downsides over time.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1056,7 +965,7 @@
                     "question": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
+                    "ground_truth": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1081,11 +990,11 @@
                     "question": "Critics say allocating resources to bike lanes provides only marginal benefits for the environment compared to overall emissions. How might city officials justify the budget for such a project?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Although the immediate carbon reduction may seem modest, a consistent shift away from cars can have a meaningful cumulative impact. Additionally, bike lanes often promote healthier lifestyles, reduce road maintenance costs over time, and improve local air quality and public space utilization.",
+                    "ground_truth": "Although the immediate carbon reduction may seem modest, a consistent shift away from cars can have a meaningful cumulative impact. Additionally, bike lanes often promote healthier lifestyles, reduce road maintenance costs over time, and improve local air quality and public space utilization.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Even if the environmental gains are incremental, the broader benefits—improved public health, enhanced livability, and safer streets—strengthen the case for bike lane investments."
+                            "answer": "Even if the environmental gains are incremental, the broader benefits improved public health, enhanced livability, and safer streets strengthen the case for bike lane investments."
                         },
                         {
                             "model": "Cost-Benefit Analysis",
@@ -1104,7 +1013,7 @@
             ]
         },
         {
-            "id": "14",
+            "id": "13",
             "context": "A local government is proposing a ban on single-use plastics for restaurants and retail stores to reduce environmental waste. Many business owners worry about the increased costs of switching to alternative packaging, while some residents fear the ban may inconvenience customers accustomed to disposable options.",
             "questions": [
                 {
@@ -1112,7 +1021,7 @@
                     "question": "Should the ban proceed despite businesses' concerns about increased costs and potential pushback from customers?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Although upfront costs may rise for businesses adopting alternatives, long-term environmental and societal benefits—reduced waste, lowered cleanup expenses—often outweigh initial financial hurdles. Proper planning and transitional support can mitigate the impact on businesses and consumers.",
+                    "ground_truth": "Although upfront costs may rise for businesses adopting alternatives, long-term environmental and societal benefits reduced waste, lowered cleanup expenses often outweigh initial financial hurdles. Proper planning and transitional support can mitigate the impact on businesses and consumers.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1137,7 +1046,7 @@
                     "question": "Local shop owners worry that alternative packaging is more expensive and less reliable. How can the government address these concerns without delaying the environmental goals?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Government-led initiatives like subsidies, bulk purchasing programs, or partnering with eco-friendly suppliers can reduce costs for businesses. Providing technical assistance and clear guidelines helps owners confidently switch to sustainable packaging without significantly harming their profitability.",
+                    "ground_truth": "Government-led initiatives like subsidies, bulk purchasing programs, or partnering with eco-friendly suppliers can reduce costs for businesses. Providing technical assistance and clear guidelines helps owners confidently switch to sustainable packaging without significantly harming their profitability.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1162,7 +1071,7 @@
                     "question": "Some residents prefer the convenience of single-use plastics and might resist changes to their routine. How can officials gain public support for this ban?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Educating residents on the environmental impact of plastics and highlighting viable, convenient alternatives can shift public opinion. Visible support from local leaders and early adopters often helps normalize new behaviors and ease the cultural shift away from disposables.",
+                    "ground_truth": "Educating residents on the environmental impact of plastics and highlighting viable, convenient alternatives can shift public opinion. Visible support from local leaders and early adopters often helps normalize new behaviors and ease the cultural shift away from disposables.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1185,7 +1094,7 @@
             ]
         },
         {
-            "id": "15",
+            "id": "14",
             "context": "A local public library system is considering drastically reducing its physical book collection and moving to a nearly all-digital platform to cut costs and repurpose library space. Long-time patrons fear losing the traditional library experience, while staff members are concerned about job security and adapting to new technology-focused roles.",
             "questions": [
                 {
@@ -1193,7 +1102,7 @@
                     "question": "Should the library proceed with replacing most physical books with digital formats, even if it alienates some loyal patrons?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "While digital resources can improve accessibility and lower storage costs, a sudden or complete transition risks losing patrons who rely on physical books. Balancing innovation with community needs—through a phased rollout or a hybrid approach—can mitigate abrupt disruptions and preserve long-standing relationships.",
+                    "ground_truth": "While digital resources can improve accessibility and lower storage costs, a sudden or complete transition risks losing patrons who rely on physical books. Balancing innovation with community needs through a phased rollout or a hybrid approach can mitigate abrupt disruptions and preserve long-standing relationships.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1201,7 +1110,7 @@
                         },
                         {
                             "model": "Risk Assessment",
-                            "answer": "Examine potential hazards like loss of patron loyalty and budget uncertainties for new technology. If the benefits of cost savings and modern services outweigh these risks—and mitigation measures are in place—proceed cautiously."
+                            "answer": "Examine potential hazards like loss of patron loyalty and budget uncertainties for new technology. If the benefits of cost savings and modern services outweigh these risks and mitigation measures are in place proceed cautiously."
                         },
                         {
                             "model": "Status Quo Bias",
@@ -1209,7 +1118,7 @@
                         },
                         {
                             "model": "Risk Assessment + Status Quo Bias",
-                            "answer": "Combine a structured evaluation of the risks—like patron drop-off and tech adoption costs—with an awareness that clinging to the current model may simply be bias. A balanced approach ensures genuine concerns are addressed without letting undue fear of change hold the library back."
+                            "answer": "Combine a structured evaluation of the risks like patron drop-off and tech adoption costs with an awareness that clinging to the current model may simply be bias. A balanced approach ensures genuine concerns are addressed without letting undue fear of change hold the library back."
                         }
                     ]
                 },
@@ -1218,7 +1127,7 @@
                     "question": "How can the library address concerns from older patrons who have limited digital literacy or prefer physical collections?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Providing training programs, tech support, and transitional guidance can help older or tech-averse patrons feel more comfortable. Keeping a curated set of physical materials ensures those who cannot or will not adapt to digital remain served by the library.",
+                    "ground_truth": "Providing training programs, tech support, and transitional guidance can help older or tech-averse patrons feel more comfortable. Keeping a curated set of physical materials ensures those who cannot or will not adapt to digital remain served by the library.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1243,7 +1152,7 @@
                     "question": "Some staff worry that a digital-focused library may lose its role as a community gathering place. Is this concern justified?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "While digital resources can streamline operations, libraries also serve as social and cultural hubs. Maintaining public spaces for workshops, reading areas, and community events can preserve the library's role beyond just book lending—even if the medium shifts from print to digital.",
+                    "ground_truth": "While digital resources can streamline operations, libraries also serve as social and cultural hubs. Maintaining public spaces for workshops, reading areas, and community events can preserve the library's role beyond just book lending even if the medium shifts from print to digital.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1255,7 +1164,7 @@
                         },
                         {
                             "model": "Status Quo Bias",
-                            "answer": "Staff may conflate the familiar (physical books) with community value. While valid, this bias can overlook how digital services—like shared tech labs or digital reading clubs—may equally foster community engagement."
+                            "answer": "Staff may conflate the familiar (physical books) with community value. While valid, this bias can overlook how digital services like shared tech labs or digital reading clubs may equally foster community engagement."
                         },
                         {
                             "model": "Risk Assessment + Status Quo Bias",
@@ -1266,7 +1175,7 @@
             ]
         },
         {
-            "id": "16",
+            "id": "15",
             "context": "A local nonprofit wants to expand its services to assist the homeless population by adding temporary shelters, job training workshops, and mental health counseling. Board members worry about overextending resources, while volunteers are concerned about managing a greater client load without adequate staffing.",
             "questions": [
                 {
@@ -1274,7 +1183,7 @@
                     "question": "Is it wise for the nonprofit to rapidly scale up its offerings without fully knowing if there are enough staff and financial resources to sustain these new programs?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "A sudden expansion can overwhelm existing capacity. A phased approach that matches available funding and staff capabilities helps ensure services remain effective and consistent for clients.",
+                    "ground_truth": "A sudden expansion can overwhelm existing capacity. A phased approach that matches available funding and staff capabilities helps ensure services remain effective and consistent for clients.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1286,7 +1195,7 @@
                         },
                         {
                             "model": "Risk Assessment",
-                            "answer": "Analyze potential pitfalls—like volunteer burnout or budget shortfalls—before committing to rapid growth. Identifying these risks upfront helps prioritize which services to expand first."
+                            "answer": "Analyze potential pitfalls like volunteer burnout or budget shortfalls before committing to rapid growth. Identifying these risks upfront helps prioritize which services to expand first."
                         },
                         {
                             "model": "Nudge Theory + Risk Assessment",
@@ -1299,7 +1208,7 @@
                     "question": "Some donors hesitate to give more, fearing the nonprofit might over-promise. How could leadership address these concerns and maintain donor confidence?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Transparent communication about program objectives, budgets, and progress can reassure donors. Demonstrating careful planning and readiness to adapt as needs evolve fosters trust and continued financial support.",
+                    "ground_truth": "Transparent communication about program objectives, budgets, and progress can reassure donors. Demonstrating careful planning and readiness to adapt as needs evolve fosters trust and continued financial support.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1315,7 +1224,7 @@
                         },
                         {
                             "model": "Nudge Theory + Risk Assessment",
-                            "answer": "Use subtle donor engagement methods—like opt-in newsletters and progress dashboards—to keep supporters informed, and back this up with a transparent analysis of possible financial or operational risks."
+                            "answer": "Use subtle donor engagement methods like opt-in newsletters and progress dashboards to keep supporters informed, and back this up with a transparent analysis of possible financial or operational risks."
                         }
                     ]
                 },
@@ -1324,7 +1233,7 @@
                     "question": "Critics say the organization might lose its personal touch by expanding so quickly. Is the concern about reduced quality of care legitimate?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Growing too fast can strain staff and volunteers, leading to less individualized attention for clients. Implementing structured training and maintaining reasonable caseloads can help preserve quality as services expand.",
+                    "ground_truth": "Growing too fast can strain staff and volunteers, leading to less individualized attention for clients. Implementing structured training and maintaining reasonable caseloads can help preserve quality as services expand.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1332,7 +1241,7 @@
                         },
                         {
                             "model": "Nudge Theory",
-                            "answer": "Encourage volunteers and staff to embrace incremental changes—like new scheduling tools or streamlined onboarding—that make it easier to handle more clients without sacrificing personal connections."
+                            "answer": "Encourage volunteers and staff to embrace incremental changes like new scheduling tools or streamlined onboarding that make it easier to handle more clients without sacrificing personal connections."
                         },
                         {
                             "model": "Risk Assessment",
@@ -1347,7 +1256,7 @@
             ]
         },
         {
-            "id": "17",
+            "id": "16",
             "context": "A small farm cooperative is debating whether to invest in state-of-the-art hydroponic systems. Proponents argue it will increase crop yields and use resources more efficiently, while skeptics worry about high upfront costs and the complexity of managing new technology.",
             "questions": [
                 {
@@ -1355,7 +1264,7 @@
                     "question": "Should the cooperative move forward with these hydroponic systems despite the substantial initial investment?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Hydroponics can boost yields and conserve water, but they also come with steep learning curves and infrastructure costs. Carefully weighing long-term benefits against short-term financial strain is crucial before committing.",
+                    "ground_truth": "Hydroponics can boost yields and conserve water, but they also come with steep learning curves and infrastructure costs. Carefully weighing long-term benefits against short-term financial strain is crucial before committing.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1363,7 +1272,7 @@
                         },
                         {
                             "model": "ROI Analysis",
-                            "answer": "Compare the projected returns—like higher yield and resource savings—against the system's cost over its useful life. If the net present value is strongly positive, the investment is justifiable."
+                            "answer": "Compare the projected returns like higher yield and resource savings against the system's cost over its useful life. If the net present value is strongly positive, the investment is justifiable."
                         },
                         {
                             "model": "Embodied Energy",
@@ -1380,7 +1289,7 @@
                     "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Offering training and partnering with local agricultural colleges can develop in-house expertise, reducing reliance on external consultants. A small but trained core team can maintain and troubleshoot systems effectively.",
+                    "ground_truth": "Offering training and partnering with local agricultural colleges can develop in-house expertise, reducing reliance on external consultants. A small but trained core team can maintain and troubleshoot systems effectively.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1405,11 +1314,11 @@
                     "question": "Critics say hydroponics isn't 'natural' farming and might alienate consumers who value traditional methods. Is this a legitimate risk?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits—pesticide reduction, water savings—can mitigate image concerns.",
+                    "ground_truth": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits pesticide reduction, water savings can mitigate image concerns.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Marketing the system's eco-friendly aspects—like reduced chemical use—can attract conscious consumers who care about sustainability over purely traditional methods."
+                            "answer": "Marketing the system's eco-friendly aspects like reduced chemical use can attract conscious consumers who care about sustainability over purely traditional methods."
                         },
                         {
                             "model": "ROI Analysis",
@@ -1428,7 +1337,7 @@
             ]
         },
         {
-            "id": "18",
+            "id": "17",
             "context": "A city plans to develop an interconnected underground walkway system linking major downtown buildings to reduce street-level congestion and improve pedestrian safety, especially in harsh weather conditions. Some business owners worry about losing foot traffic in above-ground commercial areas, and the construction costs are considerable.",
             "questions": [
                 {
@@ -1436,7 +1345,7 @@
                     "question": "Is the investment in a large underground walkway network worth the potential disruption to current street-level shops and the high construction expenses?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Such walkway systems can ease congestion and enhance pedestrian comfort, but they require significant funding and risk diverting foot traffic. Balancing economic development strategies for both above-ground and below-ground areas is crucial for maximizing overall benefits.",
+                    "ground_truth": "Such walkway systems can ease congestion and enhance pedestrian comfort, but they require significant funding and risk diverting foot traffic. Balancing economic development strategies for both above-ground and below-ground areas is crucial for maximizing overall benefits.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1461,7 +1370,7 @@
                     "question": "Some residents fear that navigating underground tunnels could be confusing or feel unsafe. How might the city address these concerns?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Clear signage, good lighting, security measures, and well-marked entry/exit points are vital. Ongoing community feedback and safety audits help maintain trust and user comfort in the subterranean environment.",
+                    "ground_truth": "Clear signage, good lighting, security measures, and well-marked entry/exit points are vital. Ongoing community feedback and safety audits help maintain trust and user comfort in the subterranean environment.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1486,7 +1395,7 @@
                     "question": "Critics argue that the underground network may cause businesses to relocate or shift focus, altering the downtown economy. Is this a genuine risk?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Redirection of pedestrian traffic can indeed change how businesses operate. Cities with similar infrastructure often manage successful mixed-use areas if they plan for synergy—offering unique amenities both above and below ground.",
+                    "ground_truth": "Redirection of pedestrian traffic can indeed change how businesses operate. Cities with similar infrastructure often manage successful mixed-use areas if they plan for synergy offering unique amenities both above and below ground.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1509,7 +1418,7 @@
             ]
         },
         {
-            "id": "19",
+            "id": "18",
             "context": "A local public school district is considering implementing a mandatory uniform policy to minimize socioeconomic disparities and reduce disciplinary issues. Parents and students worry about losing personal expression, while some teachers argue that uniforms might improve the school's overall atmosphere and focus on academics.",
             "questions": [
                 {
@@ -1517,7 +1426,7 @@
                     "question": "Should the school district enforce uniforms if it risks reducing students' individuality but potentially improves classroom discipline?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Uniform policies can level the playing field by downplaying clothing-based social status differences and may reduce certain behavioral problems. However, care must be taken to maintain student autonomy and respect for personal identity.",
+                    "ground_truth": "Uniform policies can level the playing field by downplaying clothing-based social status differences and may reduce certain behavioral problems. However, care must be taken to maintain student autonomy and respect for personal identity.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1542,7 +1451,7 @@
                     "question": "Parents worry that enforced uniforms might be expensive or cumbersome. How can the district address financial concerns and ensure equity?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Many districts using uniforms offer subsidies or have exchange programs to limit financial strain. Bulk purchasing agreements or donation drives can keep costs low. Communication about these resources is vital to reassure families.",
+                    "ground_truth": "Many districts using uniforms offer subsidies or have exchange programs to limit financial strain. Bulk purchasing agreements or donation drives can keep costs low. Communication about these resources is vital to reassure families.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1567,7 +1476,7 @@
                     "question": "Critics claim uniforms alone won't fix deeper issues such as bullying or academic underperformance. Is this a valid concern?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Uniforms may mitigate some social pressures, but they are not a cure-all for deeper systemic issues like bullying or inconsistent teaching quality. Comprehensive support programs and positive school culture initiatives remain essential.",
+                    "ground_truth": "Uniforms may mitigate some social pressures, but they are not a cure-all for deeper systemic issues like bullying or inconsistent teaching quality. Comprehensive support programs and positive school culture initiatives remain essential.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1590,7 +1499,7 @@
             ]
         },
         {
-            "id": "20",
+            "id": "19",
             "context": "A national chain of quick-service restaurants is considering switching to fully plant-based packaging to reduce waste and appeal to environmentally conscious consumers. Franchise owners worry about the higher costs of these materials, while customers are split between convenience and sustainability concerns.",
             "questions": [
                 {
@@ -1598,7 +1507,7 @@
                     "question": "Should the chain prioritize environmentally friendly plant-based packaging, even if it initially raises operational costs?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground truth": "Adopting plant-based packaging can reduce the chain's environmental footprint and potentially attract new customers. However, ensuring cost-effectiveness and maintaining product quality (e.g., food freshness) remains vital for broad adoption.",
+                    "ground_truth": "Adopting plant-based packaging can reduce the chain's environmental footprint and potentially attract new customers. However, ensuring cost-effectiveness and maintaining product quality (e.g., food freshness) remains vital for broad adoption.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1610,7 +1519,7 @@
                         },
                         {
                             "model": "Nudge Theory",
-                            "answer": "Influence franchise owners and customers subtly—like offering small discounts or loyalty points for choosing sustainable packaging options—thus encouraging adoption without forcing it outright."
+                            "answer": "Influence franchise owners and customers subtly like offering small discounts or loyalty points for choosing sustainable packaging options thus encouraging adoption without forcing it outright."
                         },
                         {
                             "model": "Tragedy of the Commons + Nudge Theory",
@@ -1623,7 +1532,7 @@
                     "question": "Some franchisees are concerned about passing higher packaging costs onto consumers. How might the chain address these pricing fears?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Bulk purchasing agreements, partnerships with innovative suppliers, or moderate price increases can help manage higher costs. Effective marketing about sustainability can also justify slight price adjustments for eco-friendly alternatives.",
+                    "ground_truth": "Bulk purchasing agreements, partnerships with innovative suppliers, or moderate price increases can help manage higher costs. Effective marketing about sustainability can also justify slight price adjustments for eco-friendly alternatives.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1648,7 +1557,7 @@
                     "question": "Environmentalists argue this switch alone won't solve the chain's overall waste problem unless combined with other measures. Are they right?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground truth": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+                    "ground_truth": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1656,7 +1565,7 @@
                         },
                         {
                             "model": "Tragedy of the Commons",
-                            "answer": "Merely substituting materials doesn't fully address the broader collective waste issue. Collective action—cutting overall waste and improving disposal systems—reduces strain on shared environmental resources more effectively."
+                            "answer": "Merely substituting materials doesn't fully address the broader collective waste issue. Collective action cutting overall waste and improving disposal systems reduces strain on shared environmental resources more effectively."
                         },
                         {
                             "model": "Nudge Theory",
@@ -1671,211 +1580,740 @@
             ]
         },
         {
-            "id": "21",
-            "context": "A small town is evaluating a proposal to launch a new community recycling program aimed at reducing waste and promoting local sustainability.",
+            "id": "20",
+            "context": "A small business owner with a stable revenue of $100,000/year is considering a $50,000 experimental marketing campaign that promises a 50% chance of doubling their customer base but could also fail entirely, citing the need to stay competitive in a growing market.",
             "questions": [
                 {
                     "id": "1",
-                    "question": "Should the town implement the community recycling program immediately?",
-                    "question-type": "Normative",
-                    "difficulty": "Medium",
-                    "ground truth": "Deciding on immediate implementation depends on the town’s budget, public support, and logistical readiness; a phased rollout might be more sustainable.",
+                    "question": "Is this a worthwhile investment for the business?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": ""
+                            "answer": "Spending half your revenue on a risky campaign might not pay off and could hurt the business."
                         },
                         {
-                            "model": "First Principles",
-                            "answer": "If the fundamental goal is to reduce waste and promote sustainability, and the basic resources are in place, then implementing the program immediately could be justified."
+                            "model": "Expected Value",
+                            "answer": "Based on Expected Value, this investment has a neutral outcome (0.5 * $100,000 gain - 0.5 * $50,000 loss = $0), suggesting it's not clearly worthwhile given the high risk and lack of a positive expected return."
                         },
                         {
-                            "model": "Systems Thinking",
-                            "answer": "Analyzing the town as an interconnected system suggests that immediate implementation may overwhelm existing infrastructure. A staged approach could help balance demand and resource allocation."
+                            "model": "Sunk Cost Fallacy",
+                            "answer": "This may not be worthwhile, as the owner risks becoming overly committed to the campaign's success due to the sunk cost fallacy, potentially leading to further losses if it fails rather than cutting losses early."
                         },
                         {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "By addressing the core need for waste reduction and considering the town’s systemic capacity, a phased yet prompt implementation ensures the program is both effective and sustainable."
+                            "model": "Expected Value + Sunk Cost Fallacy",
+                            "answer": "This investment isn't clearly worthwhile, as Expected Value shows no net gain (0.5 * $100,000 - 0.5 * $50,000 = $0), and the sunk cost fallacy could trap the owner into throwing good money after bad if the campaign underperforms."
                         }
                     ]
                 },
                 {
                     "id": "2",
-                    "question": "What has been the recycling rate in similar towns over the past five years?",
-                    "question-type": "Descriptive",
-                    "difficulty": "Medium",
-                    "ground truth": "Data from comparable towns indicate an average annual recycling rate increase of 10-15% after implementing similar programs.",
+                    "question": "What psychological factors might be influencing the owner's decision?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "The owner's decision is likely driven by fear of missing out on market growth, overconfidence in the campaign's potential, and a desire to maintain competitive status, overshadowing objective risk assessment.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": ""
+                            "answer": "They're probably worried about falling behind and think this could be a big win."
                         },
                         {
-                            "model": "First Principles",
-                            "answer": "Basic data from similar towns show steady annual improvements in recycling rates, typically in the 10-15% range."
+                            "model": "FOMO (Fear of Missing Out)",
+                            "answer": "The owner is likely influenced by FOMO, feeling pressured to invest in the campaign to avoid losing ground to competitors who might capitalize on market growth."
                         },
                         {
-                            "model": "Systems Thinking",
-                            "answer": "Recycling rates are influenced by various factors including community policies, public engagement, and economic conditions, which together result in diverse performance metrics across towns."
+                            "model": "Overconfidence Bias",
+                            "answer": "Overconfidence bias may drive the owner to overestimate the campaign's 50% success probability and its impact on doubling the customer base, ignoring the equal chance of total failure."
                         },
                         {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "While core metrics indicate a 10-15% annual improvement, understanding the interplay of local policies and community dynamics is crucial for contextualizing these numbers."
+                            "model": "FOMO + Overconfidence Bias",
+                            "answer": "Influenced by FOMO, the owner fears missing market opportunities, while overconfidence bias leads them to overestimate the campaign's success odds and impact, skewing their risk perception."
                         }
                     ]
                 },
                 {
                     "id": "3",
-                    "question": "How should the town design the recycling program to maximize participation and minimize costs?",
-                    "question-type": "Prescriptive",
-                    "difficulty": "Hard",
-                    "ground truth": "The program should feature accessible recycling points, clear communication, incentives for participation, and ongoing monitoring to allow for adjustments over time.",
+                    "question": "How should the owner evaluate this opportunity?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "The owner should conduct a detailed cost-benefit analysis, assess their risk tolerance, and explore less costly alternatives to boost competitiveness, ensuring they can sustain operations if the campaign fails.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": ""
+                            "answer": "They should weigh the costs and risks carefully and look at cheaper ways to grow."
                         },
                         {
-                            "model": "First Principles",
-                            "answer": "Focus on the essential elements: accessible drop-off points, simple instructions, and clear incentives to encourage participation, while minimizing unnecessary expenses."
+                            "model": "Risk-Reward Analysis",
+                            "answer": "The owner should perform a risk-reward analysis, quantifying potential gains ($100,000 revenue increase) against the $50,000 loss risk, and only proceed if their financial buffer can absorb a failure."
                         },
                         {
-                            "model": "Systems Thinking",
-                            "answer": "Design the program as a dynamic system that integrates continuous feedback, coordinates with local waste management, and adapts to changes in public behavior and resource allocation."
+                            "model": "Opportunity Cost",
+                            "answer": "They should evaluate the opportunity cost of the $50,000, considering alternative investments (e.g., product improvement, smaller campaigns) that could yield similar growth with less risk."
                         },
                         {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "A well-designed program should combine clear, essential features for participation with an adaptive system that continuously optimizes resource use and responds to community feedback."
-                        }
-                    ]
-                },
-                {
-                    "id": "4",
-                    "question": "What factors contribute to residents' reluctance to participate in community recycling programs?",
-                    "question-type": "Explanatory",
-                    "difficulty": "Medium",
-                    "ground truth": "Residents' reluctance is often due to lack of awareness, inconvenience, cultural habits, and skepticism about the program's impact.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "First Principles",
-                            "answer": "At its core, reluctance stems from basic human concerns such as convenience and trust. If a process is not perceived as simple or beneficial, participation will lag."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Multiple factors, including social norms, existing waste management practices, and communication channels, interact to influence participation rates in recycling programs."
-                        },
-                        {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "Fundamentally, if recycling isn’t easy or trusted, residents won’t participate; however, these basic concerns are amplified by broader social and systemic dynamics that must be addressed holistically."
-                        }
-                    ]
-                },
-                {
-                    "id": "5",
-                    "question": "What recycling rate improvement can the town expect in the next three years if the program is implemented?",
-                    "question-type": "Predictive",
-                    "difficulty": "Hard",
-                    "ground truth": "Based on similar initiatives, an improvement of 10-20% over three years may be expected, although actual outcomes depend on local engagement and implementation quality.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "First Principles",
-                            "answer": "Assuming fundamental program success, the town might see a direct improvement in recycling rates of approximately 10-20% over three years."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Considering various interacting factors such as community behavior, infrastructure improvements, and policy adjustments, the predicted improvement could vary widely, but 10-20% is a reasonable estimate."
-                        },
-                        {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "Combining the straightforward projection with an understanding of systemic influences, the town can reasonably expect a 10-20% increase in recycling rates over three years, contingent on effective implementation and community engagement."
-                        }
-                    ]
-                },
-                {
-                    "id": "6",
-                    "question": "How does the proposed recycling program compare to similar initiatives in terms of cost-effectiveness and community engagement?",
-                    "question-type": "Comparative",
-                    "difficulty": "Medium",
-                    "ground truth": "Comparative studies show that programs with strong community involvement tend to be more cost-effective and achieve higher engagement compared to more bureaucratic, top-down initiatives.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "First Principles",
-                            "answer": "By breaking down the key elements—cost and engagement—one can see that direct community involvement often lowers costs and increases participation compared to less interactive models."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "When comparing initiatives, it’s crucial to consider how community dynamics, local policies, and resource distribution affect both cost-effectiveness and engagement across different settings."
-                        },
-                        {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "A combined analysis reveals that while community-driven models inherently optimize for cost and engagement, their success is also dependent on the broader system dynamics, which need to be evaluated holistically."
-                        }
-                    ]
-                },
-                {
-                    "id": "7",
-                    "question": "How effective has community-led recycling been in reducing waste in similar towns?",
-                    "question-type": "Evaluative",
-                    "difficulty": "Medium",
-                    "ground truth": "Evaluations indicate mixed results; effectiveness often depends on local leadership, the clarity of communication, and the integration with existing waste management systems.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "First Principles",
-                            "answer": "Looking at basic outcomes, community-led recycling can be effective if it directly addresses waste reduction goals and is supported by clear guidelines and incentives."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Assessing overall effectiveness requires understanding the interplay between community initiatives, local infrastructure, and policy support, which collectively determine the success of waste reduction efforts."
-                        },
-                        {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "Evaluating community-led recycling should merge fundamental outcome measures with an analysis of the systemic factors that influence waste reduction, leading to a comprehensive understanding of its effectiveness."
-                        }
-                    ]
-                },
-                {
-                    "id": "8",
-                    "question": "What innovative approaches could be introduced to enhance the town's recycling program?",
-                    "question-type": "Exploratory",
-                    "difficulty": "Hard",
-                    "ground truth": "Innovative approaches might include the use of smart recycling bins, community-based incentive programs, and digital platforms for education and feedback, though these require further investigation.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "First Principles",
-                            "answer": "Focusing on basic needs, innovations should simplify recycling processes and incentivize participation, such as through smart technology or rewards."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Exploring new approaches involves analyzing how different components—technology, policy, and community behavior—can be integrated to create a more effective and engaging recycling system."
-                        },
-                        {
-                            "model": "First Principles + Systems Thinking",
-                            "answer": "A combined approach suggests that innovative strategies should not only address the fundamental needs for ease and motivation but also be woven into the larger system of local policies and community interactions for lasting impact."
+                            "model": "Risk-Reward Analysis + Opportunity Cost",
+                            "answer": "The owner should use risk-reward analysis to compare the campaign's uncertain $100,000 gain against the $50,000 loss, while also assessing opportunity costs to identify lower-risk alternatives that maintain competitiveness."
                         }
                     ]
                 }
             ]
-        },                 
+        },
+        {
+            "id": "21",
+            "context": "A 45-year-old individual with a family history of heart disease is deciding whether to adopt a strict low-carb diet, believing it will reduce their risk of cardiovascular issues, even though they enjoy a balanced diet and exercise regularly.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It might not be worth it if they're already healthy with their current habits."
+                        },
+                        {
+                            "model": "Risk-Benefit Analysis",
+                            "answer": "A Risk-Benefit Analysis suggests this isn't wise unless evidence shows a low-carb diet significantly outperforms their current approach, given potential nutritional risks and lifestyle trade-offs."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Without specific evidence that a low-carb diet is better for their profile than their balanced diet and exercise, this choice lacks justification and may not be wise."
+                        },
+                        {
+                            "model": "Risk-Benefit Analysis + Evidence-Based Decision Making",
+                            "answer": "A Risk-Benefit Analysis combined with Evidence-Based Decision Making indicates this isn't wise unless data shows a clear advantage over their current regimen, considering risks like nutrient gaps."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What might be motivating this individual to consider this change?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "The individual may be driven by fear of their family history, amplified by availability bias from hearing about low-carb success stories, and a desire for control over their health future.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They're probably scared of heart disease and heard low-carb diets work for others."
+                        },
+                        {
+                            "model": "Availability Bias",
+                            "answer": "Availability Bias might motivate them, as vivid stories of low-carb diets reducing heart risk stand out, overshadowing their own effective habits."
+                        },
+                        {
+                            "model": "Control Heuristic",
+                            "answer": "The Control Heuristic could drive this, as they seek a strict diet to feel proactive and in charge of their health given their family history."
+                        },
+                        {
+                            "model": "Availability Bias + Control Heuristic",
+                            "answer": "Availability Bias from low-carb success stories, paired with the Control Heuristic to manage their health fears, likely motivates this shift despite their solid baseline."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "What should the individual do to make an informed decision?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should consult a doctor or nutritionist to assess their current health metrics, review evidence on diet impacts specific to their risk profile, and weigh this against their lifestyle preferences before deciding.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should talk to a doctor and check if this diet really fits their needs."
+                        },
+                        {
+                            "model": "Expert Consultation",
+                            "answer": "Seek Expert Consultation from a healthcare professional to evaluate their current diet's effectiveness and the low-carb option's relevance to their heart disease risk."
+                        },
+                        {
+                            "model": "Personalized Decision Making",
+                            "answer": "Use Personalized Decision Making by analyzing their health data and preferences to determine if the diet aligns with their goals and well-being."
+                        },
+                        {
+                            "model": "Expert Consultation + Personalized Decision Making",
+                            "answer": "Combine Expert Consultation with Personalized Decision Making, getting professional input on their risk and tailoring the choice to their health stats and lifestyle."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "context": "A mid-level software developer earning $80,000/year is contemplating quitting their stable job to join a startup offering $60,000/year plus equity, believing it could lead to a big payout if the company succeeds.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is this a reasonable career move?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's risky and not clearly reasonable, the $20,000 pay cut and uncertain equity value may not outweigh the stability and higher current income unless the startup's success odds and payout potential are high.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Taking a pay cut for a startup that might not make it seems risky."
+                        },
+                        {
+                            "model": "Risk-Reward Tradeoff",
+                            "answer": "The Risk-Reward Tradeoff indicates this isn't reasonable unless the equity's expected value significantly exceeds the $20,000 salary loss."
+                        },
+                        {
+                            "model": "Certainty Effect",
+                            "answer": "The Certainty Effect suggests it's not reasonable, as the developer might undervalue the guaranteed $80,000 compared to the speculative startup payoff."
+                        },
+                        {
+                            "model": "Risk-Reward Tradeoff + Certainty Effect",
+                            "answer": "Per Risk-Reward Tradeoff and Certainty Effect, this isn't reasonable without a high-probability, high-value equity payout to offset the certain $20,000 loss."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What could be influencing the developer's thinking?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "The developer might be swayed by the allure of a big win, overconfidence in the startup's future, and boredom or dissatisfaction with their current role.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They're probably dreaming of getting rich and tired of their current job."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "Overconfidence Bias might lead them to overestimate the startup's success odds and their role in it."
+                        },
+                        {
+                            "model": "Sunk Cost Fallacy",
+                            "answer": "Though not yet committed, Sunk Cost Fallacy could influence them to overvalue past time in a stable job, pushing a drastic change."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Sunk Cost Fallacy",
+                            "answer": "Overconfidence Bias in the startup's potential, paired with a Sunk Cost Fallacy-like push to escape their current role, might drive this choice."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "context": "A 30-year-old with $10,000 to invest is torn between putting it all in a single stock to diversify later or spreading it across a low-cost index fund, unsure about balancing risk and growth potential.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is investing everything in a single stock a wise choice for this individual?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well,can index fund offers lower risk but less dramatic upside.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It's risky to put all the money in one stock, but it might pay off big if it works out."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "Using Risk Diversification, it's not wise, spreading investments reduces the chance of losing everything if one stock tanks."
+                        },
+                        {
+                            "model": "Expected Value",
+                            "answer": "From an Expected Value perspective, the single stock isn't wise unless its potential gains far outweigh the higher probability of loss compared to an index fund."
+                        },
+                        {
+                            "model": "Risk Diversification + Expected Value",
+                            "answer": "Combining Risk Diversification and Expected Value, the single stock is unwise unless its expected return significantly beats the safer, steady growth of an index fund."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Why might this person be leaning toward a single stock?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably think they can make a lot of money fast by picking the right stock."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "Overconfidence Bias might push them to believe they can beat the market with one stock, ignoring the risks."
+                        },
+                        {
+                            "model": "Availability Heuristic",
+                            "answer": "The Availability Heuristic could be at play if they've heard recent success stories about single-stock wins, making that option seem more appealing."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Availability Heuristic",
+                            "answer": "Overconfidence Bias in their stock-picking skills, fueled by the Availability Heuristic from standout success stories, likely drives their lean toward a single stock."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should this individual decide where to invest?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should figure out how much risk they're okay with and look at what's worked in the past."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Use Risk Assessment to evaluate how much loss they can handle, then choose based on that comfort level, likely favoring the index fund."
+                        },
+                        {
+                            "model": "Incremental Learning",
+                            "answer": "Adopt Incremental Learning by starting with the index fund to build knowledge, then experimenting with smaller stock investments later."
+                        },
+                        {
+                            "model": "Risk Assessment + Incremental Learning",
+                            "answer": "Combine Risk Assessment to match their tolerance with Incremental Learning, starting with an index fund and gradually exploring stocks as they gain experience."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "context": "A college student has saved $5,000, representing all their available money. They are debating whether to invest it entirely in Bitcoin.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is investing all their money in Bitcoin a wise financial decision for this student?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "No, it is not a wise decision. Bitcoin is a highly volatile and speculative investment, and putting all their money, especially an emergency fund into it risks complete loss, leaving them without financial security.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It's risky to put all your money in Bitcoin because it could drop a lot and you'd lose everything you need for emergencies."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "From a Risk Assessment viewpoint, this is unwise due to Bitcoin's extreme price swings and the chance of losing the entire investment."
+                        },
+                        {
+                            "model": "Diversification",
+                            "answer": "The Diversification model indicates this is a bad idea since investing everything in one asset heightens the risk of significant loss."
+                        },
+                        {
+                            "model": "Risk Assessment + Diversification",
+                            "answer": "Using Risk Assessment and Diversification together, this is a poor choice. Bitcoin's volatility combined with no spread of investments endangers their financial stability."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What psychological factors might be pushing the student to consider this investment?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "The student might be influenced by overconfidence in their ability to predict Bitcoin's rise, fear of missing out (FOMO) on others' profits, and a desire for quick financial gains.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably think they'll get rich fast and don't want to miss out on what everyone else is talking about."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "Overconfidence Bias could make them think they can outsmart the market and predict Bitcoin's success."
+                        },
+                        {
+                            "model": "FOMO",
+                            "answer": "FOMO might be at play, as they're afraid of missing out on the big gains they've heard others are making."
+                        },
+                        {
+                            "model": "Overconfidence Bias + FOMO",
+                            "answer": "Overconfidence Bias in their market predictions, paired with FOMO from seeing others profit, could be driving their choice."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should the student approach deciding whether to invest all their money in Bitcoin?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "The student should protect their financial stability by keeping most of their money in safe, stable assets for emergencies and only consider investing a small, affordable amount in Bitcoin if they have extra funds, while also diversifying into less risky options.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should keep most of their money safe for emergencies and maybe try a little in Bitcoin if they can afford to lose it."
+                        },
+                        {
+                            "model": "Financial Planning",
+                            "answer": "With Financial Planning, they should focus on securing their emergency fund and only invest discretionary money in risky assets like Bitcoin."
+                        },
+                        {
+                            "model": "Risk Management",
+                            "answer": "Risk Management advises limiting Bitcoin to a tiny portion of their funds they can afford to lose, keeping the rest secure."
+                        },
+                        {
+                            "model": "Financial Planning + Risk Management",
+                            "answer": "Combining Financial Planning and Risk Management, they should ensure their core needs are covered with stable savings and restrict Bitcoin to a small, speculative investment."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "context": "A high school student has $500 saved from a part-time job and is deciding whether to buy a new gaming console for $450 or save the money for college textbooks next year.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is buying the gaming console a smart use of their money?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Spending almost all their money on a console might be fun now but leave them stuck later."
+                        },
+                        {
+                            "model": "Opportunity Cost",
+                            "answer": "Using Opportunity Cost, it's not smart, the $450 could cover textbooks, which are more essential than gaming."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "The Short-Term vs. Long-Term view suggests saving is smarter, as textbooks help their education more than a console helps now."
+                        },
+                        {
+                            "model": "Opportunity Cost + Short-Term vs. Long-Term",
+                            "answer": "Combining Opportunity Cost and Short-Term vs. Long-Term, it's not smart to lose textbook money for short-lived gaming fun."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Why might the student want to buy the console?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably want to play games with friends and feel good after working."
+                        },
+                        {
+                            "model": "Instant Gratification",
+                            "answer": "Instant Gratification might drive them, craving the quick enjoyment of gaming over waiting."
+                        },
+                        {
+                            "model": "Social Influence",
+                            "answer": "Social Influence could push them, seeing friends with consoles and wanting to fit in."
+                        },
+                        {
+                            "model": "Instant Gratification + Social Influence",
+                            "answer": "Instant Gratification for fast fun, plus Social Influence from gaming friends, might sway them toward the console."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should the student decide what to do with their money?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should think about what they need more and see if they can get a cheaper console."
+                        },
+                        {
+                            "model": "Needs vs. Wants",
+                            "answer": "Use Needs vs. Wants to prioritize textbooks as a need over the console as a want."
+                        },
+                        {
+                            "model": "Budget Flexibility",
+                            "answer": "Check Budget Flexibility, see if they can earn extra cash soon to afford both, or find a used console for less."
+                        },
+                        {
+                            "model": "Needs vs. Wants + Budget Flexibility",
+                            "answer": "Combine Needs vs. Wants to focus on textbooks with Budget Flexibility to explore earning more or buying a cheaper console."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "context": "A busy office worker wants to get fit and is deciding between joining a gym for $50 a month, which offers classes and equipment, or starting a free home workout routine with online videos.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is joining the gym the better choice for getting fit?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It depends as the gym might be better if they need structure and motivation, but home workouts are just as effective if they're disciplined and save money.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The gym could help if they need a push, but home workouts are free and might work fine."
+                        },
+                        {
+                            "model": "Motivation Factor",
+                            "answer": "The Motivation Factor suggests the gym is better if paying and going there keeps them committed."
+                        },
+                        {
+                            "model": "Cost-Benefit",
+                            "answer": "Cost-Benefit leans toward home workouts as it is free and effective if they stick to it, versus $50 monthly for the gym."
+                        },
+                        {
+                            "model": "Motivation Factor + Cost-Benefit",
+                            "answer": "Motivation Factor favors the gym for commitment, but Cost-Benefit says home workouts win if they can stay disciplined without spending."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Why might they be drawn to the gym?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might like the gym's social vibe, think it's more serious than home workouts, or want the variety of equipment and classes.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably like the idea of working out with others and using cool machines."
+                        },
+                        {
+                            "model": "Social Motivation",
+                            "answer": "Social Motivation might draw them, wanting to exercise around people for encouragement."
+                        },
+                        {
+                            "model": "Perceived Value",
+                            "answer": "Perceived Value could pull them to the gym, thinking paid facilities mean better results."
+                        },
+                        {
+                            "model": "Social Motivation + Perceived Value",
+                            "answer": "Social Motivation from gym buddies, plus Perceived Value of a paid setup, might make the gym appealing."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "context": "A young professional living in a small apartment is deciding whether to adopt a dog, which would cost $100 a month for food and care, or stick to a low-maintenance fish tank costing $20 a month.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is adopting a dog the better choice for them?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's not necessarily better as a dog offers companionship but takes more time and money, while a fish tank fits their small space and budget with less effort.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "A dog could be more fun but harder to manage in a tiny place than a fish tank."
+                        },
+                        {
+                            "model": "Lifestyle Fit",
+                            "answer": "Lifestyle Fit suggests a fish tank is better, less work and cost for a busy life in a small apartment."
+                        },
+                        {
+                            "model": "Cost-Value",
+                            "answer": "Cost-Value leans toward fish, $20 a month gets calm vibes, while $100 for a dog needs more justification."
+                        },
+                        {
+                            "model": "Lifestyle Fit + Cost-Value",
+                            "answer": "Lifestyle Fit and Cost-Value together favor fish for easy care and low cost in a small space over a pricier, busier dog."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Why might they be thinking about a dog?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might crave a pet's affection, feel lonely in their apartment, or see dogs as more exciting than fish.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably want a buddy to hang out with instead of just a fish."
+                        },
+                        {
+                            "model": "Emotional Need",
+                            "answer": "Emotional Need might push them, wanting a dog's love to feel less alone."
+                        },
+                        {
+                            "model": "Excitement Factor",
+                            "answer": "Excitement Factor could draw them, seeing a dog as more lively than a quiet fish tank."
+                        },
+                        {
+                            "model": "Emotional Need + Excitement Factor",
+                            "answer": "Emotional Need for companionship, plus Excitement Factor of a playful dog, might make them lean toward adopting."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should they choose between a dog and a fish tank?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should check their daily schedule for pet care time, compare costs to their budget, and visit a shelter or pet store to see what feels right.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should see if they have time and money for a dog or if fish are easier."
+                        },
+                        {
+                            "model": "Time Check",
+                            "answer": "Do a Time Check to make sure their schedule fits a dog's walks or just a fish tank's quick upkeep."
+                        },
+                        {
+                            "model": "Budget Match",
+                            "answer": "Use Budget Match, pick what their income can handle, $100 for a dog or $20 for fish."
+                        },
+                        {
+                            "model": "Time Check + Budget Match",
+                            "answer": "Combine Time Check for their routine with Budget Match to see if a dog or fish fits their life and wallet."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "context": "A junior accountant earns $50,000 a year and is debating whether to spend $300 on an online course to learn advanced Excel skills, hoping it'll help them get a promotion, or save the money instead.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is taking the online course a good investment?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's likely a good investment if the skills lead to a promotion or raise that exceeds $300, but saving might be wiser if the job benefit isn't clear.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The course could pay off if it gets them a better job, but saving's safer if it doesn't."
+                        },
+                        {
+                            "model": "Return on Investment",
+                            "answer": "Return on Investment says it's good if the course boosts their salary beyond $300 soon."
+                        },
+                        {
+                            "model": "Risk of No Gain",
+                            "answer": "Risk of No Gain suggests saving, $300 is lost if the promotion doesn't happen."
+                        },
+                        {
+                            "model": "Return on Investment + Risk of No Gain",
+                            "answer": "Return on Investment favors the course if it pays off big, but Risk of No Gain warns to save unless the promotion's likely."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "Why might they want to take the course?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might aim to stand out at work, feel eager to learn, or think Excel skills will impress their boss.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They probably want to get ahead and think it'll look good to their boss."
+                        },
+                        {
+                            "model": "Career Ambition",
+                            "answer": "Career Ambition might drive them, wanting to climb the ladder with new skills."
+                        },
+                        {
+                            "model": "Learning Desire",
+                            "answer": "Learning Desire could push them, excited to master Excel for their job."
+                        },
+                        {
+                            "model": "Career Ambition + Learning Desire",
+                            "answer": "Career Ambition to move up, plus Learning Desire to grow, might make them want the course."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should they decide if the course is worth it?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should ask their boss if Excel skills could lead to a promotion, check free online resources first, and see if the $300 fits their budget.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should talk to their boss and see if there's free stuff online before spending."
+                        },
+                        {
+                            "model": "Boss Input",
+                            "answer": "Get Boss Input, ask if the skills would help their job chances."
+                        },
+                        {
+                            "model": "Resource Check",
+                            "answer": "Do a Resource Check. Look for free Excel tutorials to save the $300 if possible."
+                        },
+                        {
+                            "model": "Boss Input + Resource Check",
+                            "answer": "Combine Boss Input on promotion potential with Resource Check for free options to decide smartly."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "context": "A small city has $10,000 to improve its bus stops. They're choosing between adding shelters at two busy stops for $9,000 or putting benches at five smaller stops for $8,000.",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Are the shelters the better option for the city?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's not definitely better as shelters help more people at busy stops but use most of the budget, while benches spread comfort across more spots for slightly less.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Shelters are nice for big stops, but benches could help more places."
+                        },
+                        {
+                            "model": "User Reach",
+                            "answer": "User Reach favors benches, five stops help more riders than two shelters."
+                        },
+                        {
+                            "model": "Comfort Impact",
+                            "answer": "Comfort Impact leans toward shelters, protection from rain beats just sitting at busy stops."
+                        },
+                        {
+                            "model": "User Reach + Comfort Impact",
+                            "answer": "User Reach likes benches for wider use, but Comfort Impact says shelters win for better relief at key stops."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "How should the city pick between shelters and benches?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should count daily riders at each stop, ask residents what they'd use more, and see if the budget can stretch to mix both options.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should check who uses the stops and ask people what they want."
+                        },
+                        {
+                            "model": "Usage Data",
+                            "answer": "Use Usage Data, count riders to see where upgrades matter most."
+                        },
+                        {
+                            "model": "Community Voice",
+                            "answer": "Get Community Voice, ask residents if they'd rather have shelters or benches."
+                        },
+                        {
+                            "model": "Usage Data + Community Voice",
+                            "answer": "Combine Usage Data on rider numbers with Community Voice to match the choice to real needs."
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "id": "x",
             "context": "",
@@ -1885,7 +2323,7 @@
                     "question": "",
                     "question-type": "",
                     "difficulty": "",
-                    "ground truth": "",
+                    "ground_truth": "",
                     "model_answers": [
                         {
                             "model": "",
