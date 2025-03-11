@@ -13,19 +13,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Buying a car that costs almost double your salary will likely cause money problems"
+                            "answer": "Buying a $70,000 luxury car when earning $45,000 annually poses significant financial risks, including reduced disposable income and potential damage to one's credit score."
                         },
                         {
                             "model": "Affordability Heuristic",
-                            "answer": "Based on the Affordability Heuristic, this is likely a financially unsound decision, as the perceived short-term boost is likely overvalued compared to the substantial and immediate financial burden it creates."
+                            "answer": "Buying a $70,000 luxury car exceeds 156% of your annual income, leaving insufficient funds for other essential expenses, making it a financially unsound decision."
                         },
                         {
                             "model": "Social Signaling",
-                            "answer": "No, this is financially unsound because the potential social signaling benefits of a luxury car are unlikely to outweigh the significant debt and financial burden it creates, potentially hindering long-term career advancement due to financial stress."
+                            "answer": "Purchasing a $70,000 luxury car when earning only $45,000/year is not financially sound and risks prioritizing image over long-term financial stability."
                         },
                         {
                             "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Affordability Heuristic, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
+                            "answer": "The purchase of a $70,000 luxury car by a $45,000/year earner is not financially sound due to high monthly payments that strain affordability, despite potential social signaling benefits."
                         }
                     ]
                 },
@@ -38,19 +38,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "They're mixing up 'looking successful' with actually being successful"
+                            "answer": "The graduate is driven by a desire for status, social comparison, and the belief that owning a luxury car symbolizes success, which they perceive as crucial for advancing their career."
                         },
                         {
                             "model": "Halo Effect",
-                            "answer": "The recent graduate is likely exhibiting the halo effect, irrationally believing the car's luxurious appearance will create an overwhelmingly positive perception, leading to career advancements unrelated to their actual skills or experience."
+                            "answer": "The Halo Effect leads the recent graduate to believe that owning a luxury car will enhance their perceived success and status, thereby positively influencing their professional reputation and career opportunities."
                         },
                         {
                             "model": "Present Bias",
-                            "answer": "The recent graduate is heavily influenced by present bias, prioritizing the immediate gratification and perceived short-term career benefits of owning the car over the long-term financial consequences of their purchase decision."
+                            "answer": "The recent graduate is driven by present bias, prioritizing the immediate gratification of owning a luxurious symbol to enhance career prospects through social validation and status, despite underestimating future financial and practical consequences."
                         },
                         {
                             "model": "Halo Effect + Present Bias",
-                            "answer": "Driven by present bias, the graduate prioritizes the immediate gratification of the perceived halo effect from the car's status on their image, outweighing long-term financial consequences."
+                            "answer": "The graduate is driven by the halo effect, valuing the positive perception of success a luxury car may bring, and present bias, prioritizing immediate gratification over long-term financial considerations."
                         }
                     ]
                 },
@@ -63,19 +63,19 @@
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "They should reconsider this decision and prioritize long-term financial stability over perceived image benefits."
+                            "answer": "The recent graduate should reconsider purchasing a $70,000 luxury car due to significant financial risks and unclear career benefits; instead, they could focus on more sustainable investments like education or networking for long-term career growth."
                         },
                         {
                             "model": "Total Cost of Ownership",
-                            "answer": "Instead of fixating on appearances, they should meticulously calculate the total cost of ownership (depreciation, insurance, maintenance, fuel, taxes) to understand if a $70,000 luxury car is financially sustainable with their $45,000 income, and explore more cost-effective alternatives that offer a similar image boost."
+                            "answer": "The recent graduate should assess the total cost of ownership, including long-term financial implications, before deciding to purchase the luxury car, as the investment may not be justified by career boost expectations."
                         },
                         {
                             "model": "ROI Analysis",
-                            "answer": "Calculate if the increased earnings potential and career advancement from the car demonstrably outweigh the significant financial burden and opportunity cost associated with it."
+                            "answer": "The recent graduate should refrain from purchasing the $70,000 luxury car due to high debt relative to income and lack of clear ROI; instead, they should prioritize financial stability and long-term growth over immediate status symbols."
                         },
                         {
                             "model": "Total Cost of Ownership + ROI Analysis",
-                            "answer": "They should carefully analyze the potential ROI of the car on their career against the substantial total cost of ownership to determine if the perceived benefits outweigh the significant financial burden, considering more cost-effective alternatives to achieve a similar professional image."
+                            "answer": "The recent graduate should conduct a thorough Total Cost of Ownership analysis, including all associated costs, and perform a ROI analysis using net present value principles to evaluate if the luxury car's costs outweigh the potential career benefits. Alternatives like leasing or investing in professional development may offer better financial and career outcomes."
                         }
                     ]
                 }

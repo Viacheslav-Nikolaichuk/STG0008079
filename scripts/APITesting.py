@@ -107,28 +107,45 @@ class OpenAIAPI:
         self.model_name = config['model_name']
         self.conversation = []
         self.temperature = temperature
+        
+        # List of models that don't support temperature parameter
+        self.no_temp_models = ['o3-mini', 'o1-mini', 'o1']
+        
+        # List of models that don't support system role
+        self.no_system_role_models = ['o1-mini']
 
     def start_conversation(self):
-        self.conversation = [{
-            "role": "system",
-            "content": ("You are an analytical assistant. Provide a direct, " 
-                        "insightful response in a single clear sentence.")
-        }]
+        if any(model_name in self.model_name for model_name in self.no_system_role_models):
+            self.conversation = [{
+                "role": "user",
+                "content": ("You are an analytical assistant. Provide a direct, " 
+                            "insightful response in a single clear sentence.")
+            }]
+        else:
+            self.conversation = [{
+                "role": "system",
+                "content": ("You are an analytical assistant. Provide a direct, " 
+                            "insightful response in a single clear sentence.")
+            }]
 
     def generate_response(self, prompt):
         self.conversation.append({"role": "user", "content": prompt})
         
         try:
-            completion = self.client.chat.completions.create(
-                model=self.model_name,
-                messages=self.conversation,
-                temperature=self.temperature
-            )
+            params = {
+                "model": self.model_name,
+                "messages": self.conversation,
+            }
+            
+            if not any(model_name in self.model_name for model_name in self.no_temp_models):
+                params["temperature"] = self.temperature
+                
+            completion = self.client.chat.completions.create(**params)
+            
             return clean_response(completion.choices[0].message.content)
         except Exception as e:
             logging.error(f"OpenAI error: {str(e)}")
             return "Error"
-
 class GeminiAPI:
     def __init__(self, config: dict, temperature: float = 0.7):
         self.api_key = config['api_key']
