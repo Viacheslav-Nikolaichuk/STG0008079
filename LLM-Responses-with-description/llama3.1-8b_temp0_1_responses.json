@@ -1,0 +1,85 @@
+{
+    "scenarios": [
+        {
+            "id": "1",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is this a financially sound decision?",
+                    "question-type": "evaluative",
+                    "difficulty": "easy",
+                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "This is not a financially sound decision due to the significant depreciation of the vehicle's value and the mismatch between the graduate's income and the luxury car's annual insurance, fuel, and maintenance costs."
+                        },
+                        {
+                            "model": "Affordability Heuristic",
+                            "answer": "The recent graduate's proposed purchase would allocate approximately 56% of their annual salary towards a single item, exceeding the commonly recommended threshold of 10-15% for luxury goods, suggesting this decision is financially unsound."
+                        },
+                        {
+                            "model": "Social Signaling",
+                            "answer": "This decision is unlikely to be financially sound due to the significant opportunity cost of allocating nearly 160% of annual income towards a single luxury item that may not directly correlate with professional growth or return on investment."
+                        },
+                        {
+                            "model": "Affordability Heuristic + Social Signaling",
+                            "answer": "The graduate's decision to spend 57% of their annual income on a luxury car is unsustainable and likely driven by social signaling rather than financial prudence or a genuine need for career-enhancing appearances."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What psychological factors drive this reasoning?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The recent graduate's reasoning is likely driven by the psychological phenomenon of status consumption theory, where they equate material possessions with social status and prestige to compensate for perceived inadequacies or insecurities related to their salary and position."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "The recent graduate's decision to prioritize purchasing a luxury car over financial prudence is likely driven by the Halo Effect, which manifests as an overemphasis on the symbolic benefits of conspicuous consumption and a subsequent underestimation of its actual impact on career opportunities."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "The recent graduate's decision is driven by present bias, where the desire for instant prestige and status associated with owning a luxury car outweighs the consideration of future financial burdens and potential opportunity costs that may arise from prioritizing conspicuous consumption over more practical investments."
+                        },
+                        {
+                            "model": "Halo Effect + Present Bias",
+                            "answer": "The recent graduate is likely driven by a combination of present bias, prioritizing the instant gratification of owning a luxury car, and the halo effect, where the prestige associated with the vehicle positively influences their self-image and perceived career prospects."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should they approach this decision?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should carefully consider the opportunity cost of allocating 57% of their annual income towards a single asset and prioritize a more modest lifestyle to ensure financial stability and flexibility before making such a significant investment."
+                        },
+                        {
+                            "model": "Total Cost of Ownership",
+                            "answer": "The recent graduate should conduct a comprehensive Total Cost of Ownership analysis to consider not only the $70,000 purchase price but also ongoing expenses such as financing, insurance, maintenance, fuel, and opportunity costs, which may outweigh any potential career benefits from owning a luxury car."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "They should calculate the NPV of the luxury car purchase by estimating the potential increase in income or career advancement due to its appearance, and then compare it to the $70,000 cost over a reasonable timeframe, taking into account opportunity costs, inflation, and other financial considerations."
+                        },
+                        {
+                            "model": "Total Cost of Ownership + ROI Analysis",
+                            "answer": "The recent graduate should conduct a thorough Total Cost of Ownership analysis, considering the high depreciation, insurance, maintenance, fuel, and financing costs associated with the luxury car, and compare them against the limited expected ROI benefits, likely yielding a net negative value, indicating that purchasing the luxury car may not be a financially wise decision."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

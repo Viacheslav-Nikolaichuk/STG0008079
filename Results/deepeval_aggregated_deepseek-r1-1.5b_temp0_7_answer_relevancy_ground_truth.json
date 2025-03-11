@@ -1,0 +1,84 @@
+{
+  "reference_type": "ground_truth",
+  "metrics_used": [
+    "answer_relevancy"
+  ],
+  "metrics": {
+    "answer_relevancy": {
+      "overall": {
+        "score": 0.7791666666666667,
+        "pass_rate": 0.5833333333333334
+      },
+      "by_model": {
+        "": {
+          "score": 0.8888888888888888,
+          "pass_rate": 0.6666666666666666
+        },
+        "Affordability Heuristic": {
+          "score": 0.6666666666666666,
+          "pass_rate": 0.0
+        },
+        "Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Affordability Heuristic + Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Halo Effect": {
+          "score": 0.75,
+          "pass_rate": 1.0
+        },
+        "Present Bias": {
+          "score": 0.0,
+          "pass_rate": 0.0
+        },
+        "Halo Effect + Present Bias": {
+          "score": 0.6666666666666666,
+          "pass_rate": 0.0
+        },
+        "Total Cost of Ownership": {
+          "score": 0.6,
+          "pass_rate": 0.0
+        },
+        "ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Total Cost of Ownership + ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        }
+      },
+      "by_question_type": {
+        "evaluative": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "explanatory": {
+          "score": 0.5208333333333333,
+          "pass_rate": 0.25
+        },
+        "prescriptive": {
+          "score": 0.9,
+          "pass_rate": 0.75
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "medium": {
+          "score": 0.5208333333333333,
+          "pass_rate": 0.25
+        },
+        "hard": {
+          "score": 0.9,
+          "pass_rate": 0.75
+        }
+      }
+    }
+  }
+}

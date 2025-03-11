@@ -1,0 +1,85 @@
+{
+    "scenarios": [
+        {
+            "id": "1",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
+            "questions": [
+                {
+                    "id": "1",
+                    "question": "Is this a financially sound decision?",
+                    "question-type": "evaluative",
+                    "difficulty": "easy",
+                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it significantly exceeds affordable spending limits and could lead to financial strain."
+                        },
+                        {
+                            "model": "Affordability Heuristic",
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it exceeds the typical affordability threshold of 30% of income for car expenses, potentially leading to unsustainable debt."
+                        },
+                        {
+                            "model": "Social Signaling",
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is not financially sound, as it prioritizes social signaling over practical financial stability and could lead to significant debt."
+                        },
+                        {
+                            "model": "Affordability Heuristic + Social Signaling",
+                            "answer": "No, purchasing a $70,000 luxury car on a $45,000 salary is financially unsound, as it exceeds affordability thresholds and may lead to unsustainable debt, despite potential social signaling benefits."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What psychological factors drive this reasoning?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The graduate's reasoning may be driven by social comparison, the desire for status and validation, and the belief in the halo effect, where perceived success and attractiveness can enhance professional opportunities."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "The graduate is likely influenced by the halo effect, where the perceived prestige and success associated with owning a luxury car may lead them to believe it will enhance their professional image and opportunities, despite the financial impracticality."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "The recent graduate's reasoning is influenced by present bias, which prioritizes immediate gratification and the perceived short-term benefits of status and confidence over long-term financial stability and career growth."
+                        },
+                        {
+                            "model": "Halo Effect + Present Bias",
+                            "answer": "The graduate's reasoning is influenced by the Halo Effect, where the luxury car is perceived to enhance their overall attractiveness and competence in the eyes of others, combined with Present Bias, which prioritizes immediate gratification and the perceived short-term benefits of status over long-term financial stability."
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "How should they approach this decision?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should carefully evaluate their financial situation, considering the long-term implications of such a purchase on their budget, savings, and career prospects, and explore more affordable options that align with their income."
+                        },
+                        {
+                            "model": "Total Cost of Ownership",
+                            "answer": "The graduate should conduct a Total Cost of Ownership analysis, considering not only the car's purchase price but also insurance, maintenance, fuel, and depreciation, to determine if the financial burden aligns with their income and career goals."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "The graduate should conduct a thorough ROI analysis by estimating the potential increase in income from enhanced career opportunities against the total cost of ownership of the car, including financing, insurance, and maintenance, to determine if the investment is financially justifiable."
+                        },
+                        {
+                            "model": "Total Cost of Ownership + ROI Analysis",
+                            "answer": "The graduate should conduct a Total Cost of Ownership analysis, factoring in insurance, maintenance, fuel, and depreciation, while also evaluating the potential ROI by assessing how the car could realistically enhance career opportunities and income relative to their current financial situation."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
