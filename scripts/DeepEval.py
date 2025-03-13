@@ -174,7 +174,7 @@ def create_metrics(metric_names, threshold=0.7, eval_model="gpt-4o-mini"):
     
     return metrics
 
-def evaluate_test_cases(test_cases, metrics, batch_size=12):
+def evaluate_test_cases(test_cases, metrics, batch_size=15):
     """
     Evaluate test cases using specified metrics
     

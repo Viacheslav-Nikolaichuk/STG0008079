@@ -102,7 +102,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
     
     return predictions, references, metadata, index_mapping
 
-def compute_bertscore(predictions, references, batch_size=12):
+def compute_bertscore(predictions, references, batch_size=15):
     """Compute BERTScore for prediction-reference pairs"""
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logging.info(f"Using device: {device}")
