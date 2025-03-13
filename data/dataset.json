@@ -5,7 +5,7 @@
             "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
             "questions": [
                 {
-                    "id": "1",
+                    "query_id": "1_1",
                     "question": "Is this a financially sound decision?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
@@ -30,7 +30,7 @@
                     ]
                 },
                 {
-                    "id": "2",
+                    "query_id": "1_2",
                     "question": "What psychological factors drive this reasoning?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -55,7 +55,7 @@
                     ]
                 },
                 {
-                    "id": "3",
+                    "query_id": "1_3",
                     "question": "How should they approach this decision?",
                     "question-type": "prescriptive",
                     "difficulty": "easy",
@@ -86,7 +86,7 @@
             "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
             "questions": [
                 {
-                    "id": "1",
+                    "query_id": "2_1",
                     "question": "What risks does full automation pose?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -117,7 +117,7 @@
             "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
             "questions": [
                 {
-                    "id": "1", 
+                    "query_id": "3_1",
                     "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
@@ -143,7 +143,7 @@
                     ]
                 },
                 {
-                    "id": "2",
+                    "query_id": "3_2",
                     "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -169,7 +169,7 @@
                     ]
                 },
                 {
-                    "id": "3",
+                    "query_id": "3_3",
                     "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -197,7 +197,7 @@
                     ]
                 },
                 {
-                    "id": "4",
+                    "query_id": "3_4",
                     "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -223,7 +223,7 @@
                     ]
                 },
                 {
-                    "id": "5",
+                    "query_id": "3_5",
                     "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
@@ -249,7 +249,7 @@
                     ]
                 },
                 {
-                    "id": "6",
+                    "query_id": "3_6",
                     "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
                     "question-type": "normative",
                     "difficulty": "hard",
@@ -275,7 +275,7 @@
                     ]
                 },
                 {
-                    "id": "7",
+                    "query_id": "3_7",
                     "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -301,7 +301,7 @@
                     ]
                 },
                 {
-                    "id": "8",
+                    "query_id": "3_8",
                     "question": "Another player claims they 'always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -328,6 +328,7 @@
                 },
                 {
                     "id": "9",
+                    "query_id": "3_9",
                     "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
                     "question-type": "evaluative",
                     "difficulty": "hard",
@@ -354,6 +355,7 @@
                 },
                 {
                     "id": "10",
+                    "query_id": "3_10",
                     "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -382,6 +384,7 @@
         },
         {
             "id": "4",
+            "query_id": "4_1",
             "context": "A major city introduces shared electric scooters to reduce traffic congestion, but faces chaotic parking and accident surges",
             "questions": [
                 {
@@ -411,6 +414,7 @@
                 },
                 {
                     "id": "2",
+                    "query_id": "4_2",
                     "question": "How dangerous are scooters compared to other transport?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
@@ -436,6 +440,7 @@
                 },
                 {   
                     "id": "3",
+                    "query_id": "4_3",
                     "question": "Should scooters be banned from pedestrian zones?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -461,6 +466,7 @@
                 },
                 {
                     "id": "4",
+                    "query_id": "4_4",
                     "question": "What's the environmental trade-off?",
                     "question-type": "evaluative",
                     "difficulty": "hard",
