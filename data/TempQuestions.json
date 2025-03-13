@@ -5,7 +5,7 @@
             "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
             "questions": [
                 {
-                    "id": "1",
+                    "query_id": "1_1",
                     "question": "Is this a financially sound decision?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
@@ -30,7 +30,7 @@
                     ]
                 },
                 {
-                    "id": "2",
+                    "query_id": "1_2",
                     "question": "What psychological factors drive this reasoning?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -55,7 +55,7 @@
                     ]
                 },
                 {
-                    "id": "3",
+                    "query_id": "1_3",
                     "question": "How should they approach this decision?",
                     "question-type": "prescriptive",
                     "difficulty": "hard",
