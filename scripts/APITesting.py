@@ -9,7 +9,7 @@ from openai import OpenAI
 
 # Enable basic logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logging.getLogger("httpx").setLevel(logging.WARNING) # Disables http debug logs (from OpenAI's API)
+logging.getLogger("httpx").setLevel(logging.WARNING) # Disables http debug logs from OpenAI's API
 
 def load_config():
     try:
@@ -270,7 +270,7 @@ def process_scenario(input_scenario, handler, mental_models, use_descriptions=Fa
 
     for input_question in input_scenario["questions"]:
         processed_question = {
-            "id": input_question["id"],
+            "query_id": input_question["query_id"],
             "question": input_question["question"],
             "question-type": input_question["question-type"],
             "difficulty": input_question["difficulty"],
@@ -316,6 +316,15 @@ def process_scenario(input_scenario, handler, mental_models, use_descriptions=Fa
                 "model": mental_model,
                 "answer": response
             })
+
+        # Fifth answer that asks for reasoning
+        handler.start_conversation()
+        reasoning_prompt = f"Context: {input_scenario['context']}\nQuestion: {input_question['question']}\nExplain your reasoning behind your answer."
+        reasoning_response = handler.generate_response(reasoning_prompt)
+        processed_question["model_answers"].append({
+            "model": "Explain reasoning prompt",
+            "answer": reasoning_response
+        })
 
         processed_scenario["questions"].append(processed_question)
     

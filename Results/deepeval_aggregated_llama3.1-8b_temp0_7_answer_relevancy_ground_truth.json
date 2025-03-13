@@ -6,8 +6,8 @@
   "metrics": {
     "answer_relevancy": {
       "overall": {
-        "score": 1.0,
-        "pass_rate": 1.0
+        "score": 0.9566666666666667,
+        "pass_rate": 0.9333333333333333
       },
       "by_model": {
         "": {
@@ -24,6 +24,10 @@
         },
         "Affordability Heuristic + Social Signaling": {
           "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Reasoning": {
+          "score": 0.9166666666666666,
           "pass_rate": 1.0
         },
         "Halo Effect": {
@@ -47,8 +51,8 @@
           "pass_rate": 1.0
         },
         "Total Cost of Ownership + ROI Analysis": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.6,
+          "pass_rate": 0.0
         }
       },
       "by_question_type": {
@@ -57,12 +61,12 @@
           "pass_rate": 1.0
         },
         "explanatory": {
-          "score": 1.0,
+          "score": 0.95,
           "pass_rate": 1.0
         },
         "prescriptive": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.9199999999999999,
+          "pass_rate": 0.8
         }
       },
       "by_difficulty": {
@@ -71,12 +75,12 @@
           "pass_rate": 1.0
         },
         "medium": {
-          "score": 1.0,
+          "score": 0.95,
           "pass_rate": 1.0
         },
         "hard": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.9199999999999999,
+          "pass_rate": 0.8
         }
       }
     }

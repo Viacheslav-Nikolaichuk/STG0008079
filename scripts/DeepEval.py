@@ -83,12 +83,12 @@ def create_test_cases(dataset, responses, reference_type='ground_truth'):
             continue
             
         for question in scenario.get("questions", []):
-            question_id = question.get("id")
+            question_id = question.get("query_id")
             question_text = question.get("question", "")
             
             # Find matching question in original dataset
             orig_question = next((q for q in orig_scenario.get("questions", []) 
-                                if q.get("id") == question_id), None)
+                                if q.get("query_id") == question_id), None)
             
             if not orig_question:
                 logging.warning(f"Question {question_id} not found in scenario {scenario_id}")
@@ -132,7 +132,7 @@ def create_test_cases(dataset, responses, reference_type='ground_truth'):
                 
                 meta = {
                     "scenario_id": scenario_id,
-                    "question_id": question_id,
+                    "query_id": question_id,
                     "model": model_name,
                     "question_type": question.get("question-type", ""),
                     "difficulty": question.get("difficulty", ""),
@@ -174,7 +174,7 @@ def create_metrics(metric_names, threshold=0.7, eval_model="gpt-4o-mini"):
     
     return metrics
 
-def evaluate_test_cases(test_cases, metrics, batch_size=12):
+def evaluate_test_cases(test_cases, metrics, batch_size=15):
     """
     Evaluate test cases using specified metrics
     

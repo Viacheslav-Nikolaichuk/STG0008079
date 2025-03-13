@@ -6,17 +6,17 @@
   "metrics": {
     "answer_relevancy": {
       "overall": {
-        "score": 1.0,
-        "pass_rate": 1.0
+        "score": 0.9344444444444445,
+        "pass_rate": 0.9333333333333333
       },
       "by_model": {
         "": {
-          "score": 1.0,
+          "score": 0.9444444444444445,
           "pass_rate": 1.0
         },
         "Affordability Heuristic": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.6666666666666666,
+          "pass_rate": 0.0
         },
         "Social Signaling": {
           "score": 1.0,
@@ -26,12 +26,16 @@
           "score": 1.0,
           "pass_rate": 1.0
         },
+        "Explain reasoning prompt": {
+          "score": 0.9722222222222222,
+          "pass_rate": 1.0
+        },
         "Halo Effect": {
           "score": 1.0,
           "pass_rate": 1.0
         },
         "Present Bias": {
-          "score": 1.0,
+          "score": 0.8,
           "pass_rate": 1.0
         },
         "Halo Effect + Present Bias": {
@@ -47,35 +51,35 @@
           "pass_rate": 1.0
         },
         "Total Cost of Ownership + ROI Analysis": {
-          "score": 1.0,
+          "score": 0.8,
           "pass_rate": 1.0
         }
       },
       "by_question_type": {
         "evaluative": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.9333333333333333,
+          "pass_rate": 0.8
         },
         "explanatory": {
-          "score": 1.0,
+          "score": 0.9433333333333334,
           "pass_rate": 1.0
         },
         "prescriptive": {
-          "score": 1.0,
+          "score": 0.9266666666666667,
           "pass_rate": 1.0
         }
       },
       "by_difficulty": {
         "easy": {
-          "score": 1.0,
-          "pass_rate": 1.0
+          "score": 0.9333333333333333,
+          "pass_rate": 0.8
         },
         "medium": {
-          "score": 1.0,
+          "score": 0.9433333333333334,
           "pass_rate": 1.0
         },
         "hard": {
-          "score": 1.0,
+          "score": 0.9266666666666667,
           "pass_rate": 1.0
         }
       }

@@ -46,11 +46,11 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
             continue
             
         for question in scenario.get("questions", []):
-            question_id = question.get("id")
+            question_id = question.get("query_id")
             
             # Find matching question in original dataset
             orig_question = next((q for q in orig_scenario.get("questions", []) 
-                                if q.get("id") == question_id), None)
+                                if q.get("query_id") == question_id), None)
             
             if not orig_question:
                 logging.warning(f"Question {question_id} not found in scenario {scenario_id}")
@@ -88,7 +88,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                 
                 meta = {
                     "scenario_id": scenario_id,
-                    "question_id": question_id,
+                    "query_id": question_id,
                     "model": model_name,
                     "question_type": question.get("question-type", ""),
                     "difficulty": question.get("difficulty", ""),
@@ -102,7 +102,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
     
     return predictions, references, metadata, index_mapping
 
-def compute_bertscore(predictions, references, batch_size=12):
+def compute_bertscore(predictions, references, batch_size=15):
     """Compute BERTScore for prediction-reference pairs"""
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logging.info(f"Using device: {device}")
