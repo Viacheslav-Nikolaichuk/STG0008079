@@ -16,16 +16,16 @@
                             "answer": "Buying a car that costs almost double your salary will likely cause money problems"
                         },
                         {
-                            "model": "Affordability Heuristic",
-                            "answer": "Based on the Affordability Heuristic, this is likely a financially unsound decision, as the perceived short-term boost is likely overvalued compared to the substantial and immediate financial burden it creates."
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Based on the Cost-Benefit Analysis, this is a financially unsound decision. The costs of the luxury car significantly exceed the graduate's annual income, leading to potential financial instability and debt."
                         },
                         {
                             "model": "Social Signaling",
                             "answer": "No, this is financially unsound because the potential social signaling benefits of a luxury car are unlikely to outweigh the significant debt and financial burden it creates, potentially hindering long-term career advancement due to financial stress."
                         },
                         {
-                            "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Affordability Heuristic, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
+                            "model": "Cost-Benefit Analysis + Social Signaling",
+                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Cost-Benefit Analysis, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
                         }
                     ]
                 },
@@ -66,7 +66,7 @@
                             "answer": "They should reconsider this decision and prioritize long-term financial stability over perceived image benefits."
                         },
                         {
-                            "model": "Total Cost of Ownership",
+                            "model": "Cost-Benefit Analysis",
                             "answer": "Instead of fixating on appearances, they should meticulously calculate the total cost of ownership (depreciation, insurance, maintenance, fuel, taxes) to understand if a $70,000 luxury car is financially sustainable with their $45,000 income, and explore more cost-effective alternatives that offer a similar image boost."
                         },
                         {
@@ -74,7 +74,7 @@
                             "answer": "Calculate if the increased earnings potential and career advancement from the car demonstrably outweigh the significant financial burden and opportunity cost associated with it."
                         },
                         {
-                            "model": "Total Cost of Ownership + ROI Analysis",
+                            "model": "Cost-Benefit Analysis + ROI Analysis",
                             "answer": "They should carefully analyze the potential ROI of the car on their career against the substantial total cost of ownership to determine if the perceived benefits outweigh the significant financial burden, considering more cost-effective alternatives to achieve a similar professional image."
                         }
                     ]
@@ -83,45 +83,14 @@
         },
         {
             "id": "2",
-            "context": "A hospital considers replacing human radiologists with AI diagnostics despite 92% accuracy vs. 98% human performance",
-            "questions": [
-                {
-                    "query_id": "2_1",
-                    "question": "What risks does full automation pose?",
-                    "question-type": "descriptive",
-                    "difficulty": "easy",
-                    "ground_truth": "AI's 6% higher error rate would result in thousands of misdiagnoses annually. False negatives delay critical treatments while false positives trigger unnecessary procedures, creating both medical risks and systemic inefficiencies that outweigh cost benefits.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Relying solely on AI risks overlooking crucial, diagnostic information leading to potentially compromised patient care despite a seemingly small accuracy difference."
-                        },
-                        {
-                            "model": "Type I/II Errors",
-                            "answer": "Full automation risks a higher rate of missed critical diagnoses (Type II error - false negative), leading to potentially fatal consequences, despite a reduced rate of false positives (Type I error - false positive), like unnecessary interventions."
-                        },
-                        {
-                            "model": "Confusion Matrix",
-                            "answer": "Full automation risks increased false negatives compared to humans, leading to missed diagnoses and potentially outweighing the marginal gain in overall accuracy."
-                        },
-                        {
-                            "model": "Type I/II Errors + Confusion Matrix",
-                            "answer": "Relying solely on AI, despite lower accuracy, risks increased false negatives (Type II errors) leading to missed diagnoses and compromised patient outcomes while also introducing more false positives (Type I errors), which leads to unnecessary treatments and elevated patient anxiety compared to human oversight."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "3",
             "context": "You are invited by friends to a respected casino. One friend has just won a large sum of money, encouraging you to try your luck. You recall that casinos generally hold an advantage. You wonder if your friend's success is sufficient evidence to change your view on the profitability of gambling.",
             "questions": [
                 {
-                    "query_id": "3_1", 
+                    "query_id": "2_1", 
                     "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
                     "question-type": "evaluative",
                     "difficulty": "easy",
-                    "ground truth": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+                    "ground_truth": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
 
                     "model_answers": [
                         {
@@ -143,11 +112,11 @@
                     ]
                 },
                 {
-                    "query_id": "3_2",
+                    "query_id": "2_2",
                     "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Blackjack usually has a lower house edge than slots, especially when played with proper basic strategy, making it comparatively less costly in the long run. However, it still carries a negative expectation unless you employ advanced techniques like card counting, which casinos typically prohibit.",
+                    "ground_truth": "Blackjack usually has a lower house edge than slots, especially when played with proper basic strategy, making it comparatively less costly in the long run. However, it still carries a negative expectation unless you employ advanced techniques like card counting, which casinos typically prohibit.",
 
                     "model_answers": [
                         {
@@ -169,7 +138,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_3",
+                    "query_id": "2_3",
                     "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -195,7 +164,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_4",
+                    "query_id": "2_4",
                     "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -221,7 +190,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_5",
+                    "query_id": "2_5",
                     "question": "Considering various table games, you research that baccarat also has a low house edge when betting on the banker. Does it significantly alter your chances to make a profit?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
@@ -247,7 +216,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_6",
+                    "query_id": "2_6",
                     "question": "If someone claims to have a 'foolproof system' for roulette by doubling bets on losses (the Martingale strategy), should you trust it to circumvent the house edge?",
                     "question-type": "normative",
                     "difficulty": "hard",
@@ -273,7 +242,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_7",
+                    "query_id": "2_7",
                     "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -299,11 +268,11 @@
                     ]
                 },
                 {
-                    "query_id": "3_8",
+                    "query_id": "2_8",
                     "question": "Another player claims they 'always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
-                    "ground truth": "Knowing when to quit does not negate the house edge. Over many plays, the negative expectation persists, so timing your exit does not guarantee overall profitability.",
+                    "ground_truth": "Knowing when to quit does not negate the house edge. Over many plays, the negative expectation persists, so timing your exit does not guarantee overall profitability.",
 
                     "model_answers": [
                         {
@@ -325,11 +294,11 @@
                     ]
                 },
                 {
-                    "query_id": "3_9",
+                    "query_id": "2_9",
                     "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
                     "question-type": "evaluative",
                     "difficulty": "hard",
-                    "ground truth": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
+                    "ground_truth": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
 
                     "model_answers": [
                         {
@@ -351,7 +320,7 @@
                     ]
                 },
                 {
-                    "query_id": "3_10",
+                    "query_id": "2_10",
                     "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -379,11 +348,11 @@
             ]
         },
         {
-            "id": "4",
+            "id": "3",
             "context": "A major city introduces shared electric scooters to reduce traffic congestion, but faces chaotic parking and accident surges",
             "questions": [
                 {
-                    "query_id": "4_1",
+                    "query_id": "3_1",
                     "question": "Why are people misparking scooters despite clear docking stations?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -394,7 +363,7 @@
                             "answer": "Users prioritize convenience over rules when rushing to destinations"
                         },
                         {
-                            "model": "Hyperbolic Discounting",
+                            "model": "Present Bias",
                             "answer": "The immediate convenience of dropping the scooter anywhere outweighs the future inconvenience or penalty associated with misparking, making immediate gratification the driving force."
                         },
                         {
@@ -402,13 +371,13 @@
                             "answer": "Individuals prioritize personal convenience and short-term gain (avoiding docking station detours) over the long-term collective well-being (organized parking and safer streets), leading to widespread misparking."
                         },
                         {
-                            "model": "Hyperbolic Discounting + Tragedy of the Commons",
+                            "model": "Present Bias + Tragedy of the Commons",
                             "answer": "Individuals prioritize the immediate convenience of leaving scooters wherever they finish their ride, even if it causes collective inconvenience, over the long-term benefits of properly parked scooters for the community and the future availability for themselves."
                         }
                     ]
                 },
                 {
-                    "query_id": "4_2",
+                    "query_id": "3_2",
                     "question": "How dangerous are scooters compared to other transport?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
@@ -433,7 +402,7 @@
                     ]
                 },
                 {   
-                    "query_id": "4_3",
+                    "query_id": "3_3",
                     "question": "Should scooters be banned from pedestrian zones?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -456,40 +425,15 @@
                             "answer": "Instead of a complete ban, strategically apply Nudge Theory by incentivizing parking in designated zones and disincentivizing unsafe riding through usage-based externality pricing to internalize the true costs of scooter use and curb negative externalities."
                         }
                     ]
-                },
-                {
-                    "query_id": "4_4",
-                    "question": "What's the environmental trade-off?",
-                    "question-type": "evaluative",
-                    "difficulty": "hard",
-                    "ground_truth": "Electric scooters offer a reduction in carbon emissions from individual car trips, but introduce new environmental impacts from scooter production, charging, and disposal, potentially offsetting some gains.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Scooters reduce emissions from short car trips but have their own environmental costs"
-                        },
-                        {
-                            "model": "Embodied Energy",
-                            "answer": "While electric scooters themselves may reduce emissions from cars, the embodied energy in their production, distribution, frequent replacement due to damage, and eventual disposal could offset some of the intended environmental benefits if not managed sustainably."
-                        },
-                        {
-                            "model": "Rebound Effect",
-                            "answer": "Despite potential emission reductions from electric vehicles, the increased accessibility might encourage more trips, offsetting environmental benefits due to expanded overall transportation demand."
-                        },
-                        {
-                            "model": "Embodied Energy + Rebound Effect",
-                            "answer": "While scooters may reduce car trips (reducing tailpipe emissions), the Embodied Energy in scooter production, frequent replacement due to damage, and the Rebound Effect of increased overall travel activity could potentially negate or lessen the net environmental benefits."
-                        }
-                    ]
                 }
             ]
         },
         {
-            "id": "5",
+            "id": "4",
             "context": "A tech startup considers switching to a four-day workweek to improve employee well-being but worries about maintaining productivity",
             "questions": [
                 {
-                    "query_id": "5_1",
+                    "query_id": "4_1",
                     "question": "Should they implement the four-day workweek immediately?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -516,11 +460,11 @@
             ]
         },
         {
-            "id": "6",
+            "id": "5",
             "context": "A small e-commerce business is considering implementing a new AI-driven inventory management system to streamline operations and reduce costs, but leadership is concerned about data security and how employees will adapt to the change.",
             "questions": [
                 {
-                    "query_id": "6_1",
+                    "query_id": "5_1",
                     "question": "Should they roll out the AI inventory system to all departments at once?",
                     "question-type": "normative",
                     "difficulty": "easy",
@@ -545,7 +489,7 @@
                     ]
                 },
                 {
-                    "query_id": "6_2",
+                    "query_id": "5_2",
                     "question": "How should they train employees to ensure successful adoption of the new system?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -570,7 +514,7 @@
                     ]
                 },
                 {
-                    "query_id": "6_3",
+                    "query_id": "5_3",
                     "question": "How should they measure the success of the AI-based inventory system after implementation?",
                     "question-type": "prescriptive",
                     "difficulty": "hard",
@@ -595,7 +539,7 @@
                     ]
                 },
                 {
-                    "query_id": "6_4",
+                    "query_id": "5_4",
                     "question": "How should they address data security concerns, internally or via an external vendor?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -622,11 +566,11 @@
             ]
         },
         {
-            "id": "7",
+            "id": "6",
             "context": "A large manufacturing company is considering integrating automation into its assembly lines to improve efficiency, but there's concern over job displacement and transition costs.",
             "questions": [
                 {
-                    "id": "1",
+                    "query_id": "6_1",
                     "question": "Should the company immediately replace human workers with automation?",
                     "question-type": "normative",
                     "difficulty": "easy",
@@ -649,40 +593,15 @@
                             "answer": "Although our comfort with current methods might slow change, the projected gains from a phased automation approach justify a pilot before full implementation."
                         }
                     ]
-                },
-                {
-                    "id": "2",
-                    "question": "How should they address concerns about potential job losses?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground_truth": "Implement retraining and redeployment programs to help transition affected workers into new roles.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Offer comprehensive retraining programs and a gradual transition plan to help employees move into new positions."
-                        },
-                        {
-                            "model": "Stakeholder Engagement",
-                            "answer": "Engage with employees early to discuss career pathways and provide transparent support options."
-                        },
-                        {
-                            "model": "Systems Thinking",
-                            "answer": "Analyze how automation in one area affects overall workflow and develop retraining strategies that account for interdepartmental dependencies."
-                        },
-                        {
-                            "model": "Stakeholder Engagement + Systems Thinking",
-                            "answer": "By combining early employee involvement with a systems-level analysis, the company can design retraining programs that maintain productivity while easing workforce transitions."
-                        }
-                    ]
                 }
             ]
         },
         {
-            "id": "8",
+            "id": "7",
             "context": "A university is exploring a shift to a pass/fail grading system to alleviate student stress and foster deeper learning, yet faculty worry that academic performance may suffer.",
             "questions": [
                 {
-                    "query_id": "8_1",
+                    "query_id": "7_1",
                     "question": "Should the university adopt a pass/fail grading system for all courses?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -709,11 +628,11 @@
             ]
         },
         {
-            "id": "9",
+            "id": "8",
             "context": "A small technology startup is considering transitioning to a permanent remote-work policy to attract top talent and reduce overhead costs, but some team members worry about reduced collaboration and waning company culture.",
             "questions": [
                 {
-                    "query_id": "9_1",
+                    "query_id": "8_1",
                     "question": "Should the startup adopt a fully remote work policy?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -739,11 +658,11 @@
                     ]
                 },
                 {
-                    "query_id": "9_2",
+                    "query_id": "8_2",
                     "question": "How can the startup maintain high employee productivity in a remote setting?",
                     "question-type": "prescriptive",
                     "difficulty": "easy",
-                    "ground truth": "Use outcome-based performance measures, hold frequent but concise virtual check-ins, and facilitate open communication via digital collaboration tools. This ensures clarity in expectations and helps maintain accountability across remote teams.",
+                    "ground_truth": "Use outcome-based performance measures, hold frequent but concise virtual check-ins, and facilitate open communication via digital collaboration tools. This ensures clarity in expectations and helps maintain accountability across remote teams.",
 
                     "model_answers": [
                         {
@@ -765,7 +684,7 @@
                     ]
                 },
                 {
-                    "query_id": "9_3",
+                    "query_id": "8_3",
                     "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -793,11 +712,11 @@
             ]
         },
         {
-            "id": "10",
+            "id": "9",
             "context": "A regional hospital is considering expanding telemedicine services to improve patient access, particularly for remote and underserved communities. While some medical staff see telemedicine as an efficient way to reduce overhead and improve patient outreach, others are concerned about maintaining the quality of care and addressing potential technology barriers.",
             "questions": [
                 {
-                    "query_id": "10_1",
+                    "query_id": "9_1",
                     "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -822,7 +741,7 @@
                     ]
                 },
                 {
-                    "query_id": "10_2",                   
+                    "query_id": "9_2",                   
                     "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -849,11 +768,11 @@
             ]
         },
         {
-            "id": "11",
+            "id": "10",
             "context": "A local city council is debating whether to impose a sugar-sweetened beverage tax to combat rising obesity rates. Public health advocates argue that the tax will discourage excessive sugar consumption and generate revenue for health initiatives. However, small business owners worry about reduced sales, potential job losses, and an overall negative impact on their local economy.",
             "questions": [
                 {   
-                    "query_id": "11_1",
+                    "query_id": "10_1",
                     "question": "Will a sugar-sweetened beverage tax substantially hurt local businesses, or are the potential health benefits compelling enough to justify the policy?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -878,7 +797,7 @@
                     ]
                 },
                 {
-                    "query_id": "11_2",
+                    "query_id": "10_2",
                     "question": "Does imposing a beverage tax significantly reduce sugar consumption in the broader population, or can consumers easily find alternatives to circumvent the measure?",
                     "question-type": "descriptive",
                     "difficulty": "medium",
@@ -903,7 +822,7 @@
                     ]
                 },
                 {
-                    "query_id": "11_3",
+                    "query_id": "10_3",
                     "question": "Some argue that the immediate revenue generation from this tax may detract from the broader goal of long-term public health. Are these concerns valid?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -930,11 +849,11 @@
             ]
         },
         {
-            "id": "12",
+            "id": "11",
             "context": "A mid-sized city is evaluating a plan to build a robust network of protected bike lanes to reduce car usage, cut carbon emissions, and promote healthy living. Local shop owners fear the reconfiguration may decrease vehicle traffic and reduce their sales, while some residents worry that lane conversions could worsen congestion in other parts of the city.",
             "questions": [
                 {
-                    "query_id": "12_1",
+                    "query_id": "11_1",
                     "question": "Local business owners fear that losing car lanes or parking spaces might hamper sales. Should the city still move forward with the bike lane project despite these concerns?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -959,7 +878,7 @@
                     ]
                 },
                 {
-                    "query_id": "12_2",
+                    "query_id": "11_2",
                     "question": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -984,7 +903,7 @@
                     ]
                 },
                 {
-                    "query_id": "12_3",
+                    "query_id": "11_3",
                     "question": "Critics say allocating resources to bike lanes provides only marginal benefits for the environment compared to overall emissions. How might city officials justify the budget for such a project?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1011,11 +930,11 @@
             ]
         },
         {
-            "id": "13",
+            "id": "12",
             "context": "A local government is proposing a ban on single-use plastics for restaurants and retail stores to reduce environmental waste. Many business owners worry about the increased costs of switching to alternative packaging, while some residents fear the ban may inconvenience customers accustomed to disposable options.",
             "questions": [
                 {
-                    "query_id": "13_1",
+                    "query_id": "12_1",
                     "question": "Should the ban proceed despite businesses' concerns about increased costs and potential pushback from customers?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -1040,7 +959,7 @@
                     ]
                 },
                 {
-                    "query_id": "13_2",
+                    "query_id": "12_2",
                     "question": "Local shop owners worry that alternative packaging is more expensive and less reliable. How can the government address these concerns without delaying the environmental goals?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1065,7 +984,7 @@
                     ]
                 },
                 {
-                    "query_id": "13_3",
+                    "query_id": "12_3",
                     "question": "Some residents prefer the convenience of single-use plastics and might resist changes to their routine. How can officials gain public support for this ban?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1092,11 +1011,11 @@
             ]
         },
         {
-            "id": "14",
+            "id": "13",
             "context": "A local public library system is considering drastically reducing its physical book collection and moving to a nearly all-digital platform to cut costs and repurpose library space. Long-time patrons fear losing the traditional library experience, while staff members are concerned about job security and adapting to new technology-focused roles.",
             "questions": [
                 {
-                    "query_id": "14_1",
+                    "query_id": "13_1",
                     "question": "Should the library proceed with replacing most physical books with digital formats, even if it alienates some loyal patrons?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -1121,7 +1040,7 @@
                     ]
                 },
                 {
-                    "query_id": "14_2",
+                    "query_id": "13_2",
                     "question": "How can the library address concerns from older patrons who have limited digital literacy or prefer physical collections?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1146,7 +1065,7 @@
                     ]
                 },
                 {
-                    "query_id": "14_3",
+                    "query_id": "13_3",
                     "question": "Some staff worry that a digital-focused library may lose its role as a community gathering place. Is this concern justified?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1173,11 +1092,11 @@
             ]
         },
         {
-            "id": "15",
+            "id": "14",
             "context": "A local nonprofit wants to expand its services to assist the homeless population by adding temporary shelters, job training workshops, and mental health counseling. Board members worry about overextending resources, while volunteers are concerned about managing a greater client load without adequate staffing.",
             "questions": [
                 {
-                    "query_id": "15_1",
+                    "query_id": "14_1",
                     "question": "Is it wise for the nonprofit to rapidly scale up its offerings without fully knowing if there are enough staff and financial resources to sustain these new programs?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1202,7 +1121,7 @@
                     ]
                 },
                 {
-                    "query_id": "15_2",
+                    "query_id": "14_2",
                     "question": "Some donors hesitate to give more, fearing the nonprofit might over-promise. How could leadership address these concerns and maintain donor confidence?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1227,7 +1146,7 @@
                     ]
                 },
                 {
-                    "query_id": "15_3",
+                    "query_id": "14_3",
                     "question": "Critics say the organization might lose its personal touch by expanding so quickly. Is the concern about reduced quality of care legitimate?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1254,11 +1173,11 @@
             ]
         },
         {
-            "id": "16",
+            "id": "15",
             "context": "A small farm cooperative is debating whether to invest in state-of-the-art hydroponic systems. Proponents argue it will increase crop yields and use resources more efficiently, while skeptics worry about high upfront costs and the complexity of managing new technology.",
             "questions": [
                 {
-                    "query_id": "16_1",
+                    "query_id": "15_1",
                     "question": "Should the cooperative move forward with these hydroponic systems despite the substantial initial investment?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -1283,7 +1202,7 @@
                     ]
                 },
                 {
-                    "query_id": "16_2",
+                    "query_id": "15_2",
                     "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1308,7 +1227,7 @@
                     ]
                 },
                 {
-                    "query_id": "16_3",
+                    "query_id": "15_3",
                     "question": "Critics say hydroponics isn't 'natural' farming and might alienate consumers who value traditional methods. Is this a legitimate risk?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1335,11 +1254,11 @@
             ]
         },
         {
-            "id": "17",
+            "id": "16",
             "context": "A city plans to develop an interconnected underground walkway system linking major downtown buildings to reduce street-level congestion and improve pedestrian safety, especially in harsh weather conditions. Some business owners worry about losing foot traffic in above-ground commercial areas, and the construction costs are considerable.",
             "questions": [
                 {
-                    "query_id": "17_1",
+                    "query_id": "16_1",
                     "question": "Is the investment in a large underground walkway network worth the potential disruption to current street-level shops and the high construction expenses?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1364,7 +1283,7 @@
                     ]
                 },
                 {
-                    "query_id": "17_2",
+                    "query_id": "16_2",
                     "question": "Some residents fear that navigating underground tunnels could be confusing or feel unsafe. How might the city address these concerns?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1389,7 +1308,7 @@
                     ]
                 },
                 {
-                    "query_id": "17_3",
+                    "query_id": "16_3",
                     "question": "Critics argue that the underground network may cause businesses to relocate or shift focus, altering the downtown economy. Is this a genuine risk?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1416,11 +1335,11 @@
             ]
         },
         {
-            "id": "18",
+            "id": "17",
             "context": "A local public school district is considering implementing a mandatory uniform policy to minimize socioeconomic disparities and reduce disciplinary issues. Parents and students worry about losing personal expression, while some teachers argue that uniforms might improve the school's overall atmosphere and focus on academics.",
             "questions": [
                 {
-                    "query_id": "18_1",
+                    "query_id": "17_1",
                     "question": "Should the school district enforce uniforms if it risks reducing students' individuality but potentially improves classroom discipline?",
                     "question-type": "normative",
                     "difficulty": "medium",
@@ -1445,7 +1364,7 @@
                     ]
                 },
                 {
-                    "query_id": "18_2",
+                    "query_id": "17_2",
                     "question": "Parents worry that enforced uniforms might be expensive or cumbersome. How can the district address financial concerns and ensure equity?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1470,7 +1389,7 @@
                     ]
                 },
                 {
-                    "query_id": "18_3",
+                    "query_id": "17_3",
                     "question": "Critics claim uniforms alone won't fix deeper issues such as bullying or academic underperformance. Is this a valid concern?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1497,11 +1416,11 @@
             ]
         },
         {
-            "id": "19",
+            "id": "18",
             "context": "A national chain of quick-service restaurants is considering switching to fully plant-based packaging to reduce waste and appeal to environmentally conscious consumers. Franchise owners worry about the higher costs of these materials, while customers are split between convenience and sustainability concerns.",
             "questions": [
                 {
-                    "query_id": "19_1",
+                    "query_id": "18_1",
                     "question": "Should the chain prioritize environmentally friendly plant-based packaging, even if it initially raises operational costs?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1526,7 +1445,7 @@
                     ]
                 },
                 {
-                    "query_id": "19_2",
+                    "query_id": "18_2",
                     "question": "Some franchisees are concerned about passing higher packaging costs onto consumers. How might the chain address these pricing fears?",
                     "question-type": "descriptive",
                     "difficulty": "easy",
@@ -1551,7 +1470,7 @@
                     ]
                 },
                 {
-                    "query_id": "19_3",
+                    "query_id": "18_3",
                     "question": "Environmentalists argue this switch alone won't solve the chain's overall waste problem unless combined with other measures. Are they right?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
@@ -1578,11 +1497,11 @@
             ]
         },
         {
-            "id": "20",
+            "id": "19",
             "context": "A small business owner with a stable revenue of $100,000/year is considering a $50,000 experimental marketing campaign that promises a 50% chance of doubling their customer base but could also fail entirely, citing the need to stay competitive in a growing market.",
             "questions": [
                 {
-                    "query_id": "20_1",
+                    "query_id": "19_1",
                     "question": "Is this a worthwhile investment for the business?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1597,17 +1516,17 @@
                             "answer": "Based on Expected Value, this investment has a neutral outcome (0.5 * $100,000 gain - 0.5 * $50,000 loss = $0), suggesting it's not clearly worthwhile given the high risk and lack of a positive expected return."
                         },
                         {
-                            "model": "Sunk Cost Fallacy",
-                            "answer": "This may not be worthwhile, as the owner risks becoming overly committed to the campaign's success due to the sunk cost fallacy, potentially leading to further losses if it fails rather than cutting losses early."
+                            "model": "Opportunity Cost",
+                            "answer": "The $50,000 cost represents a significant opportunity cost, as the owner could invest in less risky strategies or save the funds for emergencies, potentially yielding better long-term results."
                         },
                         {
-                            "model": "Expected Value + Sunk Cost Fallacy",
-                            "answer": "This investment isn't clearly worthwhile, as Expected Value shows no net gain (0.5 * $100,000 - 0.5 * $50,000 = $0), and the sunk cost fallacy could trap the owner into throwing good money after bad if the campaign underperforms."
+                            "model": "Expected Value + Opportunity Cost",
+                            "answer": "Considering the neutral Expected Value and the high opportunity cost, this investment may not be worthwhile, as the potential gains don't justify the financial risk and lost alternative opportunities."
                         }
                     ]
                 },
                 {
-                    "query_id": "20_2",
+                    "query_id": "19_2",
                     "question": "What psychological factors might be influencing the owner's decision?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -1618,21 +1537,21 @@
                             "answer": "They're probably worried about falling behind and think this could be a big win."
                         },
                         {
-                            "model": "FOMO (Fear of Missing Out)",
-                            "answer": "The owner is likely influenced by FOMO, feeling pressured to invest in the campaign to avoid losing ground to competitors who might capitalize on market growth."
+                            "model": "Fear of Missing Out",
+                            "answer": "The owner is likely influenced by Fear of Missing Out, feeling pressured to invest in the campaign to avoid losing ground to competitors who might capitalize on market growth."
                         },
                         {
                             "model": "Overconfidence Bias",
                             "answer": "Overconfidence bias may drive the owner to overestimate the campaign's 50% success probability and its impact on doubling the customer base, ignoring the equal chance of total failure."
                         },
                         {
-                            "model": "FOMO + Overconfidence Bias",
-                            "answer": "Influenced by FOMO, the owner fears missing market opportunities, while overconfidence bias leads them to overestimate the campaign's success odds and impact, skewing their risk perception."
+                            "model": "Fear of Missing Out + Overconfidence Bias",
+                            "answer": "Influenced by Fear of Missing Out, the owner fears missing market opportunities, while overconfidence bias leads them to overestimate the campaign's success odds and impact, skewing their risk perception."
                         }
                     ]
                 },
                 {
-                    "query_id": "20_3",
+                    "query_id": "19_3",
                     "question": "How should the owner evaluate this opportunity?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -1659,11 +1578,11 @@
             ]
         },
         {
-            "id": "21",
+            "id": "20",
             "context": "A 45-year-old individual with a family history of heart disease is deciding whether to adopt a strict low-carb diet, believing it will reduce their risk of cardiovascular issues, even though they enjoy a balanced diet and exercise regularly.",
             "questions": [
                 {
-                    "query_id": "21_1",
+                    "query_id": "20_1",
                     "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1674,46 +1593,21 @@
                             "answer": "It might not be worth it if they're already healthy with their current habits."
                         },
                         {
-                            "model": "Risk-Benefit Analysis",
-                            "answer": "A Risk-Benefit Analysis suggests this isn't wise unless evidence shows a low-carb diet significantly outperforms their current approach, given potential nutritional risks and lifestyle trade-offs."
+                            "model": "Risk-Reward Analysis",
+                            "answer": "A Risk-Reward Analysis suggests this isn't wise unless evidence shows a low-carb diet significantly outperforms their current approach, given potential nutritional risks and lifestyle trade-offs."
                         },
                         {
                             "model": "Evidence-Based Decision Making",
                             "answer": "Without specific evidence that a low-carb diet is better for their profile than their balanced diet and exercise, this choice lacks justification and may not be wise."
                         },
                         {
-                            "model": "Risk-Benefit Analysis + Evidence-Based Decision Making",
-                            "answer": "A Risk-Benefit Analysis combined with Evidence-Based Decision Making indicates this isn't wise unless data shows a clear advantage over their current regimen, considering risks like nutrient gaps."
+                            "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
+                            "answer": "A Risk-Reward Analysis combined with Evidence-Based Decision Making indicates this isn't wise unless data shows a clear advantage over their current regimen, considering risks like nutrient gaps."
                         }
                     ]
                 },
                 {
-                    "query_id": "21_2",
-                    "question": "What might be motivating this individual to consider this change?",
-                    "question-type": "explanatory",
-                    "difficulty": "easy",
-                    "ground_truth": "The individual may be driven by fear of their family history, amplified by availability bias from hearing about low-carb success stories, and a desire for control over their health future.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They're probably scared of heart disease and heard low-carb diets work for others."
-                        },
-                        {
-                            "model": "Availability Bias",
-                            "answer": "Availability Bias might motivate them, as vivid stories of low-carb diets reducing heart risk stand out, overshadowing their own effective habits."
-                        },
-                        {
-                            "model": "Control Heuristic",
-                            "answer": "The Control Heuristic could drive this, as they seek a strict diet to feel proactive and in charge of their health given their family history."
-                        },
-                        {
-                            "model": "Availability Bias + Control Heuristic",
-                            "answer": "Availability Bias from low-carb success stories, paired with the Control Heuristic to manage their health fears, likely motivates this shift despite their solid baseline."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "21_3",
+                    "query_id": "20_2",
                     "question": "What should the individual do to make an informed decision?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -1740,11 +1634,11 @@
             ]
         },
         {
-            "id": "22",
+            "id": "21",
             "context": "A mid-level software developer earning $80,000/year is contemplating quitting their stable job to join a startup offering $60,000/year plus equity, believing it could lead to a big payout if the company succeeds.",
             "questions": [
                 {
-                    "query_id": "22_1",
+                    "query_id": "21_1",
                     "question": "Is this a reasonable career move?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1755,21 +1649,21 @@
                             "answer": "Taking a pay cut for a startup that might not make it seems risky."
                         },
                         {
-                            "model": "Risk-Reward Tradeoff",
-                            "answer": "The Risk-Reward Tradeoff indicates this isn't reasonable unless the equity's expected value significantly exceeds the $20,000 salary loss."
+                            "model": "Risk-Reward Analysis",
+                            "answer": "The Risk-Reward tradeoff indicates this isn't reasonable unless the equity's expected value significantly exceeds the $20,000 salary loss."
                         },
                         {
-                            "model": "Certainty Effect",
-                            "answer": "The Certainty Effect suggests it's not reasonable, as the developer might undervalue the guaranteed $80,000 compared to the speculative startup payoff."
+                            "model": "Risk Aversion",
+                            "answer": "Risk Aversion suggests it's not reasonable, as the developer might undervalue the guaranteed $80,000 compared to the speculative startup payoff."
                         },
                         {
-                            "model": "Risk-Reward Tradeoff + Certainty Effect",
-                            "answer": "Per Risk-Reward Tradeoff and Certainty Effect, this isn't reasonable without a high-probability, high-value equity payout to offset the certain $20,000 loss."
+                            "model": "Risk-Reward Analysis + Risk Aversion",
+                            "answer": "Per Risk-Reward Analysis and Risk Aversion, this isn't reasonable without a high-probability, high-value equity payout to offset the certain $20,000 loss."
                         }
                     ]
                 },
                 {
-                    "query_id": "22_2",
+                    "query_id": "21_2",
                     "question": "What could be influencing the developer's thinking?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -1784,27 +1678,27 @@
                             "answer": "Overconfidence Bias might lead them to overestimate the startup's success odds and their role in it."
                         },
                         {
-                            "model": "Sunk Cost Fallacy",
-                            "answer": "Though not yet committed, Sunk Cost Fallacy could influence them to overvalue past time in a stable job, pushing a drastic change."
+                            "model": "Opportunity Cost",
+                            "answer": "Though not yet committed, calculating the opportunity cost could influence them to overvalue past time in a stable job, pushing a drastic change."
                         },
                         {
-                            "model": "Overconfidence Bias + Sunk Cost Fallacy",
-                            "answer": "Overconfidence Bias in the startup's potential, paired with a Sunk Cost Fallacy-like push to escape their current role, might drive this choice."
+                            "model": "Overconfidence Bias + Opportunity Cost",
+                            "answer": "Overconfidence Bias in the startup's potential, combined with the Opportunity Cost of staying in a stable role, likely drives their consideration of a risky career shift."
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "23",
+            "id": "22",
             "context": "A 30-year-old with $10,000 to invest is torn between putting it all in a single stock to diversify later or spreading it across a low-cost index fund, unsure about balancing risk and growth potential.",
             "questions": [
                 {
-                    "query_id": "23_1",
+                    "query_id": "22_1",
                     "question": "Is investing everything in a single stock a wise choice for this individual?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
-                    "ground_truth": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well,can index fund offers lower risk but less dramatic upside.",
+                    "ground_truth": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
                     "model_answers": [
                         {
                             "model": "",
@@ -1825,7 +1719,7 @@
                     ]
                 },
                 {
-                    "query_id": "23_2",
+                    "query_id": "22_2",
                     "question": "Why might this person be leaning toward a single stock?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -1840,17 +1734,17 @@
                             "answer": "Overconfidence Bias might push them to believe they can beat the market with one stock, ignoring the risks."
                         },
                         {
-                            "model": "Availability Heuristic",
-                            "answer": "The Availability Heuristic could be at play if they've heard recent success stories about single-stock wins, making that option seem more appealing."
+                            "model": "Availability Bias",
+                            "answer": "The Availability Bias could be at play if they've heard recent success stories about single-stock wins, making that option seem more appealing."
                         },
                         {
-                            "model": "Overconfidence Bias + Availability Heuristic",
-                            "answer": "Overconfidence Bias in their stock-picking skills, fueled by the Availability Heuristic from standout success stories, likely drives their lean toward a single stock."
+                            "model": "Overconfidence Bias + Availability Bias",
+                            "answer": "Overconfidence Bias in their stock-picking skills, fueled by the Availability Bias from standout success stories, likely drives their lean toward a single stock."
                         }
                     ]
                 },
                 {
-                    "query_id": "23_3",
+                    "query_id": "22_3",
                     "question": "How should this individual decide where to invest?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -1877,11 +1771,11 @@
             ]
         },
         {
-            "id": "24",
+            "id": "23",
             "context": "A college student has saved $5,000, representing all their available money. They are debating whether to invest it entirely in Bitcoin.",
             "questions": [
                 {
-                    "query_id": "24_1",
+                    "query_id": "23_1",
                     "question": "Is investing all their money in Bitcoin a wise financial decision for this student?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1896,17 +1790,17 @@
                             "answer": "From a Risk Assessment viewpoint, this is unwise due to Bitcoin's extreme price swings and the chance of losing the entire investment."
                         },
                         {
-                            "model": "Diversification",
-                            "answer": "The Diversification model indicates this is a bad idea since investing everything in one asset heightens the risk of significant loss."
+                            "model": "Risk Diversification",
+                            "answer": "The Risk Diversification model indicates this is a bad idea since investing everything in one asset heightens the risk of significant loss."
                         },
                         {
-                            "model": "Risk Assessment + Diversification",
-                            "answer": "Using Risk Assessment and Diversification together, this is a poor choice. Bitcoin's volatility combined with no spread of investments endangers their financial stability."
+                            "model": "Risk Assessment + Risk Diversification",
+                            "answer": "Using Risk Assessment and Risk Diversification together, this is a poor choice. Bitcoin's volatility combined with no spread of investments endangers their financial stability."
                         }
                     ]
                 },
                 {
-                    "query_id": "24_2",
+                    "query_id": "23_2",
                     "question": "What psychological factors might be pushing the student to consider this investment?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -1921,17 +1815,17 @@
                             "answer": "Overconfidence Bias could make them think they can outsmart the market and predict Bitcoin's success."
                         },
                         {
-                            "model": "FOMO",
-                            "answer": "FOMO might be at play, as they're afraid of missing out on the big gains they've heard others are making."
+                            "model": "Fear of Missing Out",
+                            "answer": "Fear of Missing Out might be at play, as they're afraid of missing out on the big gains they've heard others are making."
                         },
                         {
-                            "model": "Overconfidence Bias + FOMO",
-                            "answer": "Overconfidence Bias in their market predictions, paired with FOMO from seeing others profit, could be driving their choice."
+                            "model": "Overconfidence Bias + Fear of Missing Out",
+                            "answer": "Overconfidence Bias in their market predictions, paired with Fear of Missing Out from seeing others profit, could be driving their choice."
                         }
                     ]
                 },
                 {
-                    "query_id": "24_3",
+                    "query_id": "23_3",
                     "question": "How should the student approach deciding whether to invest all their money in Bitcoin?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -1946,23 +1840,23 @@
                             "answer": "With Financial Planning, they should focus on securing their emergency fund and only invest discretionary money in risky assets like Bitcoin."
                         },
                         {
-                            "model": "Risk Management",
-                            "answer": "Risk Management advises limiting Bitcoin to a tiny portion of their funds they can afford to lose, keeping the rest secure."
+                            "model": "Risk Assessment",
+                            "answer": "Risk Assessment advises limiting Bitcoin to a tiny portion of their funds they can afford to lose, keeping the rest secure."
                         },
                         {
-                            "model": "Financial Planning + Risk Management",
-                            "answer": "Combining Financial Planning and Risk Management, they should ensure their core needs are covered with stable savings and restrict Bitcoin to a small, speculative investment."
+                            "model": "Financial Planning + Risk Assessment",
+                            "answer": "Combining Financial Planning and Risk Assessment, they should ensure their core needs are covered with stable savings and restrict Bitcoin to a small, speculative investment."
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "25",
+            "id": "24",
             "context": "A high school student has $500 saved from a part-time job and is deciding whether to buy a new gaming console for $450 or save the money for college textbooks next year.",
             "questions": [
                 {
-                    "query_id": "25_1",
+                    "query_id": "24_1",
                     "question": "Is buying the gaming console a smart use of their money?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -1987,7 +1881,7 @@
                     ]
                 },
                 {
-                    "query_id": "25_2",
+                    "query_id": "24_2",
                     "question": "Why might the student want to buy the console?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -1998,21 +1892,21 @@
                             "answer": "They probably want to play games with friends and feel good after working."
                         },
                         {
-                            "model": "Instant Gratification",
-                            "answer": "Instant Gratification might drive them, craving the quick enjoyment of gaming over waiting."
+                            "model": "Present Bias",
+                            "answer": "Instant gratification might drive them, craving the quick enjoyment of gaming over waiting."
                         },
                         {
-                            "model": "Social Influence",
-                            "answer": "Social Influence could push them, seeing friends with consoles and wanting to fit in."
+                            "model": "Social Signaling",
+                            "answer": "Social signaling could push them, seeing friends with consoles and wanting to fit in."
                         },
                         {
-                            "model": "Instant Gratification + Social Influence",
-                            "answer": "Instant Gratification for fast fun, plus Social Influence from gaming friends, might sway them toward the console."
+                            "model": "Present Bias + Social Signaling",
+                            "answer": "Instant gratification for fast fun, plus Social influence from gaming friends, might sway them toward the console."
                         }
                     ]
                 },
                 {
-                    "query_id": "25_3",
+                    "query_id": "24_3",
                     "question": "How should the student decide what to do with their money?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -2023,27 +1917,27 @@
                             "answer": "They should think about what they need more and see if they can get a cheaper console."
                         },
                         {
-                            "model": "Needs vs. Wants",
-                            "answer": "Use Needs vs. Wants to prioritize textbooks as a need over the console as a want."
+                            "model": "Perceived Value",
+                            "answer": "Use Perceived Value to prioritize textbooks as a need over the console as a want."
                         },
                         {
                             "model": "Budget Flexibility",
                             "answer": "Check Budget Flexibility, see if they can earn extra cash soon to afford both, or find a used console for less."
                         },
                         {
-                            "model": "Needs vs. Wants + Budget Flexibility",
-                            "answer": "Combine Needs vs. Wants to focus on textbooks with Budget Flexibility to explore earning more or buying a cheaper console."
+                            "model": "Perceived Value + Budget Flexibility",
+                            "answer": "Combine Perceived Value to focus on textbooks with Budget Flexibility to explore earning more or buying a cheaper console."
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "26",
+            "id": "25",
             "context": "A busy office worker wants to get fit and is deciding between joining a gym for $50 a month, which offers classes and equipment, or starting a free home workout routine with online videos.",
             "questions": [
                 {
-                    "query_id": "26_1", 
+                    "query_id": "25_1", 
                     "question": "Is joining the gym the better choice for getting fit?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -2058,17 +1952,17 @@
                             "answer": "The Motivation Factor suggests the gym is better if paying and going there keeps them committed."
                         },
                         {
-                            "model": "Cost-Benefit",
+                            "model": "Cost-Benefit Analysis",
                             "answer": "Cost-Benefit leans toward home workouts as it is free and effective if they stick to it, versus $50 monthly for the gym."
                         },
                         {
-                            "model": "Motivation Factor + Cost-Benefit",
+                            "model": "Motivation Factor + Cost-Benefit Analysis",
                             "answer": "Motivation Factor favors the gym for commitment, but Cost-Benefit says home workouts win if they can stay disciplined without spending."
                         }
                     ]
                 },
                 {
-                    "query_id": "26_2",
+                    "query_id": "25_2",
                     "question": "Why might they be drawn to the gym?",
                     "question-type": "explanatory",
                     "difficulty": "easy",
@@ -2095,92 +1989,11 @@
             ]
         },
         {
-            "id": "27",
-            "context": "A young professional living in a small apartment is deciding whether to adopt a dog, which would cost $100 a month for food and care, or stick to a low-maintenance fish tank costing $20 a month.",
-            "questions": [
-                {
-                    "query_id": "27_1",
-                    "question": "Is adopting a dog the better choice for them?",
-                    "question-type": "evaluative",
-                    "difficulty": "medium",
-                    "ground_truth": "It's not necessarily better as a dog offers companionship but takes more time and money, while a fish tank fits their small space and budget with less effort.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "A dog could be more fun but harder to manage in a tiny place than a fish tank."
-                        },
-                        {
-                            "model": "Lifestyle Fit",
-                            "answer": "Lifestyle Fit suggests a fish tank is better, less work and cost for a busy life in a small apartment."
-                        },
-                        {
-                            "model": "Cost-Value",
-                            "answer": "Cost-Value leans toward fish, $20 a month gets calm vibes, while $100 for a dog needs more justification."
-                        },
-                        {
-                            "model": "Lifestyle Fit + Cost-Value",
-                            "answer": "Lifestyle Fit and Cost-Value together favor fish for easy care and low cost in a small space over a pricier, busier dog."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "27_2",
-                    "question": "Why might they be thinking about a dog?",
-                    "question-type": "explanatory",
-                    "difficulty": "easy",
-                    "ground_truth": "They might crave a pet's affection, feel lonely in their apartment, or see dogs as more exciting than fish.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They probably want a buddy to hang out with instead of just a fish."
-                        },
-                        {
-                            "model": "Emotional Need",
-                            "answer": "Emotional Need might push them, wanting a dog's love to feel less alone."
-                        },
-                        {
-                            "model": "Excitement Factor",
-                            "answer": "Excitement Factor could draw them, seeing a dog as more lively than a quiet fish tank."
-                        },
-                        {
-                            "model": "Emotional Need + Excitement Factor",
-                            "answer": "Emotional Need for companionship, plus Excitement Factor of a playful dog, might make them lean toward adopting."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "27_3",
-                    "question": "How should they choose between a dog and a fish tank?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground_truth": "They should check their daily schedule for pet care time, compare costs to their budget, and visit a shelter or pet store to see what feels right.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They should see if they have time and money for a dog or if fish are easier."
-                        },
-                        {
-                            "model": "Time Check",
-                            "answer": "Do a Time Check to make sure their schedule fits a dog's walks or just a fish tank's quick upkeep."
-                        },
-                        {
-                            "model": "Budget Match",
-                            "answer": "Use Budget Match, pick what their income can handle, $100 for a dog or $20 for fish."
-                        },
-                        {
-                            "model": "Time Check + Budget Match",
-                            "answer": "Combine Time Check for their routine with Budget Match to see if a dog or fish fits their life and wallet."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "28",
+            "id": "26",
             "context": "A junior accountant earns $50,000 a year and is debating whether to spend $300 on an online course to learn advanced Excel skills, hoping it'll help them get a promotion, or save the money instead.",
             "questions": [
                 {
-                    "query_id": "28_1",
+                    "query_id": "26_1",
                     "question": "Is taking the online course a good investment?",
                     "question-type": "evaluative",
                     "difficulty": "medium",
@@ -2191,122 +2004,16 @@
                             "answer": "The course could pay off if it gets them a better job, but saving's safer if it doesn't."
                         },
                         {
-                            "model": "Return on Investment",
-                            "answer": "Return on Investment says it's good if the course boosts their salary beyond $300 soon."
+                            "model": "ROI Analysis",
+                            "answer": "ROI Analysis tells you it's good if the course boosts their salary beyond $300 soon."
                         },
                         {
-                            "model": "Risk of No Gain",
-                            "answer": "Risk of No Gain suggests saving, $300 is lost if the promotion doesn't happen."
+                            "model": "Risk Aversion",
+                            "answer": "Risk Aversion suggests saving, $300 is lost if the promotion doesn't happen."
                         },
                         {
-                            "model": "Return on Investment + Risk of No Gain",
-                            "answer": "Return on Investment favors the course if it pays off big, but Risk of No Gain warns to save unless the promotion's likely."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "28_2",
-                    "question": "Why might they want to take the course?",
-                    "question-type": "explanatory",
-                    "difficulty": "easy",
-                    "ground_truth": "They might aim to stand out at work, feel eager to learn, or think Excel skills will impress their boss.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They probably want to get ahead and think it'll look good to their boss."
-                        },
-                        {
-                            "model": "Career Ambition",
-                            "answer": "Career Ambition might drive them, wanting to climb the ladder with new skills."
-                        },
-                        {
-                            "model": "Learning Desire",
-                            "answer": "Learning Desire could push them, excited to master Excel for their job."
-                        },
-                        {
-                            "model": "Career Ambition + Learning Desire",
-                            "answer": "Career Ambition to move up, plus Learning Desire to grow, might make them want the course."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "28_3",
-                    "question": "How should they decide if the course is worth it?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground_truth": "They should ask their boss if Excel skills could lead to a promotion, check free online resources first, and see if the $300 fits their budget.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They should talk to their boss and see if there's free stuff online before spending."
-                        },
-                        {
-                            "model": "Boss Input",
-                            "answer": "Get Boss Input, ask if the skills would help their job chances."
-                        },
-                        {
-                            "model": "Resource Check",
-                            "answer": "Do a Resource Check. Look for free Excel tutorials to save the $300 if possible."
-                        },
-                        {
-                            "model": "Boss Input + Resource Check",
-                            "answer": "Combine Boss Input on promotion potential with Resource Check for free options to decide smartly."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "29",
-            "context": "A small city has $10,000 to improve its bus stops. They're choosing between adding shelters at two busy stops for $9,000 or putting benches at five smaller stops for $8,000.",
-            "questions": [
-                {
-                    "query_id": "29_1",
-                    "question": "Are the shelters the better option for the city?",
-                    "question-type": "evaluative",
-                    "difficulty": "medium",
-                    "ground_truth": "It's not definitely better as shelters help more people at busy stops but use most of the budget, while benches spread comfort across more spots for slightly less.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Shelters are nice for big stops, but benches could help more places."
-                        },
-                        {
-                            "model": "User Reach",
-                            "answer": "User Reach favors benches, five stops help more riders than two shelters."
-                        },
-                        {
-                            "model": "Comfort Impact",
-                            "answer": "Comfort Impact leans toward shelters, protection from rain beats just sitting at busy stops."
-                        },
-                        {
-                            "model": "User Reach + Comfort Impact",
-                            "answer": "User Reach likes benches for wider use, but Comfort Impact says shelters win for better relief at key stops."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "29_2",
-                    "question": "How should the city pick between shelters and benches?",
-                    "question-type": "prescriptive",
-                    "difficulty": "medium",
-                    "ground_truth": "They should count daily riders at each stop, ask residents what they'd use more, and see if the budget can stretch to mix both options.",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "They should check who uses the stops and ask people what they want."
-                        },
-                        {
-                            "model": "Usage Data",
-                            "answer": "Use Usage Data, count riders to see where upgrades matter most."
-                        },
-                        {
-                            "model": "Community Voice",
-                            "answer": "Get Community Voice, ask residents if they'd rather have shelters or benches."
-                        },
-                        {
-                            "model": "Usage Data + Community Voice",
-                            "answer": "Combine Usage Data on rider numbers with Community Voice to match the choice to real needs."
+                            "model": "ROI Analysis + Risk Aversion",
+                            "answer": "ROI Analysis favors the course if it pays off big, but the risk of no gain warns to save unless the promotion's likely."
                         }
                     ]
                 }

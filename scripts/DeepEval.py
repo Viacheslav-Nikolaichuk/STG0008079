@@ -69,6 +69,7 @@ def create_test_cases(dataset, responses, reference_type='ground_truth'):
     """Create DeepEval test cases from dataset and responses"""
     test_cases = []
     metadata = []
+    skipped_count = 0
     
     for scenario in responses.get("scenarios", []):
         scenario_id = scenario.get("id")
@@ -111,7 +112,7 @@ def create_test_cases(dataset, responses, reference_type='ground_truth'):
                     orig_model_answer = next((a for a in orig_question.get("model_answers", [])
                                             if a.get("model") == model_name), None)
                     if not orig_model_answer:
-                        logging.warning(f"No original model answer found for {model_name} in {scenario_id}/{question_id}")
+                        skipped_count += 1
                         continue
                     reference = orig_model_answer.get("answer", "")
                 else:

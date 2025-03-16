@@ -16,16 +16,16 @@
                             "answer": "Buying a car that costs almost double your salary will likely cause money problems"
                         },
                         {
-                            "model": "Affordability Heuristic",
-                            "answer": "Based on the Affordability Heuristic, this is likely a financially unsound decision, as the perceived short-term boost is likely overvalued compared to the substantial and immediate financial burden it creates."
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Based on the Cost-Benefit Analysis, this is a financially unsound decision. The costs of the luxury car significantly exceed the graduate's annual income, leading to potential financial instability and debt."
                         },
                         {
                             "model": "Social Signaling",
                             "answer": "No, this is financially unsound because the potential social signaling benefits of a luxury car are unlikely to outweigh the significant debt and financial burden it creates, potentially hindering long-term career advancement due to financial stress."
                         },
                         {
-                            "model": "Affordability Heuristic + Social Signaling",
-                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Affordability Heuristic, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
+                            "model": "Cost-Benefit Analysis + Social Signaling",
+                            "answer": "No, this is a financially unsound decision because the car's cost greatly exceeds their annual income based on the Cost-Benefit Analysis, and the potentially marginal social signaling benefit of the car in advancing their career unlikely outweighs the significant financial burden it creates."
                         }
                     ]
                 },

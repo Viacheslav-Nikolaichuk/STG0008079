@@ -1,0 +1,181 @@
+{
+    "scenarios": [
+        {
+            "id": "1",
+            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
+            "questions": [
+                {
+                    "query_id": "1_1",
+                    "question": "Is this a financially sound decision?",
+                    "question-type": "evaluative",
+                    "difficulty": "easy",
+                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        }
+                    ]
+                },
+                {
+                    "query_id": "1_2",
+                    "question": "What psychological factors drive this reasoning?",
+                    "question-type": "explanatory",
+                    "difficulty": "medium",
+                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        }
+                    ]
+                },
+                {
+                    "query_id": "1_3",
+                    "question": "How should they approach this decision?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        },
+                        {
+                            "model": "",
+                            "answer": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
