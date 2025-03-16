@@ -33,6 +33,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
     metadata = []
     index_mapping = {}
     counter = 0
+    skipped_count = 0
     
     for scenario in responses.get("scenarios", []):
         scenario_id = scenario.get("id")
@@ -73,7 +74,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                     orig_model_answer = next((a for a in orig_question.get("model_answers", [])
                                             if a.get("model") == model_name), None)
                     if not orig_model_answer:
-                        logging.warning(f"No original model answer found for {model_name} in {scenario_id}/{question_id}")
+                        skipped_count += 1
                         continue
                     reference = orig_model_answer.get("answer", "")
                 else:
@@ -120,7 +121,7 @@ def compute_bertscore(predictions, references, batch_size=15):
             predictions=batch_preds,
             references=batch_refs,
             lang="en",
-            model_type="microsoft/deberta-xlarge-mnli",  # Using a stronger model
+            model_type="microsoft/deberta-xlarge-mnli",
             device=device,
             use_fast_tokenizer=False
         )

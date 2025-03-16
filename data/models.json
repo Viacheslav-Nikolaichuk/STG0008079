@@ -1,15 +1,23 @@
-[
+[   
     {
-        "model_name": "Affordability Heuristic",
-        "model_description": "A decision-making shortcut that evaluates purchases based on percentage of income allocated to specific budget categories"
+        "model_name": "Availability Bias",
+        "model_description": "Cognitive bias where recent/accessible information disproportionately influences decision-making"
+    },
+    {
+        "model_name": "Budget Flexibility",
+        "model_description": "Ability to adjust spending allocations based on changing financial circumstances"
+    },
+    {
+        "model_name": "Risk Aversion",
+        "model_description": "Preference for avoiding or minimizing uncertainty, loss, or negative outcomes"
+    },
+    {
+        "model_name": "Fear of Missing Out",
+        "model_description": "Fear of Missing Out, anxiety driven by perceived social opportunities or rewards"
     },
     {
         "model_name": "Social Signaling",
         "model_description": "Using possessions/behaviors to communicate status, often confusing perceived success with actual professional competence"
-    },
-    {
-        "model_name": "Total Cost of Ownership",
-        "model_description": "Holistic assessment of all direct/indirect costs associated with an asset over its entire lifecycle"
     },
     {
         "model_name": "ROI Analysis",
@@ -24,34 +32,6 @@
         "model_description": "Tendency to prioritize immediate gratification while disproportionately discounting future consequences"
     },
     {
-        "model_name": "Precautionary Principle",
-        "model_description": "Risk management strategy that avoids actions with potential severe harm despite uncertainty about probabilities"
-    },
-    {
-        "model_name": "Marginal Value of Accuracy",
-        "model_description": "Assessment of incremental benefits from small improvements in precision, particularly critical in high-stakes domains"
-    },
-    {
-        "model_name": "Type I/II Errors",
-        "model_description": "Statistical framework distinguishing false positives (incorrect rejection of null) vs false negatives (failure to reject false null)"
-    },
-    {
-        "model_name": "Confusion Matrix",
-        "model_description": "Tabular layout visualizing performance of classification models through true/false positive/negative rates"
-    },
-    {
-        "model_name": "Complementarity",
-        "model_description": "Strategic combination of distinct capabilities where strengths of one component offset weaknesses of another"
-    },
-    {
-        "model_name": "Swiss Cheese Model",
-        "model_description": "Risk analysis metaphor where layered defenses (cheese slices) prevent hazards when holes in protections align"
-    },
-    {
-        "model_name": "Risk Assessment",
-        "model_description": "Systematic process identifying/evaluating potential hazards and developing mitigation strategies"
-    },
-    {
         "model_name": "Systems Thinking",
         "model_description": "Analytical approach examining interdependencies between components within complex adaptive systems"
     },
@@ -61,19 +41,7 @@
     },
     {
         "model_name": "Expected Value",
-        "model_description": "Decision-making framework calculating average outcome of probabilistic events using (Probability × Payoff)"
-    },
-    {
-        "model_name": "Hyperbolic Discounting",
-        "model_description": "Tendency to prefer smaller immediate rewards over larger future gains"
-    },
-    {
-        "model_name": "Externality Pricing",
-        "model_description": "Internalizing societal costs into market prices through taxes/fees"
-    },
-    {
-        "model_name": "Embodied Energy",
-        "model_description": "Total energy consumed during a product's lifecycle from production to disposal"
+        "model_description": "Decision-making framework calculating average outcome of probabilistic events using (Probability x Payoff)"
     },
     {
         "model_name": "Tragedy of the Commons",
@@ -92,52 +60,60 @@
         "model_description": "Behavioral economics concept using positive reinforcement and indirect suggestions to influence decisions"
     },
     {
-        "model_name": "Rebound Effect",
-        "model_description": "Unintended consequence where efficiency gains lead to increased consumption"
-    },
-    {
-        "model_name": "Circular Economy",
-        "model_description": "Economic system emphasizing resource regeneration, waste reduction, and closed-loop production"
-    },
-    {
-        "model_name": "Induced Demand",
-        "model_description": "Phenomenon where increased supply of a good/service leads to greater demand"
-    },
-    {
         "model_name": "Cost-Benefit Analysis",
         "model_description": "A systematic process of comparing the total expected costs of a project or decision against its total expected benefits to determine if it's financially (or otherwise) worthwhile. It helps in deciding whether to pursue a project, continue one, or compare different options by quantifying both tangible and, where possible, intangible factors."
-    },
-    {
-        "model_name": "Change Management",
-        "model_description": "A a framework for guiding how organizations plan, implement, and support changes. It focuses on preparing and supporting individuals, teams, and entire organizations through transitions, ensuring that changes are adopted smoothly and effectively, minimizing resistance, and maximizing the likelihood of long-term success."
     },
     {
         "model_name": "Status Quo Bias",
         "model_description": "Tendency to prefer current state of affairs due to familiarity and aversion to change"
     },
     {
-        "model_name": "Stakeholder Engagement",
-        "model_description": "Process of involving individuals/groups who have a vested interest in the outcome of a project or decision"
-    },
-    {
-        "model_name": "Risk Aversion",
-        "model_description": "Preference for certainty over uncertainty, often leading to conservative decision-making"
-    },
-    {
-        "model_name": "Educational Outcomes Analysis",
-        "model_description": "Evaluation of educational programs to determine effectiveness, efficiency, and impact on student learning"
-    },
-    {
         "model_name": "Productivity Analysis",
         "model_description": "A decision-making approach that evaluates outcomes by measuring the efficiency and effectiveness of a given strategy or process. It focuses on quantifiable performance metrics (like output, time savings, or cost-effectiveness) to determine whether an initiative truly boosts productivity, optimizes resources, and justifies its implementation relative to alternatives. This model often involves collecting data, establishing benchmarks, and comparing measurable results over time to ensure continuous improvement."
     },
     {
-        "model_name": "Patient Safety Focus",
-        "model_description": "Approach prioritizing the well-being and protection of patients above all else. This model emphasizes identifying, mitigating, and preventing risks or potential harms within healthcare operations. It involves careful evaluation of clinical procedures, robust staff training, and clear protocols to reduce preventable errors. By maintaining strict standards for patient care and continuously monitoring safety metrics, organizations can ensure a higher level of trust, better patient outcomes, and a more resilient healthcare environment."
+        "model_name": "Evidence-Based Decision Making",
+        "model_description": "A process of making decisions based on verifiable evidence, data, and logical reasoning. It involves critically evaluating available information, drawing conclusions from reliable sources, and using empirical evidence to guide choices. This approach aims to minimize bias, subjectivity, and reliance on anecdotal information, promoting more informed and effective decision-making."
     },
     {
-        "model_name": "First Principles",
-        "model_description": "A foundational approach to problem-solving that breaks down complex issues into basic elements or fundamental truths. By deconstructing challenges to their core components, this model enables innovative thinking, creative solutions, and a deeper understanding of underlying principles. It encourages critical analysis, independent reasoning, and the development of original ideas, helping individuals and organizations tackle problems from a fresh perspective and drive meaningful change."
+        "model_name": "Motivation Factor",
+        "model_description": "The driving force or incentive that compels individuals to act, pursue goals, or make decisions. It encompasses internal desires, external rewards, and personal values that influence behavior and choices."
+    },
+    {
+        "model_name": "Overconfidence Bias",
+        "model_description": "The tendency to overestimate one's abilities, knowledge, or judgment, leading to unwarranted confidence in decision-making. It can result in errors, miscalculations, and suboptimal choices due to an inflated sense of competence or control."
+    },
+    {
+        "model_name": "Perceived Value",
+        "model_description": "The subjective assessment of an item's worth or utility based on individual preferences, beliefs, and expectations. It reflects the perceived benefits, satisfaction, or advantages derived from a product, service, or decision, influencing perceived quality and desirability."
+    },
+    {
+        "model_name": "Personalized Decision Making",
+        "model_description": "A tailored approach to making choices that considers individual preferences, needs, and circumstances. It involves customizing decisions based on personal values, goals, and constraints, ensuring that choices align with one's unique characteristics and priorities."
+    },
+    {
+        "model_name": "Risk Diversification",
+        "model_description": "A strategy that spreads exposure to risk across different assets, sectors, or markets to reduce the impact of adverse events on overall performance. It aims to minimize the potential losses associated with concentrated investments by diversifying portfolios and increasing resilience to market fluctuations."
+    },
+    {
+        "model_name": "Risk Assessment",
+        "model_description": "The process of identifying, analyzing, and evaluating potential risks associated with a decision, action, or project. It involves assessing the likelihood and impact of various threats, vulnerabilities, or uncertainties to determine the level of risk exposure and develop appropriate mitigation strategies."
+    },
+    {
+        "model_name": "Risk-Reward Analysis",
+        "model_description": "An assessment of the potential gains and losses associated with a decision, strategy, or investment. It involves evaluating the trade-offs between risks and rewards, considering the probability of success, the magnitude of returns, and the level of uncertainty involved in achieving desired outcomes."
+    },
+    {
+        "model_name": "Short-Term vs. Long-Term",
+        "model_description": "The comparison between immediate benefits or outcomes and those that occur over an extended period. It involves evaluating the trade-offs between short-term gains and long-term goals, considering the impact of decisions on future well-being, sustainability, and success."
+    },
+    {
+        "model_name": "Social Motivation",
+        "model_description": "The drive or incentive derived from social interactions, relationships, or group dynamics. It involves seeking acceptance, belonging, or recognition from others, influencing behavior and decisions based on social connections and affiliations."
+    },
+    {
+        "model_name": "Opportunity Cost",
+        "model_description": "The value of the next best alternative forgone when a decision is made. It represents the benefits, profits, or values lost by choosing one option over another, highlighting the trade-offs and sacrifices involved in decision-making."
     },
     {
         "model_name": "",
