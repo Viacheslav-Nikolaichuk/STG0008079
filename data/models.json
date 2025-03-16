@@ -116,6 +116,14 @@
         "model_description": "The value of the next best alternative forgone when a decision is made. It represents the benefits, profits, or values lost by choosing one option over another, highlighting the trade-offs and sacrifices involved in decision-making."
     },
     {
+        "model_name": "Stakeholder Engagement",
+        "model_description": "The process of involving individuals, groups, or organizations affected by or influencing a decision, project, or initiative. It aims to gather input, address concerns, and build relationships with stakeholders to ensure their interests, perspectives, and needs are considered in decision-making."
+    },
+    {
+        "model_name": "Change Management",
+        "model_description": "A structured approach to transitioning individuals, teams, or organizations from a current state to a desired future state. It involves planning, implementing, and monitoring changes to achieve organizational goals, improve performance, and adapt to evolving environments."
+    },
+    {
         "model_name": "",
         "model_description": ""
     }
