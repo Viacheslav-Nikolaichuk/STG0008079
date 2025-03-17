@@ -601,7 +601,7 @@
             "context": "A university is exploring a shift to a pass/fail grading system to alleviate student stress and foster deeper learning, yet faculty worry that academic performance may suffer.",
             "questions": [
                 {
-                    "query_id": "7_2",
+                    "query_id": "7_1",
                     "question": "Should the university mandate a pass/fail model across all programs despite concerns about academic rigor?",
                     "question-type": "normative",
                     "difficulty": "hard",
@@ -626,7 +626,7 @@
                     ]
                 },
                 {
-                    "query_id": "7_3",
+                    "query_id": "7_2",
                     "question": "Should the university revise faculty evaluation criteria to place greater weight on fostering student well-being over traditional grading metrics?",
                     "question-type": "normative",
                     "difficulty": "hard",
@@ -651,7 +651,7 @@
                     ]
                 },
                 {
-                    "query_id": "7_4",
+                    "query_id": "7_3",
                     "question": "How does the shift to pass/fail grading potentially reshape students' academic identity and motivation within the university system?",
                     "question-type": "explanatory",
                     "difficulty": "hard",
