@@ -298,18 +298,18 @@ def process_scenario(input_scenario, handler, mental_models, use_descriptions=Fa
                     model1_desc = mental_models.get(models[0], "")
                     model2_desc = mental_models.get(models[1], "")
                     prompt = (f"Context: {input_scenario['context']}\n"
-                             f"Combine {models[0]} ({model1_desc}) and {models[1]} ({model2_desc}): "
+                             f"Combine {models[0]} ({model1_desc}) and {models[1]} ({model2_desc}) to answer the question: "
                              f"{input_question['question']}")
                 else:
-                    prompt = f"Context: {input_scenario['context']}\nCombine {models[0]} and {models[1]}: {input_question['question']}"
+                    prompt = f"Context: {input_scenario['context']}\nCombine {models[0]} and {models[1]} to answer the question: {input_question['question']}"
             else:
                 if use_descriptions and mental_models and mental_model in mental_models:
                     model_desc = mental_models.get(mental_model, "")
                     prompt = (f"Context: {input_scenario['context']}\n"
-                             f"Use {mental_model} ({model_desc}): "
+                             f"Use {mental_model} ({model_desc}) to answer the question: "
                              f"{input_question['question']}")
                 else:
-                    prompt = f"Context: {input_scenario['context']}\nUse {mental_model}: {input_question['question']}"
+                    prompt = f"Context: {input_scenario['context']}\nUse {mental_model} to answer the question: {input_question['question']}"
             
             response = handler.generate_response(prompt)
             processed_question["model_answers"].append({

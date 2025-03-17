@@ -12,31 +12,31 @@
                     "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
                     "model_answers": [
                         {
-                            "model": "",
+                            "model": "A",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "B",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "C",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "AB",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "AC",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "CB",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "ABC",
                             "answer": ""
                         },
                         {
