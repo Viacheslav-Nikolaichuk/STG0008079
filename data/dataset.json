@@ -401,7 +401,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "query_id": "3_3",
                     "question": "Should scooters be banned from pedestrian zones?",
                     "question-type": "normative",
@@ -417,12 +417,12 @@
                             "answer": "Implement designated scooter parking zones with incentives and enforce usage rules to nudge riders towards responsible behavior rather than outright banning them."
                         },
                         {
-                            "model": "Externality Pricing",
-                            "answer": "By charging scooter users a higher fee for operating in pedestrian zones, the city can internalize the negative externalities of congestion and accidents, thus promoting responsible use without a full ban."
+                            "model": "Present Bias",
+                            "answer": "Riders often act on immediate convenience rather than considering future drawbacks. A complete ban might deter usage, but it doesn't address the root cause of impulsive parking and riding behaviors."
                         },
                         {
-                            "model": "Nudge Theory + Externality Pricing",
-                            "answer": "Instead of a complete ban, strategically apply Nudge Theory by incentivizing parking in designated zones and disincentivizing unsafe riding through usage-based externality pricing to internalize the true costs of scooter use and curb negative externalities."
+                            "model": "Nudge Theory + Present Bias",
+                            "answer": "Combine targeted nudges—like clear signage, easy-access docking stations, and minor penalties—with recognition of users' tendency for instant gratification to steer behavior effectively without a blanket ban."
                         }
                     ]
                 }
@@ -601,32 +601,82 @@
             "context": "A university is exploring a shift to a pass/fail grading system to alleviate student stress and foster deeper learning, yet faculty worry that academic performance may suffer.",
             "questions": [
                 {
-                    "query_id": "7_1",
-                    "question": "Should the university adopt a pass/fail grading system for all courses?",
+                    "query_id": "7_2",
+                    "question": "Should the university mandate a pass/fail model across all programs despite concerns about academic rigor?",
                     "question-type": "normative",
-                    "difficulty": "medium",
-                    "ground_truth": "No, start with a hybrid model that allows pass/fail options in select courses while retaining traditional grading for others.",
+                    "difficulty": "hard",
+                    "ground_truth": "Adopt a phased rollout, evaluating student well-being and learning outcomes before full implementation.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Implement a trial where certain courses offer pass/fail grading alongside traditional grading to compare outcomes."
+                            "answer": "Begin with pilot programs in select departments to gather data before deciding on a full rollout."
                         },
                         {
-                            "model": "Risk Aversion",
-                            "answer": "A complete shift may undermine academic standards, a hybrid approach minimizes this risk."
+                            "model": "Systems Thinking",
+                            "answer": "A sudden mandate risks destabilizing established academic processes; phased integration ensures feedback loops are managed."
                         },
                         {
-                            "model": "Educational Outcomes Analysis",
-                            "answer": "Evidence from peer institutions suggests that a mixed grading system can lower stress without compromising rigor."
+                            "model": "Halo Effect",
+                            "answer": "If pass/fail is seen as too lenient, perceptions of overall quality may decline, affecting the university's reputation."
                         },
                         {
-                            "model": "Risk Aversion + Educational Outcomes Analysis",
-                            "answer": "A carefully designed hybrid model offers a balance, reducing stress while ensuring that academic benchmarks remain high."
+                            "model": "Systems Thinking + Halo Effect",
+                            "answer": "A stepwise approach respects interdependent systems while preserving institutional prestige in the eyes of students and external observers."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "7_3",
+                    "question": "Should the university revise faculty evaluation criteria to place greater weight on fostering student well-being over traditional grading metrics?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Yes, align faculty evaluations with both pedagogical innovation and well-being outcomes for balanced academic excellence.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Yes, adjust criteria to incentivize holistic teaching approaches while maintaining essential academic standards."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Restructuring evaluations can realign incentives across departments, ensuring faculty adapt holistically to student needs."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Prioritizing student well-being could enhance faculty's overall reputation if seen as caring, but some might question academic rigor."
+                        },
+                        {
+                            "model": "Systems Thinking + Halo Effect",
+                            "answer": "Adjusting faculty metrics ensures integrated support for student health while mitigating negative perceptions of lowered standards."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "7_4",
+                    "question": "How does the shift to pass/fail grading potentially reshape students' academic identity and motivation within the university system?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "It can reduce stress and encourage deeper learning, yet some students might feel less driven by high-performance benchmarks.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It may promote deeper engagement but can reduce the external pressure that motivates some students to excel."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Removing grade distinctions alters feedback loops, potentially redirecting students' focus from competition to self-improvement."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "If pass/fail is perceived as 'easier,' that perception may diminish a student's drive and color others' view of their ambition."
+                        },
+                        {
+                            "model": "Systems Thinking + Halo Effect",
+                            "answer": "Systemic changes in grading dynamics interact with students' reputations, influencing how both peers and faculty view motivation."
                         }
                     ]
                 }
             ]
-        },
+          },
         {
             "id": "8",
             "context": "A small technology startup is considering transitioning to a permanent remote-work policy to attract top talent and reduce overhead costs, but some team members worry about reduced collaboration and waning company culture.",
@@ -727,21 +777,21 @@
                             "answer": "Offer telemedicine-specific training to physicians and nurses, and standardize remote examination procedures."
                         },
                         {
-                            "model": "Patient Safety Focus",
-                            "answer": "Ensure stringent patient evaluation guidelines and include a pathway for immediate in-person visits if remote assessment is inconclusive."
+                            "model": "Systems Thinking",
+                            "answer": "Integrate remote assessments into the broader care ecosystem, ensuring swift ways for in-person visits whenever telemedicine reveals potential issues."
                         },
                         {
                             "model": "Cost-Benefit Analysis",
                             "answer": "Invest in staff training materials that reduce long-term errors and legal risks, improving overall cost-effectiveness."
                         },
                         {
-                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
-                            "answer": "Balancing structured protocols and provider education ensures safe outcomes while reducing costs associated with misdiagnoses."
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Adopt a holistic approach, combining consistent telemedicine protocols with ongoing cost evaluations to keep care standards high and expenses manageable."
                         }
                     ]
                 },
                 {
-                    "query_id": "9_2",                   
+                    "query_id": "9_2",
                     "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
                     "question-type": "prescriptive",
                     "difficulty": "medium",
@@ -752,16 +802,66 @@
                             "answer": "Create a helpdesk to walk patients through setup and provide loaner devices for those without the necessary equipment."
                         },
                         {
-                            "model": "Patient Safety Focus",
-                            "answer": "Maintaining accessibility means patients won't avoid care due to technical hurdles, reducing risks of delayed treatment."
+                            "model": "Systems Thinking",
+                            "answer": "Design telemedicine as part of an interconnected care system, ensuring continuous support for patients with limited tech literacy or resources."
                         },
                         {
                             "model": "Cost-Benefit Analysis",
                             "answer": "Subsidies may incur initial costs but expand patient base and prevent expensive emergency treatments down the line."
                         },
                         {
-                            "model": "Patient Safety Focus + Cost-Benefit Analysis",
-                            "answer": "Combining community outreach with strategic investments ensures equitable care and offsets potential long-term costs."
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Combine robust training and community outreach with strategic spending to maximize the positive impact of telemedicine on all patients."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "9_3",
+                    "question": "Should the hospital allocate a significant portion of its budget to telemedicine over traditional in-person facilities?",
+                    "question-type": "normative",
+                    "difficulty": "medium",
+                    "ground_truth": "Allocating more funds to telemedicine can broaden access and potentially lower overhead costs, but it must be balanced so that in-person facilities remain robust for cases where telemedicine is insufficient.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Yes, but maintain sufficient resources for in-person care, as not all conditions can be managed remotely."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Consider the hospital's interlinked services and patient demographics, ensuring that reallocating funds enhances overall healthcare delivery instead of weakening it in other areas."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Evaluate potential cost reductions and improved reach against possible downsides like infrastructure needs for more complex procedures that require in-person care."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Assess how shifting resources might affect the entire care continuum while weighing long-term ROI, ensuring a balanced integration of telemedicine with on-site services."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "9_4",
+                    "question": "Should the hospital require remote consultations for patients in underserved areas, even if some staff remain skeptical of telemedicine efficacy?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Mandatory remote consultations could improve access but risk alienating practitioners who feel undertrained or unconvinced of telemedicine's effectiveness. An inclusive rollout that addresses staff concerns is often more sustainable.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Only if the hospital first addresses staff concerns through training and ensures patients have the necessary technology and support."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Policies should account for staff readiness, patient preferences, and the broader healthcare structure to avoid unintended gaps in care quality."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "If benefits—like reduced travel costs and expanded outreach—clearly outweigh staff objections, mandatory remote consultations can be justified, provided tech infrastructure is in place."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Combining a systemic perspective on hospital resources and staff acceptance with a clear cost-benefit view can align telemedicine expansion with both patient and provider needs."
                         }
                     ]
                 }
@@ -1192,12 +1292,12 @@
                             "answer": "Compare the projected returns like higher yield and resource savings against the system's cost over its useful life. If the net present value is strongly positive, the investment is justifiable."
                         },
                         {
-                            "model": "Embodied Energy",
-                            "answer": "Account for the total energy used in manufacturing, transporting, and installing these systems. A system that saves water but has a high energy footprint might undercut some ecological benefits."
+                            "model": "Risk Aversion",
+                            "answer": "Consider the possibility of unforeseen costs or system failures. Taking incremental steps or having contingency plans can mitigate large financial losses if expectations fall short."
                         },
                         {
-                            "model": "ROI Analysis + Embodied Energy",
-                            "answer": "Determine the financial viability via ROI and incorporate a full lifecycle energy audit. This ensures both economic returns and sustainability factors guide the cooperative's decision."
+                            "model": "ROI Analysis + Risk Aversion",
+                            "answer": "Combine projected financial returns with an assessment of potential negative outcomes. This integrated approach clarifies whether long-term benefits truly outweigh the financial and operational risks."
                         }
                     ]
                 },
@@ -1217,12 +1317,12 @@
                             "answer": "Budget for training as part of the initial outlay. If the system's long-term gains remain higher than these extra costs, the overall ROI can still be favorable."
                         },
                         {
-                            "model": "Embodied Energy",
-                            "answer": "Minimize additional energy usage or resource consumption by selecting eco-friendly training methods (online courses, local experts). This ensures learning doesn't greatly expand the project's total energy footprint."
+                            "model": "Risk Aversion",
+                            "answer": "Train a small core group thoroughly to reduce reliance on external experts and minimize disruptions if specialized staff become unavailable."
                         },
                         {
-                            "model": "ROI Analysis + Embodied Energy",
-                            "answer": "Fold the training and resource impacts into the financial calculations and the sustainability assessment. That way, the cooperative makes decisions fully informed of both cost and ecological effects."
+                            "model": "ROI Analysis + Risk Aversion",
+                            "answer": "Balance the financial returns of investing in skilled labor against the risks of system downtime. By training in-house, the co-op mitigates expensive external dependencies."
                         }
                     ]
                 },
@@ -1231,23 +1331,48 @@
                     "question": "Critics say hydroponics isn't 'natural' farming and might alienate consumers who value traditional methods. Is this a legitimate risk?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground_truth": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits pesticide reduction, water savings can mitigate image concerns.",
+                    "ground_truth": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits—pesticide reduction, water savings—can mitigate image concerns.",
                     "model_answers": [
                         {
                             "model": "",
-                            "answer": "Marketing the system's eco-friendly aspects like reduced chemical use can attract conscious consumers who care about sustainability over purely traditional methods."
+                            "answer": "Marketing the system's eco-friendly aspects like reduced chemical use can attract conscious consumers who value sustainability over purely traditional methods."
                         },
                         {
                             "model": "ROI Analysis",
                             "answer": "Compare potential lost revenue from traditionalists with the potential for a new customer base interested in modern, sustainable agriculture. If net revenues increase, the transition remains financially sound."
                         },
                         {
-                            "model": "Embodied Energy",
-                            "answer": "Emphasize the smaller carbon footprint or water usage to appeal to sustainability-minded buyers. This data can validate hydroponics as an eco-friendly choice, offsetting concerns about it not being 'natural.'"
+                            "model": "Risk Aversion",
+                            "answer": "Highlight the reduced reliance on unpredictable weather or soil conditions. This stability can reassure consumers about consistent quality and supply."
                         },
                         {
-                            "model": "ROI Analysis + Embodied Energy",
-                            "answer": "Demonstrate strong financial returns while showcasing the reduced resource impact of hydroponics. This holistic picture can turn potential skeptics into supporters."
+                            "model": "ROI Analysis + Risk Aversion",
+                            "answer": "Demonstrate strong financial returns while emphasizing strategies to manage uncertainties. This holistic approach can reassure both cost-focused and tradition-minded stakeholders."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "15_4",
+                    "question": "Should the cooperative delay adopting hydroponics until they secure external funding or partnerships to minimize potential financial risks?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Seeking external funding can lower the coop's financial exposure. However, waiting too long could result in missed growth opportunities if competitor farms adopt modern techniques first.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "If the cooperative's finances are strained, securing partial grants or loans before moving forward can provide a safety net."
+                        },
+                        {
+                            "model": "ROI Analysis",
+                            "answer": "Weigh the opportunity cost of waiting against potential savings from lower upfront capital. If delaying significantly reduces financing expenses but doesn't lose substantial revenue, it may be wise."
+                        },
+                        {
+                            "model": "Risk Aversion",
+                            "answer": "By securing external backing, the co-op shares the risk of early adoption. This cautious approach helps buffer against unforeseen setbacks."
+                        },
+                        {
+                            "model": "ROI Analysis + Risk Aversion",
+                            "answer": "Conduct financial modeling to find a break-even point while evaluating downside scenarios. A combined approach ensures both solid returns and prudent risk containment."
                         }
                     ]
                 }
@@ -1594,15 +1719,15 @@
                         },
                         {
                             "model": "Risk-Reward Analysis",
-                            "answer": "A Risk-Reward Analysis suggests this isn't wise unless evidence shows a low-carb diet significantly outperforms their current approach, given potential nutritional risks and lifestyle trade-offs."
+                            "answer": "The potential benefits must clearly outweigh the downsides—like nutritional gaps—before adopting such a restrictive plan."
                         },
                         {
                             "model": "Evidence-Based Decision Making",
-                            "answer": "Without specific evidence that a low-carb diet is better for their profile than their balanced diet and exercise, this choice lacks justification and may not be wise."
+                            "answer": "If clinical data don't strongly show extra benefits of low-carb over a balanced diet, making a drastic change could be unnecessary."
                         },
                         {
                             "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
-                            "answer": "A Risk-Reward Analysis combined with Evidence-Based Decision Making indicates this isn't wise unless data shows a clear advantage over their current regimen, considering risks like nutrient gaps."
+                            "answer": "Given the uncertainty of superior outcomes, both the potential upsides and empirical support must clearly justify the move before they switch diets."
                         }
                     ]
                 },
@@ -1618,16 +1743,66 @@
                             "answer": "They should talk to a doctor and check if this diet really fits their needs."
                         },
                         {
-                            "model": "Expert Consultation",
-                            "answer": "Seek Expert Consultation from a healthcare professional to evaluate their current diet's effectiveness and the low-carb option's relevance to their heart disease risk."
+                            "model": "Risk-Reward Analysis",
+                            "answer": "Factor in the costs (time, effort, dietary constraints) versus the anticipated health gains, ensuring overall benefits exceed drawbacks."
                         },
                         {
-                            "model": "Personalized Decision Making",
-                            "answer": "Use Personalized Decision Making by analyzing their health data and preferences to determine if the diet aligns with their goals and well-being."
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Obtain reliable data and professional advice, comparing outcomes of low-carb vs. balanced diets specifically for heart-disease risk."
                         },
                         {
-                            "model": "Expert Consultation + Personalized Decision Making",
-                            "answer": "Combine Expert Consultation with Personalized Decision Making, getting professional input on their risk and tailoring the choice to their health stats and lifestyle."
+                            "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
+                            "answer": "Assess personalized health metrics alongside scientifically proven diet outcomes, ensuring the net gains clearly justify the change."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "20_3",
+                    "question": "Should the individual drastically cut carbohydrates to reduce potential cardiovascular risks, even if it compromises their dietary variety and enjoyment?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Extreme carbohydrate restriction without robust evidence may not be warranted, especially if it reduces overall dietary satisfaction. A moderate approach guided by clinical data is advisable unless strong research suggests otherwise.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They shouldn't restrict carbs too severely if there's no clear evidence it offers major advantages over a balanced diet."
+                        },
+                        {
+                            "model": "Risk-Reward Analysis",
+                            "answer": "Weigh the potential reduction in cardiac events against the quality-of-life loss from an overly strict regimen."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Only proceed if credible studies show a significant decrease in cardiac risks specifically for individuals with their profile."
+                        },
+                        {
+                            "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
+                            "answer": "If data is inconclusive or the gains are minimal, an extreme approach might not justify the personal cost and lifestyle changes."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "20_4",
+                    "question": "Should the individual prioritize adopting a low-carb diet over exploring medication or other interventions to address their heart disease risk factors?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Dietary modifications can be powerful, but ignoring medical interventions or other proven strategies could be risky. A balanced assessment of all evidence-based options is crucial before choosing a single path.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "They should consider all evidence-backed strategies, not just dietary changes, to manage heart-disease risk effectively."
+                        },
+                        {
+                            "model": "Risk-Reward Analysis",
+                            "answer": "Each intervention has trade-offs; if medication or other strategies offer more reliable risk reduction, they may be preferable."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Review clinical guidelines and studies on the relative efficacy of diet, medication, and lifestyle changes for cardiac prevention."
+                        },
+                        {
+                            "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
+                            "answer": "Only prioritize low-carb over medical options if robust data indicates it's equally or more effective, with fewer negative trade-offs."
                         }
                     ]
                 }
@@ -1781,22 +1956,22 @@
                     "difficulty": "medium",
                     "ground_truth": "No, it is not a wise decision. Bitcoin is a highly volatile and speculative investment, and putting all their money, especially an emergency fund into it risks complete loss, leaving them without financial security.",
                     "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "It's risky to put all your money in Bitcoin because it could drop a lot and you'd lose everything you need for emergencies."
-                        },
-                        {
-                            "model": "Risk Assessment",
-                            "answer": "From a Risk Assessment viewpoint, this is unwise due to Bitcoin's extreme price swings and the chance of losing the entire investment."
-                        },
-                        {
-                            "model": "Risk Diversification",
-                            "answer": "The Risk Diversification model indicates this is a bad idea since investing everything in one asset heightens the risk of significant loss."
-                        },
-                        {
-                            "model": "Risk Assessment + Risk Diversification",
-                            "answer": "Using Risk Assessment and Risk Diversification together, this is a poor choice. Bitcoin's volatility combined with no spread of investments endangers their financial stability."
-                        }
+                    {
+                        "model": "",
+                        "answer": "It's risky to put all your money in Bitcoin because it could drop a lot and you'd lose everything you need for emergencies."
+                    },
+                    {
+                        "model": "Risk Assessment",
+                        "answer": "From a Risk Assessment viewpoint, this is unwise due to Bitcoin's extreme price swings and the chance of losing the entire investment."
+                    },
+                    {
+                        "model": "Risk Diversification",
+                        "answer": "The Risk Diversification model indicates this is a bad idea since investing everything in one asset heightens the risk of significant loss."
+                    },
+                    {
+                        "model": "Risk Assessment + Risk Diversification",
+                        "answer": "Using Risk Assessment and Risk Diversification together, this is a poor choice. Bitcoin's volatility combined with no spread of investments endangers their financial stability."
+                    }
                     ]
                 },
                 {
@@ -1836,16 +2011,66 @@
                             "answer": "They should keep most of their money safe for emergencies and maybe try a little in Bitcoin if they can afford to lose it."
                         },
                         {
-                            "model": "Financial Planning",
-                            "answer": "With Financial Planning, they should focus on securing their emergency fund and only invest discretionary money in risky assets like Bitcoin."
+                            "model": "Risk Diversification",
+                            "answer": "With Risk Diversification, they should focus on spreading their capital across multiple assets and keep an emergency reserve rather than putting everything into one highly volatile option."
                         },
                         {
                             "model": "Risk Assessment",
-                            "answer": "Risk Assessment advises limiting Bitcoin to a tiny portion of their funds they can afford to lose, keeping the rest secure."
+                            "answer": "Risk Assessment advises limiting Bitcoin to a portion of funds they can afford to lose, ensuring they still have secure savings for unforeseen expenses."
                         },
                         {
-                            "model": "Financial Planning + Risk Assessment",
-                            "answer": "Combining Financial Planning and Risk Assessment, they should ensure their core needs are covered with stable savings and restrict Bitcoin to a small, speculative investment."
+                            "model": "Risk Diversification + Risk Assessment",
+                            "answer": "Combining diversification with thorough risk analysis, they should protect core funds in stable assets and allocate only a small fraction to Bitcoin."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "23_4",
+                    "question": "Should the student consider borrowing money to invest in Bitcoin, expecting a large future gain?",
+                    "question-type": "normative",
+                    "difficulty": "medium",
+                    "ground_truth": "No. Borrowing to invest in a volatile asset can compound the risks. Even if Bitcoin rises, interest payments eat into profits; if it falls, losses and debt obligations exacerbate financial stress.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "No, they could end up in serious debt if Bitcoin's price drops."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "It's better to avoid leveraging a single risky asset. Spreading money across safer options first is prudent, especially when debt is involved."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Interest expenses plus volatility elevate the risk of financial trouble, making borrowing for speculation unwise."
+                        },
+                        {
+                            "model": "Risk Diversification + Risk Assessment",
+                            "answer": "Combining multiple safer assets and analyzing the danger of leveraged losses ensures they don't amplify risk with debt and a highly volatile asset."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "23_5",
+                    "question": "Should the student adopt a short-term, high-risk approach and avoid other forms of saving or investment to maximize potential Bitcoin returns?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "No. While a short-term high-risk bet might yield fast gains, the downside is catastrophic if the investment fails, especially for someone with limited capital and no safety net. Diversification and prudent saving are necessary.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "No, an all-or-nothing gamble is too risky, especially if that's all their money."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "They should maintain some conservative investments alongside Bitcoin to cushion potential losses instead of going all-in on a speculative asset."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "The extreme volatility of Bitcoin could wipe out their savings, indicating that concentrating everything in it is highly dangerous."
+                        },
+                        {
+                            "model": "Risk Diversification + Risk Assessment",
+                            "answer": "By diversifying and carefully evaluating the consequences of a potential crash, they can mitigate the worst-case scenario while still capturing some upside."
                         }
                     ]
                 }
