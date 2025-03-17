@@ -88,10 +88,6 @@
         "model_description": "The subjective assessment of an item's worth or utility based on individual preferences, beliefs, and expectations. It reflects the perceived benefits, satisfaction, or advantages derived from a product, service, or decision, influencing perceived quality and desirability."
     },
     {
-        "model_name": "Personalized Decision Making",
-        "model_description": "A tailored approach to making choices that considers individual preferences, needs, and circumstances. It involves customizing decisions based on personal values, goals, and constraints, ensuring that choices align with one's unique characteristics and priorities."
-    },
-    {
         "model_name": "Risk Diversification",
         "model_description": "A strategy that spreads exposure to risk across different assets, sectors, or markets to reduce the impact of adverse events on overall performance. It aims to minimize the potential losses associated with concentrated investments by diversifying portfolios and increasing resilience to market fluctuations."
     },
@@ -122,6 +118,10 @@
     {
         "model_name": "Change Management",
         "model_description": "A structured approach to transitioning individuals, teams, or organizations from a current state to a desired future state. It involves planning, implementing, and monitoring changes to achieve organizational goals, improve performance, and adapt to evolving environments."
+    },
+    {
+        "model_name": "Feedback Loops",
+        "model_description": "A system in which the output of a process is used as input to modify the process itself. It involves collecting data, analyzing results, and adjusting actions based on feedback to improve performance, optimize outcomes, and achieve desired goals."
     },
     {
         "model_name": "",

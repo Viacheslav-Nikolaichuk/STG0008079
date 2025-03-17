@@ -1930,16 +1930,16 @@
                             "answer": "They should figure out how much risk they're okay with and look at what's worked in the past."
                         },
                         {
-                            "model": "Risk Assessment",
-                            "answer": "Use Risk Assessment to evaluate how much loss they can handle, then choose based on that comfort level, likely favoring the index fund."
+                            "model": "Risk Diversification",
+                            "answer": "Using Risk Diversification, they should start with an index fund to spread risk, then gradually explore individual stocks as they gain confidence and knowledge."
                         },
                         {
-                            "model": "Incremental Learning",
-                            "answer": "Adopt Incremental Learning by starting with the index fund to build knowledge, then experimenting with smaller stock investments later."
+                            "model": "Feedback Loops",
+                            "answer": "Adopt Feedback Loops by starting with an index fund, observing its performance to learn about market trends, and then experimenting with individual stocks based on those insights."
                         },
                         {
-                            "model": "Risk Assessment + Incremental Learning",
-                            "answer": "Combine Risk Assessment to match their tolerance with Incremental Learning, starting with an index fund and gradually exploring stocks as they gain experience."
+                            "model": "Risk Diversification + Feedback Loops",
+                            "answer": "Combine Risk Diversification to manage risk with an index fund and Feedback Loops to learn from its performance, gradually exploring individual stocks as they assess risk tolerance and historical data."
                         }
                     ]
                 }
