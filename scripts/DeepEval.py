@@ -310,7 +310,7 @@ def _compute_group_metrics(results, metric_name, group_key):
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate LLM responses using DeepEval')
-    parser.add_argument('--dataset', default='data/TempQuestions.json', help='Path to original dataset')
+    parser.add_argument('--dataset', default='data/dataset.json', help='Path to original dataset')
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
     parser.add_argument('--output-dir', default='Results', help='Output directory for results')
     parser.add_argument('--eval-model', default='gpt-4o-mini', help='Model to use for evaluation')
@@ -318,7 +318,7 @@ def main():
                         choices=list(AVAILABLE_METRICS.keys()),
                         help='Metrics to use for evaluation')
     parser.add_argument('--threshold', type=float, default=0.7, help='Threshold for passing metrics')
-    parser.add_argument('--batch-size', type=int, default=12, help='Batch size for evaluation')
+    parser.add_argument('--batch-size', type=int, default=15, help='Batch size for evaluation')
     parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
                         help='Reference type to compare against (ground_truth or model_answer)')
     args = parser.parse_args()

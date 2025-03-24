@@ -209,10 +209,10 @@ def compute_aggregated_metrics(results, index_mapping):
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate LLM responses using BERTScore')
-    parser.add_argument('--dataset', default='data/TempQuestions.json', help='Path to original dataset with ground truth')
+    parser.add_argument('--dataset', default='data/dataset.json', help='Path to original dataset with ground truth')
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
     parser.add_argument('--output-dir', default='Results', help='Output directory for results')
-    parser.add_argument('--batch-size', type=int, default=12, help='Batch size for BERTScore computation')
+    parser.add_argument('--batch-size', type=int, default=15, help='Batch size for BERTScore computation')
     parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
                         help='Reference type to compare against (ground_truth or model_answer)')
     args = parser.parse_args()

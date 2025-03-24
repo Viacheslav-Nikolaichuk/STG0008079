@@ -683,32 +683,6 @@
             "questions": [
                 {
                     "query_id": "8_1",
-                    "question": "Should the startup adopt a fully remote work policy?",
-                    "question-type": "normative",
-                    "difficulty": "medium",
-                    "ground_truth": "Adopt a staged or hybrid approach first, carefully tracking both productivity and employee engagement. If key metrics stay strong or improve over time, then consider transitioning fully to remote.",
-
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": "Conduct a short trial with select teams working remotely full-time to gather data before making a company-wide decision."
-                        },
-                        {
-                            "model": "Risk Aversion",
-                            "answer": "A complete switch risks undermining team cohesion. A gradual, data-driven approach limits potential disruptions."
-                        },
-                        {
-                            "model": "Productivity Analysis",
-                            "answer": "Studies show employees can maintain or increase productivity remotely, but results vary by role and management style."
-                        },
-                        {
-                            "model": "Risk Aversion + Productivity Analysis",
-                            "answer": "Combining a measured rollout with data tracking on productivity can ensure a smooth transition while preserving company culture."
-                        }
-                    ]
-                },
-                {
-                    "query_id": "8_2",
                     "question": "How can the startup maintain high employee productivity in a remote setting?",
                     "question-type": "prescriptive",
                     "difficulty": "easy",

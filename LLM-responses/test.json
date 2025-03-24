@@ -1,176 +1,233 @@
 {
     "scenarios": [
         {
-            "id": "1",
-            "context": "A recent graduate wants to buy a $70,000 luxury car despite earning $45,000/year, claiming it will boost career opportunities through appearances",
+            "id": "22",
+            "context": "A 30-year-old with $10,000 to invest is torn between putting it all in a single stock to diversify later or spreading it across a low-cost index fund, unsure about balancing risk and growth potential.",
             "questions": [
                 {
-                    "query_id": "1_1",
-                    "question": "Is this a financially sound decision?",
+                    "query_id": "22_1",
+                    "question": "Is investing everything in a single stock a wise choice for this individual?",
                     "question-type": "evaluative",
-                    "difficulty": "easy",
-                    "ground_truth": "No, this is a financially unsound decision. A $70,000 car on a $45,000 salary would create excessive debt, high insurance costs, and financial strain, outweighing any speculative career benefits from appearances.",
+                    "difficulty": "medium",
+                    "ground_truth": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
                     "model_answers": [
                         {
-                            "model": "A",
-                            "answer": ""
-                        },
-                        {
-                            "model": "B",
-                            "answer": ""
-                        },
-                        {
-                            "model": "C",
-                            "answer": ""
-                        },
-                        {
-                            "model": "AB",
-                            "answer": ""
-                        },
-                        {
-                            "model": "AC",
-                            "answer": ""
-                        },
-                        {
-                            "model": "CB",
-                            "answer": ""
-                        },
-                        {
-                            "model": "ABC",
-                            "answer": ""
-                        },
-                        {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Overconfidence Bias",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Laptop Keyboard",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion + Overconfidence Bias",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Risk Aversion + Laptop Keyboard",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Overconfidence Bias + Laptop Keyboard",
                             "answer": ""
                         }
                     ]
                 },
                 {
-                    "query_id": "1_2",
-                    "question": "What psychological factors drive this reasoning?",
+                    "query_id": "22_2",
+                    "question": "Why might this person be leaning toward a single stock?",
                     "question-type": "explanatory",
                     "difficulty": "medium",
-                    "ground_truth": "This rationale likely stems from a combination of perceived social signaling, status anxiety, and potentially unrealistic expectations about the return on investment of a luxury purchase.",
+                    "ground_truth": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
                     "model_answers": [
                         {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Overconfidence Bias",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Laptop Keyboard",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion + Overconfidence Bias",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion + Laptop Keyboard",
                             "answer": ""
                         },
                         {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
+                            "model": "Overconfidence Bias + Laptop Keyboard",
                             "answer": ""
                         }
                     ]
                 },
                 {
-                    "query_id": "1_3",
-                    "question": "How should they approach this decision?",
+                    "query_id": "22_3",
+                    "question": "How should this individual decide where to invest?",
                     "question-type": "prescriptive",
                     "difficulty": "hard",
-                    "ground_truth": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+                    "ground_truth": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
                     "model_answers": [
                         {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Risk Aversion",
                             "answer": ""
                         },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Laptop Keyboard",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Risk Aversion + Overconfidence Bias",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Risk Aversion + Laptop Keyboard",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Overconfidence Bias + Laptop Keyboard",
+                            "answer": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "context": "A high school student has $500 saved from a part-time job and is deciding whether to buy a new gaming console for $450 or save the money for college textbooks next year.",
+            "questions": [
+                {
+                    "query_id": "24_1",
+                    "question": "Is buying the gaming console a smart use of their money?",
+                    "question-type": "evaluative",
+                    "difficulty": "medium",
+                    "ground_truth": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+                    "model_answers": [
                         {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Present Bias",
                             "answer": ""
                         },
+                        {
+                            "model": "Perceived Value",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Laptop Screen",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Present Bias + Perceived Value",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Present Bias + Laptop Screen",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Perceived Value + Laptop Screen",
+                            "answer": ""
+                        }
+                    ]
+                },
+                {
+                    "query_id": "24_2",
+                    "question": "Why might the student want to buy the console?",
+                    "question-type": "explanatory",
+                    "difficulty": "easy",
+                    "ground_truth": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+                    "model_answers": [
                         {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Present Bias",
                             "answer": ""
                         },
+                        {
+                            "model": "Perceived Value",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Laptop Screen",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Present Bias + Perceived Value",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Present Bias + Laptop Screen",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Perceived Value + Laptop Screen",
+                            "answer": ""
+                        }
+                    ]
+                },
+                {
+                    "query_id": "24_3",
+                    "question": "How should the student decide what to do with their money?",
+                    "question-type": "prescriptive",
+                    "difficulty": "medium",
+                    "ground_truth": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+                    "model_answers": [
                         {
                             "model": "",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Present Bias",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Perceived Value",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Laptop Screen",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Present Bias + Perceived Value",
                             "answer": ""
                         },
                         {
-                            "model": "",
+                            "model": "Present Bias + Laptop Screen",
+                            "answer": ""
+                        },
+                        {
+                            "model": "Perceived Value + Laptop Screen",
                             "answer": ""
                         }
                     ]
