@@ -8,28 +8,14 @@ from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 from deepeval.metrics import (
     AnswerRelevancyMetric,
-    FaithfulnessMetric, 
-    HallucinationMetric,
-    BiasMetric,
-    ContextualPrecisionMetric,
-    ContextualRecallMetric,
-    ContextualRelevancyMetric,
-    DAGMetric,
-    TaskCompletionMetric
+    FaithfulnessMetric
 )
         
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 AVAILABLE_METRICS = {
     'answer_relevancy': AnswerRelevancyMetric,
-    'faithfulness': FaithfulnessMetric,
-    'hallucination': HallucinationMetric,
-    'bias': BiasMetric,
-    'contextual_precision': ContextualPrecisionMetric,
-    'contextual_recall': ContextualRecallMetric,
-    'contextual_relevancy': ContextualRelevancyMetric,
-    'dag': DAGMetric,
-    'task_completion': TaskCompletionMetric
+    'faithfulness': FaithfulnessMetric
 }
 
 def load_config():
@@ -165,7 +151,7 @@ def create_metrics(metric_names, threshold=0.7, eval_model="gpt-4o-mini"):
             continue
         
         # Dynamic metric creation with threshold
-        if name.lower() in ['answer_relevancy', 'faithfulness', 'contextual_precision', 'contextual_recall', 'contextual_relevancy']:
+        if name.lower() in ['answer_relevancy', 'faithfulness']:
             metric = metric_class(threshold=threshold, model=eval_model)
         else:
             # For metrics that might not support threshold
