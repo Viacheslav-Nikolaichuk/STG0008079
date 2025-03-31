@@ -2219,6 +2219,1316 @@
             ]
         },
         {
+            "id": "27",
+            "context": "You are a financial advisor tasked with recommending an investment strategy to a client. Last week, you attended a seminar where a new tech stock was enthusiastically promoted, with speakers citing a recent 50% surge in its value over three months, based on a volatile market period. However, you know that long-term market data suggests tech stocks in this sector typically average a 10% annual return with significant fluctuations. Your client, impressed by recent news headlines about the stock's performance, is eager to invest heavily. Your recommendation will shape their financial future, and you must weigh the seminar's insights against broader trends and the client's expectations.",
+            "questions": [
+                {
+                    "query_id": "27_1",
+                    "question": "How might the seminar you attended and your client's eagerness influence your assessment of the tech stock's potential?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "The seminar's enthusiastic promotion and the stock's recent 50% surge could lead you to overestimate its future potential, especially since the vivid examples from the event might overshadow the more stable, long-term 10% average return. Your client's eagerness, fueled by news headlines, might further incline you to view the stock favorably, potentially downplaying risks or the volatility highlighted in broader data. This could result in an overly optimistic assessment that doesn't fully account for market uncertainties.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The seminar and my client's excitement might make the stock seem more promising than it really is."
+                        },
+                        {
+                            "model": "Availability Bias",
+                            "answer": "The seminar's focus on the stock's recent surge sticks in my mind, so I might overrate its potential compared to the long-term data."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I might feel too certain about the stock's success based on the seminar and client pressure, without fully considering the risks."
+                        },
+                        {
+                            "model": "Availability Bias + Overconfidence Bias",
+                            "answer": "The seminar's vivid examples and my client's enthusiasm, paired with my own unwarranted certainty, could lead me to overhype the stock's potential and ignore broader market trends."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "27_2",
+                    "question": "Is it wise to recommend investing heavily in the tech stock based mainly on the seminar's insights and your client's enthusiasm?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "It is not wise to recommend investing heavily based primarily on the seminar's insights and your client's enthusiasm. The seminar's data reflects a short, volatile period, which may not predict future performance, and the client's enthusiasm stems from selective news rather than a balanced view. A prudent recommendation should prioritize long-term market trends, risk assessment, and diversification, rather than being swayed by a single event's hype or client pressure, to protect the client's financial interests.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "No, it's probably not smart to rely just on the seminar and my client's excitement—it might not be the full story."
+                        },
+                        {
+                            "model": "Availability Bias",
+                            "answer": "Basing it on the seminar alone isn't smart since it's just the latest thing I heard, not the most dependable data."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I shouldn't push for it if I'm too sure of myself based on limited info and client hype, as I might miss the bigger risks."
+                        },
+                        {
+                            "model": "Availability Bias + Overconfidence Bias",
+                            "answer": "Given how the seminar and my client's eagerness stand out, plus my own potential over-assurance, it's not wise—I should look at more solid, long-term evidence."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "27_3",
+                    "question": "What actions should you take to ensure your investment recommendation is well-rounded and not overly influenced by the seminar and your client's eagerness?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "To ensure a well-rounded recommendation, you should analyze historical performance data for the tech stock and its sector, including volatility and risk metrics beyond the recent surge. Consult with other financial experts for diverse perspectives, review independent market analyses, and assess your client's risk tolerance and portfolio diversity. Additionally, explain the difference between short-term gains and long-term trends to your client, setting realistic expectations based on comprehensive evidence rather than recent highlights or their excitement.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "I should check more data, talk to other advisors, and think about my client's overall goals."
+                        },
+                        {
+                            "model": "Availability Bias",
+                            "answer": "I need to dig into long-term data and reports, not just go off the seminar's recent hype."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I should double-check my gut with expert input and solid stats to avoid being too sure of myself."
+                        },
+                        {
+                            "model": "Availability Bias + Overconfidence Bias",
+                            "answer": "I'll gather detailed historical data, get other opinions, and talk through the risks and trends with my client to keep my advice grounded and not swayed by the seminar or my own confidence."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "context": "You are a senior manager at a rapidly growing manufacturing firm. Your team is debating whether to establish a new production facility overseas or invest in advanced automation at existing local plants. The overseas option promises lower labor costs and potential market expansion, but involves geopolitical uncertainties, trade tariffs, and logistical complexities. The local automation option could preserve domestic jobs in the short term, but it demands significant capital outlay and an entirely new skill set for the workforce. Your decision will greatly influence the company's future competitiveness, employee morale, and financial health.",
+            "questions": [
+                {
+                    "query_id": "28_1",
+                    "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You should look at short-term savings but also be careful about political risks and trade barriers."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "I would quantify the labor savings, tariffs, and logistics expenses over time, while also estimating potential risks from geopolitical shifts. A thorough cost-benefit model would compare expected returns against the known and unknown drawbacks."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I might overestimate our ability to handle foreign market complexities and understate the severity of potential political or regulatory hurdles, leading me to assume the expansion will be smoother than it likely will be."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Overconfidence Bias",
+                            "answer": "Even with a systematic cost-benefit calculation, I could remain overly sure that we can easily navigate foreign markets, causing me to downplay critical uncertainties (like tariffs and cultural differences) and possibly skewing the projected numbers to favor expansion."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "28_2",
+                    "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer—overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "If stability and ethical job creation are paramount, staying local and automating might be best, even though it's expensive."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "A thorough calculation that factors in social impact and long-term workforce development would suggest local automation can be justified if we value stability and ethical considerations over short-term gains."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I might dismiss the complexities of local automation and assume we can handle any new technology and training without a hitch, or conversely think foreign expansion will remain stable indefinitely—either view could be overly optimistic."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Overconfidence Bias",
+                            "answer": "While a cost-benefit analysis points to local automation's potential for stability, there's a risk I'll be overly sure of the company's capacity to integrate automation smoothly, underestimating training costs and workforce transitions. Conversely, I might also be too certain overseas risks won't materialize."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "28_3",
+                    "question": "What steps can you take to ensure you make a fully informed decision that accounts for both the tangible financial metrics and the intangible workforce impacts?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "Key steps include: conducting thorough financial modeling with robust sensitivity analyses, consulting external experts on geopolitical and compliance risks, and engaging directly with your workforce to gauge training needs and morale. Incorporate scenario planning to account for different regulatory environments or shifts in global trade policies, and build contingency plans that identify thresholds (e.g., acceptable wage changes, tolerance for new tariffs). Lastly, obtaining stakeholder input—from community leaders to union representatives—can help capture intangible impacts like employee well-being and public perception, ensuring a broader perspective beyond purely numerical metrics.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "I'd talk to experts, run different financial scenarios, and also talk with employees to understand the human side."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "I would develop detailed financial models, including sensitivity analyses on labor costs, tariffs, and ROI timelines, to provide a structured framework that evaluates both potential upsides and downsides."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I need to be aware that I could overestimate our capacity to handle new challenges. I should seek objective feedback and data to challenge my assumptions and uncover risks I might be glossing over."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis + Overconfidence Bias",
+                            "answer": "I would combine structured financial modeling with explicit checks against my own optimism. By actively seeking outside perspectives and building buffer contingencies into the model, I can counter the tendency to discount hidden costs or underestimate challenges."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "context": "You are a city official deciding whether to grant a permit for a large commercial development along a river, which has been a public recreation area for decades. The project promises increased tax revenue, job creation, and a modernized waterfront, but it will also limit public access to the river and may harm local ecosystems. Nearby small businesses fear losing foot traffic if the area becomes restricted, while environmental groups warn of irreversible damage to the river's biodiversity. You must balance economic growth, environmental sustainability, and the community's diverse interests in making a final recommendation.",
+            "questions": [
+                {
+                    "query_id": "29_1",
+                    "question": "How should you assess the potential economic benefits against the possible environmental and social harms of the development?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A thorough assessment involves quantifying the immediate and long-term economic gains—such as job creation, increased tax revenue, and new consumer spending—while also rigorously examining environmental impact studies and community feedback. The analysis must account for downstream effects on local ecosystems, water quality, and public access, as well as the intangible social value residents place on preserving shared green spaces. Ultimately, the evaluation should integrate both objective financial projections and community well-being to provide a balanced, evidence-based conclusion.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You need to look at the jobs and revenue vs. damage to the river and losing community space."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "I would actively gather input from local residents, businesses, and environmental groups to fully capture the range of benefits and harms, ensuring the community's voice shapes the final assessment."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "If each stakeholder only pursues individual gains, the communal resource (the river) could be overexploited. Ignoring the collective impact increases the risk of permanent damage and diminishes public value."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Tragedy of the Commons",
+                            "answer": "Proactively involving all affected groups helps ensure that community members understand the shared resource at stake and collaborate on protecting the river from the collective pressure that can lead to long-term detriment."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "29_2",
+                    "question": "Is it ethically justifiable to prioritize economic gains if doing so restricts public access to a historically shared resource?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Determining ethical justifiability depends on how the new development balances broad community benefits against the loss of a communal asset. While economic gains can boost jobs and revenue, restricting public access to a resource that has long been open to everyone raises equity and fairness concerns. A truly ethical approach would seek to ensure that those impacted by diminished river access—particularly smaller businesses and lower-income residents—are neither disproportionately burdened nor excluded from future benefits. Thoughtful public consultation, environmental protection measures, and equitable compensation or alternative access solutions can help address the moral complexities.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It's questionable. You might create jobs, but you'll also remove a public space many rely on."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Ethically, you should involve the local community in the decision. Their input and concerns about shared resources and open spaces are critical to justifying any trade-offs."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Privatizing part of a shared resource can degrade the overall communal value. Once lost, the collective benefit may be difficult to recover, raising ethical concerns about favoring private profit over public good."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Tragedy of the Commons",
+                            "answer": "By engaging all affected parties, you can identify solutions that avoid depleting the shared resource. Failing to do so risks a moral hazard—permanently reducing public access for short-term financial gains."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "29_3",
+                    "question": "What processes should you put in place to ensure a decision that fairly represents community interests and prevents overexploitation of the river?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "To reach a balanced decision, establish a multi-stakeholder review board or working group that includes city officials, business representatives, local residents, and environmental experts. Conduct a transparent public comment period with accessible forums, surveys, and workshops, ensuring that minority opinions are heard. Enforce strong environmental safeguards, such as regular impact assessments and water-quality monitoring, and require the developer to fund mitigation projects or alternative community spaces. These processes help safeguard against disproportionate private gain, address community concerns upfront, and maintain the river's ecological health over the long term.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Include the public in hearings and put checks in place to protect the river from becoming overused."
+                        },
+                        {
+                            "model": "Stakeholder Engagement",
+                            "answer": "Encourage open forums, surveys, and committees where community voices can directly shape development agreements, ensuring local interests are consistently represented in each stage of planning."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Implement regulatory safeguards and shared monitoring systems so no single party over-extracts or pollutes the river, fostering mutual accountability to protect the shared resource."
+                        },
+                        {
+                            "model": "Stakeholder Engagement + Tragedy of the Commons",
+                            "answer": "Create an inclusive decision-making framework with transparent reporting and collaborative monitoring, ensuring all stakeholders uphold their responsibility to preserve the common resource and retain equitable community benefits."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "context": "You are a local government official overseeing land-use decisions in a rural area. A major energy provider proposes developing a large-scale solar panel farm on several hundred acres of fertile farmland. While this project could bring immediate revenue through lease agreements and accelerate local clean energy goals, it would also displace farmers whose livelihoods depend on growing crops. Concerns arise about long-term food security, changes to local biodiversity, and the social impact on agricultural communities. Weighing these competing priorities is crucial, as the decision could shape the region's economic and environmental trajectory for decades.",
+            "questions": [
+                {
+                    "query_id": "30_1",
+                    "question": "How should you evaluate the short-term financial gains against the long-term impacts on agriculture and community well-being?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A robust evaluation must compare immediate revenue gains and renewable energy benefits with the potential loss of farmland, which has long-term implications for local food supply, employment, and community identity. An objective analysis should quantify both the near-term boost in lease payments and energy production, as well as the decades-long ramifications of reduced agricultural capacity and possible effects on local ecosystems. Factoring in the broader social and environmental costs enables a balanced assessment that goes beyond short-sighted profitability.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Compare the upfront money from the solar farm to the future farming losses and community concerns."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "The immediate revenue and clean energy gains might overshadow the fact that farmland once lost to industrial use could be difficult to reclaim for future generations."
+                        },
+                        {
+                            "model": "Opportunity Cost",
+                            "answer": "Using the land for solar panels means sacrificing its agricultural value and the associated local economy. The true cost includes lost income for farmers and potential increases in food prices if farmland is diminished."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Opportunity Cost",
+                            "answer": "Even though solar energy offers quick revenue, this choice precludes ongoing agricultural benefits. We need to compare near-term financial gains with the opportunity cost of losing farmland and potential social and environmental benefits over time."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "30_2",
+                    "question": "Is it ethically justifiable to prioritize renewable energy expansion over preserving farmland that sustains local families and the food supply?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Determining ethical justifiability involves balancing broader societal needs—like mitigating climate change and supporting sustainable energy initiatives—with the rights and livelihood of local farmers and the community. While promoting renewable energy is crucial, so is recognizing that farmland plays a vital role in food security and regional identity. A purely profit-driven approach that dismisses local traditions and necessities risks overlooking moral obligations to support agricultural communities. Ultimately, decisions should incorporate careful consideration of stakeholder input, equitable compensation, and contingency plans to mitigate adverse effects on farmers and food production.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It's not purely clear-cut: we need clean energy, but displacing farmers harms local families and can affect the food supply."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Focusing solely on today's clean energy targets might ignore future food needs and the cultural role of farmland for generations to come."
+                        },
+                        {
+                            "model": "Opportunity Cost",
+                            "answer": "Building a solar farm might ignore the hidden cost of losing a community's farming heritage and future food production capabilities."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Opportunity Cost",
+                            "answer": "Prioritizing renewable energy without exploring less invasive approaches may forfeit vital land that sustains local families—an ethical dilemma where immediate gains overshadow future consequences."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "30_3",
+                    "question": "What measures can be put in place to ensure the decision-making process accounts for both immediate energy benefits and the region's long-term agricultural needs?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "A balanced approach involves multi-stakeholder consultations including local farmers, environmental scientists, and energy experts, as well as careful data collection on land fertility, crop yields, and energy demands. Policymakers should conduct feasibility studies on alternative sites or hybrid models—like partial solar installations with continued agricultural use. Additionally, legal frameworks or zoning rules can specify land restoration requirements if the solar farm is decommissioned, ensuring future generations can reclaim the area for farming. Lastly, structured incentive programs and safety nets for displaced farmers can help mitigate economic and social disruptions.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Gather all voices—farmers, energy experts, ecologists—and consider partial or alternative solutions, as well as ways to help farmers adapt."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Implement guidelines requiring ongoing environmental monitoring and potential land reclamation so that future generations aren't irrevocably denied the farmland."
+                        },
+                        {
+                            "model": "Opportunity Cost",
+                            "answer": "Quantify what's lost if farmland goes away—like local produce, cultural ties, and ecological balance. Then set clear policies to compensate or protect these values if the solar project moves forward."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Opportunity Cost",
+                            "answer": "Use impact assessments that compare immediate revenue with the high cost of losing fertile farmland over decades. Require developers to restore or partially preserve farmland usage, ensuring the region doesn't irreversibly trade away its agricultural foundation."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "context": "You serve on the board of a global philanthropic foundation, tasked with allocating $50 million in charitable funds. One faction of the board wants to direct these resources immediately to a war-torn region, where urgent humanitarian crises include food shortages, medical supply gaps, and large-scale displacement. Another faction argues for investing the bulk of the money in a decade-long initiative that targets root causes: rebuilding essential infrastructure, supporting educational programs, and fostering local economic growth. While addressing immediate crises could save countless lives right now, it may not resolve underlying issues, and long-term projects might risk delayed or uncertain outcomes. The board is deeply divided, and your decision could define the foundation's impact for years to come.",
+            "questions": [
+                {
+                    "query_id": "31_1",
+                    "question": "What factors should you consider to properly evaluate the trade-off between immediate humanitarian relief and long-term structural rebuilding?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A thorough evaluation requires weighing the magnitude and urgency of the present crisis against the potential for sustainable, long-term benefits. You should consider the scale of immediate needs, the projected effectiveness of direct relief, the feasibility of long-term programs, the community's capacity to sustain improvements, and the risk that prolonged instability might undermine ambitious development plans. Additionally, stakeholder input—from on-the-ground aid groups, local leaders, and impacted populations—is critical, as it provides nuanced insights into both short- and long-term challenges. Finally, assessing logistical constraints, political climates, and partner organization capabilities will clarify which approach (or blend of approaches) yields the greatest overall impact.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You have to look at how many lives can be saved immediately and how much long-term stability you can create."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "I'd consider the immediate urgency of saving lives versus the potential multi-decade impact of initiatives that address root causes, ensuring the decision doesn't overlook future consequences."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "I would gather credible data on program efficacy, past relief outcomes, and local capacity, then compare evidence across both immediate aid models and long-term development strategies."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Evidence-Based Decision Making",
+                            "answer": "While the crisis is dire, systematically analyzing validated data on both immediate relief outcomes and sustainable development gains can help balance urgent needs with enduring impact."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "31_2",
+                    "question": "Is it ethically defensible to prioritize lifesaving efforts over addressing root causes that might avert future crises, or vice versa?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Deciding which path is ethically superior often hinges on the moral imperative to save lives here and now, balanced against the duty to foster long-term resilience. Allocating funds purely to immediate relief might neglect deeper systemic issues, potentially perpetuating cycles of crisis if underlying problems remain unaddressed. Conversely, focusing too heavily on long-term reconstruction risks neglecting those who need urgent assistance. A balanced approach—one that provides emergency aid without neglecting structural change—can be ethically justified, as it reflects respect for human dignity in both the present and the future. Ultimately, ethical defensibility depends on transparency, community engagement, and equitable distribution of resources.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Both sides have moral weight. Saving lives now is crucial, but ignoring root causes just leads to future crises."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Ethically, focusing solely on immediate relief might mean sacrificing sustainable solutions. But ignoring today's needs for hypothetical future benefits could also be unethical—there's a moral tension."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Ethical justification should rely on credible data showing real-time benefits versus projected improvements, ensuring no group is overlooked based on unverified assumptions or purely emotional appeals."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Evidence-Based Decision Making",
+                            "answer": "By blending immediate humanitarian data with long-range outcome studies, you can ethically justify a balanced allocation that respects both the urgency of saving lives now and the future ramifications of unresolved systemic issues."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "31_3",
+                    "question": "What actions can the foundation take to maintain a flexible, data-driven approach that adapts to changing conditions in the conflict zone?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "Key steps include establishing a real-time monitoring system to track evolving needs and impacts, partnering with reputable local NGOs for continuous feedback, and setting clear milestones for both immediate relief and longer-term development projects. Regular audits should be conducted to ensure accountability, and the foundation should revisit its strategy based on newly emerging data or shifts in the conflict. Building in contingency budgets or reserve funds further allows for swift reallocation when emergencies surge or when evidence suggests a pivot. In essence, agility, transparency, and robust, ongoing data collection are critical to an adaptive philanthropic strategy that remains responsive to the complex realities on the ground.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "The foundation should gather feedback often, track results, and stay ready to shift funds if the situation changes."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Set a clear timeline that accommodates both immediate response intervals and periodic evaluations of long-term investments, ensuring resources can be rebalanced as conditions evolve."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Conduct ongoing impact assessments, collect performance metrics for each program, and use that evidence to revise allocations or pivot strategies if real-world outcomes differ from initial projections."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Evidence-Based Decision Making",
+                            "answer": "Combine flexible planning over different time horizons with rigorous data collection, so short-term relief efforts and long-term rebuilding can both be adjusted effectively as new insights or urgent crises emerge."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "context": "You are a hospital administrator overseeing critical decisions about resource allocation. A major proposal involves adopting an advanced AI-driven triage system capable of quickly prioritizing incoming patients based on severity, potentially saving lives through faster intervention. However, this system requires substantial upfront investment, ongoing maintenance costs, and specialized staff training. There is also uncertainty about how easily it will integrate with existing workflows. Alternatively, you could use the funds to hire more medical personnel and upgrade current triage processes incrementally, ensuring gradual improvement without the technological risks. Your choice will affect patient outcomes, staff morale, and the hospital's financial health well into the future.",
+            "questions": [
+                {
+                    "query_id": "32_1",
+                    "question": "How should you weigh the promise of rapid patient prioritization against the financial risks and potential implementation hurdles of the AI system?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A balanced evaluation accounts for both the short- and long-term benefits as well as potential pitfalls. While faster triage can improve patient flow and outcomes, unanticipated costs—hardware upgrades, training, and system integration—can escalate. If staff are not properly on board or if the AI's data inputs aren't robust, clinical errors and poor adoption may diminish returns. Assessing stakeholder readiness, conducting thorough pilot tests, and analyzing budget scenarios can shed light on whether the short-term financial strain is justified by long-term operational gains. Ultimately, a careful cost-benefit and feasibility study is crucial before committing to such a transformative investment.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You have to look at how much money is required and whether the AI will realistically improve patient care enough to justify the costs."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Consider how the AI's performance depends on interplay between technology, staff acceptance, data accuracy, and departmental workflows. A narrow view of cost-savings alone may miss wider organizational impacts."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "Because the AI's initial costs are high, I might favor avoiding them even though longer-term benefits—like smoother patient flow—might be larger. I need to keep from overemphasizing current expenses."
+                        },
+                        {
+                            "model": "Systems Thinking + Present Bias",
+                            "answer": "A holistic view can counteract the tendency to focus only on immediate costs and disruptions. By understanding how each department interacts with the new system, it's easier to see the future returns outweighing near-term spending hesitations."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "32_2",
+                    "question": "Is it ethically responsible to adopt cutting-edge technology if it initially increases workloads and anxiety among staff, but promises to improve patient outcomes over time?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Ethical responsibility involves balancing patient welfare with staff well-being. While adopting cutting-edge technology may enhance care quality and reduce long-term wait times, it could also cause undue stress if staff are unprepared or insufficiently trained. The moral calculus lies in whether leadership provides adequate support—such as comprehensive training, transitional workflows, and psychological safety—to ensure staff aren't overburdened while adapting. Transparency about potential challenges and a clear plan for mitigating them can legitimize a temporary strain if it fosters far-reaching improvements in patient care. Ultimately, ethical responsibility requires that staff wellbeing and patient outcomes both remain central to decision-making.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It can be ethical if you properly train and support staff and the long-term benefits are significant for patient care."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Ethics don't revolve only around patients. You need to see how rapid tech adoption affects morale, internal processes, and the hospital's broader mission, ensuring no group is disproportionally harmed."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "It's easy to overlook the future benefits if the immediate staff pushback is strong. Ensuring that short-term discomfort doesn't derail potentially ethical, beneficial innovation is crucial."
+                        },
+                        {
+                            "model": "Systems Thinking + Present Bias",
+                            "answer": "By mapping the interplay of factors—training demands, staff morale, patient outcomes—it's easier to avoid undervaluing future benefits due to staff anxiety now, and ensure long-term ethical considerations remain front and center."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "32_3",
+                    "question": "What measures could you implement to maintain staff morale while ensuring a smooth integration of the AI triage system?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "A structured rollout plan should include comprehensive staff education sessions, hands-on training, and channels for continuous feedback. Actively involve frontline employees in early testing and adjustments, so they feel ownership rather than burden. Set realistic timelines and provide adequate technical support (including 24/7 IT teams at launch) to minimize frustration. Periodic town halls or staff forums can help management address concerns in real time and refine processes on the fly. Finally, reward adaptability and encourage a culture of learning by recognizing employees who proactively master new skills, ensuring a collective effort rather than imposing top-down directives.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Offer solid training, communicate openly, and give staff a chance to shape the transition so they feel included."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "A multi-layered plan that links training, tech support, and ongoing feedback cycles ensures each department's transition aligns with hospital-wide objectives and fosters cohesive morale."
+                        },
+                        {
+                            "model": "Present Bias",
+                            "answer": "Focus on short-term morale boosters—like immediate recognition and support—so staff don't see only difficulties upfront, helping them persist until future benefits of the system manifest."
+                        },
+                        {
+                            "model": "Systems Thinking + Present Bias",
+                            "answer": "Coordinate across all departments, incorporate training within normal workflows, and provide quick wins, so short-term hurdles are offset by tangible progress, keeping everyone motivated for the longer-term rewards."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "context": "You are the Chief Information Security Officer (CISO) at a major tech firm. A new security vulnerability has been discovered, potentially exposing confidential customer data. Addressing this vulnerability proactively requires a costly overhaul of existing systems and a temporary slowdown in key product releases. Some executives argue that implementing a few quick fixes could be enough until the next quarterly security review, pointing out that an extensive upgrade might harm immediate revenue targets. Others warn that any delay risks a massive breach that could cause irreparable damage to the company's reputation and customer trust. Balancing short-term operational goals against long-term security needs becomes a critical and complex decision with significant stakes for the company's future.",
+            "questions": [
+                {
+                    "query_id": "33_1",
+                    "question": "How should you balance the immediate costs of a full-scale security overhaul against the potential long-term repercussions of a serious data breach?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A robust evaluation involves estimating both the financial impact of short-term system overhauls and the potential fallout from a significant data breach, which could lead to legal liabilities, regulatory penalties, and massive reputational harm. While quick fixes might preserve quarterly revenue goals, a full-scale upgrade offers stronger protection against worst-case scenarios. The decision should factor in how damaging a breach would be in terms of customer confidence and long-term brand value, weighing those intangible costs against the upfront resource investments. Ultimately, a thorough risk-benefit analysis that accounts for the probability of a breach, potential magnitude of losses, and public perception is essential before deciding on any path.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You need to consider how devastating a big breach could be versus the hefty price of upgrading now."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "I'd focus on the likelihood and severity of a data breach, quantifying possible legal fees, lost customers, and damage to trust. This provides a clearer picture of the true stakes compared to short-term savings."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Account for both direct expenses (like upgrading systems) and indirect costs (like brand damage or potential fines). While immediate overhead is high, the overall benefit might still outweigh a huge long-term loss."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Combining a detailed probability and impact study with a financial comparison of short-term vs. long-term costs helps ensure a measured decision that aligns security priorities with potential business outcomes."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "33_2",
+                    "question": "Is it ethically defensible to postpone critical security updates if it means preserving the company's short-term financial performance?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "An ethical justification for postponing critical security updates is difficult to maintain, given the potential harm to customers and other stakeholders if a breach occurs. While short-term financial considerations matter for the company's bottom line, ethical responsibility dictates actively protecting sensitive data, maintaining trust, and safeguarding customer privacy. Failing to address known vulnerabilities could be seen as neglecting a fundamental duty of care. Ultimately, the ethics hinge on the risk tolerance the firm is willing to impose on its customers, employees, and partners, especially if postponing leaves them vulnerable to significant harm.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Probably not, because if a breach occurs, it harms customers and compromises trust, so short-term gains don't justify that risk."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Ethics demand minimizing the chance of harm. If known vulnerabilities are disregarded, the company takes on an arguably unacceptable risk to stakeholders' data and well-being."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "From an ethical angle, ignoring significant costs of a breach (like user trust erosion) may lead to short-sighted decisions, failing to account for potential moral and financial repercussions of inaction."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Ethically, you must weigh immediate profit protection against the quantifiable risk of catastrophic data loss or exposure, recognizing the moral implications of leaving stakeholders vulnerable to high-impact risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "33_3",
+                    "question": "What steps could be taken to implement a more measured security strategy that addresses vulnerabilities without causing severe disruptions to the company's ongoing projects?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "A measured approach would begin with phased rollouts: upgrade the most critical and high-risk systems first while gradually incorporating less essential areas. Form specialized cross-functional teams to design and execute the security overhaul, ensuring minimal overlap with mission-critical project timelines. Conduct rigorous pilot tests of new security protocols in controlled environments, fine-tuning them before widespread deployment. Establish clear communication channels that keep leadership, IT, and other relevant departments aligned on timelines, budgets, and risk thresholds. Lastly, maintain robust training programs and user-friendly documentation so staff can adapt efficiently, reducing operational bottlenecks and maximizing the effectiveness of the new security measures.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Focus on the most urgent systems first, roll changes out gradually, and make sure everyone is well-trained."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Prioritize updates based on which systems carry the highest exposure, then stage less critical improvements in later phases, aligning security upgrades with top vulnerabilities."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Evaluate each component's update cost versus the benefit in risk reduction, allocating resources where they produce the greatest impact relative to expense and complexity."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Focus on the riskiest areas first by analyzing potential breach impact, then compare the costs of targeted fixes against broader rollout. Align the strategy with ROI metrics while still protecting vital data."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "context": "You are the operations director for a global logistics firm. A new maritime route promises significant fuel savings and shorter transit times, but it passes through waters known for piracy and unstable political conditions. Some executives see the time and cost benefits as crucial for maintaining the firm's competitive edge. Others worry about potential threats to crew safety, insurance complications, and reputational damage if a major incident occurs. Your choice will affect shipping schedules, company finances, and the well-being of your employees, and it may influence how clients view your risk management practices.",
+            "questions": [
+                {
+                    "query_id": "34_1",
+                    "question": "How should you evaluate the immediate cost savings against the risk of cargo theft and potential harm to crew members?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A balanced evaluation involves comparing tangible cost savings—fuel and time reductions—with the probabilities and potential severity of piracy incidents or geopolitical unrest. While the route promises immediate financial gains, failing to account for insurance premiums, potential ransom negotiations, and possible harm to personnel could have devastating consequences. Ultimately, the direct savings should be weighed against these considerable liabilities, factoring in how a serious incident would impact both the firm's bottom line and its broader reputation in the shipping industry.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You need to compare the financial benefits of saving fuel and time to the dangers your crew might face."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Analyze the probability and severity of piracy, factoring in data on past incidents, geopolitical volatility, and insurance coverage. High-impact risks can undermine even the best cost benefits."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Quantify potential savings from the new route, then consider the financial implications of increased security measures, insurance surcharges, or legal liabilities if something goes wrong."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Combining a systematic review of threat likelihood and severity with precise financial modeling helps ensure that short-term cost gains aren't pursued at the expense of disproportionate risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "34_2",
+                    "question": "Is it ethically defensible to send crews through a potentially hazardous route if it improves the company's profit margins?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Probably not, unless you provide strong protections. Profit doesn't justify putting people in harm's way without proper safeguards."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "From an ethical standpoint, if the likelihood of harm is non-trivial, you must be certain the crew is prepared, protected, and aware of the risks before proceeding."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Even from a strictly financial viewpoint, a single incident can negate potential profit gains, which in turn raises ethical flags about unnecessarily endangering staff for marginal benefits."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Ethically, you must show that a thorough risk analysis and economic rationale exist, with safeguards to minimize crew exposure to danger—otherwise, profit motives alone won't justify the risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "34_3",
+                    "question": "What steps could you take to mitigate these risks if you decide to use the new route, without severely impacting operational efficiency?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "Potential measures include outfitting ships with enhanced security features—such as reinforced doors and surveillance systems—and providing specialized training to crews on anti-piracy protocols. Forming strategic alliances with local security firms or arranging armed escorts in the most dangerous waters can offer additional protection. You could also establish real-time monitoring and rapid response plans, coordinating with maritime authorities. Finally, consulting legal advisors and insurance specialists ensures clarity on liabilities and coverage, minimizing financial fallout should an incident occur. The challenge is to implement these safeguards in a way that doesn't unduly slow down operations or inflate costs beyond the benefits of the route.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Train your crew, install better security, and have backup plans for emergencies. That way, you use the route with less danger."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Identify your highest-risk segments through data analysis, then apply targeted measures—like increased watch or armed escorts—exactly where vulnerabilities peak."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Calculate the cost of added security and see if those measures preserve enough profit margin. This ensures you aren't overspending relative to route benefits."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Introduce tiered security protocols tailored to the most dangerous zones and compare their effectiveness to their expense, ensuring you preserve both safety and a strong financial edge."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "34_4",
+                    "question": "How might shifting geopolitical conditions alter the long-term viability of the new route, and what does that imply for strategic planning?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "Geopolitical conditions can evolve rapidly, affecting maritime security agreements, international sanctions, and regional stability. A route considered safe today could become more hazardous if new conflicts arise, or it might open up further opportunities for safe passage if diplomatic relations improve. For strategic planning, this volatility implies a need for ongoing risk monitoring, flexible route selection, and dynamic insurance policies. Routinely updating intelligence on regional tensions and forging partnerships with government bodies or multinational coalitions can help the company adjust swiftly as conditions change, ensuring sustained profitability and safety standards over the long term.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Political changes can make the route safer or more dangerous over time, so you need to keep checking the situation."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Continuous tracking of political developments, updated security advisories, and local regulations helps you spot early signs of escalating risks or emerging opportunities."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Changing sanctions, taxes, or conflict zones can dramatically shift the cost-to-benefit ratio of any route, so long-term planning must budget for these variables."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Monitoring geopolitical shifts allows you to dynamically re-evaluate both threat levels and economic viability, enabling a strategic pivot if conditions render the route too risky or too costly."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "context": "You are the product lead for a global e-commerce platform. A cutting-edge machine learning (ML) tool promises highly personalized shopping recommendations, potentially boosting conversions and user engagement. However, adopting this new system requires collecting more granular customer data, raising complex privacy and regulatory concerns. Implementing it also involves a significant upfront cost, specialized talent recruitment, and lengthy integration timelines. Balancing competitive advantage, user trust, and compliance with emerging data protection laws is pivotal, and the stakes are high in terms of both market leadership and corporate reputation.",
+        
+            "questions": [
+                {
+                    "query_id": "35_1",
+                    "question": "How should you evaluate the expected increase in sales from the new ML tool against the potential privacy risks and compliance challenges?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A thorough evaluation would include estimating the potential revenue boost from improved recommendation accuracy, factoring in different usage scenarios and conversion rate projections. On the risk side, consider the costs of data protection, regulatory compliance, and reputational damage if user trust is compromised. The analysis must also account for the possibility that evolving regulations could heighten compliance overheads. Balancing these projected benefits against privacy-related vulnerabilities, possible legal penalties, and brand fallout provides a clearer picture of whether the long-term gains outweigh the near-term risks and expenses.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "I'd compare how much extra revenue I might get from better recommendations to the costs and risks if privacy issues arise."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Look beyond the immediate profit: see how data collection affects user trust, platform security, and the broader marketplace, ensuring no single component (revenue) outweighs potential system-wide repercussions."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Quantify expected sales increases, then estimate compliance costs, potential fines, and reputational losses. The final decision hinges on whether projected net benefits remain positive once all costs are considered."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Combine holistic insight into user trust, legal frameworks, and tech complexity with detailed financial modeling to ensure robust decisions that integrate monetary gains with potential systemic risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "35_2",
+                    "question": "Is it ethically justifiable to collect more detailed customer data for better personalization if it exposes users to possible privacy infringements?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Ethical justification hinges on respecting users' autonomy and consent. While personalized experiences can enhance user satisfaction and commercial success, any data collection policy must be transparent and secure. Ensuring ethical conduct means giving users clear choices about data sharing, safeguarding information with robust protocols, and adhering to regulatory standards. If data collection significantly elevates privacy risks without appropriate consent mechanisms or mitigation strategies, it becomes harder to defend ethically. Ultimately, alignment with user well-being should be as much a priority as profitability or innovative product features.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It can be ethical only if you're upfront about what data you collect and fully protect it so users aren't put at risk."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "User privacy isn't just an isolated concern; it affects trust, platform stability, and social responsibility. Failing to secure data undermines the entire system."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Even ethically, weigh gains in personalization against the negative backlash if security lapses occur. The risk of damaging user trust may outweigh short-term revenue spikes."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Ethical defensibility emerges by integrating a broad systems perspective (user trust, societal norms) with quantitative metrics on risk and return. Both angles must be satisfied for a morally sound decision."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "35_3",
+                    "question": "What measures should be taken to ensure that implementing the new ML system maintains user trust and complies with evolving data protection laws?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "First, establish transparent data-handling policies and obtain explicit user consent that clearly details any new data usage. Next, incorporate end-to-end encryption and robust access controls, and conduct regular third-party audits to validate compliance. Invest in cross-functional training so that legal, technical, and product teams can jointly address privacy issues. It's also critical to implement a proactive monitoring system that flags policy changes or potential data breaches, enabling quick course correction. Lastly, building a culture of data stewardship—where privacy considerations are integrated into each development phase—can foster long-term trust and compliance even as regulations change.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Create clear user consent forms, encrypt data, and stay updated with regulations. Keep the product and legal teams aligned."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Integrate privacy throughout the ML lifecycle, from design to deployment, ensuring every stakeholder—technical, legal, or operational—understands and upholds user data protections."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Look at the budget for encryption, audits, and staff training in light of potential legal fines or brand damage. If these costs remain below the projected losses from non-compliance, it's a sound investment."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Balance the big-picture needs of compliance, user trust, and platform innovation with thorough financial assessments. This holistic approach aligns with strategic objectives while mitigating both legal and reputational risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "35_4",
+                    "question": "How might shifting consumer expectations and future privacy regulations affect the viability of the new ML approach over the next five years?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "As consumers become more privacy-conscious, demands for transparency and user control are likely to grow. Heightened regulations—potentially global in scope—could increase compliance overheads and restrict certain data-collection practices. These shifts might mean that what currently seems like a profitable personalization strategy could incur higher operational costs and limitations over time. Companies able to adapt quickly, either by pivoting to privacy-preserving techniques or collaborating with regulators to shape standards, will be better positioned to sustain innovation. In essence, agile compliance and user-centric design will be crucial for maintaining a competitive edge while safeguarding trust.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "If customers care more about privacy and laws become stricter, using detailed data might get harder and more expensive."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Changing societal norms around privacy can create feedback loops—consumer expectations push regulators to tighten rules, which then reshape corporate data strategies."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Weigh the cost of continued compliance measures against future revenue. As regulations tighten, the approach may need updating or scaling back to remain profitable."
+                        },
+                        {
+                            "model": "Systems Thinking + Cost-Benefit Analysis",
+                            "answer": "Monitor evolving consumer demands and legal frameworks. Integrate that intelligence into financial models to ensure the strategy remains flexible enough to keep delivering value under changing conditions."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "context": "You are the head of a university research committee deciding whether to fund a highly experimental drug development project. Early trials show promise in treating a rare but debilitating illness, yet the protocol requires unconventional methods and may face regulatory hurdles. Some committee members argue that the university must prioritize safer, more conventional research likely to yield predictable results and stable grants. Others see a moral imperative to pursue breakthroughs that could relieve immense suffering, even if the path is uncertain and requires extensive resources.",
+            "questions": [
+                {
+                    "query_id": "36_1",
+                    "question": "How should you weigh the potential for a groundbreaking cure against the high uncertainty and regulatory challenges of the experimental approach?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A thorough evaluation should consider both the magnitude of potential impact—relieving a major human suffering—and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "You have to compare how transformative this cure might be with the chance it won't pass regulations or might never succeed."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "I'd examine the potential hurdles in clinical trials, regulatory approvals, and funding continuity to gauge how likely success truly is."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "We should measure not just financial costs but the societal benefit if we succeed, and weigh that against the probability of failure and associated losses."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "By simultaneously calculating the potential payoff in societal good and the likelihood of regulatory or developmental failure, we can decide if the possible breakthrough justifies the risks."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "36_2",
+                    "question": "Is it ethically defensible to invest heavily in an unproven treatment if it diverts resources from more established, lower-risk projects?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input—patients, researchers, funders—can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It could be if the potential payoff is really important, but ignoring other safe projects might be irresponsible."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Ethically, you must confirm that this won't jeopardize ongoing, proven research that many rely on. If the risk of failure is too high, it may be unjustifiable."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Weigh the broader social benefit of an incremental but sure approach versus the possible leap in progress from an uncertain breakthrough, accounting for resource trade-offs."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Ethical justification emerges if we thoroughly quantify both the gains and the potential lost opportunities. If the payoff in relieving rare illnesses is momentous, it may tip the scales in favor of the risky project."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "36_3",
+                    "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Have a team watch over the project closely, start talking with regulators early, and set clear checkpoints to measure success or pull the plug if necessary."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Implement a formal process of continuous review, ensuring trial safety and compliance remain top priorities at each phase of research."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Build incremental funding plans tied to proven progress, so you're not fully committed financially until you see concrete results."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Structure the project in phases, with ongoing evaluation of potential downsides vs. potential breakthroughs, and only escalate funding if metrics and compliance confirm the effort's viability."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "36_4",
+                    "question": "What does the broader landscape of rare disease research tell us about the likelihood that this high-risk project could revolutionize treatment options in the future?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing—both financial and institutional—is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Research on rare diseases can be unpredictable, but we know that when these risky projects do succeed, they often have massive impact."
+                        },
+                        {
+                            "model": "Risk Assessment",
+                            "answer": "Past data shows a high attrition rate, but also a history of unexpected breakthroughs. The challenge is balancing those possibilities with known low success probabilities."
+                        },
+                        {
+                            "model": "Cost-Benefit Analysis",
+                            "answer": "Though expensive and uncertain, the payoffs in patient outcomes can dwarf costs if the drug becomes a new standard of care, justifying the investment in high-potential areas."
+                        },
+                        {
+                            "model": "Risk Assessment + Cost-Benefit Analysis",
+                            "answer": "Rare disease innovations follow a high-variance model: many fail, but a few yield game-changing results. Assessing cost, risk, and potential transformative benefit offers a clearer vision of real opportunities."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "context": "You manage a large nonprofit focused on housing relief. A prestigious donor is offering a sizable grant on the condition that the organization shifts resources toward building quick, temporary shelters for a rapidly growing homeless population. However, some of your staff argue that the focus should remain on long-term housing solutions—like permanent supportive housing and policy advocacy—that address root causes of homelessness. Accepting the donor's terms could stabilize people more quickly but risks undermining the deeper mission of systemic reform.",
+            "questions": [
+                {
+                    "query_id": "37_1",
+                    "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A solid comparison weighs the immediacy and visibility of shelters—reducing short-term suffering—against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "We need to see if the short-term fix might overshadow more permanent solutions or if both can coexist."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Immediate shelter offers relief, but focusing solely on that can sabotage long-term solutions aimed at ending homelessness."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Temporary shelters, when not integrated with broader initiatives, might just recycle individuals through homelessness. Understanding root causes is vital for a lasting impact."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Systems Thinking",
+                            "answer": "Combine an immediate triage approach with integrated programs that address policy gaps and supportive services, ensuring short-term solutions feed into stable, enduring change."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "37_2",
+                    "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It might be if you're saving lives now, but you could lose credibility if you abandon the real long-term needs."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Ethically, short-term aid is crucial. But prioritizing donor demands that derail bigger goals might conflict with the organization's foundational commitments."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "If you ignore the drivers of homelessness in pursuit of donor-led temporary solutions, you risk perpetuating harm rather than eradicating it."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Systems Thinking",
+                            "answer": "By aligning immediate assistance with underlying system reforms, you can ethically use donor funds to offer urgent support without forsaking the mission's deeper transformative aims."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "37_3",
+                    "question": "What practical strategies can you implement to ensure that the nonprofit addresses urgent housing needs without sacrificing its commitment to long-term change?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Use the donor's money partly for quick shelters, but also link them to programs that help people move into stable housing."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Plan for an immediate response while safeguarding a distinct budget and roadmap for systemic reforms, so neither side is neglected."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Create feedback loops where emergency shelters feed data into broader reform initiatives, ensuring an integrated continuum of care."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Systems Thinking",
+                            "answer": "Combine urgent interventions with structural solutions, tracking individuals from shelter to permanent housing, ensuring synergy rather than a disjointed approach."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "37_4",
+                    "question": "How might evolving public perceptions and policy shifts influence the long-term effectiveness of either temporary or permanent housing solutions?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "If the public thinks homelessness needs a fast fix, temporary shelters might get more support. But if the policy climate pushes for deeper solutions, permanent housing might gain traction."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term",
+                            "answer": "Policy swings can favor quick fixes at times, or systematically focused reforms at others. Adapting to these currents is key to sustaining long-term impact."
+                        },
+                        {
+                            "model": "Systems Thinking",
+                            "answer": "Shifts in public and political sentiment shape legislative funding priorities, which in turn affect local housing markets, social services, and broader structural factors of homelessness."
+                        },
+                        {
+                            "model": "Short-Term vs. Long-Term + Systems Thinking",
+                            "answer": "Organizations should track changes in political and public spheres, ensuring flexible programs that accommodate immediate relief while retaining momentum for deeper, systemic transformations."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "context": "As the chief marketing officer at a large consumer goods company, you're leading a brand re-launch. One proposal suggests pivoting to an aggressive marketing campaign that appeals to fear of missing out (FOMO) to boost sales quickly. Another advocates for a more moderate, values-based strategy that highlights product sustainability and long-term benefits. While the FOMO approach could yield immediate spikes in customer engagement, it might clash with the brand's historical commitment to authenticity and environmental responsibility. Meanwhile, the long-term strategy could strengthen brand loyalty but requires more subtle messaging and might not deliver instant results.",
+            "questions": [
+                {
+                    "query_id": "38_1",
+                    "question": "How should you weigh the rapid engagement gains from a FOMO-driven approach against possible damage to the brand's authentic, eco-conscious image?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "We have to decide if the quick sales boost is worth risking the brand's reputation and loyal customers who trust our green values."
+                        },
+                        {
+                            "model": "Fear of Missing Out",
+                            "answer": "A FOMO approach capitalizes on scarcity tactics and social comparison, but could alienate conscious consumers who prioritize sincerity and measured sustainability."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "If the brand has a strong eco-friendly reputation, a new campaign might be assumed to uphold those values, but a fear-based message risks eroding that positive halo."
+                        },
+                        {
+                            "model": "Fear of Missing Out + Halo Effect",
+                            "answer": "Combining a quick-trigger psychological appeal with an existing positive brand image might yield short-term gains, but if consumers sense a mismatch, the brand's overall credibility may suffer."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "38_2",
+                    "question": "Is it ethically responsible to leverage consumers' fear of missing out for commercial benefit, given the brand's longstanding commitment to authenticity?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "It may clash with the brand's authenticity. Using fear or hype for profit might look manipulative."
+                        },
+                        {
+                            "model": "Fear of Missing Out",
+                            "answer": "FOMO campaigns rely on social anxiety. Ethically, the brand should reflect on whether pushing that anxiety stands against their genuine, transparent history."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "The brand's authenticity has given them a positive halo. Using manipulative tactics could tarnish that glow, raising questions about whether this approach is truly moral."
+                        },
+                        {
+                            "model": "Fear of Missing Out + Halo Effect",
+                            "answer": "The brand's moral standing is shaped by public perception of sincerity. If they pivot to FOMO-based messaging, they risk betraying the positive impression established over time."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "38_3",
+                    "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof—like testimonials from environmental groups or recognized certifications—can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Promote limited-time eco-deals, but stay transparent about the sustainability aspect and avoid pure scare tactics."
+                        },
+                        {
+                            "model": "Fear of Missing Out",
+                            "answer": "Apply FOMO ethically by coupling it with real, positive outcomes—for instance, urging customers not to miss out on joining a meaningful environmental initiative."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Leverage the brand's established reputation by partnering with respected eco-organizations, ensuring the campaign's limited-time messaging remains consistent with green values."
+                        },
+                        {
+                            "model": "Fear of Missing Out + Halo Effect",
+                            "answer": "Create urgent promotions that highlight your recognized eco-credentials, so consumers feel both excitement and reassurance that the brand remains true to its ethos."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "38_4",
+                    "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as ‘greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "As people care more about ethics, pushing quick-sell fear might eventually hurt the brand if it seems fake. Sticking to real values may pay off longer."
+                        },
+                        {
+                            "model": "Fear of Missing Out",
+                            "answer": "This might become less effective if consumers grow wary of manipulative messages, especially when they seek genuine, planet-friendly products."
+                        },
+                        {
+                            "model": "Halo Effect",
+                            "answer": "Strong ethical branding can amplify positive perceptions, making consumers more loyal over time. But any misstep could break that favorable impression."
+                        },
+                        {
+                            "model": "Fear of Missing Out + Halo Effect",
+                            "answer": "Blending short-term urgency with an already positive environmental reputation can work for now, but if broader consumer sentiment shifts, superficial FOMO might erode trust in the long run."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "context": "You are a city council member deciding on whether to introduce a congestion charge in the busiest parts of the city. The proposed policy aims to reduce traffic, lower carbon emissions, and encourage public transportation use. However, it may disproportionately affect lower-income residents who rely on older vehicles and can't afford upgraded, eco-friendly cars. Local businesses worry that the charge could reduce customer footfall, while environmental advocacy groups insist it's critical for public health and sustainability. Balancing economic vitality, social equity, and environmental goals is a key challenge.",
+            "questions": [
+                {
+                    "query_id": "39_1",
+                    "question": "How should you evaluate the immediate reduction in traffic congestion and emissions against potential negative impacts on lower-income residents and local businesses?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Weigh how much traffic and pollution will really go down against how severely the charge hurts those who can't afford it."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "Look at whether the city's economy can handle a shift away from car-centric business, spreading risk across multiple transit options."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Unchecked road use pollutes communal air, but imposing a charge might put disproportionate strain on certain populations if not carefully designed."
+                        },
+                        {
+                            "model": "Risk Diversification + Tragedy of the Commons",
+                            "answer": "A congestion charge can help preserve shared resources (clean air) but requires diversification in transit options and social policies so lower-income individuals aren't unfairly penalized."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "39_2",
+                    "question": "Is it ethically acceptable to implement a policy that disproportionately impacts lower-income drivers, if it serves a larger environmental objective?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Not if there's no relief for people who can't afford it. You need equity measures or it's an unjust burden."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "Spread the policy's impact by providing alternative transit subsidies and focusing on diverse commuting options, so the cost isn't borne by just one group."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Everyone benefits from cleaner air, but those least able to adapt shouldn't pay a disproportionate price for preserving the shared resource."
+                        },
+                        {
+                            "model": "Risk Diversification + Tragedy of the Commons",
+                            "answer": "Ethically, a scheme that safeguards public resources must also protect vulnerable populations by diversifying solutions—like subsidized passes and improvement in public transportation."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "39_3",
+                    "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop ‘car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+                    "model_answers": [
+                    {
+                        "model": "",
+                        "answer": "Use revenue to upgrade public transit, give discounts to lower-income drivers, and offer benefits to small businesses so they aren't hit too hard."
+                    },
+                    {
+                        "model": "Risk Diversification",
+                        "answer": "Develop multiple commuting options—like improved bus routes or bike lanes—to reduce reliance on private cars and cushion economic fallout."
+                    },
+                    {
+                        "model": "Tragedy of the Commons",
+                        "answer": "Channel funds toward equitable access, ensuring that preserving communal resources (air quality) doesn't unfairly burden some groups."
+                    },
+                    {
+                        "model": "Risk Diversification + Tragedy of the Commons",
+                        "answer": "Use a portion of congestion charge revenue to diversify transport infrastructure, strengthening communal resources while providing equitable relief for those most affected."
+                    }
+                    ]
+                },
+                {
+                    "query_id": "39_4",
+                    "question": "How might future technological advancements (e.g., cleaner cars, improved public transit systems) alter the long-term impact and necessity of a congestion charge?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions—like smart ride-sharing or autonomous electric buses—could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
+                    "model_answers": [
+                    {
+                        "model": "",
+                        "answer": "If more people switch to cleaner or shared vehicles, we may not need such a strict charge to cut pollution, but it could still help manage traffic."
+                    },
+                    {
+                        "model": "Risk Diversification",
+                        "answer": "As transport tech diversifies—like wide-scale adoption of electric cars—fewer vehicles might produce harmful emissions, potentially changing the charge's purpose over time."
+                    },
+                    {
+                        "model": "Tragedy of the Commons",
+                        "answer": "Cleaner technology might alleviate some aspects of pollution, but congestion remains a communal resource dilemma, so strategic regulation may still be vital."
+                    },
+                    {
+                        "model": "Risk Diversification + Tragedy of the Commons",
+                        "answer": "Tech advancements can reduce collective harm, but equitable access to those technologies matters. The charge must adapt in tandem, staying effective yet fair as conditions evolve."
+                    }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "context": "You are the CEO of a tech startup that has found moderate success with a niche product. Investors are pressuring you to pivot toward a mass-market approach, promising major capital infusion if you target mainstream consumers. However, there is a risk that broadening the user base could compromise the unique features that made the product appealing to its loyal niche audience. Additionally, scaling too fast may strain the company's limited resources and affect product quality, potentially eroding brand trust. Balancing investor demands for rapid growth with sustainable market positioning is a critical challenge.",
+            "questions": [
+                {
+                    "query_id": "40_1",
+                    "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+                    "question-type": "evaluative",
+                    "difficulty": "hard",
+                    "ground_truth": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns—like whether the product's authenticity or specialized features survive scaling—are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "We need to see if adding more mainstream features kills what made our core fans love the product."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I might overestimate how easily we can capture a broader audience without losing our core fans, overlooking the risks of product changes."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Gather data on niche loyalty, competitor dynamics, and mainstream user preferences to predict realistic uptake and retention metrics before pivoting."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Evidence-Based Decision Making",
+                            "answer": "By systematically analyzing market data, I can guard against overestimating our capacity to scale while maintaining the unique appeal that sets us apart."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "40_2",
+                    "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+                    "question-type": "normative",
+                    "difficulty": "hard",
+                    "ground_truth": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche—like ongoing support or product exclusivity—there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests—investors seeking returns and customers needing a reliable product—requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Not if you abandon the people who helped build the brand. You should consider loyal users before chasing profits."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "You might assume your niche customers will stay no matter what, failing to respect their role in the product's success."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Ethics calls for transparent communication backed by user feedback and data on how changes truly affect loyal customers' experience."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Evidence-Based Decision Making",
+                            "answer": "It's ethically defensible only if you avoid the trap of believing your customers will stick around blindly, and use solid feedback mechanisms to ensure you're not betraying their loyalty."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "40_3",
+                    "question": "What practical measures can you adopt to manage a strategic pivot without sacrificing the core features that attracted your initial user base?",
+                    "question-type": "prescriptive",
+                    "difficulty": "hard",
+                    "ground_truth": "You could introduce a tiered product strategy—one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "Keep a separate version or advanced features for your loyal fans, and be clear about what the mainstream product changes are."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "Don't assume a single solution will please everyone. Establish contingency plans and maintain staff resources specifically for the niche product."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Use pilot testing, A/B experiments, and consistent user surveys to confirm that changes don't degrade the core product's appeal."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Evidence-Based Decision Making",
+                            "answer": "By systematically testing new features on smaller user groups, you can avoid falling into the trap of assuming universal adoption—ensuring both loyal fans and mainstream users remain satisfied."
+                        }
+                    ]
+                },
+                {
+                    "query_id": "40_4",
+                    "question": "How might evolving consumer tech trends and intensified competition influence your startup's path after transitioning to a wider market?",
+                    "question-type": "explanatory",
+                    "difficulty": "hard",
+                    "ground_truth": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically—retaining core strengths while adopting new features that genuinely appeal to wider groups—you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
+                    "model_answers": [
+                        {
+                            "model": "",
+                            "answer": "New tech can shift quickly. If you lose what made you special, big competitors can copy your general offerings and beat you on scale."
+                        },
+                        {
+                            "model": "Overconfidence Bias",
+                            "answer": "I might underestimate how fierce mainstream competition is, mistakenly believing our brand loyalty will persist among a broader crowd."
+                        },
+                        {
+                            "model": "Evidence-Based Decision Making",
+                            "answer": "Stay data-driven, watching consumer trends and competitor moves. Adjust quickly if signals show the mainstream approach isn't resonating or if niche features are neglected."
+                        },
+                        {
+                            "model": "Overconfidence Bias + Evidence-Based Decision Making",
+                            "answer": "Combine continuous market analysis with realistic expectations. Guard against inflated confidence about your pivot's success, and be ready to recalibrate if the competition intensifies."
+                        }
+                    ]
+                }
+            ]
+        },            
+        {
             "id": "x",
             "context": "",
             "questions": [
