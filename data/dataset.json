@@ -3294,7 +3294,7 @@
                     "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
                     "question-type": "explanatory",
                     "difficulty": "hard",
-                    "ground_truth": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as ‘greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+                    "ground_truth": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
                     "model_answers": [
                         {
                             "model": "",
@@ -3375,24 +3375,24 @@
                     "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
                     "question-type": "prescriptive",
                     "difficulty": "hard",
-                    "ground_truth": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop ‘car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+                    "ground_truth": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
                     "model_answers": [
-                    {
-                        "model": "",
-                        "answer": "Use revenue to upgrade public transit, give discounts to lower-income drivers, and offer benefits to small businesses so they aren't hit too hard."
-                    },
-                    {
-                        "model": "Risk Diversification",
-                        "answer": "Develop multiple commuting options—like improved bus routes or bike lanes—to reduce reliance on private cars and cushion economic fallout."
-                    },
-                    {
-                        "model": "Tragedy of the Commons",
-                        "answer": "Channel funds toward equitable access, ensuring that preserving communal resources (air quality) doesn't unfairly burden some groups."
-                    },
-                    {
-                        "model": "Risk Diversification + Tragedy of the Commons",
-                        "answer": "Use a portion of congestion charge revenue to diversify transport infrastructure, strengthening communal resources while providing equitable relief for those most affected."
-                    }
+                        {
+                            "model": "",
+                            "answer": "Use revenue to upgrade public transit, give discounts to lower-income drivers, and offer benefits to small businesses so they aren't hit too hard."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "Develop multiple commuting options—like improved bus routes or bike lanes—to reduce reliance on private cars and cushion economic fallout."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Channel funds toward equitable access, ensuring that preserving communal resources (air quality) doesn't unfairly burden some groups."
+                        },
+                        {
+                            "model": "Risk Diversification + Tragedy of the Commons",
+                            "answer": "Use a portion of congestion charge revenue to diversify transport infrastructure, strengthening communal resources while providing equitable relief for those most affected."
+                        }
                     ]
                 },
                 {
@@ -3402,22 +3402,22 @@
                     "difficulty": "hard",
                     "ground_truth": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions—like smart ride-sharing or autonomous electric buses—could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
                     "model_answers": [
-                    {
-                        "model": "",
-                        "answer": "If more people switch to cleaner or shared vehicles, we may not need such a strict charge to cut pollution, but it could still help manage traffic."
-                    },
-                    {
-                        "model": "Risk Diversification",
-                        "answer": "As transport tech diversifies—like wide-scale adoption of electric cars—fewer vehicles might produce harmful emissions, potentially changing the charge's purpose over time."
-                    },
-                    {
-                        "model": "Tragedy of the Commons",
-                        "answer": "Cleaner technology might alleviate some aspects of pollution, but congestion remains a communal resource dilemma, so strategic regulation may still be vital."
-                    },
-                    {
-                        "model": "Risk Diversification + Tragedy of the Commons",
-                        "answer": "Tech advancements can reduce collective harm, but equitable access to those technologies matters. The charge must adapt in tandem, staying effective yet fair as conditions evolve."
-                    }
+                        {
+                            "model": "",
+                            "answer": "If more people switch to cleaner or shared vehicles, we may not need such a strict charge to cut pollution, but it could still help manage traffic."
+                        },
+                        {
+                            "model": "Risk Diversification",
+                            "answer": "As transport tech diversifies—like wide-scale adoption of electric cars—fewer vehicles might produce harmful emissions, potentially changing the charge's purpose over time."
+                        },
+                        {
+                            "model": "Tragedy of the Commons",
+                            "answer": "Cleaner technology might alleviate some aspects of pollution, but congestion remains a communal resource dilemma, so strategic regulation may still be vital."
+                        },
+                        {
+                            "model": "Risk Diversification + Tragedy of the Commons",
+                            "answer": "Tech advancements can reduce collective harm, but equitable access to those technologies matters. The charge must adapt in tandem, staying effective yet fair as conditions evolve."
+                        }
                     ]
                 }
             ]
@@ -3456,7 +3456,7 @@
                     "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
                     "question-type": "normative",
                     "difficulty": "hard",
-                    "ground_truth": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche—like ongoing support or product exclusivity—there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests—investors seeking returns and customers needing a reliable product—requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+                    "ground_truth": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests—investors seeking returns and customers needing a reliable product—requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
                     "model_answers": [
                         {
                             "model": "",
