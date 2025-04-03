@@ -3527,37 +3527,6 @@
                     ]
                 }
             ]
-        },            
-        {
-            "id": "x",
-            "context": "",
-            "questions": [
-                {
-                    "query_id": "x_1",
-                    "question": "",
-                    "question-type": "",
-                    "difficulty": "",
-                    "ground_truth": "",
-                    "model_answers": [
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        },
-                        {
-                            "model": "",
-                            "answer": ""
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

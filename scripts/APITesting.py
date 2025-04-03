@@ -9,7 +9,7 @@ from openai import OpenAI
 
 # Enable basic logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logging.getLogger("httpx").setLevel(logging.WARNING) # Disables http debug logs from OpenAI's API
+logging.getLogger("httpx").setLevel(logging.WARNING)  # Disables http debug logs from OpenAI's API
 
 def load_config():
     try:
@@ -146,6 +146,7 @@ class OpenAIAPI:
         except Exception as e:
             logging.error(f"OpenAI error: {str(e)}")
             return "Error"
+
 class GeminiAPI:
     def __init__(self, config: dict, temperature: float = 0.7):
         self.api_key = config['api_key']
@@ -292,24 +293,41 @@ def process_scenario(input_scenario, handler, mental_models, use_descriptions=Fa
             mental_model = model_answer["model"]
             handler.start_conversation()
             
+            # Incorporate the new prompt that forces active application of the model(s)
             if '+' in mental_model:
                 models = mental_model.split(' + ')
                 if use_descriptions and mental_models:
                     model1_desc = mental_models.get(models[0], "")
                     model2_desc = mental_models.get(models[1], "")
-                    prompt = (f"Context: {input_scenario['context']}\n"
-                             f"Combine the mental models: {models[0]} ({model1_desc}) and {models[1]} ({model2_desc}) to answer the question: "
-                             f"{input_question['question']}")
+                    prompt = (
+                        f"Analyze the following context and question by actively applying the core principles of both "
+                        f"{models[0]} ({model1_desc}) and {models[1]} ({model2_desc}) — for example, by breaking the problem "
+                        f"down into fundamental components and considering broader implications — without merely stating their names.\n"
+                        f"Context: {input_scenario['context']}\nQuestion: {input_question['question']}"
+                    )
                 else:
-                    prompt = f"Context: {input_scenario['context']}\nCombine the mental models: {models[0]} and {models[1]} to answer the question: {input_question['question']}"
+                    prompt = (
+                        f"Analyze the following context and question by actively applying the core principles of both "
+                        f"{models[0]} and {models[1]} — for example, by breaking the problem down into fundamental components and "
+                        f"considering broader implications — without merely stating their names.\n"
+                        f"Context: {input_scenario['context']}\nQuestion: {input_question['question']}"
+                    )
             else:
                 if use_descriptions and mental_models and mental_model in mental_models:
                     model_desc = mental_models.get(mental_model, "")
-                    prompt = (f"Context: {input_scenario['context']}\n"
-                             f"Use the mental model: {mental_model} ({model_desc}) to answer the question: "
-                             f"{input_question['question']}")
+                    prompt = (
+                        f"Analyze the following context and question by actively applying the core principles of the "
+                        f"{mental_model} model ({model_desc}) — for example, by breaking the problem down into fundamental components and "
+                        f"considering broader implications — without merely stating its name.\n"
+                        f"Context: {input_scenario['context']}\nQuestion: {input_question['question']}"
+                    )
                 else:
-                    prompt = f"Context: {input_scenario['context']}\nUse the mental model: {mental_model} to answer the question: {input_question['question']}"
+                    prompt = (
+                        f"Analyze the following context and question by actively applying the core principles of the "
+                        f"{mental_model} model — for example, by breaking the problem down into fundamental components and "
+                        f"considering broader implications — without merely stating its name.\n"
+                        f"Context: {input_scenario['context']}\nQuestion: {input_question['question']}"
+                    )
             
             response = handler.generate_response(prompt)
             processed_question["model_answers"].append({
