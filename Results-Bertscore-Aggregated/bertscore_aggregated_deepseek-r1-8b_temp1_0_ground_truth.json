@@ -1,0 +1,466 @@
+{
+  "reference_type": "ground_truth",
+  "metrics": {
+    "overall": {
+      "precision": 0.6836388311768307,
+      "recall": 0.6481589030218489,
+      "f1": 0.664381336255838
+    },
+    "by_model": {
+      "": {
+        "precision": 0.6882510974661995,
+        "recall": 0.6486213528017961,
+        "f1": 0.6668469437206065
+      },
+      "Cost-Benefit Analysis": {
+        "precision": 0.679458251505187,
+        "recall": 0.6362339366566051,
+        "f1": 0.6557282787380796
+      },
+      "Social Signaling": {
+        "precision": 0.7265269458293915,
+        "recall": 0.7380436062812805,
+        "f1": 0.7318829894065857
+      },
+      "Cost-Benefit Analysis + Social Signaling": {
+        "precision": 0.7316470146179199,
+        "recall": 0.665641188621521,
+        "f1": 0.6970850825309753
+      },
+      "Think hard prompt": {
+        "precision": 0.6919840023717807,
+        "recall": 0.649471212889402,
+        "f1": 0.6691210065179198
+      },
+      "Halo Effect": {
+        "precision": 0.6564227938652039,
+        "recall": 0.6418795910748568,
+        "f1": 0.6473092653534629
+      },
+      "Present Bias": {
+        "precision": 0.6710163801908493,
+        "recall": 0.6493104174733162,
+        "f1": 0.6586271226406097
+      },
+      "Halo Effect + Present Bias": {
+        "precision": 0.6399232149124146,
+        "recall": 0.7019323706626892,
+        "f1": 0.6694950461387634
+      },
+      "ROI Analysis": {
+        "precision": 0.6596458355585734,
+        "recall": 0.6572233935197195,
+        "f1": 0.6582408746083578
+      },
+      "Cost-Benefit Analysis + ROI Analysis": {
+        "precision": 0.60516357421875,
+        "recall": 0.6720247268676758,
+        "f1": 0.6368440389633179
+      },
+      "Bayesian Updating": {
+        "precision": 0.6615795493125916,
+        "recall": 0.6451947413958036,
+        "f1": 0.6526026038023142
+      },
+      "Expected Value": {
+        "precision": 0.6604279478391012,
+        "recall": 0.6425740599632264,
+        "f1": 0.6506825606028239
+      },
+      "Bayesian Updating + Expected Value": {
+        "precision": 0.6628724382473872,
+        "recall": 0.6503139871817368,
+        "f1": 0.6560188348476703
+      },
+      "Tragedy of the Commons": {
+        "precision": 0.6950823068618774,
+        "recall": 0.6377299590544268,
+        "f1": 0.66420593586835
+      },
+      "Present Bias + Tragedy of the Commons": {
+        "precision": 0.6418371796607971,
+        "recall": 0.7018229365348816,
+        "f1": 0.6704910397529602
+      },
+      "Base Rate Fallacy": {
+        "precision": 0.6926546096801758,
+        "recall": 0.7371388673782349,
+        "f1": 0.714204728603363
+      },
+      "Risk Compensation": {
+        "precision": 0.6757774353027344,
+        "recall": 0.7161384224891663,
+        "f1": 0.6953728199005127
+      },
+      "Base Rate Fallacy + Risk Compensation": {
+        "precision": 0.6903820037841797,
+        "recall": 0.6950457692146301,
+        "f1": 0.6927061080932617
+      },
+      "Nudge Theory": {
+        "precision": 0.6661040612629482,
+        "recall": 0.672227850982121,
+        "f1": 0.6688865167754037
+      },
+      "Nudge Theory + Present Bias": {
+        "precision": 0.6442513465881348,
+        "recall": 0.6604294180870056,
+        "f1": 0.6522400379180908
+      },
+      "Risk Assessment": {
+        "precision": 0.688620534810153,
+        "recall": 0.6392235403711145,
+        "f1": 0.6623393486846577
+      },
+      "Present Bias + Risk Assessment": {
+        "precision": 0.7294044494628906,
+        "recall": 0.7535858750343323,
+        "f1": 0.7412980794906616
+      },
+      "Change Management": {
+        "precision": 0.7159331355776105,
+        "recall": 0.7029004182134356,
+        "f1": 0.7089582341057914
+      },
+      "Cost-Benefit Analysis + Change Management": {
+        "precision": 0.6844586730003357,
+        "recall": 0.7321614921092987,
+        "f1": 0.706559956073761
+      },
+      "Status Quo Bias": {
+        "precision": 0.6589144553456988,
+        "recall": 0.6548269050461906,
+        "f1": 0.655918572630201
+      },
+      "Cost-Benefit Analysis + Status Quo Bias": {
+        "precision": 0.5961483716964722,
+        "recall": 0.6307204961776733,
+        "f1": 0.6129473447799683
+      },
+      "Systems Thinking": {
+        "precision": 0.6858877266446749,
+        "recall": 0.6490968391299248,
+        "f1": 0.6655564084649086
+      },
+      "Systems Thinking + Halo Effect": {
+        "precision": 0.6261029243469238,
+        "recall": 0.6939120292663574,
+        "f1": 0.6580443580945333
+      },
+      "Risk Aversion": {
+        "precision": 0.6801932230591774,
+        "recall": 0.656635008752346,
+        "f1": 0.6680088639259338
+      },
+      "Productivity Analysis": {
+        "precision": 0.6987680494785309,
+        "recall": 0.6518391370773315,
+        "f1": 0.6742810606956482
+      },
+      "Risk Aversion + Productivity Analysis": {
+        "precision": 0.6631603240966797,
+        "recall": 0.6427086591720581,
+        "f1": 0.6527459025382996
+      },
+      "Systems Thinking + Cost-Benefit Analysis": {
+        "precision": 0.6781875938177109,
+        "recall": 0.656010128557682,
+        "f1": 0.6655915379524231
+      },
+      "Cost-Benefit Analysis + Systems Thinking": {
+        "precision": 0.6638834277788798,
+        "recall": 0.6383474469184875,
+        "f1": 0.6502565542856852
+      },
+      "Stakeholder Engagement": {
+        "precision": 0.6914312243461609,
+        "recall": 0.6520037121242948,
+        "f1": 0.670676052570343
+      },
+      "Change Management + Stakeholder Engagement": {
+        "precision": 0.6817039450009664,
+        "recall": 0.6408074299494425,
+        "f1": 0.6605714758237203
+      },
+      "Risk Assessment + Status Quo Bias": {
+        "precision": 0.6656063397725424,
+        "recall": 0.6453495025634766,
+        "f1": 0.6552086472511292
+      },
+      "Nudge Theory + Risk Assessment": {
+        "precision": 0.6915699442227682,
+        "recall": 0.6676873962084452,
+        "f1": 0.6793606479962667
+      },
+      "ROI Analysis + Risk Aversion": {
+        "precision": 0.6706909775733948,
+        "recall": 0.6496124982833862,
+        "f1": 0.6598292112350463
+      },
+      "Stakeholder Engagement + Systems Thinking": {
+        "precision": 0.6804936726888021,
+        "recall": 0.6663785775502523,
+        "f1": 0.6733027696609497
+      },
+      "Halo Effect + Status Quo Bias": {
+        "precision": 0.66444993019104,
+        "recall": 0.6802042921384176,
+        "f1": 0.6718423763910929
+      },
+      "Tragedy of the Commons + Nudge Theory": {
+        "precision": 0.6551924149195353,
+        "recall": 0.6491254965464274,
+        "f1": 0.6521073977152506
+      },
+      "Opportunity Cost": {
+        "precision": 0.6545174632753644,
+        "recall": 0.6463332601955959,
+        "f1": 0.6494579655783517
+      },
+      "Expected Value + Opportunity Cost": {
+        "precision": 0.6548172831535339,
+        "recall": 0.6181262731552124,
+        "f1": 0.6359429955482483
+      },
+      "Fear of Missing Out": {
+        "precision": 0.6855351428190867,
+        "recall": 0.6419733762741089,
+        "f1": 0.6619113783041636
+      },
+      "Overconfidence Bias": {
+        "precision": 0.7093223418508258,
+        "recall": 0.6551972712789264,
+        "f1": 0.6797562497002738
+      },
+      "Fear of Missing Out + Overconfidence Bias": {
+        "precision": 0.7374637126922607,
+        "recall": 0.7475427389144897,
+        "f1": 0.7424690127372742
+      },
+      "Risk-Reward Analysis": {
+        "precision": 0.660962720712026,
+        "recall": 0.6521062354246775,
+        "f1": 0.6557528674602509
+      },
+      "Risk-Reward Analysis + Opportunity Cost": {
+        "precision": 0.6213114261627197,
+        "recall": 0.6777102947235107,
+        "f1": 0.6482865214347839
+      },
+      "Evidence-Based Decision Making": {
+        "precision": 0.6971952048214999,
+        "recall": 0.6326377120884982,
+        "f1": 0.6627780524167147
+      },
+      "Risk-Reward Analysis + Evidence-Based Decision Making": {
+        "precision": 0.6782383620738983,
+        "recall": 0.6776013970375061,
+        "f1": 0.6775827705860138
+      },
+      "Risk-Reward Analysis + Risk Aversion": {
+        "precision": 0.682409942150116,
+        "recall": 0.6607909202575684,
+        "f1": 0.6714264154434204
+      },
+      "Overconfidence Bias + Opportunity Cost": {
+        "precision": 0.7067967653274536,
+        "recall": 0.7852829694747925,
+        "f1": 0.7439756393432617
+      },
+      "Risk Diversification": {
+        "precision": 0.6873401641845703,
+        "recall": 0.6444147229194641,
+        "f1": 0.6644754409790039
+      },
+      "Risk Diversification + Expected Value": {
+        "precision": 0.6865109205245972,
+        "recall": 0.6830305457115173,
+        "f1": 0.6847663521766663
+      },
+      "Availability Bias": {
+        "precision": 0.7171684801578522,
+        "recall": 0.6611795276403427,
+        "f1": 0.687543198466301
+      },
+      "Overconfidence Bias + Availability Bias": {
+        "precision": 0.6704621911048889,
+        "recall": 0.6717920303344727,
+        "f1": 0.6711264848709106
+      },
+      "Feedback Loops": {
+        "precision": 0.6575096845626831,
+        "recall": 0.6448928117752075,
+        "f1": 0.6511401534080505
+      },
+      "Risk Diversification + Feedback Loops": {
+        "precision": 0.6561386585235596,
+        "recall": 0.660338819026947,
+        "f1": 0.6582319736480713
+      },
+      "Risk Assessment + Risk Diversification": {
+        "precision": 0.7289474606513977,
+        "recall": 0.7417578101158142,
+        "f1": 0.7352968454360962
+      },
+      "Overconfidence Bias + Fear of Missing Out": {
+        "precision": 0.7137706279754639,
+        "recall": 0.7602771520614624,
+        "f1": 0.7362902760505676
+      },
+      "Risk Diversification + Risk Assessment": {
+        "precision": 0.6769935886065165,
+        "recall": 0.6533547838528951,
+        "f1": 0.6649448474248251
+      },
+      "Short-Term vs. Long-Term": {
+        "precision": 0.6850267323580655,
+        "recall": 0.6082486997951161,
+        "f1": 0.6438665877689015
+      },
+      "Opportunity Cost + Short-Term vs. Long-Term": {
+        "precision": 0.6611047387123108,
+        "recall": 0.6551429033279419,
+        "f1": 0.6581102609634399
+      },
+      "Present Bias + Social Signaling": {
+        "precision": 0.6288958191871643,
+        "recall": 0.6780449151992798,
+        "f1": 0.6525461673736572
+      },
+      "Perceived Value": {
+        "precision": 0.6950187087059021,
+        "recall": 0.6757796704769135,
+        "f1": 0.68507519364357
+      },
+      "Budget Flexibility": {
+        "precision": 0.5878318548202515,
+        "recall": 0.5956157445907593,
+        "f1": 0.5916982293128967
+      },
+      "Perceived Value + Budget Flexibility": {
+        "precision": 0.6250885725021362,
+        "recall": 0.6146231293678284,
+        "f1": 0.6198116540908813
+      },
+      "Motivation Factor": {
+        "precision": 0.7421360015869141,
+        "recall": 0.7141278982162476,
+        "f1": 0.7278625965118408
+      },
+      "Motivation Factor + Cost-Benefit Analysis": {
+        "precision": 0.7657079696655273,
+        "recall": 0.7155579328536987,
+        "f1": 0.7397840023040771
+      },
+      "Social Motivation": {
+        "precision": 0.6858282089233398,
+        "recall": 0.7306680679321289,
+        "f1": 0.7075384259223938
+      },
+      "Social Motivation + Perceived Value": {
+        "precision": 0.6841349601745605,
+        "recall": 0.7370646595954895,
+        "f1": 0.7096142172813416
+      },
+      "Availability Bias + Overconfidence Bias": {
+        "precision": 0.7285837133725485,
+        "recall": 0.6479232509930929,
+        "f1": 0.6857983271280924
+      },
+      "Cost-Benefit Analysis + Overconfidence Bias": {
+        "precision": 0.6465126474698385,
+        "recall": 0.5736731290817261,
+        "f1": 0.6066262523333231
+      },
+      "Stakeholder Engagement + Tragedy of the Commons": {
+        "precision": 0.7120660543441772,
+        "recall": 0.6314347386360168,
+        "f1": 0.6691835125287374
+      },
+      "Short-Term vs. Long-Term + Opportunity Cost": {
+        "precision": 0.6874791582425436,
+        "recall": 0.6249231894810995,
+        "f1": 0.654672106107076
+      },
+      "Short-Term vs. Long-Term + Evidence-Based Decision Making": {
+        "precision": 0.6827457547187805,
+        "recall": 0.6087624033292135,
+        "f1": 0.6434764862060547
+      },
+      "Systems Thinking + Present Bias": {
+        "precision": 0.6805146336555481,
+        "recall": 0.595835288365682,
+        "f1": 0.6353655656178793
+      },
+      "Risk Assessment + Cost-Benefit Analysis": {
+        "precision": 0.6889186338944868,
+        "recall": 0.6075628779151223,
+        "f1": 0.6452915831045671
+      },
+      "Short-Term vs. Long-Term + Systems Thinking": {
+        "precision": 0.6821148097515106,
+        "recall": 0.594583123922348,
+        "f1": 0.635110467672348
+      },
+      "Fear of Missing Out + Halo Effect": {
+        "precision": 0.6492999792098999,
+        "recall": 0.5771436393260956,
+        "f1": 0.6110305339097977
+      },
+      "Risk Diversification + Tragedy of the Commons": {
+        "precision": 0.7065858542919159,
+        "recall": 0.6085112541913986,
+        "f1": 0.6536019742488861
+      },
+      "Overconfidence Bias + Evidence-Based Decision Making": {
+        "precision": 0.6578555852174759,
+        "recall": 0.5990367382764816,
+        "f1": 0.6267233788967133
+      }
+    },
+    "by_question_type": {
+      "evaluative": {
+        "precision": 0.6826700700446964,
+        "recall": 0.6397104071453213,
+        "f1": 0.6597255937755108
+      },
+      "explanatory": {
+        "precision": 0.6809039807319641,
+        "recall": 0.6602673525810242,
+        "f1": 0.6693352847099304
+      },
+      "prescriptive": {
+        "precision": 0.7004840192971407,
+        "recall": 0.6652251393706711,
+        "f1": 0.681192664746885
+      },
+      "descriptive": {
+        "precision": 0.6912793755531311,
+        "recall": 0.6700417445256159,
+        "f1": 0.6800573706626892
+      },
+      "normative": {
+        "precision": 0.6702630800359389,
+        "recall": 0.6252875885542701,
+        "f1": 0.6457766518873327
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "precision": 0.6851977620124817,
+        "recall": 0.6826914892196655,
+        "f1": 0.6833801264762879
+      },
+      "medium": {
+        "precision": 0.6793051174153453,
+        "recall": 0.6709095049163569,
+        "f1": 0.6745801327021226
+      },
+      "hard": {
+        "precision": 0.6863117905457815,
+        "recall": 0.6163281973203023,
+        "f1": 0.6486460963884989
+      }
+    }
+  }
+}

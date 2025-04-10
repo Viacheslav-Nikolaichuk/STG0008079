@@ -298,7 +298,7 @@ def main():
     parser = argparse.ArgumentParser(description='Evaluate LLM responses using DeepEval')
     parser.add_argument('--dataset', default='data/dataset.json', help='Path to original dataset')
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
-    parser.add_argument('--output-dir', default='Results', help='Output directory for results')
+    parser.add_argument('--output-dir', default='Results-DeepEval', help='Output directory for results')
     parser.add_argument('--eval-model', default='gpt-4o-mini', help='Model to use for evaluation')
     parser.add_argument('--metrics', nargs='+', default=['answer_relevancy'], 
                         choices=list(AVAILABLE_METRICS.keys()),

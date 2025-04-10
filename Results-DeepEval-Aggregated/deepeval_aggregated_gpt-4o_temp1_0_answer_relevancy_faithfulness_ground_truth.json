@@ -1,0 +1,753 @@
+{
+  "reference_type": "ground_truth",
+  "metrics_used": [
+    "answer_relevancy",
+    "faithfulness"
+  ],
+  "metrics": {
+    "answer_relevancy": {
+      "overall": {
+        "score": 0.9600527081061433,
+        "pass_rate": 0.9633587786259542
+      },
+      "by_model": {
+        "": {
+          "score": 0.9755452562704472,
+          "pass_rate": 0.9847328244274809
+        },
+        "Cost-Benefit Analysis": {
+          "score": 0.942015392015392,
+          "pass_rate": 1.0
+        },
+        "Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Think hard prompt": {
+          "score": 0.9744274809160306,
+          "pass_rate": 0.9847328244274809
+        },
+        "Halo Effect": {
+          "score": 0.9642857142857143,
+          "pass_rate": 1.0
+        },
+        "Present Bias": {
+          "score": 0.9333333333333333,
+          "pass_rate": 0.875
+        },
+        "Halo Effect + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Bayesian Updating": {
+          "score": 0.95,
+          "pass_rate": 0.9230769230769231
+        },
+        "Expected Value": {
+          "score": 0.9388888888888889,
+          "pass_rate": 1.0
+        },
+        "Bayesian Updating + Expected Value": {
+          "score": 0.9252747252747253,
+          "pass_rate": 0.8461538461538461
+        },
+        "Tragedy of the Commons": {
+          "score": 0.8833333333333333,
+          "pass_rate": 0.8181818181818182
+        },
+        "Present Bias + Tragedy of the Commons": {
+          "score": 0.8,
+          "pass_rate": 1.0
+        },
+        "Base Rate Fallacy": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Compensation": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Base Rate Fallacy + Risk Compensation": {
+          "score": 0.6,
+          "pass_rate": 0.0
+        },
+        "Nudge Theory": {
+          "score": 0.9714285714285714,
+          "pass_rate": 1.0
+        },
+        "Nudge Theory + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment": {
+          "score": 0.9404040404040405,
+          "pass_rate": 0.9545454545454546
+        },
+        "Present Bias + Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Change Management": {
+          "score": 0.880952380952381,
+          "pass_rate": 0.7142857142857143
+        },
+        "Cost-Benefit Analysis + Change Management": {
+          "score": 0.9,
+          "pass_rate": 1.0
+        },
+        "Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Status Quo Bias": {
+          "score": 0.6,
+          "pass_rate": 0.0
+        },
+        "Systems Thinking": {
+          "score": 0.9861111111111112,
+          "pass_rate": 0.9583333333333334
+        },
+        "Systems Thinking + Halo Effect": {
+          "score": 0.9333333333333332,
+          "pass_rate": 1.0
+        },
+        "Risk Aversion": {
+          "score": 0.96875,
+          "pass_rate": 1.0
+        },
+        "Productivity Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Aversion + Productivity Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking + Cost-Benefit Analysis": {
+          "score": 0.8840277777777777,
+          "pass_rate": 0.875
+        },
+        "Cost-Benefit Analysis + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Change Management + Stakeholder Engagement": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Nudge Theory + Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "ROI Analysis + Risk Aversion": {
+          "score": 0.9099999999999999,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Halo Effect + Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Tragedy of the Commons + Nudge Theory": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Opportunity Cost": {
+          "score": 0.9714285714285714,
+          "pass_rate": 1.0
+        },
+        "Expected Value + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias": {
+          "score": 0.9821428571428571,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out + Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis": {
+          "score": 0.9666666666666667,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Evidence-Based Decision Making": {
+          "score": 0.9818181818181819,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis + Evidence-Based Decision Making": {
+          "score": 0.8125,
+          "pass_rate": 0.75
+        },
+        "Risk-Reward Analysis + Risk Aversion": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification": {
+          "score": 0.975,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Expected Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Availability Bias": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Availability Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Feedback Loops": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Feedback Loops": {
+          "score": 0.8,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Risk Diversification": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Fear of Missing Out": {
+          "score": 0.6666666666666666,
+          "pass_rate": 0.0
+        },
+        "Risk Diversification + Risk Assessment": {
+          "score": 0.7333333333333334,
+          "pass_rate": 0.6666666666666666
+        },
+        "Short-Term vs. Long-Term": {
+          "score": 0.9659090909090909,
+          "pass_rate": 0.9090909090909091
+        },
+        "Opportunity Cost + Short-Term vs. Long-Term": {
+          "score": 0.2,
+          "pass_rate": 0.0
+        },
+        "Present Bias + Social Signaling": {
+          "score": 0.75,
+          "pass_rate": 1.0
+        },
+        "Perceived Value": {
+          "score": 0.7857142857142857,
+          "pass_rate": 0.5
+        },
+        "Budget Flexibility": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Perceived Value + Budget Flexibility": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Motivation Factor": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Motivation Factor + Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Social Motivation": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Social Motivation + Perceived Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Availability Bias + Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Overconfidence Bias": {
+          "score": 0.9166666666666666,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement + Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Cost-Benefit Analysis": {
+          "score": 0.9636363636363636,
+          "pass_rate": 0.9090909090909091
+        },
+        "Short-Term vs. Long-Term + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out + Halo Effect": {
+          "score": 0.95,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Tragedy of the Commons": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Evidence-Based Decision Making": {
+          "score": 0.95,
+          "pass_rate": 1.0
+        }
+      },
+      "by_question_type": {
+        "evaluative": {
+          "score": 0.9650868055555556,
+          "pass_rate": 0.96875
+        },
+        "explanatory": {
+          "score": 0.9523238095238095,
+          "pass_rate": 0.936
+        },
+        "prescriptive": {
+          "score": 0.9654556143445032,
+          "pass_rate": 0.9925925925925926
+        },
+        "descriptive": {
+          "score": 0.9684615384615385,
+          "pass_rate": 0.9846153846153847
+        },
+        "normative": {
+          "score": 0.9534920634920635,
+          "pass_rate": 0.9470588235294117
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "score": 0.9537904761904762,
+          "pass_rate": 0.944
+        },
+        "medium": {
+          "score": 0.9527018633540373,
+          "pass_rate": 0.9478260869565217
+        },
+        "hard": {
+          "score": 0.968297619047619,
+          "pass_rate": 0.9833333333333333
+        }
+      }
+    },
+    "faithfulness": {
+      "overall": {
+        "score": 0.9715230825154488,
+        "pass_rate": 0.9526717557251908
+      },
+      "by_model": {
+        "": {
+          "score": 0.9743002544529262,
+          "pass_rate": 0.9389312977099237
+        },
+        "Cost-Benefit Analysis": {
+          "score": 0.9500000000000001,
+          "pass_rate": 0.9090909090909091
+        },
+        "Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Think hard prompt": {
+          "score": 0.9695928753180661,
+          "pass_rate": 0.9541984732824428
+        },
+        "Halo Effect": {
+          "score": 0.9818181818181819,
+          "pass_rate": 1.0
+        },
+        "Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Halo Effect + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + ROI Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Bayesian Updating": {
+          "score": 0.9846153846153847,
+          "pass_rate": 1.0
+        },
+        "Expected Value": {
+          "score": 0.9477777777777778,
+          "pass_rate": 0.9333333333333333
+        },
+        "Bayesian Updating + Expected Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Tragedy of the Commons": {
+          "score": 0.9469696969696969,
+          "pass_rate": 0.9090909090909091
+        },
+        "Present Bias + Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Base Rate Fallacy": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Compensation": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Base Rate Fallacy + Risk Compensation": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Nudge Theory": {
+          "score": 0.8928571428571429,
+          "pass_rate": 0.8571428571428571
+        },
+        "Nudge Theory + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment": {
+          "score": 0.9848484848484849,
+          "pass_rate": 0.9545454545454546
+        },
+        "Present Bias + Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Change Management": {
+          "score": 0.9428571428571428,
+          "pass_rate": 0.8571428571428571
+        },
+        "Cost-Benefit Analysis + Change Management": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking": {
+          "score": 0.9916666666666667,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking + Halo Effect": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Aversion": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Productivity Analysis": {
+          "score": 0.8,
+          "pass_rate": 0.5
+        },
+        "Risk Aversion + Productivity Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking + Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Systems Thinking": {
+          "score": 0.9444444444444445,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement": {
+          "score": 0.9722222222222222,
+          "pass_rate": 1.0
+        },
+        "Change Management + Stakeholder Engagement": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Status Quo Bias": {
+          "score": 0.8666666666666667,
+          "pass_rate": 0.6666666666666666
+        },
+        "Nudge Theory + Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "ROI Analysis + Risk Aversion": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Halo Effect + Status Quo Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Tragedy of the Commons + Nudge Theory": {
+          "score": 0.9333333333333332,
+          "pass_rate": 1.0
+        },
+        "Opportunity Cost": {
+          "score": 0.9285714285714286,
+          "pass_rate": 0.8571428571428571
+        },
+        "Expected Value + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias": {
+          "score": 0.9380952380952381,
+          "pass_rate": 0.9285714285714286
+        },
+        "Fear of Missing Out + Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis": {
+          "score": 0.9444444444444445,
+          "pass_rate": 0.8333333333333334
+        },
+        "Risk-Reward Analysis + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis + Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk-Reward Analysis + Risk Aversion": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification": {
+          "score": 0.975,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Expected Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Availability Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Availability Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Feedback Loops": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Feedback Loops": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Risk Diversification": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Fear of Missing Out": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term": {
+          "score": 0.9393939393939394,
+          "pass_rate": 0.9090909090909091
+        },
+        "Opportunity Cost + Short-Term vs. Long-Term": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Present Bias + Social Signaling": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Perceived Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Budget Flexibility": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Perceived Value + Budget Flexibility": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Motivation Factor": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Motivation Factor + Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Social Motivation": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Social Motivation + Perceived Value": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Availability Bias + Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis + Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Stakeholder Engagement + Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Opportunity Cost": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking + Present Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Cost-Benefit Analysis": {
+          "score": 0.9818181818181819,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Systems Thinking": {
+          "score": 0.9285714285714286,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out + Halo Effect": {
+          "score": 0.7666666666666666,
+          "pass_rate": 0.5
+        },
+        "Risk Diversification + Tragedy of the Commons": {
+          "score": 0.875,
+          "pass_rate": 0.75
+        },
+        "Overconfidence Bias + Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        }
+      },
+      "by_question_type": {
+        "evaluative": {
+          "score": 0.9713541666666666,
+          "pass_rate": 0.95
+        },
+        "explanatory": {
+          "score": 0.9703809523809525,
+          "pass_rate": 0.96
+        },
+        "prescriptive": {
+          "score": 0.9712345679012346,
+          "pass_rate": 0.9555555555555556
+        },
+        "descriptive": {
+          "score": 0.9715384615384615,
+          "pass_rate": 0.9384615384615385
+        },
+        "normative": {
+          "score": 0.9727450980392157,
+          "pass_rate": 0.9529411764705882
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "score": 0.9812000000000001,
+          "pass_rate": 0.96
+        },
+        "medium": {
+          "score": 0.9691304347826087,
+          "pass_rate": 0.9478260869565217
+        },
+        "hard": {
+          "score": 0.9693253968253968,
+          "pass_rate": 0.9533333333333334
+        }
+      }
+    }
+  }
+}

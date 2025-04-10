@@ -1,0 +1,678 @@
+{
+    "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.2,
+            "question": "Should the student adopt a short-term, high-risk approach and avoid other forms of saving or investment to maximize potential Bitcoin returns?",
+            "answer": "The student should avoid concentrating all their savings in Bitcoin due to its volatility and instead diversify their investment to reduce potential losses and ensure financial security."
+        },
+        {
+            "score": 0.2,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "Purchasing the gaming console might provide immediate enjoyment, but saving the money could contribute more significantly to their future academic needs and financial stability, making the decision contingent on valuing present satisfaction against future academic preparedness."
+        },
+        {
+            "score": 0.25,
+            "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
+            "answer": "Adopting a strict low-carb diet may not be the most balanced decision without strong evidence of its specific benefits over their current healthy lifestyle, given the potential nutritional deficiencies and enjoyment loss it could entail, despite the perceived reduction in cardiovascular risk."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "To evaluate overseas expansion, conduct a comprehensive risk analysis considering both quantifiable factors like cost savings and qualitative geopolitical risks, while assessing your team's expertise to avoid overestimating your ability to manage complex international challenges."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "Recommend the local automation investment, as it fosters long-term stability through technological advancement and preserves ethical job practices by retaining domestic employment."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "What practical strategies can you implement to ensure that the nonprofit addresses urgent housing needs without sacrificing its commitment to long-term change?",
+            "answer": "Implement a balanced approach by allocating the grant to establish a temporary shelter initiative that includes integrative programs, coordinating with efforts targeting permanent solutions and policy advocacy to ensure immediate relief doesn't detract from long-term systemic change."
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "Some argue that the immediate revenue generation from this tax may detract from the broader goal of long-term public health. Are these concerns valid?",
+            "answer": "These concerns are valid as the immediate financial benefits of the tax need to be weighed against the potential long-term public health improvements and economic impacts, considering initial assumptions and updates tied to observed behaviors and outcomes post-implementation."
+        },
+        {
+            "score": 0.5,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "To decide whether to implement the AI inventory system across all departments simultaneously, the company should quantify the expected operational cost reductions against the system's initial expenses, weigh potential data security risks and disruption against productivity gains, and consider a phased rollout to mitigate employee adaptation challenges and lessen financial risks."
+        },
+        {
+            "score": 0.5,
+            "question": "How should they measure the success of the AI-based inventory system after implementation?",
+            "answer": "To measure the success of the AI-based inventory system, the business should assess key performance indicators such as inventory turnover rates, cost reductions, employee adaptation levels through feedback and training engagement, and improvements in data security compliance and incident rates, while continuously monitoring these metrics to ensure alignment with organizational goals."
+        },
+        {
+            "score": 0.5,
+            "question": "How should they address data security concerns, internally or via an external vendor?",
+            "answer": "The business should conduct a thorough assessment of the potential costs and benefits associated with addressing data security internally versus outsourcing, factoring in not only financial implications and security efficacy but also potential employee adaptation challenges and overall impact on business operations."
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.3333333333333333,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism suggest that while a FOMO campaign might yield short-term gains, its long-term effectiveness will likely be undermined as consumers increasingly prioritize values-driven brands and sustainability over fleeting trends and manipulative marketing tactics."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism will likely enhance the enduring appeal and effectiveness of the values-based marketing strategy while eroding the long-term gains achievable through a FOMO-driven approach."
+        },
+        {
+            "score": 0.5,
+            "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+            "answer": "To make a sound choice, rigorously weigh the data-supported upside of mass market revenue against the empirically-evidenced downside of diluting the specific features that currently drive your niche's proven success."
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "Prioritizing larger profits over a loyal niche is ethically sound only if data demonstrably confirms a net positive outcome considering both broader societal benefit and minimized harm to the original user base."
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "Pivoting is ethically justifiable only if the core value for the niche audience is preserved during the expansion."
+        },
+        {
+            "score": 0.6,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "Establish a rigorous, ethically-grounded risk management framework with proactive regulatory engagement and robust data monitoring to guide the experimental project responsibly."
+        },
+        {
+            "score": 0.6,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Strategically employing limited-time offers that highlight the communal benefit of sustainable consumption can generate immediate interest while reinforcing the brand's core eco-friendly identity."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you weigh the rapid engagement gains from a FOMO-driven approach against possible damage to the brand's authentic, eco-conscious image?",
+            "answer": "Balance the allure of immediate FOMO gains against the potential for lasting damage to brand authenticity and sustainability, ultimately prioritizing enduring brand value."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "Is it ethically responsible to leverage consumers' fear of missing out for commercial benefit, given the brand's longstanding commitment to authenticity?",
+            "answer": "No, leveraging FOMO is ethically irresponsible as it betrays the brand's commitment to authenticity for manipulative short-term gains."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Employ time-sensitive promotions for sustainable products that emphasize immediate value and reinforce the brand's commitment to environmental responsibility."
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp0_1_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.0,
+            "question": "Is it ethically responsible to leverage consumers' fear of missing out for commercial benefit, given the brand's longstanding commitment to authenticity?",
+            "answer": "Prioritizing fleeting gains by leveraging anxieties about missing out risks damaging the established positive brand perception and eroding the very foundation of authentic customer relationships."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you weigh the rapid engagement gains from a FOMO-driven approach against possible damage to the brand's authentic, eco-conscious image?",
+            "answer": "Exploiting anxieties for immediate sales gains risks undermining the enduring value of a brand built on authenticity and long-term commitment."
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "Ethically, prioritizing donor requirements for quick housing solutions is defensible only if strategically balanced to complement, not compromise, the organization's broader mission of systemic reform."
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Integrate time-sensitive promotions for sustainably produced goods, emphasizing their limited availability and positive environmental impact to generate immediate sales while reinforcing brand values."
+        },
+        {
+            "score": 0.5,
+            "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+            "answer": "Empirically determine if broadening your market reach amplifies or diminishes the core features valued by your niche audience by rigorously testing mass-market appeal and resource scalability against the quantifiable drivers of your current success."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Balancing immediate humanitarian needs with the imperative for systemic change requires weighing the rapid relief of temporary shelters against the enduring impact of permanent housing that dismantles the cyclical nature of homelessness."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "By strategically deploying limited-time offers that underscore the escalating social currency of sustainable choices, the campaign can generate immediate engagement while reinforcing the brand's core environmental commitments."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Amplify time-sensitive promotions with transparent displays of eco-conscious practices to capitalize on immediate interest while reinforcing enduring brand values."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+            "answer": "Strategic reinvestment of congestion charge revenues into public transit improvements and targeted assistance for vulnerable groups is essential to distribute both the benefits and adjustments equitably across the city."
+        },
+        {
+            "score": 0.75,
+            "question": "Is it ethically defensible to invest heavily in an unproven treatment if it diverts resources from more established, lower-risk projects?",
+            "answer": "Investing heavily in the unproven treatment becomes ethically justifiable when the profound potential benefit for a rare disease, despite the inherent uncertainties and resource reallocation, is deemed to outweigh the more predictable but potentially less impactful gains of established research."
+        }
+    ],
+    "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+            "answer": "Some people might believe that after successful outcomes in other games, slots become more popular or expected to continue winning, but this belief lacks scientific support as it's conflating trends with causality, which doesn't apply here."
+        },
+        {
+            "score": 0.0,
+            "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
+            "answer": "After observing high payouts at a roulette table, it's unlikely to attribute such results to an unusual event like a lucky streak. The outcomes follow typical probability distributions without indication of change, similar to other players. Answer: After seeing big wins, there's no evidence to suggest a lucky streak; results are consistent with the game's inherent rules and normal variance. Adjusting strategy wouldn't be needed. Answer in one sentence: Seeing high payouts doesn't indicate a lucky streak. Results follow expected probability distributions without change. Answer: No, results likely reflect typical outcomes from roulette mechanics."
+        },
+        {
+            "score": 0.0,
+            "question": "Should the university revise faculty evaluation criteria to place greater weight on fostering student well-being over traditional grading metrics?",
+            "answer": "Yes."
+        },
+        {
+            "score": 0.0,
+            "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+            "answer": "The startup prioritizes minimizing potential risks and focusing on improving productivity through measurable metrics, aligning with Risk Aversion and Productivity Analysis principles."
+        },
+        {
+            "score": 0.0,
+            "question": "Is it wise for the nonprofit to rapidly scale up its offerings without fully knowing if there are enough staff and financial resources to sustain these new programs?",
+            "answer": "To avoid overextending resources, the nonprofit should consider their volunteers' concern for managing a larger client load, prompting them to maintain awareness of staff availability as a hint to be cautious."
+        },
+        {
+            "score": 0.0,
+            "question": "Critics argue that the underground network may cause businesses to relocate or shift focus, altering the downtown economy. Is this a genuine risk?",
+            "answer": "To address the risk of relocating businesses due to the underground walkway project, the Stakeholder Engagement model should include business owners, developers, construction managers, and city planning committee as key stakeholders."
+        },
+        {
+            "score": 0.0,
+            "question": "Should the chain prioritize environmentally friendly plant-based packaging, even if it initially raises operational costs?",
+            "answer": "The chain should consider the environmental benefits of plant-based packaging despite potential costs. This aligns with the Tragedy of the Commons (depletion due to individual self-interest) while suggesting positive reinforcement for sustainability (Nudge Theory)."
+        },
+        {
+            "score": 0.0,
+            "question": "Some franchisees are concerned about passing higher packaging costs onto consumers. How might the chain address these pricing fears?",
+            "answer": "The fast-food chain can address packaging costs by implementing bulk pricing, offering menu options with varying prices, using substitute products, and ensuring bulk discounts on materials to suppliers while maintaining menu preferences."
+        },
+        {
+            "score": 0.0,
+            "question": "Should the student adopt a short-term, high-risk approach and avoid other forms of saving or investment to maximize potential Bitcoin returns?",
+            "answer": "Yes, it's about balancing short-term volatility with long-term stability using both Risk Diversification and Risk Assessment principles."
+        },
+        {
+            "score": 0.0,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might prefer to buy the console due to present bias, prioritizing immediate gratification over future savings, aligning with social signaling through possessions as a sign of success."
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp2_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.0,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "As consumers increasingly prioritize brands aligning with their values and sustainability concerns, manipulative marketing tactics exploiting desires for social validation will likely become less effective, while authentic communication about enduring ethical and environmental commitments will foster stronger, long-lasting customer loyalty."
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+            "answer": "To maintain a congestion charge's environmental benefits while mitigating harm, the city should simultaneously implement targeted exemptions and subsidies for lower-income residents and businesses, funded by the charge revenues and reinvested in enhanced public transportation and local economic support."
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Integrate time-limited promotions highlighting sustainable product features to create urgency while reinforcing eco-friendly values."
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "By emphasizing the time-sensitive nature of positive environmental impact through limited-edition sustainable offerings, you can leverage immediate engagement while staying true to your brand's values."
+        },
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "As consumers increasingly prioritize ethical alignment, marketing strategies that cultivate trust and long-term value will likely foster stronger brand resonance than those leveraging ephemeral anxieties for short-term gains."
+        },
+        {
+            "score": 0.6,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "Ethical pivoting hinges on strategically balancing wider appeal with steadfastly preserving core value for the loyal niche."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "Prioritizing donor-driven quick housing solutions becomes ethically questionable when neglecting systemic reforms that address the root causes risks perpetuating the cycle of homelessness, despite offering immediate, yet potentially transient, relief."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "By emphasizing the time-sensitive nature of positive environmental impact through limited-edition sustainable offerings, you can leverage immediate engagement while staying true to your brand's values."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "While urgency-driven tactics might initially grab attention, a growing consumer focus on ethical considerations suggests that long-term success increasingly depends on authentically embodying and communicating sustainable values to cultivate lasting trust and positive brand perception."
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism suggest that value-based marketing, emphasizing sustainability and responsibility, will likely cultivate stronger long-term brand loyalty and resilience than a FOMO-driven approach that risks alienating ethically-minded consumers."
+        }
+    ],
+    "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Should the hospital allocate a significant portion of its budget to telemedicine over traditional in-person facilities?",
+            "answer": "The hospital should strategically allocate budget to telemedicine while ensuring sufficient investment in technology infrastructure and training to maintain care quality and address access barriers."
+        },
+        {
+            "score": 0.25,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "I recommend the local automation investment, as it aligns with the goal of ensuring long-term stability by fostering domestic job preservation and skill enhancement, despite the initial capital demands, while minimizing geopolitical risks and maintaining ethical standards."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should they approach this decision?",
+            "answer": "The graduate should carefully evaluate their finances, including debt-to-income ratio and potential expenses, and consider alternatives to purchasing the luxury car that offer similar professional benefits without jeopardizing their financial stability."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
+            "answer": "Your friend's strategy to increase stakes after a win reflects a common psychological bias influenced by recent success; while it may temporarily seem rational, Bayesian reasoning indicates that their previous win doesn't alter the overall house edge, and the expected value of subsequent bets likely remains negative, suggesting riskier behavior without guaranteed profitability."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should scooters be banned from pedestrian zones?",
+            "answer": "Banning scooters from pedestrian zones may mitigate immediate safety concerns and congestion caused by chaotic parking, but it could also decrease the long-term adoption of eco-friendly transportation options; thus, strategically implementing designated parking areas and educational campaigns could encourage responsible use and enhance community acceptance of scooters."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should the library proceed with replacing most physical books with digital formats, even if it alienates some loyal patrons?",
+            "answer": "The library should conduct a thorough risk assessment by evaluating the likelihood and impact of potential patron alienation against the benefits of cost savings and improved resource accessibility, while also addressing vulnerabilities such as staff adaptation to new technologies and the importance of preserving community engagement in decision-making, ultimately leading to a balanced strategy that mitigates adverse outcomes while advancing the library's mission in a digital age."
+        },
+        {
+            "score": 0.375,
+            "question": "Should the ban proceed despite businesses' concerns about increased costs and potential pushback from customers?",
+            "answer": "Yes, the ban should proceed as it addresses long-term environmental sustainability and encourages innovation in packaging, which can ultimately benefit businesses and consumers alike."
+        },
+        {
+            "score": 0.4,
+            "question": "How should they train employees to ensure successful adoption of the new system?",
+            "answer": "To ensure successful adoption of the new AI-driven inventory management system, the business should conduct a comprehensive training program that includes hands-on workshops, ongoing support, and transparent communication about data security measures, while also actively involving employees in the transition process to address concerns and foster a sense of ownership over the change."
+        },
+        {
+            "score": 0.4444444444444444,
+            "question": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
+            "answer": "While some residents' concerns are valid given that a significant portion of the population may prefer driving, studies indicate that well-designed bike lanes can effectively encourage a shift to cycling among potential riders, thus potentially reducing car usage significantly."
+        },
+        {
+            "score": 0.5,
+            "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+            "answer": "Casino loyalty programs can enhance the gambling experience by providing rewards, but they do not offset the house edge enough to make gambling profitable overall, as the odds remain favorably tilted towards the casino."
+        }
+    ],
+    "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might buy the console as a well-deserved reward that provides immediate enjoyment, stress relief, and opportunities for social interaction after hard work."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
+            "answer": "His reasoning is flawed because a previous win does not change the inherently negative prospects of future bets-the statistical likelihood of loss remains unchanged regardless of current winnings, meaning that while the win might temporarily offset a loss, it doesn't alter the average unprofitable outcome of each gamble."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "While the console would offer instant enjoyment, it sacrifices nearly all the funds needed for important educational supplies, making it a less prudent option in balancing immediate desires against essential future needs."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is it wise to recommend investing heavily in the tech stock based mainly on the seminar's insights and your client's enthusiasm?",
+            "answer": "Given that short-term, emotionally charged data and the client's enthusiasm can obscure underlying long-term market trends, it is more prudent to recommend a diversified investment strategy rather than heavily investing in the volatile tech stock based solely on recent hype."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is it ethically justifiable to prioritize economic gains if doing so restricts public access to a historically shared resource?",
+            "answer": "While economic gains offer tangible benefits, ethically it is questionable to prioritize them when such an approach compromises long-held public rights, environmental sustainability, and the diverse needs of the community."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism are likely to bolster the long-term, values-based approach-enhancing sustained brand loyalty and positive reputation-while diminishing the allure of short-term, scarcity-driven tactics that may clash with increasingly conscientious consumer values."
+        },
+        {
+            "score": 0.4,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "It is only ethically defensible to prioritize quick housing solutions if they are incorporated into a comprehensive strategy that simultaneously addresses immediate needs and reinforces long-term systemic reforms to tackle the underlying causes of homelessness."
+        },
+        {
+            "score": 0.5,
+            "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
+            "answer": "Although your friend's win might slightly update your belief in the possibility of a short-term payout, when you break down the average outcomes, the relatively lower disadvantage in blackjack compared to slot machines makes it a marginally better choice for pursuing profit-even though the house advantage still ultimately prevails."
+        },
+        {
+            "score": 0.5,
+            "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
+            "answer": "While blackjack has a lower house edge than slot machines, enhancing your short-term odds, it still ultimately favors the casino over the long run."
+        },
+        {
+            "score": 0.5,
+            "question": "Another player claims they 'always win in the end' by knowing when to quit. Does knowing when to quit actually ensure profitability?",
+            "answer": "No, knowing when to quit may limit losses but does not overcome the inherent house advantage in gambling."
+        }
+    ],
+    "deepeval_detailed_deepseek-r1_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.3333333333333333,
+            "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+            "answer": "A single anecdotal win does not statistically negate the inherent house edge, which ensures long-term casino profitability at the population level despite individual short-term gains."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The investment is a high-risk, break-even proposition (expected value equal to current revenue) but may be justified if long-term growth potential outweighs the 50% chance of a $50,000 loss."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The investment is a high-risk, break-even proposition (expected value equal to current revenue) but may be justified if long-term growth potential outweighs the 50% chance of a $50,000 loss."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
+            "answer": "While a low-carb diet may offer benefits, its strict adoption is unnecessary for someone already maintaining a balanced diet and exercise, and could risk nutrient deficiencies or unsustainable habits without personalized medical guidance."
+        },
+        {
+            "score": 0.4,
+            "question": "Should they implement the four-day workweek immediately?",
+            "answer": "They should pilot the four-day workweek with clear metrics to evaluate productivity and well-being before committing fully."
+        },
+        {
+            "score": 0.4,
+            "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
+            "answer": "The cooperative can bridge the skill gap by partnering with local agricultural extensions or hydroponic suppliers to offer targeted training programs for existing members, reducing reliance on external hires."
+        },
+        {
+            "score": 0.4,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might prioritize buying the gaming console to signal social status among peers through ownership of a desirable item, valuing immediate perceived social success over the less visible, long-term utility of saving for textbooks."
+        },
+        {
+            "score": 0.4,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Temporary shelters offer urgent, life-saving relief but may perpetuate cyclical homelessness by addressing symptoms rather than root causes, whereas permanent housing initiatives, though slower to implement, disrupt systemic inequities and reduce long-term dependency on crisis services, aligning with the mission of sustainable societal change."
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+            "answer": "The company should prioritize asynchronous communication to maximize flexibility and global inclusivity, while strategically using synchronous methods for key collaborative moments to maintain culture and innovation."
+        },
+        {
+            "score": 0.5,
+            "question": "You notice that the blackjack table has a relatively low house edge compared to slot machines. Does this make blackjack a better option for increasing your chances of a profitable outcome?",
+            "answer": "While blackjack's lower house edge reduces the rate of expected loss per bet compared to slots, the negative expected value of both games ensures long-term unprofitability, making neither a viable strategy for consistent gains despite short-term variance."
+        }
+    ],
+    "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Should the cooperative delay adopting hydroponics until they secure external funding or partnerships to minimize potential financial risks?",
+            "answer": "The cooperative should consider securing external funding or partnerships to mitigate financial risks before adopting hydroponics, as it may otherwise face high upfront costs and manageability challenges without support."
+        },
+        {
+            "score": 0.0,
+            "question": "Is joining the gym the better choice for getting fit?",
+            "answer": "Joining the gym may offer structured routines and accountability, while a home workout provides flexibility and no upfront costs, depending on personal preferences and lifestyle."
+        },
+        {
+            "score": 0.0,
+            "question": "Is joining the gym the better choice for getting fit?",
+            "answer": "Starting a free home workout routine offers significant cost savings compared to joining a gym, making it the financially beneficial option."
+        },
+        {
+            "score": 0.0,
+            "question": "How should you balance the immediate costs of a full-scale security overhaul against the potential long-term repercussions of a serious data breach?",
+            "answer": "To address the security vulnerability, prioritize a balanced approach by conducting a thorough risk assessment to evaluate the likelihood and impact of a breach, and perform a cost-benefit analysis comparing the immediate costs of an overhaul with the long-term risks. This ensures a strategic decision that minimizes both short-term financial strain and potential long-term reputational damage."
+        },
+        {
+            "score": 0.25,
+            "question": "Should the cooperative delay adopting hydroponics until they secure external funding or partnerships to minimize potential financial risks?",
+            "answer": "The cooperative should delay adopting hydroponic systems until securing external funding or partnerships, as this strategy would help minimize financial and technical risks associated with high upfront costs and complexity."
+        },
+        {
+            "score": 0.25,
+            "question": "How should the student approach deciding whether to invest all their money in Bitcoin?",
+            "answer": "The student should research Bitcoin's current value, assess their risk tolerance, consider diversification strategies, evaluate the credibility of experts' opinions on Bitcoin's future, review fees and security measures of potential platforms, compare returns against other investments, ensure emergency funds are set aside, consult credible sources on tax implications, and possibly seek advice from a financial advisor before deciding."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+            "answer": "The belief that a slot machine becomes 'hot' after recent wins is not statistically justified, as each spin is independent and does not increase future payout likelihood."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should they measure the success of the AI-based inventory system after implementation?",
+            "answer": "They should measure success by evaluating key performance indicators such as inventory accuracy, order fulfillment times, cost reduction, employee adoption rates, and the frequency of data security incidents."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
+            "answer": "The concern is not entirely valid; with strategic measures like improved bike lanes and incentives, enough drivers can be encouraged to cycle, effectively reducing car usage."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Environmentalists argue this switch alone won't solve the chain's overall waste problem unless combined with other measures. Are they right?",
+            "answer": "Environmentalists are correct; transitioning to fully plant-based packaging alone won't comprehensively solve the chain's waste issues without complementary measures like reduced food waste, improved recycling, and infrastructure enhancements."
+        }
+    ],
+    "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Is it ethically defensible to postpone critical security updates if it means preserving the company's short-term financial performance?",
+            "answer": "It is not ethically defensible to prioritize short-term financial gains over long-term security needs, as doing so would unnecessarily expose customers' confidential data and potentially lead to irreparable reputational damage, making any perceived temporary cost savings a negligible concern compared to the catastrophic consequences of a breach."
+        },
+        {
+            "score": 0.25,
+            "question": "How should the student approach deciding whether to invest all their money in Bitcoin?",
+            "answer": "The student should consider allocating a portion of their funds to a diversified portfolio that includes low-risk assets to maintain liquidity and minimize potential losses, rather than risking everything on a single investment like Bitcoin."
+        },
+        {
+            "score": 0.25,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "The student would be giving up $50 of potential savings for future college expenses, representing the opportunity cost of choosing to buy the gaming console now."
+        },
+        {
+            "score": 0.25,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "I will evaluate the benefits of an overseas expansion by calculating a weighted Return on Investment (ROI) that factors in both the short-term labor cost savings and the long-term risks associated with trade tariffs, geopolitical instability, and logistical complexities."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+            "answer": "The existence of casino loyalty programs and generous rewards does not significantly alter the mathematical advantage held by casinos, as the amounts offered are typically insufficient to compensate for the expected losses incurred over time."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "To inform your decision, weigh the short-term benefits of rapid stabilization through temporary shelters against their potential long-term trade-offs, such as diverting resources from policy advocacy and permanent supportive housing solutions that may ultimately reduce homelessness incidence rates over time."
+        },
+        {
+            "score": 0.4,
+            "question": "How should they measure the success of the AI-based inventory system after implementation?",
+            "answer": "To measure the success of the AI-based inventory system, the company should establish clear metrics such as reductions in inventory costs, improvements in order fulfillment rates, and increases in employee adoption and satisfaction with the new system, while also monitoring data security and implementing regular review processes to ensure the system's ongoing alignment with organizational goals."
+        },
+        {
+            "score": 0.4,
+            "question": "Should the university revise faculty evaluation criteria to place greater weight on fostering student well-being over traditional grading metrics?",
+            "answer": "The university should consider revising faculty evaluation criteria to balance both student well-being and academic rigor by incorporating comprehensive assessments of teaching effectiveness, including feedback from students, peers, and alumni, rather than solely relying on traditional grading metrics."
+        },
+        {
+            "score": 0.4,
+            "question": "Local business owners fear that losing car lanes or parking spaces might hamper sales. Should the city still move forward with the bike lane project despite these concerns?",
+            "answer": "The city should consider conducting a comprehensive economic impact analysis to quantify the potential benefits and costs, including both tangible and intangible factors such as increased local business revenue from increased foot traffic, reduced healthcare costs due to improved air quality, and possible mitigation measures like alternative parking solutions or dedicated delivery lanes for businesses."
+        },
+        {
+            "score": 0.4,
+            "question": "How might shifting consumer expectations and future privacy regulations affect the viability of the new ML approach over the next five years?",
+            "answer": "The viability of the new ML approach will be influenced by a complex interplay between evolving consumer expectations, emerging data protection regulations, and technological advancements, which may necessitate continuous adaptation and potential trade-offs between personalization, user trust, and cost-effectiveness."
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+            "answer": "Casino loyalty programs may lessen the impact of the house edge, but rarely eliminate it entirely, leaving the casino with a likely overall advantage."
+        },
+        {
+            "score": 0.0,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "A phased rollout allowing for iterative adjustments based on observed benefits, security vulnerabilities, and employee training effectiveness outweighs the potential for immediate, across-the-board cost savings."
+        },
+        {
+            "score": 0.2857142857142857,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "Phased implementation with thorough data security protocols and comprehensive employee training will mitigate risks and facilitate successful adoption by addressing immediate concerns and allowing for iterative improvements."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+            "answer": "While my initial understanding favored the casino's advantage, this single instance of significant winnings slightly shifts my perspective, but not enough to overcome the well-established long-term probability of losses for players."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should they measure the success of the AI-based inventory system after implementation?",
+            "answer": "Success should be measured by tracking key performance indicators like inventory turnover rate, order fulfillment time, stockout frequency, and employee adoption rates, alongside monitoring security breach attempts and associated data loss incidents."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should the university mandate a pass/fail model across all programs despite concerns about academic rigor?",
+            "answer": "A complete shift to pass/fail grading could diminish student motivation and external perceptions of academic excellence, outweighing the potential benefits of reduced stress and deeper learning."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should the university mandate a pass/fail model across all programs despite concerns about academic rigor?",
+            "answer": "Implementing a universal pass/fail system, while potentially reducing student stress, risks diminishing motivation and obscuring nuanced performance distinctions, impacting both student development and the institution's reputation for academic excellence."
+        },
+        {
+            "score": 0.4,
+            "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+            "answer": "No, while your friend's win is anecdotal evidence, the casino's built-in advantage and the inherent independence of each slot machine spin suggest that past wins do not predict future outcomes, making the belief in a hot machine statistically unfounded and detrimental to expected returns."
+        },
+        {
+            "score": 0.4,
+            "question": "How can the hospital address potential technology barriers and inequalities for telemedicine services?",
+            "answer": "The hospital can mitigate technology barriers and inequalities by providing subsidized devices, comprehensive digital literacy training, and accessible tech support tailored to the specific needs of remote and underserved communities."
+        },
+        {
+            "score": 0.4,
+            "question": "How can the library address concerns from older patrons who have limited digital literacy or prefer physical collections?",
+            "answer": "The library can mitigate concerns by offering comprehensive digital literacy training, maintaining a curated core physical collection with robust interlibrary loan options, and providing personalized assistance to patrons navigating the digital transition."
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "Rigorously assess the readily quantifiable cost advantages of overseas expansion against a comprehensive, and potentially underestimated, spectrum of geopolitical and logistical uncertainties to ensure a truly balanced strategic choice."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "Phased implementation by department is more prudent, allowing for iterative refinement and focused change management to mitigate risks and optimize the system's benefits before full organizational commitment."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
+            "answer": "Investing in comprehensive, in-house training programs will transform potential upfront labor cost increases into a manageable investment in long-term operational control and resilience against unforeseen external dependencies."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The allure of instant entertainment and the social prestige associated with owning the newest technology likely overshadow the less immediate and more abstract future benefit of having funds for college necessities."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Employ limited-time promotions highlighting sustainable features to generate immediate sales while reinforcing the brand's eco-friendly values."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+            "answer": "Quantify the potential exponential growth of a broader market against the quantifiable risks of diluting our distinctive value and exceeding resource capacity."
+        },
+        {
+            "score": 0.4,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "No, a phased implementation is wiser to mitigate data security risks and employee adaptation challenges before a full rollout."
+        },
+        {
+            "score": 0.4,
+            "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
+            "answer": "The cooperative can address the skill gap by investing in comprehensive training programs and seeking partnerships with agricultural extension services or technology providers for ongoing support."
+        },
+        {
+            "score": 0.4,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "Pursuing the marketing campaign presents a gamble where the potential gain of increased revenue is balanced against the immediate financial risk, and the decision ultimately depends on whether foregoing alternative investments with more predictable returns is justified by the uncertain but potentially substantial growth in market share deemed necessary for future competitiveness."
+        },
+        {
+            "score": 0.5,
+            "question": "Is this a financially sound decision?",
+            "answer": "No, purchasing a luxury car exceeding their annual income is financially unsound and likely to hinder, rather than help, their career due to the burden of debt and associated expenses."
+        }
+    ],
+    "deepeval_detailed_deepseek-v3_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might buy the console to signal social status or belonging among peers, valuing short-term social perception over long-term educational utility."
+        },
+        {
+            "score": 0.0,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "Given the risks of overestimating your ability to navigate overseas complexities or smoothly implement automation, the more stable and ethical choice is local automation-provided you realistically assess the challenges of retraining and invest in workforce transition support to mitigate overconfidence in short-term feasibility."
+        },
+        {
+            "score": 0.16666666666666666,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The expected value of the campaign is $50,000 (50% \u00d7 $100,000 gain), which equals its cost, making it a break-even proposition with no net gain or loss on average, but the owner should also weigh non-monetary factors like risk tolerance and competitive pressure."
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you weigh the potential for a groundbreaking cure against the high uncertainty and regulatory challenges of the experimental approach?",
+            "answer": "You should prioritize the potential for transformative impact on patients' lives while rigorously assessing the feasibility of overcoming regulatory and scientific hurdles to ensure responsible stewardship of resources."
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "Should the cooperative move forward with these hydroponic systems despite the substantial initial investment?",
+            "answer": "To determine whether the investment is justified, the cooperative should calculate the net present value (NPV) of the hydroponic systems by comparing the discounted future benefits (higher yields and resource savings) against the upfront and ongoing costs, while also factoring in risks like technology management and potential disruptions."
+        },
+        {
+            "score": 0.5,
+            "question": "What psychological factors drive this reasoning?",
+            "answer": "The graduate is likely influenced by the halo effect (believing luxury signals competence) and social comparison (matching perceived peer standards), overestimating appearance-based benefits while underestimating financial strain."
+        },
+        {
+            "score": 0.5,
+            "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+            "answer": "The company should prioritize asynchronous communication to maximize flexibility and productivity while supplementing with intentional synchronous sessions for collaboration and culture-building."
+        },
+        {
+            "score": 0.5,
+            "question": "How can the hospital maintain high quality of care when conducting telemedicine consultations?",
+            "answer": "The hospital can maintain high-quality care in telemedicine by investing in reliable technology, providing thorough staff training, implementing standardized protocols for remote consultations, and regularly monitoring patient outcomes to ensure care standards are met."
+        },
+        {
+            "score": 0.5,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The business owner must weigh the potential $100,000 gain from doubling their customer base against the $50,000 cost plus the lost opportunity to invest those funds elsewhere, recognizing that failure means sacrificing half their annual revenue for no return."
+        },
+        {
+            "score": 0.5,
+            "question": "Why might they be drawn to the gym?",
+            "answer": "The gym offers structured classes, professional equipment, and a motivating environment that can help maintain consistency and accountability, which might be harder to achieve with a free home routine."
+        }
+    ]
+}

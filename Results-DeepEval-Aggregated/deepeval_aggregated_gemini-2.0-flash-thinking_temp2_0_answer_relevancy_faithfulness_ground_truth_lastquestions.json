@@ -1,0 +1,209 @@
+{
+  "reference_type": "ground_truth",
+  "metrics_used": [
+    "answer_relevancy",
+    "faithfulness"
+  ],
+  "metrics": {
+    "answer_relevancy": {
+      "overall": {
+        "score": 0.9442857142857143,
+        "pass_rate": 0.91
+      },
+      "by_model": {
+        "": {
+          "score": 0.9414285714285715,
+          "pass_rate": 0.9
+        },
+        "Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Think hard prompt": {
+          "score": 0.9650000000000001,
+          "pass_rate": 0.95
+        },
+        "Short-Term vs. Long-Term": {
+          "score": 0.8875,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out": {
+          "score": 0.875,
+          "pass_rate": 0.75
+        },
+        "Halo Effect": {
+          "score": 0.8125,
+          "pass_rate": 0.75
+        },
+        "Fear of Missing Out + Halo Effect": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "Risk Diversification": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Tragedy of the Commons": {
+          "score": 0.9583333333333334,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias": {
+          "score": 0.9375,
+          "pass_rate": 1.0
+        },
+        "Evidence-Based Decision Making": {
+          "score": 0.8541666666666666,
+          "pass_rate": 0.75
+        },
+        "Overconfidence Bias + Evidence-Based Decision Making": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        }
+      },
+      "by_question_type": {
+        "evaluative": {
+          "score": 0.9866666666666667,
+          "pass_rate": 0.96
+        },
+        "normative": {
+          "score": 0.9393333333333334,
+          "pass_rate": 0.88
+        },
+        "prescriptive": {
+          "score": 0.9178095238095239,
+          "pass_rate": 0.92
+        },
+        "explanatory": {
+          "score": 0.9333333333333332,
+          "pass_rate": 0.88
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "score": 0.9442857142857143,
+          "pass_rate": 0.91
+        }
+      }
+    },
+    "faithfulness": {
+      "overall": {
+        "score": 0.963,
+        "pass_rate": 0.95
+      },
+      "by_model": {
+        "": {
+          "score": 0.9650000000000001,
+          "pass_rate": 0.95
+        },
+        "Risk Assessment": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Assessment + Cost-Benefit Analysis": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Think hard prompt": {
+          "score": 0.9875,
+          "pass_rate": 1.0
+        },
+        "Short-Term vs. Long-Term": {
+          "score": 0.9375,
+          "pass_rate": 1.0
+        },
+        "Systems Thinking": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "Short-Term vs. Long-Term + Systems Thinking": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out": {
+          "score": 0.6666666666666666,
+          "pass_rate": 0.5
+        },
+        "Halo Effect": {
+          "score": 0.9375,
+          "pass_rate": 1.0
+        },
+        "Fear of Missing Out + Halo Effect": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification": {
+          "score": 0.9166666666666666,
+          "pass_rate": 0.75
+        },
+        "Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Risk Diversification + Tragedy of the Commons": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Evidence-Based Decision Making": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "Overconfidence Bias + Evidence-Based Decision Making": {
+          "score": 0.9375,
+          "pass_rate": 1.0
+        }
+      },
+      "by_question_type": {
+        "evaluative": {
+          "score": 1.0,
+          "pass_rate": 1.0
+        },
+        "normative": {
+          "score": 0.9553333333333334,
+          "pass_rate": 0.92
+        },
+        "prescriptive": {
+          "score": 0.9666666666666667,
+          "pass_rate": 0.92
+        },
+        "explanatory": {
+          "score": 0.93,
+          "pass_rate": 0.96
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "score": 0.963,
+          "pass_rate": 0.95
+        }
+      }
+    }
+  }
+}

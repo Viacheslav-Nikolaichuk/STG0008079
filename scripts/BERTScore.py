@@ -27,8 +27,8 @@ def load_responses(responses_path):
         return None
 
 def extract_comparisons(dataset, responses, reference_type='ground_truth'):
-    """Extract prediction-reference pairs for BERTScore computation"""
-    predictions = []
+    """Extract answer-reference pairs for BERTScore computation"""
+    answers = []
     references = []
     metadata = []
     index_mapping = {}
@@ -84,7 +84,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                     logging.warning(f"Empty reference for {scenario_id}/{question_id}/{model_name}")
                     continue
                 
-                predictions.append(answer)
+                answers.append(answer)
                 references.append(reference)
                 
                 meta = {
@@ -101,10 +101,10 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                 index_mapping[key] = counter
                 counter += 1
     
-    return predictions, references, metadata, index_mapping
+    return answers, references, metadata, index_mapping
 
-def compute_bertscore(predictions, references, batch_size=15):
-    """Compute BERTScore for prediction-reference pairs"""
+def compute_bertscore(answers, references, batch_size=15):
+    """Compute BERTScore for answer-reference pairs"""
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logging.info(f"Using device: {device}")
     
@@ -113,12 +113,12 @@ def compute_bertscore(predictions, references, batch_size=15):
     all_results = {"precision": [], "recall": [], "f1": []}
     
     # Process in batches to avoid OOM issues
-    for i in tqdm(range(0, len(predictions), batch_size), desc="Computing BERTScore"):
-        batch_preds = predictions[i:i+batch_size]
+    for i in tqdm(range(0, len(answers), batch_size), desc="Computing BERTScore"):
+        batch_preds = answers[i:i+batch_size]
         batch_refs = references[i:i+batch_size]
         
         results = bertscore.compute(
-            predictions=batch_preds,
+            answers=batch_preds,
             references=batch_refs,
             lang="en",
             model_type="microsoft/deberta-xlarge-mnli",
@@ -132,13 +132,13 @@ def compute_bertscore(predictions, references, batch_size=15):
     
     return all_results
 
-def combine_results(predictions, references, bertscore_results, metadata):
+def combine_results(answers, references, bertscore_results, metadata):
     """Combine all results into a structured format"""
     combined = []
     
-    for i in range(len(predictions)):
+    for i in range(len(answers)):
         entry = {
-            "prediction": predictions[i],
+            "answer": answers[i],
             "reference": references[i],
             "precision": bertscore_results["precision"][i],
             "recall": bertscore_results["recall"][i],
@@ -211,7 +211,7 @@ def main():
     parser = argparse.ArgumentParser(description='Evaluate LLM responses using BERTScore')
     parser.add_argument('--dataset', default='data/dataset.json', help='Path to original dataset with ground truth')
     parser.add_argument('--responses', required=True, help='Path to LLM responses JSON file')
-    parser.add_argument('--output-dir', default='Results', help='Output directory for results')
+    parser.add_argument('--output-dir', default='Results-Bertscore', help='Output directory for results')
     parser.add_argument('--batch-size', type=int, default=15, help='Batch size for BERTScore computation')
     parser.add_argument('--reference-type', choices=['ground_truth', 'model_answer'], default='ground_truth',
                         help='Reference type to compare against (ground_truth or model_answer)')
@@ -231,21 +231,21 @@ def main():
     model_name = Path(args.responses).stem.replace('_responses', '')
     logging.info(f"Evaluating responses from {model_name}")
     
-    # Extract predictions and references
-    predictions, references, metadata, index_mapping = extract_comparisons(
+    # Extract answers and references
+    answers, references, metadata, index_mapping = extract_comparisons(
         dataset, 
         responses,
         args.reference_type
     )
-    logging.info(f"Extracted {len(predictions)} prediction-reference pairs")
+    logging.info(f"Extracted {len(answers)} answer-reference pairs")
     
-    if not predictions:
-        logging.error("No valid prediction-reference pairs found. Exiting.")
+    if not answers:
+        logging.error("No valid answer-reference pairs found. Exiting.")
         return
     
-    bertscore_results = compute_bertscore(predictions, references, args.batch_size)
+    bertscore_results = compute_bertscore(answers, references, args.batch_size)
     
-    combined_results = combine_results(predictions, references, bertscore_results, metadata)
+    combined_results = combine_results(answers, references, bertscore_results, metadata)
     
     aggregated_metrics = compute_aggregated_metrics(combined_results, index_mapping)
     
