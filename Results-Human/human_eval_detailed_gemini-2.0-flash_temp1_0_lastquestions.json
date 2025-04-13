@@ -4,7 +4,7 @@
     {
       "answer": "Prioritize projects offering substantial, disproportionate potential benefit to patients, even amidst high uncertainty, provided rigorous ethical safeguards and data-driven adaptation are built into the research protocol.",
       "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -16,7 +16,7 @@
     {
       "answer": "Carefully balance the compelling potential therapeutic benefits against the project's inherent scientific, ethical, and financial hazards, recognizing that both the impact of success and the consequences of failure are amplified by the project's nature.",
       "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -28,7 +28,7 @@
     {
       "answer": "Quantify the potential human suffering averted against the projected research costs, regulatory risks, and opportunity cost of foregoing more conventional projects, then fund the option with the highest expected net benefit after adjusting for risk aversion.",
       "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -40,7 +40,7 @@
     {
       "answer": "The decision requires a rigorous comparison of the quantifiable costs of uncertain resource allocation and potential regulatory setbacks against the potentially life-altering but difficult-to-predict benefits for a vulnerable population, mindful of broader reputational and ethical considerations.",
       "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -52,7 +52,7 @@
     {
       "answer": "The decision requires a careful balancing of the potential benefits for a neglected patient population against the financial and reputational risks associated with an unproven and potentially difficult-to-approve treatment strategy, factoring in the university's mission and resources.",
       "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -64,7 +64,7 @@
     {
       "answer": "Investing in a high-risk, potentially life-altering treatment is ethically defensible if the potential benefit to a severely underserved population outweighs the opportunity cost of diverting resources, provided the research is conducted with rigorous scientific integrity and transparency.",
       "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -76,7 +76,7 @@
     {
       "answer": "Balancing the potential for alleviating significant suffering against the financial and reputational consequences of a high-risk, unconventional project requires carefully weighing the probability of success, the magnitude of impact on the target illness, and the opportunity cost of diverting resources from more reliable research avenues.",
       "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -88,7 +88,7 @@
     {
       "answer": "Weighing the potential relief of suffering against the possible loss of funding for predictable advancements requires a careful valuation of both the probability of success and the societal impact of each research path.",
       "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -100,7 +100,7 @@
     {
       "answer": "Prioritizing the experimental drug requires weighing the reduced probability of success and higher initial costs against the potentially significant relief of suffering, acknowledging that funding choices inherently involve value judgments about risk tolerance and societal benefit.",
       "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -112,7 +112,7 @@
     {
       "answer": "Prioritizing potential relief from severe suffering through innovative research is ethically defensible, provided rigorous evaluation and informed consent safeguards are in place to mitigate risks and ensure responsible resource allocation.",
       "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -124,7 +124,7 @@
     {
       "answer": "Establish an independent ethics review board composed of experts in regulatory affairs, patient advocacy, and experimental medicine to proactively guide the project and ensure rigorous oversight throughout its lifecycle.",
       "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -136,7 +136,7 @@
     {
       "answer": "To balance potential benefits with inherent uncertainties, establish a rigorous, multi-stage oversight framework that meticulously documents risks, preemptively addresses ethical concerns, and incorporates independent expert review at each critical milestone to ensure compliance and responsible resource allocation.",
       "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -148,7 +148,7 @@
     {
       "answer": "Establish clear and measurable success criteria, rigorously assess potential risks and mitigation strategies, and proactively engage with regulatory bodies to define acceptable parameters before committing significant resources to the experimental drug development project.",
       "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -160,7 +160,7 @@
     {
       "answer": "Prioritize rigorous, transparent protocols with independent ethical review, proactive engagement with regulatory bodies, and contingency planning for potential setbacks to balance the potential for significant medical advancement against the high risk of failure and associated resource commitment.",
       "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -172,7 +172,7 @@
     {
       "answer": "Establish a multidisciplinary oversight board with regulatory expertise to proactively guide the project, ensuring ethical conduct, rigorous data collection, and adherence to evolving compliance standards.",
       "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -184,7 +184,7 @@
     {
       "answer": "Rare disease research, while often facing funding gaps and regulatory challenges, demonstrates that significant breakthroughs are possible when innovative approaches are pursued despite initial uncertainties, potentially transforming treatment landscapes for previously underserved patient populations.",
       "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -196,7 +196,7 @@
     {
       "answer": "Given the landscape of rare disease research, the probability of revolutionary treatment options depends heavily on balancing the willingness to accept regulatory and methodological risks with the demonstrated potential for significant patient benefit and the capacity to navigate the complex funding environment.",
       "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -208,7 +208,7 @@
     {
       "answer": "Investment in rare disease research, though often less predictable in immediate returns, can yield disproportionately impactful breakthroughs by pioneering novel approaches and attracting specialized expertise, thereby justifying the acceptance of higher initial risks and potential regulatory delays.",
       "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -220,7 +220,7 @@
     {
       "answer": "Despite the regulatory risks and resource demands, the potential for transformative impact in a historically underserved area, where even marginal improvements hold immense value, justifies carefully weighing the high-risk project against the opportunity cost of forgoing potentially revolutionary advancements.",
       "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -232,7 +232,7 @@
     {
       "answer": "Rare disease research, while often underfunded and facing regulatory challenges, has historically yielded disproportionately large advancements in understanding fundamental biological mechanisms and paving the way for broader therapeutic applications, suggesting this high-risk project holds significant, albeit uncertain, potential for future breakthroughs.",
       "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "36",
@@ -244,7 +244,7 @@
     {
       "answer": "Weigh the immediate, measurable impact of temporary shelters in alleviating suffering against the long-term, transformative potential of permanent housing to reduce chronic homelessness.",
       "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -256,7 +256,7 @@
     {
       "answer": "Prioritize sustainable solutions that address the core issues of homelessness over temporary fixes that alleviate immediate suffering, even if it means forgoing a lucrative grant, to ensure long-lasting positive change and prevent perpetuating the problem.",
       "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -268,7 +268,7 @@
     {
       "answer": "Weighing short-term stabilization against enduring systemic change requires assessing how temporary shelters affect the larger ecosystem of homelessness, potentially hindering long-term solutions even as they provide immediate aid.",
       "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -280,7 +280,7 @@
     {
       "answer": "Prioritizing temporary shelters risks perpetuating a cycle of dependency while diverting resources from addressing the underlying causes and sustainable solutions necessary for lasting change within the larger housing ecosystem.",
       "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -292,7 +292,7 @@
     {
       "answer": "Weigh the immediate, quantifiable benefits of temporary shelters against the long-term, less readily measurable societal gains from addressing the root causes of homelessness through permanent solutions.",
       "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -304,7 +304,7 @@
     {
       "answer": "Prioritizing short-term donor goals over long-term systemic reform is ethically questionable, potentially sacrificing lasting impact for immediate relief and donor satisfaction.",
       "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -316,7 +316,7 @@
     {
       "answer": "Accepting short-term gains for immediate relief, while seemingly compassionate, may perpetuate the cycle of homelessness by neglecting the long-term investments necessary for lasting systemic change and ethical alignment with the organization's core mission.",
       "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -328,7 +328,7 @@
     {
       "answer": "Accepting short-term funding to address immediate needs could create dependency and perpetuate the very problem the organization seeks to solve by undermining systemic change efforts.",
       "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -340,7 +340,7 @@
     {
       "answer": "Weighing immediate relief against sustainable change necessitates acknowledging that rapid, visible impact might relieve present suffering while potentially sacrificing the opportunity to dismantle the larger system creating that suffering in the first place.",
       "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -352,7 +352,7 @@
     {
       "answer": "Prioritizing donor requirements that compromise the organization's long-term mission for systemic reform is ethically questionable, potentially sacrificing sustainable solutions for immediate, yet temporary, relief.",
       "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -364,7 +364,7 @@
     {
       "answer": "Implement a dual-track approach, allocating a specific, transparent percentage of resources to temporary shelters while simultaneously ring-fencing a dedicated team and budget for long-term solutions and policy advocacy, ensuring accountability and avoiding mission drift.",
       "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -376,7 +376,7 @@
     {
       "answer": "To balance immediate relief and enduring solutions, prioritize collaborative partnerships to leverage the donor's funds for immediate shelter while simultaneously advocating for policy changes and securing separate funding streams that support the organization's long-term strategies for permanent housing and systemic reform.",
       "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -388,7 +388,7 @@
     {
       "answer": "By diversifying funding sources, leveraging partnerships to create a spectrum of housing options, and integrating short-term relief with long-term program access, the organization can address immediate needs while still pursuing systemic solutions.",
       "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -400,7 +400,7 @@
     {
       "answer": "Integrate temporary shelter efforts with comprehensive case management and advocacy strategies to transition individuals into permanent housing and simultaneously address the systemic issues driving homelessness.",
       "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -412,7 +412,7 @@
     {
       "answer": "Develop a pilot program for temporary shelters funded by the grant, rigorously evaluating its impact and cost-effectiveness to inform future resource allocation decisions and potentially leverage the results to advocate for long-term solutions.",
       "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -424,7 +424,7 @@
     {
       "answer": "Shifting public opinion and evolving policies can either exacerbate the need for temporary shelters through restrictive zoning and criminalization of homelessness, or foster the success of permanent housing by increasing funding, enacting tenant protections, and dismantling discriminatory housing practices.",
       "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -436,7 +436,7 @@
     {
       "answer": "The enduring value of either approach hinges on whether societal attitudes and governmental regulations will sustain immediate relief efforts or continue to foster investment in systemic change and lasting stability.",
       "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -448,7 +448,7 @@
     {
       "answer": "The interplay between immediate crisis response and systemic change suggests that public sentiment and evolving policy could either reinforce the necessity of long-term solutions by highlighting the inadequacies of temporary measures or conversely, perpetuate a cycle of temporary fixes if public perception conflates visibility of shelter with actual solutions and policy follows suit.",
       "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -460,7 +460,7 @@
     {
       "answer": "Evolving public perceptions and policy shifts could either bolster the sustainability of permanent housing through increased funding and legislative support or render temporary solutions obsolete as societal values and priorities shift towards comprehensive, long-term interventions addressing the underlying factors contributing to homelessness.",
       "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -472,7 +472,7 @@
     {
       "answer": "Evolving public perceptions and policy shifts can drastically alter funding streams, zoning regulations, and community support, significantly impacting the viability and scalability of both temporary and permanent housing solutions.",
       "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "37",
@@ -484,7 +484,7 @@
     {
       "answer": "Prioritize the values-based strategy, as sacrificing long-term brand integrity for short-term gains risks alienating loyal customers and ultimately undermining the brand's foundational principles.",
       "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -496,7 +496,7 @@
     {
       "answer": "Prioritizing immediate gains from playing on social anxieties risks alienating a loyal customer base that values genuine connection and ethical consumption, potentially undermining long-term brand equity.",
       "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -508,7 +508,7 @@
     {
       "answer": "Prioritizing immediate, fear-based engagement risks overshadowing and ultimately diminishing the established positive associations of authenticity and environmental responsibility, leading to long-term brand damage despite short-term gains.",
       "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -520,7 +520,7 @@
     {
       "answer": "The immediate gratification of tapping into perceived fleeting advantages should be cautiously balanced against the long-term erosion of trust when sacrificing genuine values for superficial appeal.",
       "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -532,7 +532,7 @@
     {
       "answer": "Prioritize the values-based strategy, as sacrificing long-term brand integrity for short-term gains ultimately erodes consumer trust and long-term profitability.",
       "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -544,7 +544,7 @@
     {
       "answer": "Exploiting FOMO contradicts the brand's established authenticity, making it ethically questionable despite potential short-term gains.",
       "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -556,7 +556,7 @@
     {
       "answer": "Exploiting insecurities for short-term gains undermines a brand's credibility and long-term relationships with consumers who value genuine connection over fleeting trends.",
       "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -568,7 +568,7 @@
     {
       "answer": "Prioritizing short-term gains from engineered anxieties risks undermining established trust and the perception of inherent product value, thereby potentially damaging the brand's long-term credibility and authenticity.",
       "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -580,7 +580,7 @@
     {
       "answer": "Exploiting a pervasive societal anxiety to manufacture demand clashes with a well-established reputation for honesty and integrity, risking the erosion of overall consumer trust, regardless of short-term gains.",
       "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -592,7 +592,7 @@
     {
       "answer": "Exploiting FOMO contradicts the brand's authenticity commitment, potentially eroding long-term trust despite short-term gains.",
       "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -604,7 +604,7 @@
     {
       "answer": "Integrate time-sensitive, eco-friendly product promotions that reward early adopters while reinforcing sustainable practices and brand values.",
       "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -616,7 +616,7 @@
     {
       "answer": "To reconcile immediate sales pressure with ecological principles, implement a time-bound, transparent promotion around a sustainable product line, emphasizing limited availability and the positive impact of participation in an environmentally conscious initiative.",
       "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -628,7 +628,7 @@
     {
       "answer": "Prioritize campaigns that subtly weave product benefits into narratives of responsible consumption, leveraging initial positive impressions to build long-term brand alignment with eco-conscious values while mitigating any potential perception of exploiting fear.",
       "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -640,7 +640,7 @@
     {
       "answer": "Leverage time-limited promotions of eco-friendly products endorsed by respected figures, capitalizing on the desire to participate in an admired trend while reinforcing positive brand associations and driving immediate sales.",
       "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -652,7 +652,7 @@
     {
       "answer": "Integrate limited-time, eco-friendly promotions tied to verifiable sustainability initiatives, fostering urgency while reinforcing the brand's values and minimizing potential backlash.",
       "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -664,7 +664,7 @@
     {
       "answer": "Ethical consumerism trends suggest the values-based approach will build lasting brand equity and resonate with increasingly conscious consumers, while the FOMO approach risks alienating them and damaging long-term brand reputation.",
       "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -676,7 +676,7 @@
     {
       "answer": "As consumers increasingly prioritize ethical considerations, campaigns exploiting perceived social exclusion may face backlash, while those emphasizing values will likely foster deeper, more resilient brand connections.",
       "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -688,7 +688,7 @@
     {
       "answer": "Growing consumer demand for ethical products suggests that while a FOMO campaign may initially succeed, a values-based approach will likely foster stronger brand loyalty and long-term profitability as consumers increasingly prioritize sustainability over fleeting trends.",
       "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -700,7 +700,7 @@
     {
       "answer": "Ethical consumerism trends may diminish the fleeting gains from FOMO-driven marketing as consumers increasingly prioritize perceived brand integrity and sustainability, potentially amplifying positive perceptions and long-term loyalty tied to a values-based strategy.",
       "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -712,7 +712,7 @@
     {
       "answer": "Ethical consumerism's growth suggests the values-based approach will build lasting brand equity and resilience, while the FOMO strategy risks alienating increasingly conscious consumers in the long run.",
       "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "38",
@@ -724,7 +724,7 @@
     {
       "answer": "A comprehensive cost-benefit analysis, weighted by social equity and environmental impact assessments, is crucial to determine if the long-term benefits of congestion reduction and emission improvements outweigh the disproportionate burden on vulnerable populations and businesses.",
       "reference": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -736,7 +736,7 @@
     {
       "answer": "Weigh the immediate environmental and efficiency gains against the socioeconomic burdens imposed, considering targeted mitigation strategies for vulnerable populations and businesses to ensure a balanced outcome.",
       "reference": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -748,7 +748,7 @@
     {
       "answer": "A sustainable solution requires mitigating the overall detriment caused by individual actions by balancing environmental benefits, economic burden, and social equity, ensuring no single group disproportionately bears the cost of shared resource management.",
       "reference": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -760,7 +760,7 @@
     {
       "answer": "To make a well-reasoned decision, you should compare the collective environmental and social gains from reduced congestion against the concentrated economic burdens placed on specific, vulnerable segments of the population, and then implement mitigation strategies for those disproportionately affected.",
       "reference": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -772,7 +772,7 @@
     {
       "answer": "A comprehensive cost-benefit analysis, weighting environmental benefits and long-term economic gains against the immediate financial burden on vulnerable populations and businesses, alongside exploring mitigation strategies like exemptions or subsidies, is necessary to inform a responsible decision.",
       "reference": "A robust evaluation considers both quantitative data (e.g., projected drop in congestion and carbon output) and qualitative concerns (e.g., how restricted mobility might affect marginalized communities). It's crucial to analyze whether alternative transport modes or subsidies exist to mitigate undue burdens on those less able to pay. In addition, exploring the effect on small businesses involves reviewing consumer behavior data, local foot traffic patterns, and potential shifts toward online shopping. Ultimately, a multi-factor assessment ensures that the congestion charge's environmental benefits do not come at an unfair social or economic cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -784,7 +784,7 @@
     {
       "answer": "Implementing a congestion charge that disproportionately impacts lower-income drivers is ethically acceptable *only if* it's coupled with robust mitigation strategies, such as exemptions, subsidies, or improved public transit, that genuinely address the regressive burden and ensure equitable access to the city.",
       "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -796,7 +796,7 @@
     {
       "answer": "While prioritizing environmental gains, a just solution necessitates mitigating the economic burden on vulnerable populations through targeted subsidies or alternative transportation options, preventing the concentration of hardship.",
       "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -808,7 +808,7 @@
     {
       "answer": "Prioritizing collective environmental benefits via a congestion charge raises ethical concerns regarding equitable access and potential marginalization of vulnerable populations already dependent on private vehicles due to a lack of viable alternatives.",
       "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -820,7 +820,7 @@
     {
       "answer": "Implementing a congestion charge is ethically complex, requiring consideration of offsetting the concentrated burden on the less affluent through targeted subsidies or exemptions to prevent the shared resource of clean air from being exploited by unchecked private vehicle use.",
       "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -832,7 +832,7 @@
     {
       "answer": "Implementing a congestion charge is ethically acceptable only if accompanied by robust mitigation measures that demonstrably offset the disproportionate impact on lower-income drivers and businesses while effectively achieving the stated environmental goals.",
       "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -844,7 +844,7 @@
     {
       "answer": "Implement a tiered congestion charge system with exemptions for low-emission vehicles, provide targeted subsidies and public transit improvements for low-income residents, and offer tax incentives and marketing support for affected local businesses to offset potential revenue losses.",
       "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -856,7 +856,7 @@
     {
       "answer": "To achieve environmental aims without exacerbating inequality, the city should implement a tiered congestion charge system paired with subsidized public transportation, targeted financial assistance for low-income residents to upgrade vehicles or access alternative transportation, and business support programs to offset potential revenue losses, thereby spreading the policy's impact and bolstering overall community resilience.",
       "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -868,7 +868,7 @@
     {
       "answer": "To avoid depleting the collective good of clean air and accessible streets, the city should simultaneously implement targeted subsidies for low-income residents to access public transport or acquire cleaner vehicles, and offer tax incentives or exemptions for affected local businesses, ensuring the benefits are broadly distributed and the burden is not solely shouldered by those least able to bear it.",
       "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -880,7 +880,7 @@
     {
       "answer": "To prevent overuse of roadways while minimizing burdens, the city should offer targeted rebates for vehicle upgrades and public transit subsidies to affected lower-income residents, alongside exemptions or reduced rates for local businesses during off-peak hours, thus distributing the costs and benefits more equitably.",
       "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -892,7 +892,7 @@
     {
       "answer": "To balance environmental benefits with economic and social concerns, the city should implement a tiered congestion charge system with exemptions or subsidies for low-income residents and targeted support programs for affected businesses, alongside investments in public transportation and alternative mobility options.",
       "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -904,7 +904,7 @@
     {
       "answer": "Future technological advancements could render the congestion charge obsolete if they provide equally effective and more equitable solutions for reducing traffic and emissions, such as affordable, widespread adoption of electric vehicles and a highly efficient, accessible public transit network.",
       "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -916,7 +916,7 @@
     {
       "answer": "Investing in diverse technological solutions offers a hedge against the uncertainty of future transportation needs, mitigating the long-term reliance on a single, potentially inflexible, congestion charge.",
       "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -928,7 +928,7 @@
     {
       "answer": "Innovations allowing individuals to minimize or circumvent charges without sacrificing convenience could diminish the collective benefit intended by the congestion charge and require adaptive policy adjustments.",
       "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -940,7 +940,7 @@
     {
       "answer": "Future technologies could mitigate the negative consequences of concentrated resource use (like congested roads) and equalize access, potentially rendering the congestion charge obsolete if they achieve the same goals of reduced congestion and emissions without disproportionately burdening specific groups or sectors.",
       "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -952,7 +952,7 @@
     {
       "answer": "Technological advancements could diminish the necessity of a congestion charge by offering alternative solutions for traffic reduction and emissions control, potentially mitigating its negative impacts on lower-income residents and businesses.",
       "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "39",
@@ -964,7 +964,7 @@
     {
       "answer": "Carefully analyze the target mass market's needs and preferences to determine if product adaptations can satisfy both mainstream demands and the original niche audience's core value expectations, thereby justifying the risk of a pivot.",
       "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -976,7 +976,7 @@
     {
       "answer": "Carefully assess if the projected broader market success truly reflects realistic capabilities and resources, not inflated optimism about ease of adoption and market dominance that overlooks potential quality compromises and core user alienation.",
       "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -988,7 +988,7 @@
     {
       "answer": "To responsibly assess this potential shift, prioritize rigorous market research and pilot programs that quantitatively measure mainstream appeal against current niche user retention rates and resource strain, thereby revealing a data-driven projection of sustainable growth versus brand erosion.",
       "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1000,7 +1000,7 @@
     {
       "answer": "Objectively weigh statistically relevant data regarding mainstream consumer preferences, resource limitations, and niche market attrition rates to forecast the probability of success compared to preserving the current product's unique appeal.",
       "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1012,7 +1012,7 @@
     {
       "answer": "Carefully weigh potential revenue gains from mass-market expansion against the risk of alienating our core customer base and degrading product quality, employing rigorous market research and controlled experimentation to inform a balanced decision.",
       "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
-      "score_1": 0,
+      "score_1": 0.5,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1024,7 +1024,7 @@
     {
       "answer": "Prioritizing investor profits over the core user base's needs raises ethical concerns about betraying trust and potentially sacrificing long-term sustainability for short-term gains.",
       "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1036,7 +1036,7 @@
     {
       "answer": "A responsible leader should meticulously weigh the potential harm to the current user base and long-term brand integrity against the speculative benefits of mass-market adoption, rather than blindly assuming success in a new, unfamiliar landscape.",
       "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1048,7 +1048,7 @@
     {
       "answer": "Prioritizing investor demands over the established customer base requires careful evaluation of whether the potential economic gains outweigh the inherent moral obligation to honor the trust and preferences of current users, which ultimately informs the long-term ethical sustainability of the company.",
       "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1060,7 +1060,7 @@
     {
       "answer": "Prioritizing verifiable data on market viability, resource capacity, and potential erosion of niche value over the allure of capital infusion is crucial to ensure long-term stakeholder well-being, and ethical justification hinges on demonstrating a strategy that doesn't recklessly jeopardize existing users or the company's integrity.",
       "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1072,7 +1072,7 @@
     {
       "answer": "Ethical justification hinges on transparent communication with the niche audience about potential changes and mitigating strategies to preserve core features, ensuring they are not entirely abandoned for the sake of mass-market appeal and profit.",
       "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1084,7 +1084,7 @@
     {
       "answer": "To mitigate the risk of alienating our core users during a strategic pivot, we must maintain a parallel development track, dedicating resources to both preserving niche features and developing mass-market functionalities, while carefully monitoring user feedback from both segments to inform iterative product improvements.",
       "reference": "You could introduce a tiered product strategy\u2014one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1096,7 +1096,7 @@
     {
       "answer": "To balance growth and core value, rigorously A/B test pivot features on a smaller, representative segment while closely monitoring niche user feedback and resource allocation to ensure scalability supports, rather than sacrifices, initial product quality and appeal.",
       "reference": "You could introduce a tiered product strategy\u2014one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1108,7 +1108,7 @@
     {
       "answer": "Prioritize phased market expansion informed by rigorous A/B testing and user feedback loops within both niche and potential mass-market segments, allowing data-driven adjustments to product development and marketing strategy while mitigating resource strain and feature dilution.",
       "reference": "You could introduce a tiered product strategy\u2014one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1120,7 +1120,7 @@
     {
       "answer": "To navigate the strategic pivot, rigorously test market assumptions through data-driven experimentation and phased rollouts, prioritizing validated user needs over speculative mass-market appeals to avoid diluting core product value and overextending resources.",
       "reference": "You could introduce a tiered product strategy\u2014one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1132,7 +1132,7 @@
     {
       "answer": "Carefully segment new features into separate tiers or optional add-ons to cater to the mass market while preserving the original product's core functionality for the niche audience.",
       "reference": "You could introduce a tiered product strategy\u2014one version retains the specialized features for loyal power-users, while another broader version caters to mass-market preferences. Transparent communication about ongoing support for the niche edition helps maintain trust. Setting up a dedicated team for the core product ensures it gets the attention it deserves, preventing it from being overshadowed by mainstream pursuits. Finally, regularly soliciting user feedback and running small pilot programs can validate new features without alienating existing fans, striking a balance between expansion and heritage.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1144,7 +1144,7 @@
     {
       "answer": "Increased competition and evolving tech trends will necessitate continuous innovation and adaptation to maintain market share and relevance beyond the initial user base surge.",
       "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1156,7 +1156,7 @@
     {
       "answer": "Ignoring the potential for increased consumer choice and the reactive strategies of well-funded competitors could lead to an inaccurate assessment of our startup's ability to maintain market share and profitability in a significantly more challenging landscape.",
       "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1168,7 +1168,7 @@
     {
       "answer": "Increased competition and rapidly evolving consumer tech trends necessitate continuous innovation and agile adaptation to maintain a competitive edge after scaling, as initial success with a niche audience is insufficient for long-term mass-market sustainability.",
       "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1180,7 +1180,7 @@
     {
       "answer": "Success in a wider market hinges on meticulously validating that the original product's core value proposition remains strong amidst evolving trends and competitive pressures, not simply assuming its broader appeal.",
       "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
@@ -1192,7 +1192,7 @@
     {
       "answer": "Evolving tech trends and heightened competition could necessitate continuous innovation and strategic differentiation to maintain market share and avoid commoditization after expanding beyond the niche market.",
       "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
-      "score_1": 0,
+      "score_1": 1,
       "score_2": 0,
       "score_avg": 0,
       "scenario_id": "40",
