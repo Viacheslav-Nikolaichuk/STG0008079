@@ -1,0 +1,143 @@
+{
+  "reference_type": "ground_truth",
+  "metrics": {
+    "overall": {
+      "score_1": 0.905,
+      "score_2": 0.955,
+      "score_avg": 0.93
+    },
+    "by_model": {
+      "": {
+        "score_1": 0.9,
+        "score_2": 0.95,
+        "score_avg": 0.925
+      },
+      "Risk Assessment": {
+        "score_1": 0.875,
+        "score_2": 0.875,
+        "score_avg": 0.875
+      },
+      "Cost-Benefit Analysis": {
+        "score_1": 0.875,
+        "score_2": 1,
+        "score_avg": 0.9375
+      },
+      "Risk Assessment + Cost-Benefit Analysis": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Think hard prompt": {
+        "score_1": 0.875,
+        "score_2": 0.925,
+        "score_avg": 0.9
+      },
+      "Short-Term vs. Long-Term": {
+        "score_1": 0.75,
+        "score_2": 1,
+        "score_avg": 0.875
+      },
+      "Systems Thinking": {
+        "score_1": 0.625,
+        "score_2": 1,
+        "score_avg": 0.8125
+      },
+      "Short-Term vs. Long-Term + Systems Thinking": {
+        "score_1": 0.75,
+        "score_2": 1,
+        "score_avg": 0.875
+      },
+      "Fear of Missing Out": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Halo Effect": {
+        "score_1": 0.875,
+        "score_2": 1,
+        "score_avg": 0.9375
+      },
+      "Fear of Missing Out + Halo Effect": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Risk Diversification": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Tragedy of the Commons": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Risk Diversification + Tragedy of the Commons": {
+        "score_1": 1,
+        "score_2": 0.875,
+        "score_avg": 0.9375
+      },
+      "Overconfidence Bias": {
+        "score_1": 1,
+        "score_2": 0.875,
+        "score_avg": 0.9375
+      },
+      "Evidence-Based Decision Making": {
+        "score_1": 1,
+        "score_2": 1,
+        "score_avg": 1.0
+      },
+      "Overconfidence Bias + Evidence-Based Decision Making": {
+        "score_1": 1,
+        "score_2": 0.875,
+        "score_avg": 0.9375
+      }
+    },
+    "by_question_type": {
+      "evaluative": {
+        "score_1": 0.76,
+        "score_2": 0.94,
+        "score_avg": 0.85
+      },
+      "normative": {
+        "score_1": 0.92,
+        "score_2": 1,
+        "score_avg": 0.96
+      },
+      "prescriptive": {
+        "score_1": 0.94,
+        "score_2": 1,
+        "score_avg": 0.97
+      },
+      "explanatory": {
+        "score_1": 1,
+        "score_2": 0.88,
+        "score_avg": 0.94
+      }
+    },
+    "by_difficulty": {
+      "hard": {
+        "score_1": 0.905,
+        "score_2": 0.955,
+        "score_avg": 0.93
+      }
+    },
+    "by_nr_of_models": {
+      "0": {
+        "score_1": 0.9,
+        "score_2": 0.95,
+        "score_avg": 0.925
+      },
+      "1": {
+        "score_1": 0.9,
+        "score_2": 0.975,
+        "score_avg": 0.9375
+      },
+      "2": {
+        "score_1": 0.95,
+        "score_2": 0.95,
+        "score_avg": 0.95
+      }
+    }
+  }
+}
