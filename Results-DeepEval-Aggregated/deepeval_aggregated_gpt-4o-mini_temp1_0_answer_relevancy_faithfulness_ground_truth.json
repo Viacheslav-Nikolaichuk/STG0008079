@@ -375,6 +375,20 @@
           "score": 0.9623796296296296,
           "pass_rate": 0.9833333333333333
         }
+      },
+      "by_nr_of_models": {
+        "0": {
+          "score": 0.9673,
+          "pass_rate": 0.9771
+        },
+        "1": {
+          "score": 0.9578,
+          "pass_rate": 0.9704
+        },
+        "2": {
+          "score": 0.9456,
+          "pass_rate": 0.9454
+        }
       }
     },
     "faithfulness": {
@@ -746,6 +760,20 @@
         "hard": {
           "score": 0.9607460317460317,
           "pass_rate": 0.94
+        }
+      },
+      "by_nr_of_models": {
+        "0": {
+          "score": 0.9788,
+          "pass_rate": 0.9695
+        },
+        "1": {
+          "score": 0.9689,
+          "pass_rate": 0.946
+        },
+        "2": {
+          "score": 0.9469,
+          "pass_rate": 0.9501
         }
       }
     }
