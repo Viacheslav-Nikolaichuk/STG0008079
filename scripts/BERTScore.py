@@ -66,22 +66,27 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                 model_name = model_answer.get("model", "base")
                 answer = model_answer.get("answer", "")
                 
-                if not answer or answer == "Error":
-                    logging.warning(f"Skipping empty/error answer for {scenario_id}/{question_id}/{model_name}")
+                # Validate answer
+                if not isinstance(answer, str) or not answer.strip():
+                    logging.warning(f"Invalid answer for {scenario_id}/{question_id}/{model_name}: {answer}")
+                    skipped_count += 1
                     continue
                 
                 if reference_type == 'model_answer':
                     orig_model_answer = next((a for a in orig_question.get("model_answers", [])
                                             if a.get("model") == model_name), None)
                     if not orig_model_answer:
+                        logging.warning(f"No original model answer for {scenario_id}/{question_id}/{model_name}")
                         skipped_count += 1
                         continue
                     reference = orig_model_answer.get("answer", "")
                 else:
                     reference = base_reference
                 
-                if not reference:
-                    logging.warning(f"Empty reference for {scenario_id}/{question_id}/{model_name}")
+                # Validate reference
+                if not isinstance(reference, str) or not reference.strip():
+                    logging.warning(f"Invalid reference for {scenario_id}/{question_id}/{model_name}: {reference}")
+                    skipped_count += 1
                     continue
                 
                 answers.append(answer)
@@ -101,6 +106,7 @@ def extract_comparisons(dataset, responses, reference_type='ground_truth'):
                 index_mapping[key] = counter
                 counter += 1
     
+    logging.info(f"Skipped {skipped_count} invalid pairs during extraction")
     return answers, references, metadata, index_mapping
 
 def compute_bertscore(answers, references, batch_size=15):
@@ -108,8 +114,24 @@ def compute_bertscore(answers, references, batch_size=15):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logging.info(f"Using device: {device}")
     
-    bertscore = load("bertscore")
+    # Filter out invalid pairs
+    valid_pairs = [(a, r) for a, r in zip(answers, references) 
+                   if a is not None and r is not None 
+                   and isinstance(a, str) and isinstance(r, str) 
+                   and a.strip() and r.strip()]
     
+    if len(valid_pairs) < len(answers):
+        logging.warning(f"Skipped {len(answers) - len(valid_pairs)} invalid pairs in compute_bertscore")
+    
+    if not valid_pairs:
+        logging.error("No valid pairs to compute BERTScore. Aborting.")
+        return {"precision": [], "recall": [], "f1": []}
+    
+    answers, references = zip(*valid_pairs)
+    answers = list(answers)  # Convert tuple back to list
+    references = list(references)
+    
+    bertscore = load("bertscore")
     all_results = {"precision": [], "recall": [], "f1": []}
     
     # Process in batches to avoid OOM issues
@@ -118,7 +140,7 @@ def compute_bertscore(answers, references, batch_size=15):
         batch_refs = references[i:i+batch_size]
         
         results = bertscore.compute(
-            answers=batch_preds,
+            predictions=batch_preds,
             references=batch_refs,
             lang="en",
             model_type="microsoft/deberta-xlarge-mnli",
@@ -127,7 +149,7 @@ def compute_bertscore(answers, references, batch_size=15):
         )
         
         all_results["precision"].extend([float(p) for p in results["precision"]])
-        all_results["recall"].extend([float(r) for r in results["recall"]])
+        all_results["recall"].extend([float(p) for p in results["recall"]])
         all_results["f1"].extend([float(f) for f in results["f1"]])
     
     return all_results
