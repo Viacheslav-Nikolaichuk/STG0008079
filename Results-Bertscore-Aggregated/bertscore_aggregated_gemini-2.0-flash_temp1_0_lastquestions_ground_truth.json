@@ -1,0 +1,126 @@
+{
+  "reference_type": "ground_truth",
+  "metrics": {
+    "overall": {
+      "precision": 0.6772277897596359,
+      "recall": 0.5879254907369613,
+      "f1": 0.6292195272445679
+    },
+    "by_model": {
+      "": {
+        "precision": 0.6917641490697861,
+        "recall": 0.5927998572587967,
+        "f1": 0.6383756577968598
+      },
+      "Risk Assessment": {
+        "precision": 0.6786697953939438,
+        "recall": 0.5975995361804962,
+        "f1": 0.6354272216558456
+      },
+      "Cost-Benefit Analysis": {
+        "precision": 0.6772933602333069,
+        "recall": 0.6036058366298676,
+        "f1": 0.6382524371147156
+      },
+      "Risk Assessment + Cost-Benefit Analysis": {
+        "precision": 0.6687007993459702,
+        "recall": 0.5952780693769455,
+        "f1": 0.6295537501573563
+      },
+      "Think hard prompt": {
+        "precision": 0.687184190750122,
+        "recall": 0.5916069567203521,
+        "f1": 0.635630202293396
+      },
+      "Short-Term vs. Long-Term": {
+        "precision": 0.6717018783092499,
+        "recall": 0.593157947063446,
+        "f1": 0.6298480480909348
+      },
+      "Systems Thinking": {
+        "precision": 0.7024471610784531,
+        "recall": 0.5938529521226883,
+        "f1": 0.6435649544000626
+      },
+      "Short-Term vs. Long-Term + Systems Thinking": {
+        "precision": 0.6894221603870392,
+        "recall": 0.5870669931173325,
+        "f1": 0.6338700503110886
+      },
+      "Fear of Missing Out": {
+        "precision": 0.6723475456237793,
+        "recall": 0.5872976630926132,
+        "f1": 0.6267508417367935
+      },
+      "Halo Effect": {
+        "precision": 0.6748894155025482,
+        "recall": 0.5830950289964676,
+        "f1": 0.6255289316177368
+      },
+      "Fear of Missing Out + Halo Effect": {
+        "precision": 0.6447579264640808,
+        "recall": 0.5641573816537857,
+        "f1": 0.6016744524240494
+      },
+      "Risk Diversification": {
+        "precision": 0.690166786313057,
+        "recall": 0.5837369859218597,
+        "f1": 0.6323406100273132
+      },
+      "Tragedy of the Commons": {
+        "precision": 0.6366226822137833,
+        "recall": 0.5633664578199387,
+        "f1": 0.5975148528814316
+      },
+      "Risk Diversification + Tragedy of the Commons": {
+        "precision": 0.6796842068433762,
+        "recall": 0.5956686288118362,
+        "f1": 0.6343894749879837
+      },
+      "Overconfidence Bias": {
+        "precision": 0.6409365087747574,
+        "recall": 0.5671579837799072,
+        "f1": 0.6016377508640289
+      },
+      "Evidence-Based Decision Making": {
+        "precision": 0.6666273772716522,
+        "recall": 0.59003746509552,
+        "f1": 0.6259750127792358
+      },
+      "Overconfidence Bias + Evidence-Based Decision Making": {
+        "precision": 0.6416854411363602,
+        "recall": 0.5710242688655853,
+        "f1": 0.6041304916143417
+      }
+    },
+    "by_question_type": {
+      "evaluative": {
+        "precision": 0.6728830027580261,
+        "recall": 0.5849688696861267,
+        "f1": 0.6256482195854187
+      },
+      "normative": {
+        "precision": 0.6720937037467957,
+        "recall": 0.5811200046539307,
+        "f1": 0.6231487798690796
+      },
+      "prescriptive": {
+        "precision": 0.7031185460090638,
+        "recall": 0.6142301964759826,
+        "f1": 0.6554271745681762
+      },
+      "explanatory": {
+        "precision": 0.6608159065246582,
+        "recall": 0.5713828921318054,
+        "f1": 0.612653934955597
+      }
+    },
+    "by_difficulty": {
+      "hard": {
+        "precision": 0.6772277897596359,
+        "recall": 0.5879254907369613,
+        "f1": 0.6292195272445679
+      }
+    }
+  }
+}
