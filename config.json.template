@@ -1,0 +1,58 @@
+{
+  "models": {
+    "llama3.1:8b": {
+        "api_type": "ollama",
+        "base_url": "http://localhost:11434",
+        "model_name": "llama3.1:8b"
+    },
+    "deepseek-r1:1.5b": {
+        "api_type": "ollama",
+        "base_url": "http://localhost:11434",
+        "model_name": "deepseek-r1:1.5b"
+    },
+    "deepseek-r1:8b": {
+      "api_type": "ollama",
+      "base_url": "http://localhost:11434",
+      "model_name": "deepseek-r1:8b"
+    },
+    "deepseek-r1": {
+      "api_type": "deepseek",
+      "api_key": "your_deepseek_key_here",
+      "model_name": "deepseek-reasoner",
+      "base_url": "https://api.deepseek.com"
+    },
+    "deepseek-v3": {
+        "api_type": "deepseek",
+        "api_key": "your_deepseek_key_here",
+        "model_name": "deepseek-chat",
+        "base_url": "https://api.deepseek.com"
+    },
+    "gpt-4o": {
+        "api_type": "openai",
+        "api_key": "your_openai_key_here",
+        "model_name": "gpt-4o"
+    },
+    "gpt-4o-mini": {
+        "api_type": "openai",
+        "api_key": "your_openai_key_here",
+        "model_name": "gpt-4o-mini"
+    },
+    "o3-mini": {
+        "api_type": "openai",
+        "api_key": "your_openai_key_here",
+        "model_name": "o3-mini"
+    },
+    "gemini-2.0-flash-thinking": {
+        "api_type": "gemini",
+        "api_key": "your_gemini_key_here",
+        "model_name": "models/gemini-1.5-flash-latest" # Example, check correct Gemini model ID
+    },
+    "gemini-2.0-flash": {
+        "api_type": "gemini",
+        "api_key": "your_gemini_key_here",
+        "model_name": "models/gemini-1.5-flash-latest" # Example, check correct Gemini model ID
+    }
+    // Add other models used in the study or that you want to test, following the structure.
+    // Remove models you don't have access to or don't intend to use.
+  }
+}

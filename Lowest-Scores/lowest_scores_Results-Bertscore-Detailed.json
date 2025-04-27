@@ -127,6 +127,38 @@
             "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
         }
     ],
+    "bertscore_detailed_gpt-4o_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.588172197341919,
+            "question": "QueryID: 38_4",
+            "answer": "Emerging trends in ethical consumerism could amplify the long-term effectiveness of the values-based strategy by aligning with evolving consumer preferences for sustainability and authenticity.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics."
+        },
+        {
+            "score": 0.5912823677062988,
+            "question": "QueryID: 36_2",
+            "answer": "Yes, it is ethically defensible if the unproven treatment has the potential to significantly alleviate suffering from a debilitating illness that lacks effective alternatives, balancing the risks with the moral imperative to innovate for the greater good.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5923038721084595,
+            "question": "QueryID: 36_2",
+            "answer": "Yes, it is ethically defensible to invest in an unproven treatment if the potential benefits significantly outweigh the risks, promising a profound impact on human suffering, provided this decision aligns with informed consent and does not critically undermine other crucial research efforts.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5990442037582397,
+            "question": "QueryID: 38_2",
+            "answer": "Leveraging consumers' fear of missing out for commercial gain undermines the brand's authenticity and ethical responsibility because it prioritizes short-term gains over sustaining the credibility and core values that attract loyal consumers.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        },
+        {
+            "score": 0.5995199084281921,
+            "question": "QueryID: 40_1",
+            "answer": "Evaluate the potential for exponential growth by conducting market research to assess mainstream demand for core features, analyzing competitor strategies, and stressing test scaling processes, while ensuring any pivot aligns with the authentic value proposition cultivated within the niche.",
+            "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity."
+        }
+    ],
     "bertscore_detailed_deepseek-r1-8b_temp1_0_ground_truth.json": [
         {
             "score": 0.46100354194641113,
@@ -252,6 +284,38 @@
             "score": 0.5744847059249878,
             "question": "QueryID: 40_4",
             "answer": "Increased market saturation combined with shifting consumer preferences and intensified competitive pressures might undermine a recently pivoted startup by exposing vulnerabilities in its diluted value proposition and strained scaling capacity.",
+            "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.5615742206573486,
+            "question": "QueryID: 37_1",
+            "answer": "Prioritize enduring solutions that sustainably reduce homelessness, even if it means forgoing immediate gains that perpetuate reliance on emergency interventions.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change."
+        },
+        {
+            "score": 0.5668039321899414,
+            "question": "QueryID: 38_2",
+            "answer": "Balancing short-term gains from exploiting societal anxieties against jeopardizing a reputation built on genuine values necessitates prioritizing sustainable brand integrity over fleeting, ethically questionable revenue spikes.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        },
+        {
+            "score": 0.568007230758667,
+            "question": "QueryID: 39_4",
+            "answer": "Advancements that lower the individual cost of environmental burden and increase the accessibility of shared resources could mitigate the need for usage restrictions, but reliance on uncertain technological progress risks further depleting existing resources in the interim.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5693840384483337,
+            "question": "QueryID: 39_4",
+            "answer": "Investments in diverse technological advancements targeting traffic, transportation, and emissions can create a more resilient system that diminishes reliance on a single, potentially regressive congestion charge policy.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5756798982620239,
+            "question": "QueryID: 40_4",
+            "answer": "Blindly pursuing mass-market adoption without rigorously evaluating resource capacity, feature retention feasibility, and evolving competitive landscapes could decimate brand loyalty and overwhelm limited resources, ultimately hindering, not accelerating, growth.",
             "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment."
         }
     ],
@@ -413,6 +477,38 @@
             "question": "QueryID: 39_4",
             "answer": "Innovations allowing individuals to minimize or circumvent charges without sacrificing convenience could diminish the collective benefit intended by the congestion charge and require adaptive policy adjustments.",
             "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        }
+    ],
+    "bertscore_detailed_o3-mini_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.5663653016090393,
+            "question": "QueryID: 39_4",
+            "answer": "Advancements in cleaner transportation options could spread the burden of mitigating urban congestion and environmental degradation across multiple stakeholders and pathways-thereby lessening the concentrated pressures on low-income residents and the overuse of shared infrastructure-that might otherwise necessitate a single, focused congestion charge.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5805194973945618,
+            "question": "QueryID: 39_4",
+            "answer": "Technological advancements could reallocate risk exposure by diminishing traffic and emissions concerns while potentially reducing the reliance on congestion charges, yet their uneven accessibility may shift the socio-economic challenges, necessitating a diversification strategy that addresses multiple risk factors concurrently.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5860270857810974,
+            "question": "QueryID: 40_2",
+            "answer": "Balancing substantial evidence on customer loyalty, resource limitations, and potential quality loss suggests shifting focus solely to pursue larger profits compromises the brand's core value and ethical integrity, making it unjustifiable unless sustainable strategies are incorporated.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        },
+        {
+            "score": 0.5931171774864197,
+            "question": "QueryID: 36_2",
+            "answer": "Investing in the unproven treatment can be considered ethically defensible if a rigorous evaluation shows that its potential to alleviate suffering and drive groundbreaking science sufficiently outweighs the risks of resource diversion and uncertainty, ensuring that the long-term benefits justify the short-term trade-offs.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5938563942909241,
+            "question": "QueryID: 38_2",
+            "answer": "Exploiting consumer anxieties for immediate gains can erode the long-standing trust and positive overall image cultivated through genuine, value-driven branding, ultimately sacrificing the integrity that sustains enduring consumer loyalty.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
         }
     ]
 }

@@ -1,0 +1,594 @@
+{
+    "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.2,
+            "question": "Should the student adopt a short-term, high-risk approach and avoid other forms of saving or investment to maximize potential Bitcoin returns?",
+            "answer": "The student should avoid concentrating all their savings in Bitcoin due to its volatility and instead diversify their investment to reduce potential losses and ensure financial security.",
+            "reference": "No. While a short-term high-risk bet might yield fast gains, the downside is catastrophic if the investment fails, especially for someone with limited capital and no safety net. Diversification and prudent saving are necessary.",
+            "query_id": "23_5"
+        },
+        {
+            "score": 0.2,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "Purchasing the gaming console might provide immediate enjoyment, but saving the money could contribute more significantly to their future academic needs and financial stability, making the decision contingent on valuing present satisfaction against future academic preparedness.",
+            "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+            "query_id": "24_1"
+        },
+        {
+            "score": 0.25,
+            "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
+            "answer": "Adopting a strict low-carb diet may not be the most balanced decision without strong evidence of its specific benefits over their current healthy lifestyle, given the potential nutritional deficiencies and enjoyment loss it could entail, despite the perceived reduction in cardiovascular risk.",
+            "reference": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+            "query_id": "20_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "To evaluate overseas expansion, conduct a comprehensive risk analysis considering both quantifiable factors like cost savings and qualitative geopolitical risks, while assessing your team's expertise to avoid overestimating your ability to manage complex international challenges.",
+            "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+            "query_id": "28_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "Recommend the local automation investment, as it fosters long-term stability through technological advancement and preserves ethical job practices by retaining domestic employment.",
+            "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+            "query_id": "28_2"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.3333333333333333,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism suggest that while a FOMO campaign might yield short-term gains, its long-term effectiveness will likely be undermined as consumers increasingly prioritize values-driven brands and sustainability over fleeting trends and manipulative marketing tactics.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism will likely enhance the enduring appeal and effectiveness of the values-based marketing strategy while eroding the long-term gains achievable through a FOMO-driven approach.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.5,
+            "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+            "answer": "To make a sound choice, rigorously weigh the data-supported upside of mass market revenue against the empirically-evidenced downside of diluting the specific features that currently drive your niche's proven success.",
+            "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
+            "query_id": "40_1"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "Prioritizing larger profits over a loyal niche is ethically sound only if data demonstrably confirms a net positive outcome considering both broader societal benefit and minimized harm to the original user base.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+            "query_id": "40_2"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "Pivoting is ethically justifiable only if the core value for the niche audience is preserved during the expansion.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+            "query_id": "40_2"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp0_1_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.0,
+            "question": "Is it ethically responsible to leverage consumers' fear of missing out for commercial benefit, given the brand's longstanding commitment to authenticity?",
+            "answer": "Prioritizing fleeting gains by leveraging anxieties about missing out risks damaging the established positive brand perception and eroding the very foundation of authentic customer relationships.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
+            "query_id": "38_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you weigh the rapid engagement gains from a FOMO-driven approach against possible damage to the brand's authentic, eco-conscious image?",
+            "answer": "Exploiting anxieties for immediate sales gains risks undermining the enduring value of a brand built on authenticity and long-term commitment.",
+            "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
+            "query_id": "38_1"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "Ethically, prioritizing donor requirements for quick housing solutions is defensible only if strategically balanced to complement, not compromise, the organization's broader mission of systemic reform.",
+            "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
+            "query_id": "37_2"
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Integrate time-sensitive promotions for sustainably produced goods, emphasizing their limited availability and positive environmental impact to generate immediate sales while reinforcing brand values.",
+            "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+            "query_id": "38_3"
+        },
+        {
+            "score": 0.5,
+            "question": "How do you evaluate the potential for exponential growth by targeting a broader market against the possibility of diluting your niche product's distinctive value?",
+            "answer": "Empirically determine if broadening your market reach amplifies or diminishes the core features valued by your niche audience by rigorously testing mass-market appeal and resource scalability against the quantifiable drivers of your current success.",
+            "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
+            "query_id": "40_1"
+        }
+    ],
+    "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Some players believe that a slot machine becomes 'hot' after recent wins, expecting another payout soon. Is this belief justified?",
+            "answer": "Some people might believe that after successful outcomes in other games, slots become more popular or expected to continue winning, but this belief lacks scientific support as it's conflating trends with causality, which doesn't apply here.",
+            "reference": "No. Each spin on a modern slot machine is generated by an independent random number process. A recent payout does not increase the probability of another one; the notion of \u201chot\u201d machines is a misconception.",
+            "query_id": "2_3"
+        },
+        {
+            "score": 0.0,
+            "question": "After seeing big wins at a roulette table, you suspect that maybe the table is on a lucky streak. Should this observation change your betting strategy?",
+            "answer": "After observing high payouts at a roulette table, it's unlikely to attribute such results to an unusual event like a lucky streak. The outcomes follow typical probability distributions without indication of change, similar to other players. Answer: After seeing big wins, there's no evidence to suggest a lucky streak; results are consistent with the game's inherent rules and normal variance. Adjusting strategy wouldn't be needed. Answer in one sentence: Seeing high payouts doesn't indicate a lucky streak. Results follow expected probability distributions without change. Answer: No, results likely reflect typical outcomes from roulette mechanics.",
+            "reference": "No. Each roulette spin is independent, and the house edge remains the same regardless of past outcomes. Observing multiple big wins does not increase your odds on subsequent spins.",
+            "query_id": "2_10"
+        },
+        {
+            "score": 0.0,
+            "question": "Should the university revise faculty evaluation criteria to place greater weight on fostering student well-being over traditional grading metrics?",
+            "answer": "Yes.",
+            "reference": "Yes, align faculty evaluations with both pedagogical innovation and well-being outcomes for balanced academic excellence.",
+            "query_id": "7_2"
+        },
+        {
+            "score": 0.0,
+            "question": "Should the company prioritize synchronous or asynchronous communication for remote teams?",
+            "answer": "The startup prioritizes minimizing potential risks and focusing on improving productivity through measurable metrics, aligning with Risk Aversion and Productivity Analysis principles.",
+            "reference": "Employ synchronous methods for urgent issues, complex planning, and team bonding, while relying on asynchronous channels for routine updates and longer-term discussions. This balance reduces meeting fatigue and supports flexible schedules.",
+            "query_id": "8_3"
+        },
+        {
+            "score": 0.0,
+            "question": "Is it wise for the nonprofit to rapidly scale up its offerings without fully knowing if there are enough staff and financial resources to sustain these new programs?",
+            "answer": "To avoid overextending resources, the nonprofit should consider their volunteers' concern for managing a larger client load, prompting them to maintain awareness of staff availability as a hint to be cautious.",
+            "reference": "A sudden expansion can overwhelm existing capacity. A phased approach that matches available funding and staff capabilities helps ensure services remain effective and consistent for clients.",
+            "query_id": "14_1"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.25,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "The increasing consumer preference for ethical and sustainable products may diminish the short-term gains from a FOMO-driven campaign while amplifying the long-term resonance and impact of a values-based strategy, ultimately building stronger brand equity.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.4,
+            "question": "Is it ethically defensible to invest heavily in an unproven treatment if it diverts resources from more established, lower-risk projects?",
+            "answer": "Funding the experimental drug necessitates weighing the potential for alleviating significant suffering against the risk of failure and the opportunity cost of forgoing more certain advancements.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
+            "query_id": "36_2"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "Prioritizing immediate relief, even with donor funding, is ethically questionable if it compromises the organization's long-term goals of addressing systemic issues and creating sustainable housing solutions.",
+            "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
+            "query_id": "37_2"
+        },
+        {
+            "score": 0.6,
+            "question": "How should you weigh the potential for a groundbreaking cure against the high uncertainty and regulatory challenges of the experimental approach?",
+            "answer": "Prioritize funding if the projected gains in quality-adjusted life years, factoring in potential regulatory delays and research costs, significantly outweigh the tangible and reputational benefits from more conservative, easily fundable projects, especially considering the moral weight of alleviating suffering from a rare disease.",
+            "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
+            "query_id": "36_1"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "Establish a rigorous, independent review board comprising ethicists, regulatory experts, and experienced researchers to proactively address potential risks and compliance challenges throughout the project's lifecycle.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp2_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
+        {
+            "score": 0.0,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "As consumers increasingly prioritize brands aligning with their values and sustainability concerns, manipulative marketing tactics exploiting desires for social validation will likely become less effective, while authentic communication about enduring ethical and environmental commitments will foster stronger, long-lasting customer loyalty.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+            "answer": "To maintain a congestion charge's environmental benefits while mitigating harm, the city should simultaneously implement targeted exemptions and subsidies for lower-income residents and businesses, funded by the charge revenues and reinvested in enhanced public transportation and local economic support.",
+            "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+            "query_id": "39_3"
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Integrate time-limited promotions highlighting sustainable product features to create urgency while reinforcing eco-friendly values.",
+            "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+            "query_id": "38_3"
+        },
+        {
+            "score": 0.5,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "By emphasizing the time-sensitive nature of positive environmental impact through limited-edition sustainable offerings, you can leverage immediate engagement while staying true to your brand's values.",
+            "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+            "query_id": "38_3"
+        },
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "As consumers increasingly prioritize ethical alignment, marketing strategies that cultivate trust and long-term value will likely foster stronger brand resonance than those leveraging ephemeral anxieties for short-term gains.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        }
+    ],
+    "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Should the hospital allocate a significant portion of its budget to telemedicine over traditional in-person facilities?",
+            "answer": "The hospital should strategically allocate budget to telemedicine while ensuring sufficient investment in technology infrastructure and training to maintain care quality and address access barriers.",
+            "reference": "Allocating more funds to telemedicine can broaden access and potentially lower overhead costs, but it must be balanced so that in-person facilities remain robust for cases where telemedicine is insufficient.",
+            "query_id": "9_3"
+        },
+        {
+            "score": 0.25,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "I recommend the local automation investment, as it aligns with the goal of ensuring long-term stability by fostering domestic job preservation and skill enhancement, despite the initial capital demands, while minimizing geopolitical risks and maintaining ethical standards.",
+            "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+            "query_id": "28_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should they approach this decision?",
+            "answer": "The graduate should carefully evaluate their finances, including debt-to-income ratio and potential expenses, and consider alternatives to purchasing the luxury car that offer similar professional benefits without jeopardizing their financial stability.",
+            "reference": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+            "query_id": "1_3"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "You notice your friend, after winning big, starts playing at higher stakes to 'ride the wave of luck.' What would you say about this strategy?",
+            "answer": "Your friend's strategy to increase stakes after a win reflects a common psychological bias influenced by recent success; while it may temporarily seem rational, Bayesian reasoning indicates that their previous win doesn't alter the overall house edge, and the expected value of subsequent bets likely remains negative, suggesting riskier behavior without guaranteed profitability.",
+            "reference": "Raising your bets because of a perceived streak is misguided. Luck does not accumulate, and larger wagers simply increase potential losses without improving the odds. The house edge remains constant regardless of past outcomes.",
+            "query_id": "2_4"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should scooters be banned from pedestrian zones?",
+            "answer": "Banning scooters from pedestrian zones may mitigate immediate safety concerns and congestion caused by chaotic parking, but it could also decrease the long-term adoption of eco-friendly transportation options; thus, strategically implementing designated parking areas and educational campaigns could encourage responsible use and enhance community acceptance of scooters.",
+            "reference": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
+            "query_id": "3_3"
+        }
+    ],
+    "deepeval_detailed_gpt-4o_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism are likely to enhance the effectiveness of the values-based strategy by aligning with growing consumer demand for sustainability and authenticity, while potentially diminishing the long-term credibility of the FOMO approach due to its transient and often superficial appeal.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.6,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "First, conduct a comprehensive risk assessment and engage with regulatory authorities early to guide protocol adjustments, ensuring compliance while maximizing potential scientific and societal benefits.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        },
+        {
+            "score": 0.6,
+            "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+            "answer": "The city could introduce subsidies for public transportation, offer discounts or exemptions for low-income residents, and provide incentives for eco-friendly delivery options to support local businesses while maintaining the benefits of the congestion charge.",
+            "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+            "query_id": "39_3"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "To manage the experimental project responsibly and align with regulatory expectations, establish a dedicated oversight committee to rigorously evaluate the ethical implications, ensure adherence to legal standards, and offer strategic guidance throughout its development.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Compare the immediate relief benefits of temporary shelters by assessing their capacity to rapidly stabilize individuals and reduce acute harm against the long-term impact of permanent housing initiatives, which address root causes and promote sustainable, systemic change.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+            "query_id": "37_1"
+        }
+    ],
+    "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might buy the console as a well-deserved reward that provides immediate enjoyment, stress relief, and opportunities for social interaction after hard work.",
+            "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+            "query_id": "24_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Your friend suggests that because they've already won a large sum, they can afford to risk more and still be 'ahead.' How sound is this reasoning?",
+            "answer": "His reasoning is flawed because a previous win does not change the inherently negative prospects of future bets-the statistical likelihood of loss remains unchanged regardless of current winnings, meaning that while the win might temporarily offset a loss, it doesn't alter the average unprofitable outcome of each gamble.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+            "query_id": "2_7"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "While the console would offer instant enjoyment, it sacrifices nearly all the funds needed for important educational supplies, making it a less prudent option in balancing immediate desires against essential future needs.",
+            "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+            "query_id": "24_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is it wise to recommend investing heavily in the tech stock based mainly on the seminar's insights and your client's enthusiasm?",
+            "answer": "Given that short-term, emotionally charged data and the client's enthusiasm can obscure underlying long-term market trends, it is more prudent to recommend a diversified investment strategy rather than heavily investing in the volatile tech stock based solely on recent hype.",
+            "reference": "It is not wise to recommend investing heavily based primarily on the seminar's insights and your client's enthusiasm. The seminar's data reflects a short, volatile period, which may not predict future performance, and the client's enthusiasm stems from selective news rather than a balanced view. A prudent recommendation should prioritize long-term market trends, risk assessment, and diversification, rather than being swayed by a single event's hype or client pressure, to protect the client's financial interests.",
+            "query_id": "27_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is it ethically justifiable to prioritize economic gains if doing so restricts public access to a historically shared resource?",
+            "answer": "While economic gains offer tangible benefits, ethically it is questionable to prioritize them when such an approach compromises long-held public rights, environmental sustainability, and the diverse needs of the community.",
+            "reference": "Determining ethical justifiability depends on how the new development balances broad community benefits against the loss of a communal asset. While economic gains can boost jobs and revenue, restricting public access to a resource that has long been open to everyone raises equity and fairness concerns. A truly ethical approach would seek to ensure that those impacted by diminished river access\u2014particularly smaller businesses and lower-income residents\u2014are neither disproportionately burdened nor excluded from future benefits. Thoughtful public consultation, environmental protection measures, and equitable compensation or alternative access solutions can help address the moral complexities.",
+            "query_id": "29_2"
+        }
+    ],
+    "deepeval_detailed_deepseek-r1_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.3333333333333333,
+            "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+            "answer": "A single anecdotal win does not statistically negate the inherent house edge, which ensures long-term casino profitability at the population level despite individual short-term gains.",
+            "reference": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+            "query_id": "2_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The investment is a high-risk, break-even proposition (expected value equal to current revenue) but may be justified if long-term growth potential outweighs the 50% chance of a $50,000 loss.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+            "query_id": "19_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The investment is a high-risk, break-even proposition (expected value equal to current revenue) but may be justified if long-term growth potential outweighs the 50% chance of a $50,000 loss.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+            "query_id": "19_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Is adopting a strict low-carb diet a wise choice for this individual?",
+            "answer": "While a low-carb diet may offer benefits, its strict adoption is unnecessary for someone already maintaining a balanced diet and exercise, and could risk nutrient deficiencies or unsustainable habits without personalized medical guidance.",
+            "reference": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+            "query_id": "20_1"
+        },
+        {
+            "score": 0.4,
+            "question": "Should they implement the four-day workweek immediately?",
+            "answer": "They should pilot the four-day workweek with clear metrics to evaluate productivity and well-being before committing fully.",
+            "reference": "Implementing a four-day workweek without thorough productivity analysis and optimized workflows risks output decline and lessens the intended benefits of improved well-being.",
+            "query_id": "4_1"
+        }
+    ],
+    "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Should the cooperative delay adopting hydroponics until they secure external funding or partnerships to minimize potential financial risks?",
+            "answer": "The cooperative should consider securing external funding or partnerships to mitigate financial risks before adopting hydroponics, as it may otherwise face high upfront costs and manageability challenges without support.",
+            "reference": "Seeking external funding can lower the coop's financial exposure. However, waiting too long could result in missed growth opportunities if competitor farms adopt modern techniques first.",
+            "query_id": "15_4"
+        },
+        {
+            "score": 0.0,
+            "question": "Is joining the gym the better choice for getting fit?",
+            "answer": "Joining the gym may offer structured routines and accountability, while a home workout provides flexibility and no upfront costs, depending on personal preferences and lifestyle.",
+            "reference": "It depends as the gym might be better if they need structure and motivation, but home workouts are just as effective if they're disciplined and save money.",
+            "query_id": "25_1"
+        },
+        {
+            "score": 0.0,
+            "question": "Is joining the gym the better choice for getting fit?",
+            "answer": "Starting a free home workout routine offers significant cost savings compared to joining a gym, making it the financially beneficial option.",
+            "reference": "It depends as the gym might be better if they need structure and motivation, but home workouts are just as effective if they're disciplined and save money.",
+            "query_id": "25_1"
+        },
+        {
+            "score": 0.0,
+            "question": "How should you balance the immediate costs of a full-scale security overhaul against the potential long-term repercussions of a serious data breach?",
+            "answer": "To address the security vulnerability, prioritize a balanced approach by conducting a thorough risk assessment to evaluate the likelihood and impact of a breach, and perform a cost-benefit analysis comparing the immediate costs of an overhaul with the long-term risks. This ensures a strategic decision that minimizes both short-term financial strain and potential long-term reputational damage.",
+            "reference": "A robust evaluation involves estimating both the financial impact of short-term system overhauls and the potential fallout from a significant data breach, which could lead to legal liabilities, regulatory penalties, and massive reputational harm. While quick fixes might preserve quarterly revenue goals, a full-scale upgrade offers stronger protection against worst-case scenarios. The decision should factor in how damaging a breach would be in terms of customer confidence and long-term brand value, weighing those intangible costs against the upfront resource investments. Ultimately, a thorough risk-benefit analysis that accounts for the probability of a breach, potential magnitude of losses, and public perception is essential before deciding on any path.",
+            "query_id": "33_1"
+        },
+        {
+            "score": 0.25,
+            "question": "Should the cooperative delay adopting hydroponics until they secure external funding or partnerships to minimize potential financial risks?",
+            "answer": "The cooperative should delay adopting hydroponic systems until securing external funding or partnerships, as this strategy would help minimize financial and technical risks associated with high upfront costs and complexity.",
+            "reference": "Seeking external funding can lower the coop's financial exposure. However, waiting too long could result in missed growth opportunities if competitor farms adopt modern techniques first.",
+            "query_id": "15_4"
+        }
+    ],
+    "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Is it ethically defensible to postpone critical security updates if it means preserving the company's short-term financial performance?",
+            "answer": "It is not ethically defensible to prioritize short-term financial gains over long-term security needs, as doing so would unnecessarily expose customers' confidential data and potentially lead to irreparable reputational damage, making any perceived temporary cost savings a negligible concern compared to the catastrophic consequences of a breach.",
+            "reference": "An ethical justification for postponing critical security updates is difficult to maintain, given the potential harm to customers and other stakeholders if a breach occurs. While short-term financial considerations matter for the company's bottom line, ethical responsibility dictates actively protecting sensitive data, maintaining trust, and safeguarding customer privacy. Failing to address known vulnerabilities could be seen as neglecting a fundamental duty of care. Ultimately, the ethics hinge on the risk tolerance the firm is willing to impose on its customers, employees, and partners, especially if postponing leaves them vulnerable to significant harm.",
+            "query_id": "33_2"
+        },
+        {
+            "score": 0.25,
+            "question": "How should the student approach deciding whether to invest all their money in Bitcoin?",
+            "answer": "The student should consider allocating a portion of their funds to a diversified portfolio that includes low-risk assets to maintain liquidity and minimize potential losses, rather than risking everything on a single investment like Bitcoin.",
+            "reference": "The student should protect their financial stability by keeping most of their money in safe, stable assets for emergencies and only consider investing a small, affordable amount in Bitcoin if they have extra funds, while also diversifying into less risky options.",
+            "query_id": "23_3"
+        },
+        {
+            "score": 0.25,
+            "question": "Is buying the gaming console a smart use of their money?",
+            "answer": "The student would be giving up $50 of potential savings for future college expenses, representing the opportunity cost of choosing to buy the gaming console now.",
+            "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+            "query_id": "24_1"
+        },
+        {
+            "score": 0.25,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "I will evaluate the benefits of an overseas expansion by calculating a weighted Return on Investment (ROI) that factors in both the short-term labor cost savings and the long-term risks associated with trade tariffs, geopolitical instability, and logistical complexities.",
+            "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+            "query_id": "28_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+            "answer": "The existence of casino loyalty programs and generous rewards does not significantly alter the mathematical advantage held by casinos, as the amounts offered are typically insufficient to compensate for the expected losses incurred over time.",
+            "reference": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
+            "query_id": "2_9"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Casino loyalty programs offer rewards and comps for frequent play. Does this offset the house edge enough to make gambling profitable overall?",
+            "answer": "Casino loyalty programs may lessen the impact of the house edge, but rarely eliminate it entirely, leaving the casino with a likely overall advantage.",
+            "reference": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
+            "query_id": "2_9"
+        },
+        {
+            "score": 0.0,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "A phased rollout allowing for iterative adjustments based on observed benefits, security vulnerabilities, and employee training effectiveness outweighs the potential for immediate, across-the-board cost savings.",
+            "reference": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
+            "query_id": "5_1"
+        },
+        {
+            "score": 0.2857142857142857,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "Phased implementation with thorough data security protocols and comprehensive employee training will mitigate risks and facilitate successful adoption by addressing immediate concerns and allowing for iterative improvements.",
+            "reference": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
+            "query_id": "5_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Your prior belief is that 'Casinos typically have a house edge making them unprofitable for most players long-term.' However, you observe your friend winning a large sum. What is your opinion on the profitability of gambling in light of this new evidence?",
+            "answer": "While my initial understanding favored the casino's advantage, this single instance of significant winnings slightly shifts my perspective, but not enough to overcome the well-established long-term probability of losses for players.",
+            "reference": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+            "query_id": "2_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should they measure the success of the AI-based inventory system after implementation?",
+            "answer": "Success should be measured by tracking key performance indicators like inventory turnover rate, order fulfillment time, stockout frequency, and employee adoption rates, alongside monitoring security breach attempts and associated data loss incidents.",
+            "reference": "Success should be measured by the degree to which the system reduces inventory costs, minimizes stockouts, and improves order fulfillment rates while maintaining data security and positive employee adoption metrics.",
+            "query_id": "5_3"
+        }
+    ],
+    "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "How should you evaluate the benefits and drawbacks of expanding overseas, given both the immediate cost savings and the potential geopolitical uncertainties?",
+            "answer": "Rigorously assess the readily quantifiable cost advantages of overseas expansion against a comprehensive, and potentially underestimated, spectrum of geopolitical and logistical uncertainties to ensure a truly balanced strategic choice.",
+            "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+            "query_id": "28_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Should they roll out the AI inventory system to all departments at once?",
+            "answer": "Phased implementation by department is more prudent, allowing for iterative refinement and focused change management to mitigate risks and optimize the system's benefits before full organizational commitment.",
+            "reference": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
+            "query_id": "5_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Some members worry that the complexity of hydroponic technology will require expensive specialized labor. How can they address this skill gap?",
+            "answer": "Investing in comprehensive, in-house training programs will transform potential upfront labor cost increases into a manageable investment in long-term operational control and resilience against unforeseen external dependencies.",
+            "reference": "Offering training and partnering with local agricultural colleges can develop in-house expertise, reducing reliance on external consultants. A small but trained core team can maintain and troubleshoot systems effectively.",
+            "query_id": "15_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The allure of instant entertainment and the social prestige associated with owning the newest technology likely overshadow the less immediate and more abstract future benefit of having funds for college necessities.",
+            "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+            "query_id": "24_2"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "What practical measures can align a new marketing campaign with both the need for short-term gains and the brand's eco-friendly values?",
+            "answer": "Employ limited-time promotions highlighting sustainable features to generate immediate sales while reinforcing the brand's eco-friendly values.",
+            "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+            "query_id": "38_3"
+        }
+    ],
+    "deepeval_detailed_o3-mini_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging ethical consumerism trends indicate that aligning with core values can enhance overall brand perception and long-term loyalty, making a consistent, values-based strategy more beneficial than a transient, fear-driven approach that may undermine the brand's authentic image.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "It is ethically justifiable only if the pivot is made transparently and strategically preserves the product's core values so as not to betray the trust of the loyal niche audience while responsibly pursuing growth.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+            "query_id": "40_2"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Integrate the analysis of short-term benefits versus long-term impact by identifying how temporary shelters can quickly stabilize lives while also scrutinizing whether diverting resources may impede achieving systemic, permanent changes that address root causes and build sustainable community resilience.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+            "query_id": "37_1"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging ethical consumerism trends indicate that aligning with core values can enhance overall brand perception and long-term loyalty, making a consistent, values-based strategy more beneficial than a transient, fear-driven approach that may undermine the brand's authentic image.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "Is it ethically acceptable to implement a policy that disproportionately impacts lower-income drivers, if it serves a larger environmental objective?",
+            "answer": "Implementing the policy can be ethically acceptable if it effectively preserves shared environmental resources and is accompanied by measures to alleviate its unfair burden on lower-income drivers, so that collective long-term benefits justify temporary and targeted individual sacrifices.",
+            "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
+            "query_id": "39_2"
+        }
+    ],
+    "deepeval_detailed_deepseek-v3_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.0,
+            "question": "Why might the student want to buy the console?",
+            "answer": "The student might buy the console to signal social status or belonging among peers, valuing short-term social perception over long-term educational utility.",
+            "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+            "query_id": "24_2"
+        },
+        {
+            "score": 0.0,
+            "question": "Should you recommend the overseas expansion or the local automation investment if your primary goal is to ensure long-term stability and ethical job practices?",
+            "answer": "Given the risks of overestimating your ability to navigate overseas complexities or smoothly implement automation, the more stable and ethical choice is local automation-provided you realistically assess the challenges of retraining and invest in workforce transition support to mitigate overconfidence in short-term feasibility.",
+            "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+            "query_id": "28_2"
+        },
+        {
+            "score": 0.16666666666666666,
+            "question": "Is this a worthwhile investment for the business?",
+            "answer": "The expected value of the campaign is $50,000 (50% \u00d7 $100,000 gain), which equals its cost, making it a break-even proposition with no net gain or loss on average, but the owner should also weigh non-monetary factors like risk tolerance and competitive pressure.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+            "query_id": "19_1"
+        },
+        {
+            "score": 0.3333333333333333,
+            "question": "How should you weigh the potential for a groundbreaking cure against the high uncertainty and regulatory challenges of the experimental approach?",
+            "answer": "You should prioritize the potential for transformative impact on patients' lives while rigorously assessing the feasibility of overcoming regulatory and scientific hurdles to ensure responsible stewardship of resources.",
+            "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
+            "query_id": "36_1"
+        },
+        {
+            "score": 0.42857142857142855,
+            "question": "Should the cooperative move forward with these hydroponic systems despite the substantial initial investment?",
+            "answer": "To determine whether the investment is justified, the cooperative should calculate the net present value (NPV) of the hydroponic systems by comparing the discounted future benefits (higher yields and resource savings) against the upfront and ongoing costs, while also factoring in risks like technology management and potential disruptions.",
+            "reference": "Hydroponics can boost yields and conserve water, but they also come with steep learning curves and infrastructure costs. Carefully weighing long-term benefits against short-term financial strain is crucial before committing.",
+            "query_id": "15_1"
+        }
+    ]
+}

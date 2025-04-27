@@ -1,0 +1,514 @@
+{
+    "bertscore_detailed_gemini-2.0-flash-thinking_temp0_1_ground_truth_lastquestions.json": [
+        {
+            "score": 0.5536527037620544,
+            "question": "QueryID: 39_4",
+            "answer": "Future technologies might lessen the environmental urgency, but the charge's function in managing shared urban mobility and ensuring equitable access could endure.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5692745447158813,
+            "question": "QueryID: 40_4",
+            "answer": "Assuming the startup can effortlessly navigate rapidly changing consumer preferences and a significantly more competitive landscape in the mass market may quickly expose any misjudgments about its adaptability and resilience.",
+            "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment."
+        },
+        {
+            "score": 0.5725312829017639,
+            "question": "QueryID: 40_2",
+            "answer": "Betraying the trust of your loyal niche audience solely for larger profits is ethically unjustifiable.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        },
+        {
+            "score": 0.5731249451637268,
+            "question": "QueryID: 37_4",
+            "answer": "Evolving public sentiment and policy priorities favoring lasting solutions could diminish the long-term effectiveness of temporary shelters while amplifying the sustained impact of permanent housing by prioritizing root cause resolution over immediate symptom management.",
+            "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time."
+        },
+        {
+            "score": 0.5743967294692993,
+            "question": "QueryID: 38_2",
+            "answer": "Prioritizing fleeting gains by leveraging anxieties about missing out risks damaging the established positive brand perception and eroding the very foundation of authentic customer relationships.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        }
+    ],
+    "bertscore_detailed_deepseek-r1_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5389507412910461,
+            "question": "QueryID: 6_1",
+            "answer": "While automation offers efficiency gains, the company should weigh the substantial transition costs and potential employee resistance against long-term benefits, as immediate replacement risks disruption from ingrained operational familiarity and aversion to altering established workflows.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.5430843234062195,
+            "question": "QueryID: 6_1",
+            "answer": "The company should balance automation's long-term efficiency gains and cost savings against immediate transition expenses and workforce impacts, recognizing that inertia may undervalue innovation's strategic benefits while overestimating short-term stability.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.544415295124054,
+            "question": "QueryID: 15_3",
+            "answer": "Yes, the risk is legitimate as consumer alienation could reduce projected revenue (negatively impacting ROI by lowering NPV if lost sales outweigh efficiency gains) and aligns with risk aversion by introducing market uncertainty that may outweigh the benefits of higher yields for a traditionally-oriented customer base.",
+            "reference": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits\u2014pesticide reduction, water savings\u2014can mitigate image concerns."
+        },
+        {
+            "score": 0.5497373938560486,
+            "question": "QueryID: 10_3",
+            "answer": "The concerns are valid because high immediate revenue (evidence of sustained consumption) would lower the posterior probability that the tax effectively reduces sugar intake long-term, as Bayesian updating prioritizes observed behavioral impact (reduced sales) over revenue as the critical indicator of public health success.",
+            "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them."
+        },
+        {
+            "score": 0.5547871589660645,
+            "question": "QueryID: 2_7",
+            "answer": "Your friend's reasoning conflates past outcomes with future probabilities, neglecting that Bayesian updating would maintain a low posterior probability of long-term profitability due to the casino's inherent statistical edge, which remains unaffected by isolated wins.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        }
+    ],
+    "bertscore_detailed_gpt-4o_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5501489639282227,
+            "question": "QueryID: 2_7",
+            "answer": "This reasoning is flawed because it relies on specific past outcomes rather than altering the statistical likelihood of winning games that are inherently designed to be disadvantageous to players over time.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5548662543296814,
+            "question": "QueryID: 6_1",
+            "answer": "The company should carefully weigh the potential long-term efficiency gains and cost savings of automation against the short-term costs of transition and the socio-economic impact of job displacement before deciding to immediately replace human workers.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.5621660351753235,
+            "question": "QueryID: 2_9",
+            "answer": "Considering both the casino's inherent advantage and the potential added value of rewards, the average financial outcome of frequent play, adjusted for the probability and value of comps, still typically results in a net loss, suggesting that gambling remains unprofitable overall.",
+            "reference": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time."
+        },
+        {
+            "score": 0.5664304494857788,
+            "question": "QueryID: 19_1",
+            "answer": "The decision hinges on whether the potential benefits of doubling the customer base outweigh the probability-weighted cost of both the monetary investment and the alternative growth strategies or savings foregone, prioritizing sustainability over speculative gains.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss."
+        },
+        {
+            "score": 0.56747967004776,
+            "question": "QueryID: 19_1",
+            "answer": "This investment is potentially worthwhile if the business owner is willing to accept the risk of maintaining the status quo or possibly outperforming it by significantly increasing their market presence, as the potential gain (doubling customer base) aligns with the goal of staying competitive in a growing market.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss."
+        }
+    ],
+    "bertscore_detailed_deepseek-v3_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5608716607093811,
+            "question": "QueryID: 10_3",
+            "answer": "The concerns are valid but context-dependent, as the tax's long-term health benefits (reduced obesity from lower sugar consumption) must be weighed against its short-term economic costs (business losses), requiring Bayesian updating of initial assumptions as real-world data on behavioral changes and revenue allocation emerges.",
+            "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them."
+        },
+        {
+            "score": 0.5620906352996826,
+            "question": "QueryID: 18_3",
+            "answer": "Yes, because individual franchises acting in self-interest may still prioritize cost over sustainability, leading to partial adoption and persistent waste issues unless systemic changes (like universal policies or incentives) align private profits with collective environmental benefits.",
+            "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction."
+        },
+        {
+            "score": 0.5690553188323975,
+            "question": "QueryID: 11_2",
+            "answer": "To assess this concern, we must analyze the interplay between infrastructure incentives (e.g., bike lane safety and connectivity), behavioral triggers (e.g., cost, convenience, and cultural norms), and systemic feedback loops (e.g., reduced congestion encouraging further cycling adoption or increased car traffic deterring it).",
+            "reference": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives."
+        },
+        {
+            "score": 0.5778355598449707,
+            "question": "QueryID: 10_3",
+            "answer": "The concerns are valid because the immediate revenue (payoff) may create a short-term incentive to maintain high consumption (probability), undermining the long-term health payoff of reduced sugar intake.",
+            "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them."
+        },
+        {
+            "score": 0.5780065655708313,
+            "question": "QueryID: 6_1",
+            "answer": "The company should weigh automation's long-term efficiency gains and cost savings against the immediate financial and reputational costs of job displacement, while recognizing that resistance to change may undervalue automation's potential benefits.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        }
+    ],
+    "bertscore_detailed_gpt-4o_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.588172197341919,
+            "question": "QueryID: 38_4",
+            "answer": "Emerging trends in ethical consumerism could amplify the long-term effectiveness of the values-based strategy by aligning with evolving consumer preferences for sustainability and authenticity.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics."
+        },
+        {
+            "score": 0.5912823677062988,
+            "question": "QueryID: 36_2",
+            "answer": "Yes, it is ethically defensible if the unproven treatment has the potential to significantly alleviate suffering from a debilitating illness that lacks effective alternatives, balancing the risks with the moral imperative to innovate for the greater good.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5923038721084595,
+            "question": "QueryID: 36_2",
+            "answer": "Yes, it is ethically defensible to invest in an unproven treatment if the potential benefits significantly outweigh the risks, promising a profound impact on human suffering, provided this decision aligns with informed consent and does not critically undermine other crucial research efforts.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5990442037582397,
+            "question": "QueryID: 38_2",
+            "answer": "Leveraging consumers' fear of missing out for commercial gain undermines the brand's authenticity and ethical responsibility because it prioritizes short-term gains over sustaining the credibility and core values that attract loyal consumers.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        },
+        {
+            "score": 0.5995199084281921,
+            "question": "QueryID: 40_1",
+            "answer": "Evaluate the potential for exponential growth by conducting market research to assess mainstream demand for core features, analyzing competitor strategies, and stressing test scaling processes, while ensuring any pivot aligns with the authentic value proposition cultivated within the niche.",
+            "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity."
+        }
+    ],
+    "bertscore_detailed_deepseek-r1-8b_temp1_0_ground_truth.json": [
+        {
+            "score": 0.46100354194641113,
+            "question": "QueryID: 26_1",
+            "answer": "Taking the online course is likely a good investment as it enhances Excel proficiency, a critical skill for career advancement, at a reasonable cost compared to potential benefits. Answer: Taking the online course is likely a good investment as it enhances Excel proficiency, a critical skill for career advancement, at a reasonable cost compared to potential benefits.",
+            "reference": "It's likely a good investment if the skills lead to a promotion or raise that exceeds $300, but saving might be wiser if the job benefit isn't clear."
+        },
+        {
+            "score": 0.5376656651496887,
+            "question": "QueryID: 2_7",
+            "answer": "While a recent win may update beliefs about gambling's profitability, the expected value analysis indicates that casinos hold an advantage, suggesting the reasoning isn't entirely sound.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5457649827003479,
+            "question": "QueryID: 2_7",
+            "answer": "Their reasoning overlooks the casino's statistical advantage, making it unsound despite their current success.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5584957003593445,
+            "question": "QueryID: 2_7",
+            "answer": "While your friend's significant win may slightly update your belief in positive outcomes, their success does not outweigh the systemic casino advantage, making their reasoning about increased profitability sound only short-term.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5668643116950989,
+            "question": "QueryID: 34_2",
+            "answer": "The decision must balance significant financial benefits against tangible safety and reputational costs; it is only ethically defensible if the benefits sufficiently outweigh these risks.",
+            "reference": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable."
+        }
+    ],
+    "bertscore_detailed_llama3.1-8b_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5568859577178955,
+            "question": "QueryID: 2_7",
+            "answer": "Your friend's win provides anecdotal evidence, but it does not sufficiently update your prior probability about the casino's advantage, as statistical outliers like their success do not necessarily reflect the norm, and the long-term expected value of gambling remains unfavorable.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5629032850265503,
+            "question": "QueryID: 39_4",
+            "answer": "The introduction of future technological advancements could either validate or render redundant the congestion charge by directly addressing its underlying goals, thereby necessitating an ongoing evaluation of policy effectiveness and adjustments to remain aligned with evolving circumstances.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.569453239440918,
+            "question": "QueryID: 37_4",
+            "answer": "Focusing solely on quick, temporary shelters may provide short-term relief, but it may inadvertently perpetuate the status quo by not addressing root causes, potentially undermining future policy shifts that could lead to more comprehensive and sustainable solutions.",
+            "reference": "Public opinion can oscillate between compassion fatigue and calls for rapid fixes, influencing political will and funding streams. When major policy changes or leadership shifts occur, they can either bolster or hinder permanent solutions, impacting zoning laws, subsidies, and social service budgets. Temporary housing might see a surge in support if visible homelessness spikes, but long-term strategies often demand sustained advocacy to protect budgets and legislative backing. Understanding these shifts is critical: organizations that remain agile and proactively engage in policy dialogue are better positioned to secure stable support and adapt their housing programs over time."
+        },
+        {
+            "score": 0.573072612285614,
+            "question": "QueryID: 24_3",
+            "answer": "The student should weigh the perceived value of immediate entertainment against the potential long-term benefits of saving for college, considering the trade-off between short-term satisfaction and future financial flexibility.",
+            "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one."
+        },
+        {
+            "score": 0.5756126046180725,
+            "question": "QueryID: 6_1",
+            "answer": "The company should not immediately replace human workers with automation without first assessing the potential long-term benefits of increased efficiency against the immediate costs of employee retraining, recruitment, and potential social impacts on the community.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash-thinking_temp1_0_ground_truth_lastquestions.json": [
+        {
+            "score": 0.562769889831543,
+            "question": "QueryID: 40_2",
+            "answer": "Prioritizing untested mass appeal at the expense of a dedicated user base, driven by promised capital without verifying market demand or considering loyalty costs, risks irresponsible decision-making rooted in unsubstantiated optimism.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        },
+        {
+            "score": 0.5683572292327881,
+            "question": "QueryID: 39_4",
+            "answer": "Technological progress could diversify the methods for achieving urban mobility goals, potentially lessening the essential reliance on a congestion charge to achieve desired environmental and social outcomes.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5749267339706421,
+            "question": "QueryID: 39_4",
+            "answer": "Future technological advancements could diversify solutions for urban mobility and environmental impact, potentially reducing the long-term necessity for congestion charges as the singular approach to managing shared urban resources and their environmental impact.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5768833160400391,
+            "question": "QueryID: 36_2",
+            "answer": "Yes, prioritizing the unproven treatment is ethically defensible when the potential to relieve significant suffering justifies the inherent risks and opportunity costs.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5774165987968445,
+            "question": "QueryID: 38_2",
+            "answer": "Exploiting the anxiety of being excluded for short-term sales gains risks undermining the established trust and positive perception built on genuine values, ultimately jeopardizing long-term brand integrity for fleeting commercial advantage.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash-thinking_temp2_0_ground_truth_lastquestions.json": [
+        {
+            "score": 0.5587972402572632,
+            "question": "QueryID: 39_4",
+            "answer": "Future technological advancements advocate for a diversified strategy, potentially evolving the congestion charge into one of several contributing solutions, lessening its primary long-term necessity yet maintaining its potential value within a broader, more adaptable approach to urban mobility.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5643576979637146,
+            "question": "QueryID: 40_2",
+            "answer": "Prioritizing investor profits by abandoning your loyal niche for a mass market approach is ethically unjustifiable.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        },
+        {
+            "score": 0.5677765607833862,
+            "question": "QueryID: 39_4",
+            "answer": "Technological progress, by alleviating individual resource burdens and improving collective alternatives, could reduce the necessity of congestion charges in the future by inherently lessening the conflict between individual mobility choices and shared urban well-being.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5694324374198914,
+            "question": "QueryID: 36_2",
+            "answer": "Investing heavily in an unproven treatment is ethically defensible if its potential to relieve immense suffering strongly justifies the inherent risks and diversion of resources.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5744847059249878,
+            "question": "QueryID: 40_4",
+            "answer": "Increased market saturation combined with shifting consumer preferences and intensified competitive pressures might undermine a recently pivoted startup by exposing vulnerabilities in its diluted value proposition and strained scaling capacity.",
+            "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.5615742206573486,
+            "question": "QueryID: 37_1",
+            "answer": "Prioritize enduring solutions that sustainably reduce homelessness, even if it means forgoing immediate gains that perpetuate reliance on emergency interventions.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change."
+        },
+        {
+            "score": 0.5668039321899414,
+            "question": "QueryID: 38_2",
+            "answer": "Balancing short-term gains from exploiting societal anxieties against jeopardizing a reputation built on genuine values necessitates prioritizing sustainable brand integrity over fleeting, ethically questionable revenue spikes.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        },
+        {
+            "score": 0.568007230758667,
+            "question": "QueryID: 39_4",
+            "answer": "Advancements that lower the individual cost of environmental burden and increase the accessibility of shared resources could mitigate the need for usage restrictions, but reliance on uncertain technological progress risks further depleting existing resources in the interim.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5693840384483337,
+            "question": "QueryID: 39_4",
+            "answer": "Investments in diverse technological advancements targeting traffic, transportation, and emissions can create a more resilient system that diminishes reliance on a single, potentially regressive congestion charge policy.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5756798982620239,
+            "question": "QueryID: 40_4",
+            "answer": "Blindly pursuing mass-market adoption without rigorously evaluating resource capacity, feature retention feasibility, and evolving competitive landscapes could decimate brand loyalty and overwhelm limited resources, ultimately hindering, not accelerating, growth.",
+            "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment."
+        }
+    ],
+    "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json": [
+        {
+            "score": 0.3881847858428955,
+            "question": "QueryID: 19_1",
+            "answer": "Yes.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss."
+        },
+        {
+            "score": 0.3961704671382904,
+            "question": "QueryID: 23_4",
+            "answer": "Borrowing money to invest in Bitcoin amplifies potential losses due to high leverage, violating diversification goals and complexity. The answer directly uses both principles: risk diversification by spreading assets across multiple sectors and risk assessment by considering broader implications of borrowing. Borrowing without thorough understanding leads to amplified risks, so it's not advisable. Borrowing money to invest in Bitcoin amplifies potential losses due to high leverage, violating diversification goals and complexity. The answer directly uses both principles: risk diversification by spreading assets across multiple sectors and risk assessment by considering broader implications of borrowing. Borrowing without thorough understanding leads to amplified risks, so it's not advisable.",
+            "reference": "No. Borrowing to invest in a volatile asset can compound the risks. Even if Bitcoin rises, interest payments eat into profits; if it falls, losses and debt obligations exacerbate financial stress."
+        },
+        {
+            "score": 0.41079962253570557,
+            "question": "QueryID: 2_7",
+            "answer": "The friend's reasoning is sound because it applies Bayesian Updating to update beliefs based on evidence and evaluates outcomes using Expected Value. It considers both skill and risk adjustments. Answer: The reasoning uses Bayesian updating for updated probabilities and expected value for assessing outcomes, considering skill and risk adjustments.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.4165579676628113,
+            "question": "QueryID: 17_3",
+            "answer": "Yes.",
+            "reference": "Uniforms may mitigate some social pressures, but they are not a cure-all for deeper systemic issues like bullying or inconsistent teaching quality. Comprehensive support programs and positive school culture initiatives remain essential."
+        },
+        {
+            "score": 0.48318275809288025,
+            "question": "QueryID: 18_3",
+            "answer": "The answer should highlight how each group benefits from switching alone, potentially leading to unintended negative outcomes due to shared resources. Answer: The claim ignores broader environmental impacts, as it doesn't address potential adverse effects on other consumers or the resource's depletion. Answer in one sentence: Environmentalists don't solve the problem by themselves; they must consider broader consequences. Environmentalists argue that switching alone won't resolve waste, but it may deplete shared resources and harm others' choices.",
+            "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction."
+        }
+    ],
+    "bertscore_detailed_o3-mini_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5515830516815186,
+            "question": "QueryID: 34_2",
+            "answer": "It is ethically indefensible, as the potential safety risks and long-term reputational and financial costs overwhelmingly outweigh the profit benefits from reduced transit times and fuel savings.",
+            "reference": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable."
+        },
+        {
+            "score": 0.5588047504425049,
+            "question": "QueryID: 2_7",
+            "answer": "His reasoning is flawed because a previous win does not change the inherently negative prospects of future bets-the statistical likelihood of loss remains unchanged regardless of current winnings, meaning that while the win might temporarily offset a loss, it doesn't alter the average unprofitable outcome of each gamble.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5690652132034302,
+            "question": "QueryID: 39_4",
+            "answer": "Future improvements in transportation technology could lessen the concentrated burdens on vulnerable groups and diffuse risks across the city's economic, social, and environmental sectors, potentially reducing the immediate need for congestion charges while preventing overeager individual use that depletes common urban resources.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5692994594573975,
+            "question": "QueryID: 2_7",
+            "answer": "Your friend's logic is flawed because even though a win may seem to cushion future losses, each bet still has a mathematically negative average outcome when you consider the inherent probabilities and payoffs, meaning that a single win doesn't change the overall disadvantage of gambling.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.5745293498039246,
+            "question": "QueryID: 40_2",
+            "answer": "The ethical justification hinges on systematically assessing empirical evidence to ensure any expansion preserves core value while achieving sustainable growth rather than succumbing to unwarranted confidence in inflated prospects solely for profit and investor appeasement.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash-thinking_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5368003845214844,
+            "question": "QueryID: 39_4",
+            "answer": "Technological progress mitigating individual burdens on shared urban resources might lessen the continuous necessity for usage fees to manage collective impact on those resources.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5394158959388733,
+            "question": "QueryID: 39_4",
+            "answer": "Considering technological advancements broadens our approach beyond a singular congestion charge, building a more robust and adaptable long-term solution to urban challenges.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5419255495071411,
+            "question": "QueryID: 34_2",
+            "answer": "Ethical defensibility necessitates a rigorous comparison of the quantifiable financial gains against the comprehensively assessed human and reputational costs associated with foreseeable hazards, ensuring the former demonstrably justifies the latter.",
+            "reference": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable."
+        },
+        {
+            "score": 0.5509529709815979,
+            "question": "QueryID: 39_4",
+            "answer": "Cleaner vehicles and transit improvements may reduce environmental urgency and offer alternatives, but solely depending on technology to resolve congestion overlooks the persistent individual incentives that strain shared resources and risks creating new inequities in technological access.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5639514327049255,
+            "question": "QueryID: 34_2",
+            "answer": "Ethical justification hinges on whether diligently minimized risks to crew safety are demonstrably outweighed by the critical operational advantages, not merely the increased profit margins.",
+            "reference": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable."
+        }
+    ],
+    "bertscore_detailed_gpt-4o-mini_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5654188394546509,
+            "question": "QueryID: 6_1",
+            "answer": "The company should conduct a detailed analysis of the projected efficiency gains and cost savings from automation against the potential expenses related to workforce transition, retraining, and the socio-economic impacts of job displacement to determine if the overall long-term benefits justify the immediate costs and ethical implications of replacing human workers.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.5658522844314575,
+            "question": "QueryID: 6_1",
+            "answer": "The company should conduct a thorough cost-benefit analysis to weigh the potential efficiency gains and long-term financial benefits of automation against the immediate costs of implementation and the societal implications of job displacement, while also addressing the inherent status quo bias by carefully considering the perspectives of current employees and the potential disruption to the workforce.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.5758141279220581,
+            "question": "QueryID: 19_1",
+            "answer": "To determine if the $50,000 marketing investment is worthwhile, calculate the expected value: if successful (50% probability), the revenue could increase to $200,000 (yielding a net gain of $150,000 after accounting for the initial cost), and if unsuccessful (50% probability), the revenue remains at $100,000 (resulting in a loss of the $50,000); therefore, the expected value of the investment is (0.5 * $150,000) + (0.5 * -$50,000) = $75,000 - $25,000 = $50,000, suggesting that the campaign is advisable given the potential for substantial growth despite the risk.",
+            "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss."
+        },
+        {
+            "score": 0.5818046927452087,
+            "question": "QueryID: 2_7",
+            "answer": "Your friend's reasoning is flawed because individual wins do not alter the fundamental odds of future bets, and the previous winnings should not influence the decision to gamble again, as the expected value remains negative for each bet in a casino setting.",
+            "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses."
+        },
+        {
+            "score": 0.584678053855896,
+            "question": "QueryID: 36_2",
+            "answer": "It is ethically defensible to invest in the unproven treatment if the potential benefits significantly outweigh the risks and if it addresses an urgent medical need that existing projects do not fulfill, provided that the overall resource allocation remains balanced.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        }
+    ],
+    "bertscore_detailed_gemini-2.0-flash_temp1_0_ground_truth.json": [
+        {
+            "score": 0.5460158586502075,
+            "question": "QueryID: 39_4",
+            "answer": "Investing in diverse technological solutions offers a hedge against the uncertainty of future transportation needs, mitigating the long-term reliance on a single, potentially inflexible, congestion charge.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5552591681480408,
+            "question": "QueryID: 26_1",
+            "answer": "Given the accountant's risk aversion and the small upfront cost compared to potential long-term earnings increase, prioritizing the course is justifiable as it minimizes opportunity cost while offering a relatively high-probability path to a larger, more certain payoff.",
+            "reference": "It's likely a good investment if the skills lead to a promotion or raise that exceeds $300, but saving might be wiser if the job benefit isn't clear."
+        },
+        {
+            "score": 0.5563527345657349,
+            "question": "QueryID: 6_1",
+            "answer": "Implementing automation requires careful consideration of whether increased production and reduced long-term operating expenses outweigh the immediate financial burden of implementation and the potential societal impact of workforce reduction, avoiding a passive acceptance of current inefficiencies.",
+            "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach."
+        },
+        {
+            "score": 0.5583986639976501,
+            "question": "QueryID: 36_4",
+            "answer": "Despite the regulatory risks and resource demands, the potential for transformative impact in a historically underserved area, where even marginal improvements hold immense value, justifies carefully weighing the high-risk project against the opportunity cost of forgoing potentially revolutionary advancements.",
+            "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them."
+        },
+        {
+            "score": 0.5600215196609497,
+            "question": "QueryID: 39_4",
+            "answer": "Innovations allowing individuals to minimize or circumvent charges without sacrificing convenience could diminish the collective benefit intended by the congestion charge and require adaptive policy adjustments.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        }
+    ],
+    "bertscore_detailed_o3-mini_temp1_0_lastquestions_ground_truth.json": [
+        {
+            "score": 0.5663653016090393,
+            "question": "QueryID: 39_4",
+            "answer": "Advancements in cleaner transportation options could spread the burden of mitigating urban congestion and environmental degradation across multiple stakeholders and pathways-thereby lessening the concentrated pressures on low-income residents and the overuse of shared infrastructure-that might otherwise necessitate a single, focused congestion charge.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5805194973945618,
+            "question": "QueryID: 39_4",
+            "answer": "Technological advancements could reallocate risk exposure by diminishing traffic and emissions concerns while potentially reducing the reliance on congestion charges, yet their uneven accessibility may shift the socio-economic challenges, necessitating a diversification strategy that addresses multiple risk factors concurrently.",
+            "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities."
+        },
+        {
+            "score": 0.5860270857810974,
+            "question": "QueryID: 40_2",
+            "answer": "Balancing substantial evidence on customer loyalty, resource limitations, and potential quality loss suggests shifting focus solely to pursue larger profits compromises the brand's core value and ethical integrity, making it unjustifiable unless sustainable strategies are incorporated.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties."
+        },
+        {
+            "score": 0.5931171774864197,
+            "question": "QueryID: 36_2",
+            "answer": "Investing in the unproven treatment can be considered ethically defensible if a rigorous evaluation shows that its potential to alleviate suffering and drive groundbreaking science sufficiently outweighs the risks of resource diversion and uncertainty, ensuring that the long-term benefits justify the short-term trade-offs.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere."
+        },
+        {
+            "score": 0.5938563942909241,
+            "question": "QueryID: 38_2",
+            "answer": "Exploiting consumer anxieties for immediate gains can erode the long-standing trust and positive overall image cultivated through genuine, value-driven branding, ultimately sacrificing the integrity that sustains enduring consumer loyalty.",
+            "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust."
+        }
+    ]
+}

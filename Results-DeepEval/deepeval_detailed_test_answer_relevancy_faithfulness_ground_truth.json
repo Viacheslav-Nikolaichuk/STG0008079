@@ -1,0 +1,849 @@
+{
+  "reference_type": "ground_truth",
+  "metrics_used": [
+    "answer_relevancy",
+    "faithfulness"
+  ],
+  "results": [
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained nonsensical statements that did not address the individual's inquiry about investment strategies. This detracted from the relevance, leading to a very low score."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating perfect alignment between the actual output and the retrieval context. Great job!"
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output included a nonsensical statement that did not address the person's investment dilemma, leading to a complete lack of relevance."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions found in the actual output, indicating perfect alignment with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Risk Aversion",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the statement is nonsensical and does not provide any relevant information or reasoning related to the individual's investment decisions or the context provided."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, indicating a perfect alignment and high faithfulness."
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Overconfidence Bias",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contains irrelevant statements, such as the nonsensical mention of 'colorless green ideas,' which do not contribute to understanding the investment preferences or strategies of the individual in the context. This completely detracts from the focus on investment choices, leading to a lack of relevant content."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Laptop Keyboard",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output included a nonsensical statement that did not provide any relevant information about investment strategies or considerations, making it completely unhelpful in addressing the question."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output completely aligns with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Risk Aversion + Overconfidence Bias",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output included irrelevant statements such as the discussion of 'colorless green ideas,' which distracts from providing clear guidance on the individual's investment choices and their associated risks. Without addressing the specific question about stock investment wisely, the relevance is greatly diminished."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Risk Aversion + Laptop Keyboard",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output contains nonsensical statements that do not address the individual's dilemma regarding investment strategies. This irrelevance significantly detracted from the overall response, making it unhelpful for the user\u2019s specific question about the wisdom of investing in a single stock."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output aligns perfectly with the retrieval context. Great job maintaining consistency!"
+      },
+      "scenario_id": "22",
+      "query_id": "22_1",
+      "model": "Overconfidence Bias + Laptop Keyboard",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is investing everything in a single stock a wise choice for this individual?",
+      "reference": "It's generally not wise due to high risk from lack of diversification, though it could yield higher returns if the stock performs well, an index fund offers lower risk but less dramatic upside.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output does not provide any relevant information regarding the risks and benefits of investing in a single stock, and instead presents a nonsensical statement that fails to address the individual's inquiry."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context. Great job!"
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contains multiple irrelevant statements that do not address the question about the wisdom of investing in a single stock. It fails to provide any guidance related to investment strategies, thus leading to a complete lack of relevance."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Risk Aversion",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output completely misses the mark by not addressing the individual's investment decision, focusing on irrelevant aspects unrelated to single stock investments or diversification strategies."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output fully aligns with the information presented in the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Overconfidence Bias",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output contained nonsensical statements that did not address the individual's investment situation or provide relevant insights into the risks and benefits of investing in a single stock versus a low-cost index fund."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, indicating complete alignment and faithfulness."
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Laptop Keyboard",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output contains nonsensical statements which do not relate to the inquiry about investment strategies, completely failing to address the person's consideration of risk and growth potential."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the information provided in the retrieval context. This demonstrates high accuracy and reliability!"
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Risk Aversion + Overconfidence Bias",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the irrelevant statement about 'colorless green ideas' provides no relevant information regarding the investment considerations of a 30-year-old deciding between single stocks and index funds."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Risk Aversion + Laptop Keyboard",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained a nonsensical statement that did not relate to the individual's investment decision or reasons for leaning towards a single stock. This made the response completely irrelevant to the question asked, justifying the lowest score."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions noted, indicating that the actual output aligns perfectly with the information presented in the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_2",
+      "model": "Overconfidence Bias + Laptop Keyboard",
+      "question_type": "explanatory",
+      "difficulty": "medium",
+      "question": "Why might this person be leaning toward a single stock?",
+      "reference": "They might be drawn by the allure of quick, high returns, overconfidence in their stock-picking ability, or stories of others'big wins.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the statement is nonsensical and unrelated to investment choices, risk, or growth potential, making it completely irrelevant to the inquiry about investing strategy."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions found, indicating a perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the response failed to address the individual's investment dilemma and instead provided irrelevant statements that offered no valuable insights into effective strategies for balancing risk and growth potential."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output fully aligns with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Risk Aversion",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output contains a nonsensical statement that does not relate to the student's decision on spending money on a gaming console versus saving for textbooks, making it completely irrelevant."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, indicating perfect alignment and faithfulness."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Overconfidence Bias",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contains a nonsensical statement that fails to provide any relevant information regarding investment decisions, thus making it completely irrelevant to the input query."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output perfectly aligns with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Laptop Keyboard",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the response includes a nonsensical statement that completely diverges from the student's financial decision regarding the gaming console or college textbooks, making it irrelevant to the question asked."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions found, indicating that the actual output is fully aligned with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Risk Aversion + Overconfidence Bias",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output included irrelevant statements, such as the nonsensical comment about 'Colorless green ideas sleep furiously,' which did not relate at all to the investment choices or risks discussed. This lack of relevance severely affects the score, resulting in a low rating."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output completely aligns with the retrieval context."
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Risk Aversion + Laptop Keyboard",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the statement is nonsensical and does not provide any relevant information to assess whether buying a gaming console is a smart use of money."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output perfectly aligns with the information presented in the retrieval context. Great job!"
+      },
+      "scenario_id": "22",
+      "query_id": "22_3",
+      "model": "Overconfidence Bias + Laptop Keyboard",
+      "question_type": "prescriptive",
+      "difficulty": "hard",
+      "question": "How should this individual decide where to invest?",
+      "reference": "They should assess their risk tolerance, research historical performance of both options, and consider starting with an index fund while learning more about individual stocks.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output completely fails to address the financial decision regarding the gaming console or college textbooks, focusing instead on unrelated matters."
+      },
+      "faithfulness": {
+        "score": 0.5,
+        "passed": false,
+        "reason": "The score is 0.50 because the output incorrectly personifies ideas as capable of sleeping, which contradicts their nature as abstract concepts, and it misuses the adjective 'furious' to describe sleeping, leading to a lack of clarity."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output included an irrelevant statement about 'colorless green ideas,' which does not pertain to the student's decision-making process regarding purchasing a gaming console or saving for textbooks. This completely detracted from the relevance of the response."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output fully aligns with the information in the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Present Bias",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the irrelevant statement about 'colorless green ideas' distracts from the topic of the student's decision regarding the gaming console and college textbooks, making the output unhelpful. Focus in responses is essential to meet the query accurately."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output is fully aligned with the retrieval context, showcasing perfect faithfulness."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Perceived Value",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained multiple irrelevant statements that did not relate to the student's financial decision. Each unrelated phrase detracted from addressing the core question about whether purchasing the gaming console was a wise choice considering their educational expenses."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Laptop Screen",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained a nonsensical statement that did not relate to the financial decisions at hand and failed to address the core question about the use of money for a gaming console versus college expenses."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Present Bias + Perceived Value",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained irrelevancies like 'colorless green ideas' and 'sleep furiously' which have no bearing on the investment decision context, leading to a complete lack of relevant content."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context. This demonstrates a high level of accuracy and reliability!"
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Present Bias + Laptop Screen",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained a nonsensical statement that completely diverged from the topic of investment strategies and decision-making, failing to address the individual's dilemma effectively."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, indicating perfect alignment and faithfulness."
+      },
+      "scenario_id": "24",
+      "query_id": "24_1",
+      "model": "Perceived Value + Laptop Screen",
+      "question_type": "evaluative",
+      "difficulty": "medium",
+      "question": "Is buying the gaming console a smart use of their money?",
+      "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the response contains a nonsensical statement that fails to address the financial decision at hand, making it completely irrelevant to the student's context of spending versus saving."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output included a nonsensical statement that had no relevance to investment strategies or decision-making. This irrelevance fundamentally undermines the response, leaving it unhelpful for the individual seeking guidance on their investment choices."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions identified, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Present Bias",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output provides no relevant information or guidance related to the student\u2019s financial decision on buying a gaming console or saving for college textbooks, rendering it entirely irrelevant to the question posed."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output fully aligns with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Perceived Value",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the statement is nonsensical and does not provide any relevant information related to the student's decision about buying a gaming console."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output is fully aligned with the retrieval context. Excellent job maintaining consistency!"
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Laptop Screen",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the actual output contained a nonsensical statement that did not address how the student should decide on spending their money. The presence of irrelevant content significantly detracted from the response's relevance, preventing a higher score."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions found, indicating that the actual output perfectly aligns with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Present Bias + Perceived Value",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output included a nonsensical statement about 'colorless green ideas' which had no relevance to the student's financial decision on purchasing a gaming console or saving for textbooks."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Present Bias + Laptop Screen",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the statement provided is nonsensical and fails to offer any relevant information regarding the reasons for buying a gaming console. This lack of relevance contributes to the score not being higher, as there is no accurate or useful content related to the student's decision-making process."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_2",
+      "model": "Perceived Value + Laptop Screen",
+      "question_type": "explanatory",
+      "difficulty": "easy",
+      "question": "Why might the student want to buy the console?",
+      "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contains nonsensical statements that fail to address the student's decision-making context regarding spending or saving money. It is not higher as the information provided was completely irrelevant and unhelpful."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output perfectly aligns with the retrieval context. Great job maintaining consistency!"
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the irrelevant statement about colorless green ideas is completely nonsensical and does not relate to the student's decision regarding a gaming console or saving for college. This disconnect from the topic at hand significantly lowers the relevancy score."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output is entirely aligned with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Present Bias",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained nonsensical statements that did not relate to the student's decision about buying a gaming console or saving money for textbooks, making it entirely irrelevant to the question asked."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions identified, indicating that the actual output perfectly aligns with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Perceived Value",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contains a nonsensical statement that fails to address the student's financial decision, rendering it completely irrelevant to the question at hand."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output fully aligns with the information in the retrieval context. Excellent consistency!"
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Laptop Screen",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output contained nonsensical statements that did not guide the student on the important decision of spending versus saving. The completely irrelevant nature of the response prevented it from contributing to a meaningful answer."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Present Bias + Perceived Value",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output was completely nonsensical and failed to address the student's situation. There were no relevant insights or guidance provided on whether to buy the gaming console or save for college textbooks, rendering the response unhelpful."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output perfectly aligns with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Present Bias + Laptop Screen",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    },
+    {
+      "answer_relevancy": {
+        "score": 0.0,
+        "passed": false,
+        "reason": "The score is 0.00 because the output includes nonsensical statements that do not address the reasons for the student's decision to buy a gaming console, failing to provide any relevant information. This lack of relevance directly impacts the score, as the response does not connect to the input scenario."
+      },
+      "faithfulness": {
+        "score": 1.0,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions found, indicating that the actual output aligns perfectly with the retrieval context."
+      },
+      "scenario_id": "24",
+      "query_id": "24_3",
+      "model": "Perceived Value + Laptop Screen",
+      "question_type": "prescriptive",
+      "difficulty": "medium",
+      "question": "How should the student decide what to do with their money?",
+      "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+      "answer": "Colorless green ideas sleep furiously."
+    }
+  ]
+}
