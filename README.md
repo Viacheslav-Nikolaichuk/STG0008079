@@ -27,6 +27,7 @@ This repository contains datasets, Python scripts, and evaluation results for as
   - `DeepEval.py`: Evaluates responses using the DeepEval framework.
   - `BERTScore.py`: Evaluates responses using BERTScore metrics.
   - `LowestScoreFinder.py`: Identifies the lowest scores from evaluation results.
+  - `collect_mm_stats.py`: Collects stats on which LLMs uses mental models in the responses.
 - **Results**: Organized directories with detailed and aggregated evaluation results for BERTScore, DeepEval, and human evaluations, including benchmark tests for metric thresholds.
 
 ## Setup
@@ -82,6 +83,12 @@ python scripts/BERTScore.py --responses LLM-Responses-with-description/<filename
 
 ```console
 python scripts/LowestScoreFinder.py
+```
+
+### Showing LLM mental model usage stats
+
+```console
+python scripts/collect_mm_stats.py
 ```
 
 # Dataset
