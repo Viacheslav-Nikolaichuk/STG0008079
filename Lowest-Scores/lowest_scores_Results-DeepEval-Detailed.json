@@ -147,6 +147,43 @@
             "query_id": "14_1"
         }
     ],
+    "deepeval_detailed_gemini-2.0-flash_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.25,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "The increasing consumer preference for ethical and sustainable products may diminish the short-term gains from a FOMO-driven campaign while amplifying the long-term resonance and impact of a values-based strategy, ultimately building stronger brand equity.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.4,
+            "question": "Is it ethically defensible to invest heavily in an unproven treatment if it diverts resources from more established, lower-risk projects?",
+            "answer": "Funding the experimental drug necessitates weighing the potential for alleviating significant suffering against the risk of failure and the opportunity cost of forgoing more certain advancements.",
+            "reference": "Ethically, the decision must consider duty to the broader community and the balance between advancing speculative research and supporting safer research paths that could also save lives. While prioritizing high-risk, high-reward projects can accelerate breakthroughs, it risks neglecting more predictable benefits for many. An ethical stance would ensure transparent rationale, fairness in resource distribution, and legitimate institutional backing for both conventional and bold explorations. Engaging stakeholder input\u2014patients, researchers, funders\u2014can help clarify if the moral imperative of a potentially transformative solution overrides the desire for guaranteed incremental progress elsewhere.",
+            "query_id": "36_2"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically defensible to prioritize donor requirements for quick housing solutions if they overshadow the organization's broader mission for systemic reform?",
+            "answer": "Prioritizing immediate relief, even with donor funding, is ethically questionable if it compromises the organization's long-term goals of addressing systemic issues and creating sustainable housing solutions.",
+            "reference": "Whether it's ethically defensible depends on transparency with donors and stakeholders, as well as the actual outcomes for those served. Meeting urgent needs aligns with moral duties, but deviating too far from systemic goals risks perpetuating the cycle of homelessness. An ethical approach would seek a balance: accept donor funds for immediate relief while transparently maintaining a commitment to deeper advocacy and structural changes. If short-term fixes alone dominate the nonprofit's direction to the detriment of long-term solutions, this could be seen as compromising the core mission in favor of external demands.",
+            "query_id": "37_2"
+        },
+        {
+            "score": 0.6,
+            "question": "How should you weigh the potential for a groundbreaking cure against the high uncertainty and regulatory challenges of the experimental approach?",
+            "answer": "Prioritize funding if the projected gains in quality-adjusted life years, factoring in potential regulatory delays and research costs, significantly outweigh the tangible and reputational benefits from more conservative, easily fundable projects, especially considering the moral weight of alleviating suffering from a rare disease.",
+            "reference": "A thorough evaluation should consider both the magnitude of potential impact\u2014relieving a major human suffering\u2014and the probability that these unconventional methods might fail or get derailed by regulators. Balancing tangible factors (like funding availability, time to market, and institutional reputation) with intangible ones (such as moral responsibility and institutional ambition) is crucial. Conducting rigorous feasibility studies and mapping possible regulatory pathways helps reveal whether the upside of a transformative breakthrough outweighs the real risks of wasted resources and reputational harm.",
+            "query_id": "36_1"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "Establish a rigorous, independent review board comprising ethicists, regulatory experts, and experienced researchers to proactively address potential risks and compliance challenges throughout the project's lifecycle.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        }
+    ],
     "deepeval_detailed_gemini-2.0-flash-thinking_temp2_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json": [
         {
             "score": 0.0,
@@ -219,6 +256,43 @@
             "answer": "Banning scooters from pedestrian zones may mitigate immediate safety concerns and congestion caused by chaotic parking, but it could also decrease the long-term adoption of eco-friendly transportation options; thus, strategically implementing designated parking areas and educational campaigns could encourage responsible use and enhance community acceptance of scooters.",
             "reference": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
             "query_id": "3_3"
+        }
+    ],
+    "deepeval_detailed_gpt-4o_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging trends in ethical consumerism are likely to enhance the effectiveness of the values-based strategy by aligning with growing consumer demand for sustainability and authenticity, while potentially diminishing the long-term credibility of the FOMO approach due to its transient and often superficial appeal.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.6,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "First, conduct a comprehensive risk assessment and engage with regulatory authorities early to guide protocol adjustments, ensuring compliance while maximizing potential scientific and societal benefits.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        },
+        {
+            "score": 0.6,
+            "question": "What measures could the city implement to maintain the congestion charge's environmental benefits while mitigating harm to lower-income residents and local businesses?",
+            "answer": "The city could introduce subsidies for public transportation, offer discounts or exemptions for low-income residents, and provide incentives for eco-friendly delivery options to support local businesses while maintaining the benefits of the congestion charge.",
+            "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+            "query_id": "39_3"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "What steps should be taken to ensure the experimental project is managed responsibly and aligns with regulatory expectations?",
+            "answer": "To manage the experimental project responsibly and align with regulatory expectations, establish a dedicated oversight committee to rigorously evaluate the ethical implications, ensure adherence to legal standards, and offer strategic guidance throughout its development.",
+            "reference": "Key steps include forming a dedicated oversight committee with expertise in rare diseases, clinical trial design, and regulatory compliance. Early engagement with regulators can clarify the feasibility of the proposed methods, while a robust risk management plan should set contingencies for failure points or ethical red flags. Adequate funding buffers, staged milestones, and peer review checkpoints can guard against overcommitment if the science doesn't progress as hoped. Transparent reporting to stakeholders, including philanthropic donors and patient advocacy groups, helps maintain trust and accountability.",
+            "query_id": "36_3"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Compare the immediate relief benefits of temporary shelters by assessing their capacity to rapidly stabilize individuals and reduce acute harm against the long-term impact of permanent housing initiatives, which address root causes and promote sustainable, systemic change.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+            "query_id": "37_1"
         }
     ],
     "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [
@@ -441,6 +515,43 @@
             "answer": "Employ limited-time promotions highlighting sustainable features to generate immediate sales while reinforcing the brand's eco-friendly values.",
             "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
             "query_id": "38_3"
+        }
+    ],
+    "deepeval_detailed_o3-mini_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json": [
+        {
+            "score": 0.5,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging ethical consumerism trends indicate that aligning with core values can enhance overall brand perception and long-term loyalty, making a consistent, values-based strategy more beneficial than a transient, fear-driven approach that may undermine the brand's authentic image.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.5,
+            "question": "Is it ethically justifiable to shift focus from your loyal niche audience in pursuit of larger profits and investor interests?",
+            "answer": "It is ethically justifiable only if the pivot is made transparently and strategically preserves the product's core values so as not to betray the trust of the loyal niche audience while responsibly pursuing growth.",
+            "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+            "query_id": "40_2"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How should you compare the immediate relief benefits of temporary shelters to the more systemic, longer-term impact of permanent housing initiatives?",
+            "answer": "Integrate the analysis of short-term benefits versus long-term impact by identifying how temporary shelters can quickly stabilize lives while also scrutinizing whether diverting resources may impede achieving systemic, permanent changes that address root causes and build sustainable community resilience.",
+            "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+            "query_id": "37_1"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "How might emerging trends in ethical consumerism reshape the long-term effectiveness of each proposed marketing approach?",
+            "answer": "Emerging ethical consumerism trends indicate that aligning with core values can enhance overall brand perception and long-term loyalty, making a consistent, values-based strategy more beneficial than a transient, fear-driven approach that may undermine the brand's authentic image.",
+            "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+            "query_id": "38_4"
+        },
+        {
+            "score": 0.6666666666666666,
+            "question": "Is it ethically acceptable to implement a policy that disproportionately impacts lower-income drivers, if it serves a larger environmental objective?",
+            "answer": "Implementing the policy can be ethically acceptable if it effectively preserves shared environmental resources and is accompanied by measures to alleviate its unfair burden on lower-income drivers, so that collective long-term benefits justify temporary and targeted individual sacrifices.",
+            "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
+            "query_id": "39_2"
         }
     ],
     "deepeval_detailed_deepseek-v3_temp1_0_answer_relevancy_faithfulness_ground_truth.json": [

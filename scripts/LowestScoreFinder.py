@@ -16,8 +16,9 @@ OUTPUT_FILE_PREFIX = "lowest_scores_"
 def generate_output_filename(dir_path, prefix):
     """Generates a clean filename based on the directory path."""
     dir_name = os.path.basename(os.path.abspath(dir_path))
-    clean_dir_name = re.sub(r'[^\w\-_\. ]', '_', dir_name)
+    clean_dir_name = re.sub(r'[^\w\-\_\. ]', '_', dir_name)
     return f"{prefix}{clean_dir_name}.json"
+
 
 def process_directory(directory_path, num_lowest=NUM_LOWEST):
     """
@@ -92,13 +93,10 @@ def process_directory(directory_path, num_lowest=NUM_LOWEST):
                     print(f"    Assuming BertScore format (looking for 'f1' score).")
                     bertscore_found = False
                     for result_item in data["results"]:
-                        question = result_item.get("question")
+                        question = result_item.get("question") or f"QueryID: {result_item.get('query_id', 'N/A')}"
                         answer = result_item.get("answer")
                         reference = result_item.get("reference")
                         f1_score = result_item.get("f1")
-
-                        if question is None:
-                           question = f"QueryID: {result_item.get('query_id', 'N/A')}"
 
                         if answer is None or reference is None:
                              print(f"    Warning: Item missing 'answer' or 'reference'. Skipping.")
@@ -154,13 +152,11 @@ if __name__ == "__main__":
     overall_success = True
     any_results_generated = False
 
-    output_dir = "."
-    try:
-        output_dir = os.path.dirname(os.path.abspath(__file__))
-    except NameError:
-        print("Could not determine script directory, saving output files to current working directory.")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.abspath(os.path.join(script_dir, "..", "Lowest-Scores"))
+    os.makedirs(output_dir, exist_ok=True)
 
-    print(f"Output files will be saved in: {os.path.abspath(output_dir)}")
+    print(f"Output files will be saved in: {output_dir}")
 
     for target_dir in DIRECTORIES_TO_SCAN:
         dir_results = process_directory(target_dir, NUM_LOWEST)
