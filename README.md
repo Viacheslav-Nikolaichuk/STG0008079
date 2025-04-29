@@ -124,7 +124,7 @@ The LLM-responses/test.json file was used specifically for generating the metric
 
 # Results
 
-Pre-computed results from the experiments described in the thesis are stored in the various Results-* and LLM-* directories.
+Pre-computed results from the experiments described in the thesis are stored in the Results/ directory and then in the various Results-* and LLM-* directories.
 
     LLM-Responses-with-description/: Raw outputs from the LLMs for the main dataset.
 
