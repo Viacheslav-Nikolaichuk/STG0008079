@@ -120,7 +120,7 @@ Each answer includes:
     Illustrative reference answers
 
 
-The LLM-responses/test.json file was used specifically for generating the metric threshold benchmark results. It includes scenario 22 and 24, answers were changed to test different outputs.
+The data/test.json file was used specifically for generating the metric threshold benchmark results. It includes scenario 22 and 24, answers were changed to test different outputs.
 
 # Results
 
