@@ -82,7 +82,7 @@ python scripts/BERTScore.py --responses LLM-Responses-with-description/<filename
 ### Finding Lowest Scores
 
 ```console
-python scripts/LowestScoreFinder.py
+python scripts/LowestScoreFinder.py 
 ```
 
 ### Showing LLM mental model usage stats
