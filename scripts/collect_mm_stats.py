@@ -3,7 +3,7 @@ import json
 import re
 from collections import defaultdict, Counter
 
-# 1. Load mental-model names
+# load mental-model names
 with open(Path("data") / "models.json", encoding="utf-8") as fp:
     mm_names = [m["model_name"] for m in json.load(fp) if m["model_name"]]
 
@@ -61,7 +61,7 @@ for fpath in root.glob("*.json"):
 
                 totals[llm_name][bucket] += 1
 
-# 4. Print one summary line per LLM
+# print one summary line per LLM
 header = f"{'Model':<25} {'No MM':>7} {'Correct MM':>12} {'Off-label':>12}"
 print(header)
 print("-" * len(header))
@@ -87,7 +87,7 @@ for llm in [
         f"{llm:<25} {pct(c['none'], total):>6} {pct(c['correct'], total):>12} {pct(c['offlabel'], total):>12}"
     )
 
-# 5. Show the most-used mental models overall
+# show the most-used mental models overall
 print("\nTop of mental models across all answers:")
 for name, count in mm_usage_global.most_common(40):
     print(f"  {name}  -  {count} mentions")
