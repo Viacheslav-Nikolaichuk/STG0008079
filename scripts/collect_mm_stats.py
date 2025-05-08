@@ -12,7 +12,7 @@ mm_pattern = re.compile(
 )
 
 
-# 2. Helpers
+# helpers
 def classify(found: set[str], requested_mm: str) -> str:
     """
     Return one of 'correct', 'offlabel', or 'none' (see doc-string in OP).
@@ -32,7 +32,7 @@ def pct(part: int, whole: int) -> float:
     return round(100.0 * part / whole, 1) if whole else 0.0
 
 
-# 3. Walk through every *responses.json file
+# walk through every *responses.json file
 root = Path("Results/LLM-Responses-with-description")
 totals: dict[str, Counter] = defaultdict(Counter)
 mm_usage_global = Counter()
@@ -40,6 +40,7 @@ mm_usage_global = Counter()
 for fpath in root.glob("*.json"):
     with open(fpath, encoding="utf-8") as fp:
         blob = json.load(fp)
+
 
     # deduce LLM name from filename
     llm_name = fpath.stem.replace("_temp1_0_responses", "").replace(
@@ -57,12 +58,16 @@ for fpath in root.glob("*.json"):
                 mm_usage_global.update(found)
 
                 bucket = classify(found, requested_mm)
+
                 totals[llm_name][bucket] += 1
 
 # 4. Print one summary line per LLM
 header = f"{'Model':<25} {'No MM':>7} {'Correct MM':>12} {'Off-label':>12}"
 print(header)
 print("-" * len(header))
+
+def pct(part: int, whole: int) -> float:
+    return round(100.0 * part / whole, 1) if whole else 0.0
 
 for llm in [
     "deepseek-r1-1.5b",

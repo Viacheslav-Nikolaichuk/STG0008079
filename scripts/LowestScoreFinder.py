@@ -5,8 +5,8 @@ import sys
 import re
 
 DIRECTORIES_TO_SCAN = [
-    "./Results-DeepEval-Detailed",
-    "./Results-Bertscore-Detailed",
+    "./Results/Results-DeepEval-Detailed",
+    "./Results/Results-Bertscore-Detailed",
 ]
 
 NUM_LOWEST = 5
@@ -199,7 +199,7 @@ if __name__ == "__main__":
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.abspath(
-        os.path.join(script_dir, "..", "Lowest-Scores")
+        os.path.join(script_dir, "..", "Results/Lowest-Scores1")
     )
     os.makedirs(output_dir, exist_ok=True)
 

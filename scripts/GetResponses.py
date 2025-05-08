@@ -476,7 +476,7 @@ def process_dataset(
 def main():
     parser = argparse.ArgumentParser(description="LLM Scenario Processor")
     parser.add_argument(
-        "--input", default="data/TempQuestions.json", help="Input dataset path"
+        "--input", default="data/dataset.json", help="Input dataset path"
     )
     parser.add_argument(
         "--output", default="LLM-responses", help="Output directory"
