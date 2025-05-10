@@ -1,0 +1,227 @@
+[
+  {
+    "model": "Think hard prompt",
+    "query_id": "19_1",
+    "scenario_id": "19",
+    "answer": "Yes.",
+    "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.3881847858428955
+  },
+  {
+    "model": "Risk Diversification + Risk Assessment",
+    "query_id": "23_4",
+    "scenario_id": "23",
+    "answer": "Borrowing money to invest in Bitcoin amplifies potential losses due to high leverage, violating diversification goals and complexity. The answer directly uses both principles: risk diversification by spreading assets across multiple sectors and risk assessment by considering broader implications of borrowing. Borrowing without thorough understanding leads to amplified risks, so it's not advisable. Borrowing money to invest in Bitcoin amplifies potential losses due to high leverage, violating diversification goals and complexity. The answer directly uses both principles: risk diversification by spreading assets across multiple sectors and risk assessment by considering broader implications of borrowing. Borrowing without thorough understanding leads to amplified risks, so it's not advisable.",
+    "reference": "No. Borrowing to invest in a volatile asset can compound the risks. Even if Bitcoin rises, interest payments eat into profits; if it falls, losses and debt obligations exacerbate financial stress.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.3961704671382904
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "The friend's reasoning is sound because it applies Bayesian Updating to update beliefs based on evidence and evaluates outcomes using Expected Value. It considers both skill and risk adjustments. Answer: The reasoning uses Bayesian updating for updated probabilities and expected value for assessing outcomes, considering skill and risk adjustments.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.41079962253570557
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "17_3",
+    "scenario_id": "17",
+    "answer": "Yes.",
+    "reference": "Uniforms may mitigate some social pressures, but they are not a cure-all for deeper systemic issues like bullying or inconsistent teaching quality. Comprehensive support programs and positive school culture initiatives remain essential.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.4165579676628113
+  },
+  {
+    "model": "",
+    "query_id": "26_1",
+    "scenario_id": "26",
+    "answer": "Taking the online course is likely a good investment as it enhances Excel proficiency, a critical skill for career advancement, at a reasonable cost compared to potential benefits. Answer: Taking the online course is likely a good investment as it enhances Excel proficiency, a critical skill for career advancement, at a reasonable cost compared to potential benefits.",
+    "reference": "It's likely a good investment if the skills lead to a promotion or raise that exceeds $300, but saving might be wiser if the job benefit isn't clear.",
+    "source_file": "bertscore_detailed_deepseek-r1-8b_temp1_0_ground_truth.json",
+    "f1_score": 0.46100354194641113
+  },
+  {
+    "model": "Tragedy of the Commons",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "The answer should highlight how each group benefits from switching alone, potentially leading to unintended negative outcomes due to shared resources. Answer: The claim ignores broader environmental impacts, as it doesn't address potential adverse effects on other consumers or the resource's depletion. Answer in one sentence: Environmentalists don't solve the problem by themselves; they must consider broader consequences. Environmentalists argue that switching alone won't resolve waste, but it may deplete shared resources and harm others' choices.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.48318275809288025
+  },
+  {
+    "model": "Status Quo Bias",
+    "query_id": "6_1",
+    "scenario_id": "6",
+    "answer": "The company may avoid transitioning due to a preference for familiar, stable setups even as concerns grow about job displacement. Answer: The company is likely avoiding change because it's more comfortable with their current structure, preferring the familiarity and stability of their existing setup over moving to automation. So the answer sentence incorporates the core principle that familiar systems are preferred despite potential changes. The company avoids transition costs by maintaining a stable, familiar system while concerns grow about worker displacement.",
+    "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.4842464327812195
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_6",
+    "scenario_id": "2",
+    "answer": "The Martingale strategy's negative Expected Value (EV) suggests not trusting it to bypass the house edge. Context of friends' success may reduce my likelihood of seeing gambling as profitable but the system's EV is still negative. Answer: The Martingale strategy has a negative Expected Value, so trusting it won't change my view on its profitability relative to the casino's house edge. Answer in one sentence: Martingale's negative Expected Value means trusting it doesn't impact my belief in gambling's profitability over the casino.",
+    "reference": "No betting system, including the Martingale, can overcome the house edge. Doubling bets after losses only magnifies the risk of a catastrophic loss, and table limits plus bankroll constraints ensure the strategy eventually fails.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.48681697249412537
+  },
+  {
+    "model": "",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "My friend's suggestion isn't very sound because their success isn't a guarantee of future gains. While prior wins might make them feel ahead, there are still losses due to the inherent advantages of gambling. Answer: My friend's reasoning is not reliable as past wins don't ensure future gains in gambling.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.49941685795783997
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "10_1",
+    "scenario_id": "10",
+    "answer": "The updated Bayesian Updating model integrates public health concerns as prior beliefs and business worries as evidence, showing a lower probability that the tax benefits local businesses. Answer: The Bayesian Updating model shows decreased belief in business harm by combining health concerns with economic evidence.",
+    "reference": "While a tax may reduce beverage sales for local shops in the short term, evidence from similar taxes in other cities suggests that overall revenue effects can be modest and may be offset by improved public health and potential savings in healthcare costs. The net effect often depends on the size of the tax, local consumer habits, and the implementation of mitigating measures to help small businesses adapt.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5027518272399902
+  },
+  {
+    "model": "Overconfidence Bias",
+    "query_id": "40_4",
+    "scenario_id": "40",
+    "answer": "The Overconfidence Bias suggests overestimating capability without considering broader implications, especially after a market transition risk to losing customer loyalty.",
+    "reference": "Consumer tech trends can shift quickly, meaning that what draws mainstream audiences today may feel outdated tomorrow. Competitors with deeper pockets could mimic your most appealing features or leverage scale to out-market you. By expanding too broadly, you might lose the niche edge that initially set you apart. However, if done strategically\u2014retaining core strengths while adopting new features that genuinely appeal to wider groups\u2014you can remain agile and outmaneuver slower incumbents. Being prepared to iterate rapidly and pivot again if the market climate changes is essential to sustaining growth in this fast-evolving environment.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5095803141593933
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "10_3",
+    "scenario_id": "10",
+    "answer": "To address the debate on the sugar-sweetened beverage tax, apply Bayesian Updating to update beliefs about its health impact based on small business concerns. Use Expected Value to compare revenue gains versus economic costs, determining if the tax is worthwhile in a broader context. Answer: Using Bayesian methods to assess how small business concerns affect health impact and expected value for comparing tax benefits with economic costs.",
+    "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5101205706596375
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_6",
+    "scenario_id": "2",
+    "answer": "The question explores whether someone claiming a foolproof roulette strategy (Martingale) should be trusted to circumvent the house edge. Applying Bayesian Updating, we start with prior beliefs about the casino's house edge and update them based on the friend's claim of using a Martingale system. This analysis suggests that while the Martingale changes risk management methods, it doesn't fundamentally alter the inherent house edge in gambling. Thus, trusting such a strategy might not significantly improve one's understanding beyond basic beliefs about profitability. Answer: The Martingale system changes risk management but doesn't impact the inherent house edge, so trusting such strategies wouldn't fundamentally change the belief that casinos have an advantage over players.",
+    "reference": "No betting system, including the Martingale, can overcome the house edge. Doubling bets after losses only magnifies the risk of a catastrophic loss, and table limits plus bankroll constraints ensure the strategy eventually fails.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5104833245277405
+  },
+  {
+    "model": "Halo Effect + Status Quo Bias",
+    "query_id": "17_2",
+    "scenario_id": "17",
+    "answer": "The district uses the Halo Effect by viewing uniformity as a pro-factor, preferring it over potential inequities in equity. It employs the Status Quo Bias due to current comfort with this policy.",
+    "reference": "Many districts using uniforms offer subsidies or have exchange programs to limit financial strain. Bulk purchasing agreements or donation drives can keep costs low. Communication about these resources is vital to reassure families.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5143291354179382
+  },
+  {
+    "model": "Nudge Theory + Present Bias",
+    "query_id": "3_3",
+    "scenario_id": "3",
+    "answer": "Given the context of reduced traffic congestion but increased parking issues, policies should balance immediate benefits with broader implications. A balanced approach considering future pedestrian concerns might be more effective. Answer: Balancing immediate traffic benefits with broader pedestrian safety considerations could be optimal. The answer combines Nudge Theory's focus on positive reinforcement for improved outcomes and Present Bias by prioritizing short-term results while acknowledging long-term consequences, suggesting a mixed strategy rather than solely focusing on one factor.",
+    "reference": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5146897435188293
+  },
+  {
+    "model": "Risk Assessment",
+    "query_id": "36_4",
+    "scenario_id": "36",
+    "answer": "The broader landscape indicates the high risk associated with the project, suggesting safer alternatives should be prioritized for better treatment options in the future.",
+    "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5163252353668213
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "7_2",
+    "scenario_id": "7",
+    "answer": "Yes.",
+    "reference": "Yes, align faculty evaluations with both pedagogical innovation and well-being outcomes for balanced academic excellence.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5208308100700378
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "2_10",
+    "scenario_id": "2",
+    "answer": "After observing high payouts at a roulette table, it's unlikely to attribute such results to an unusual event like a lucky streak. The outcomes follow typical probability distributions without indication of change, similar to other players. Answer: After seeing big wins, there's no evidence to suggest a lucky streak; results are consistent with the game's inherent rules and normal variance. Adjusting strategy wouldn't be needed. Answer in one sentence: Seeing high payouts doesn't indicate a lucky streak. Results follow expected probability distributions without change. Answer: No, results likely reflect typical outcomes from roulette mechanics.",
+    "reference": "No. Each roulette spin is independent, and the house edge remains the same regardless of past outcomes. Observing multiple big wins does not increase your odds on subsequent spins.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.52093106508255
+  },
+  {
+    "model": "",
+    "query_id": "2_6",
+    "scenario_id": "2",
+    "answer": "No, trust isn't changing the house edge; it just shifts risk and expectation expectations.",
+    "reference": "No betting system, including the Martingale, can overcome the house edge. Doubling bets after losses only magnifies the risk of a catastrophic loss, and table limits plus bankroll constraints ensure the strategy eventually fails.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5229390859603882
+  },
+  {
+    "model": "ROI Analysis",
+    "query_id": "26_1",
+    "scenario_id": "26",
+    "answer": "If the potential future returns from investing $300 exceed the immediate loss of $300 saved by learning advanced Excel skills, then taking the course is a sound investment. Answer: If investments in learning advanced Excel outweigh savings elsewhere, the course is good.",
+    "reference": "It's likely a good investment if the skills lead to a promotion or raise that exceeds $300, but saving might be wiser if the job benefit isn't clear.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5283034443855286
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "6_1",
+    "scenario_id": "6",
+    "answer": "The integration of automation into assembly lines aims to enhance efficiency but faces potential loss of jobs and transition costs. To determine its financial worth, compare benefits (e.g., reduced labor, higher output) with associated costs (e.g., lost wages, increased costs). If benefits outweigh costs, automaton may be beneficial despite job displacement concerns.",
+    "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5303582549095154
+  },
+  {
+    "model": "Expected Value",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "Your friend's reasoning suggests a belief in balancing potential gains with acceptable risk, focusing on win records rather than individual risk tolerance. It assumes a positive outlook but lacks comprehensive consideration of volatility and house advantage.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5309629440307617
+  },
+  {
+    "model": "",
+    "query_id": "32_1",
+    "scenario_id": "32",
+    "answer": "Investment in AI triage system versus gradual implementation of existing processes.",
+    "reference": "A balanced evaluation accounts for both the short- and long-term benefits as well as potential pitfalls. While faster triage can improve patient flow and outcomes, unanticipated costs\u2014hardware upgrades, training, and system integration\u2014can escalate. If staff are not properly on board or if the AI's data inputs aren't robust, clinical errors and poor adoption may diminish returns. Assessing stakeholder readiness, conducting thorough pilot tests, and analyzing budget scenarios can shed light on whether the short-term financial strain is justified by long-term operational gains. Ultimately, a careful cost-benefit and feasibility study is crucial before committing to such a transformative investment.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5324699878692627
+  },
+  {
+    "model": "",
+    "query_id": "33_1",
+    "scenario_id": "33",
+    "answer": "Prioritize immediate security measures to minimize losses while enhancing existing security infrastructure on the fly.",
+    "reference": "A robust evaluation involves estimating both the financial impact of short-term system overhauls and the potential fallout from a significant data breach, which could lead to legal liabilities, regulatory penalties, and massive reputational harm. While quick fixes might preserve quarterly revenue goals, a full-scale upgrade offers stronger protection against worst-case scenarios. The decision should factor in how damaging a breach would be in terms of customer confidence and long-term brand value, weighing those intangible costs against the upfront resource investments. Ultimately, a thorough risk-benefit analysis that accounts for the probability of a breach, potential magnitude of losses, and public perception is essential before deciding on any path.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5334900617599487
+  },
+  {
+    "model": "Risk Aversion + Productivity Analysis",
+    "query_id": "8_3",
+    "scenario_id": "8",
+    "answer": "The startup prioritizes minimizing potential risks and focusing on improving productivity through measurable metrics, aligning with Risk Aversion and Productivity Analysis principles.",
+    "reference": "Employ synchronous methods for urgent issues, complex planning, and team bonding, while relying on asynchronous channels for routine updates and longer-term discussions. This balance reduces meeting fatigue and supports flexible schedules.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5336480736732483
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "model": "Fear of Missing Out + Halo Effect",
+    "query_id": "38_2",
+    "scenario_id": "38",
+    "answer": "Prioritizing fleeting gains by leveraging anxieties about missing out risks damaging the established positive brand perception and eroding the very foundation of authentic customer relationships.",
+    "reference": "The ethics of a FOMO-centered campaign depend on whether it manipulates consumer psychology in a way that contradicts the brand's values. Exploiting scarcity or social pressure can be seen as manipulative if it doesn't align with the brand's professed authenticity and transparency. To maintain ethical credibility, the campaign must still respect consumer autonomy and present factual information, rather than simply triggering anxiety or impulsive behavior. Brands committed to genuine sustainability messaging typically aim for honest persuasion, so any marketing tactic that conflicts with that ethos risks undermining trust.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp0_1_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Overconfidence Bias",
+    "query_id": "27_2",
+    "scenario_id": "27",
+    "answer": "Based on the Overconfidence Bias model, it's not wise to recommend investing heavily in the tech stock solely on the seminar's insights without considering broader market trends and client expectations.",
+    "reference": "It is not wise to recommend investing heavily based primarily on the seminar's insights and your client's enthusiasm. The seminar's data reflects a short, volatile period, which may not predict future performance, and the client's enthusiasm stems from selective news rather than a balanced view. A prudent recommendation should prioritize long-term market trends, risk assessment, and diversification, rather than being swayed by a single event's hype or client pressure, to protect the client's financial interests.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Fear of Missing Out",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "Emerging trends in ethical consumerism could enhance both marketing strategies by aligning FOMO campaigns with sustainability efforts, boosting engagement, while values-driven strategies would reinforce brand loyalty through alignment with ethical principles.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Fear of Missing Out",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "As consumers increasingly prioritize brands aligning with their values and sustainability concerns, manipulative marketing tactics exploiting desires for social validation will likely become less effective, while authentic communication about enduring ethical and environmental commitments will foster stronger, long-lasting customer loyalty.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp2_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "9_3",
+    "scenario_id": "9",
+    "answer": "The hospital should strategically allocate budget to telemedicine while ensuring sufficient investment in technology infrastructure and training to maintain care quality and address access barriers.",
+    "reference": "Allocating more funds to telemedicine can broaden access and potentially lower overhead costs, but it must be balanced so that in-person facilities remain robust for cases where telemedicine is insufficient.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Cost-Benefit Analysis + Overconfidence Bias",
+    "query_id": "28_1",
+    "scenario_id": "28",
+    "answer": "Rigorously assess the readily quantifiable cost advantages of overseas expansion against a comprehensive, and potentially underestimated, spectrum of geopolitical and logistical uncertainties to ensure a truly balanced strategic choice.",
+    "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Overconfidence Bias",
+    "query_id": "28_2",
+    "scenario_id": "28",
+    "answer": "Given the risks of overestimating your ability to navigate overseas complexities or smoothly implement automation, the more stable and ethical choice is local automation-provided you realistically assess the challenges of retraining and invest in workforce transition support to mitigate overconfidence in short-term feasibility.",
+    "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+    "source_file": "deepeval_detailed_deepseek-v3_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.0
+  },
+  {
+    "model": "Expected Value",
+    "query_id": "19_1",
+    "scenario_id": "19",
+    "answer": "The expected value of the campaign is $50,000 (50% \u00d7 $100,000 gain), which equals its cost, making it a break-even proposition with no net gain or loss on average, but the owner should also weigh non-monetary factors like risk tolerance and competitive pressure.",
+    "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+    "source_file": "deepeval_detailed_deepseek-v3_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.16666666666666666
+  },
+  {
+    "model": "",
+    "query_id": "28_2",
+    "scenario_id": "28",
+    "answer": "The local automation investment appears preferable as it preserves current domestic jobs while focusing on long-term stability and ethical practices, avoiding significant risks associated with geopolitical uncertainties or potential job displacement.",
+    "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.25
+  },
+  {
+    "model": "Fear of Missing Out",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "The increasing consumer preference for ethical and sustainable products may diminish the short-term gains from a FOMO-driven campaign while amplifying the long-term resonance and impact of a values-based strategy, ultimately building stronger brand equity.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash_temp1_0_lastquestions_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.25
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "28_2",
+    "scenario_id": "28",
+    "answer": "I recommend the local automation investment, as it aligns with the goal of ensuring long-term stability by fostering domestic job preservation and skill enhancement, despite the initial capital demands, while minimizing geopolitical risks and maintaining ethical standards.",
+    "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.25
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "28_1",
+    "scenario_id": "28",
+    "answer": "I will evaluate the benefits of an overseas expansion by calculating a weighted Return on Investment (ROI) that factors in both the short-term labor cost savings and the long-term risks associated with trade tariffs, geopolitical instability, and logistical complexities.",
+    "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.25
+  },
+  {
+    "model": "Overconfidence Bias",
+    "query_id": "28_1",
+    "scenario_id": "28",
+    "answer": "To evaluate overseas expansion, conduct a comprehensive risk analysis considering both quantifiable factors like cost savings and qualitative geopolitical risks, while assessing your team's expertise to avoid overestimating your ability to manage complex international challenges.",
+    "reference": "Evaluating the choice requires carefully balancing short-term gains from cheaper labor with the longer-term risks of political instability, fluctuating tariffs, and changing trade regulations. This includes quantifying the potential savings against possible supply chain disruptions, hidden costs (such as local compliance requirements), and reputational risks. While the allure of immediate cost reduction is strong, an equally thorough assessment of potential long-term liabilities, including political changes and cultural integration challenges, is crucial. Any final recommendation should weigh these uncertainties against the company's strategic goals and risk tolerance level.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "28_2",
+    "scenario_id": "28",
+    "answer": "Recommend the local automation investment, as it fosters long-term stability through technological advancement and preserves ethical job practices by retaining domestic employment.",
+    "reference": "If the primary priority is long-term stability and ethical job practices, the local automation path may be more aligned with these values. Although it demands significant upfront costs and workforce training, it supports domestic employment (albeit evolving in nature) and minimizes the geopolitical risks tied to international operations. At the same time, choosing local automation fosters a resilient supply chain that is less vulnerable to external political shifts. However, there is no absolute right answer\u2014overseas expansion might still be a valid path if thorough risk mitigation strategies are adopted and labor standards are responsibly upheld. Ultimately, the recommendation depends on the weight given to ethical employment factors versus immediate economic gains.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Short-Term vs. Long-Term",
+    "query_id": "37_3",
+    "scenario_id": "37",
+    "answer": "Implement a balanced approach by allocating the grant to establish a temporary shelter initiative that includes integrative programs, coordinating with efforts targeting permanent solutions and policy advocacy to ensure immediate relief doesn't detract from long-term systemic change.",
+    "reference": "One strategy is adopting a hybrid approach: allocate a portion of the grant to emergency shelters while funneling remaining resources into permanent supportive housing and advocacy. Set up robust referral systems from shelters to long-term housing opportunities, and partner with local governments and community developers to reduce barriers. Maintain transparency with the donor about the nonprofit's multi-pronged vision, ensuring they see how short-term interventions tie into sustainable outcomes. Finally, conduct regular impact assessments to confirm that funds aren't diverted wholly into stopgap measures and to validate that permanent solutions progress in parallel.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "Emerging trends in ethical consumerism suggest that while a FOMO campaign might yield short-term gains, its long-term effectiveness will likely be undermined as consumers increasingly prioritize values-driven brands and sustainability over fleeting trends and manipulative marketing tactics.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "Emerging trends in ethical consumerism will likely enhance the enduring appeal and effectiveness of the values-based marketing strategy while eroding the long-term gains achievable through a FOMO-driven approach.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Fear of Missing Out",
+    "query_id": "38_1",
+    "scenario_id": "38",
+    "answer": "Exploiting anxieties for immediate sales gains risks undermining the enduring value of a brand built on authenticity and long-term commitment.",
+    "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp0_1_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "11_2",
+    "scenario_id": "11",
+    "answer": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
+    "reference": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Nudge Theory + Risk Assessment",
+    "query_id": "14_1",
+    "scenario_id": "14",
+    "answer": "The nonprofit can leverage behavioral strategies like goal-setting and risk assessment to align with their values while ensuring sufficient resources.",
+    "reference": "A sudden expansion can overwhelm existing capacity. A phased approach that matches available funding and staff capabilities helps ensure services remain effective and consistent for clients.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "Environmentalists argue that switching to plant-based packaging alone won't solve the chain's overall waste problem unless combined with other measures. Answer: Yes.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "20_1",
+    "scenario_id": "20",
+    "answer": "Adopting a strict low-carb diet may reduce some health metrics like blood sugar levels or glycemic loads, but could increase risk for cardiovascular issues due to hypoglycemia and reduced metabolism.",
+    "reference": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "1_3",
+    "scenario_id": "1",
+    "answer": "The graduate should carefully evaluate their finances, including debt-to-income ratio and potential expenses, and consider alternatives to purchasing the luxury car that offer similar professional benefits without jeopardizing their financial stability.",
+    "reference": "They should prioritize financial stability and long-term career growth by exploring more affordable transportation options before committing to a purchase that far exceeds their income and introduces substantial debt.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_4",
+    "scenario_id": "2",
+    "answer": "Your friend's strategy to increase stakes after a win reflects a common psychological bias influenced by recent success; while it may temporarily seem rational, Bayesian reasoning indicates that their previous win doesn't alter the overall house edge, and the expected value of subsequent bets likely remains negative, suggesting riskier behavior without guaranteed profitability.",
+    "reference": "Raising your bets because of a perceived streak is misguided. Luck does not accumulate, and larger wagers simply increase potential losses without improving the odds. The house edge remains constant regardless of past outcomes.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Nudge Theory + Present Bias",
+    "query_id": "3_3",
+    "scenario_id": "3",
+    "answer": "Banning scooters from pedestrian zones may mitigate immediate safety concerns and congestion caused by chaotic parking, but it could also decrease the long-term adoption of eco-friendly transportation options; thus, strategically implementing designated parking areas and educational campaigns could encourage responsible use and enhance community acceptance of scooters.",
+    "reference": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  }
+]

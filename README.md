@@ -79,7 +79,7 @@ python scripts/DeepEval.py --responses LLM-Responses-with-description/<filename.
 ```console
 python scripts/BERTScore.py --responses LLM-Responses-with-description/<filename.json>
 ```
-### Finding Lowest Scores
+### Finding Lowest Scores for each Result-x-Detailed file in both overall lowest and per-input-file lowest
 
 ```console
 python scripts/LowestScoreFinder.py 

@@ -1,252 +1,140 @@
 import json
-import os
-import heapq
-import sys
-import re
+from pathlib import Path
 
-DIRECTORIES_TO_SCAN = [
-    "./Results/Results-DeepEval-Detailed",
-    "./Results/Results-Bertscore-Detailed",
-]
+BERTCORE_DIR = Path("Results/Results-Bertscore-Detailed")
+DEEPEVAL_DIR = Path("Results/Results-DeepEval-Detailed")
+OUTPUT_DIR = Path("Results/Lowest-Scores")
+N_LOWEST_PER_FILE = 15
+LOWEST_N_OVERALL_TO_SAVE = 25
 
-NUM_LOWEST = 5
-OUTPUT_FILE_PREFIX = "lowest_scores_"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+per_file_lowest_f1 = {}
+per_file_lowest_relevancy = {}
+per_file_lowest_faithfulness = {}
 
-def generate_output_filename(dir_path, prefix):
-    """Generates a clean filename based on the directory path."""
-    dir_name = os.path.basename(os.path.abspath(dir_path))
-    clean_dir_name = re.sub(r"[^\w\-\_\. ]", "_", dir_name)
-    return f"{prefix}{clean_dir_name}.json"
+all_f1_entries = []
+all_relevancy_entries = []
+all_faithfulness_entries = []
 
+def extract_common_data(item, filename):
+    """Helper function to extract common fields from a result item."""
+    return {
+        "model": item.get("model", ""),
+        "query_id": item.get("query_id"),
+        "scenario_id": item.get("scenario_id"),
+        "answer": item.get("answer"),
+        "reference": item.get("reference"),
+        "source_file": filename
+    }
 
-def process_directory(directory_path, num_lowest=NUM_LOWEST):
-    """
-    Finds the lowest scores for files within a single directory.
-
-    Args:
-        directory_path (str): The path to the directory containing JSON files.
-        num_lowest (int): The number of lowest scores to find per file.
-
-    Returns:
-        dict: A dictionary of results for this directory, or None if errors occur.
-    """
-    absolute_directory_path = os.path.abspath(directory_path)
-    if not os.path.isdir(absolute_directory_path):
-        print(
-            f"Error: Directory not found at '{absolute_directory_path}' (Resolved from '{directory_path}')."
-        )
-        return None
-
-    print(f"\n--- Scanning directory: {absolute_directory_path} ---")
-    results_for_this_dir = {}
+print(f"Processing Bertscore files from: {BERTCORE_DIR}")
+for filepath in BERTCORE_DIR.glob("*.json"):
+    print(f"  Reading: {filepath.name}")
+    current_file_f1_items = []
     try:
-        filenames = os.listdir(absolute_directory_path)
-    except OSError as e:
-        print(f"Error accessing directory '{absolute_directory_path}': {e}.")
-        return None
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            for item in data.get("results", []):
+                f1 = item.get("f1")
+                if f1 is not None:
+                    entry_data = extract_common_data(item, filepath.name)
+                    entry_data["f1_score"] = f1
+                    current_file_f1_items.append(entry_data)
+                    all_f1_entries.append(entry_data)
 
-    found_json_files_in_dir = False
-    for filename in filenames:
-        if filename.lower().endswith(".json"):
-            found_json_files_in_dir = True
-            file_path = os.path.join(absolute_directory_path, filename)
-            print(f"  Processing file: {filename}...")
-            score_data_list = []
+        current_file_f1_items.sort(key=lambda x: x["f1_score"])
+        per_file_lowest_f1[filepath.name] = current_file_f1_items[:N_LOWEST_PER_FILE]
 
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
+    except json.JSONDecodeError:
+        print(f"    Error decoding JSON from {filepath.name}")
+    except Exception as e:
+        print(f"    An error occurred while processing {filepath.name}: {e}")
 
-                if "results" not in data or not isinstance(
-                    data["results"], list
-                ):
-                    print(
-                        f"    Skipping {filename}: Missing or invalid 'results' list."
-                    )
-                    continue
+print(f"\nProcessing DeepEval files from: {DEEPEVAL_DIR}")
+for filepath in DEEPEVAL_DIR.glob("*.json"):
+    print(f"  Reading: {filepath.name}")
+    current_file_relevancy_items = []
+    current_file_faithfulness_items = []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            for item in data.get("results", []):
+                common_data = extract_common_data(item, filepath.name)
 
-                is_deepeval_format = (
-                    "metrics_used" in data
-                    and isinstance(data.get("metrics_used"), list)
-                    and data["metrics_used"]
-                )
+                answer_relevancy_score = item.get("answer_relevancy", {}).get("score")
+                if answer_relevancy_score is not None:
+                    relevancy_entry = common_data.copy()
+                    relevancy_entry["answer_relevancy_score"] = answer_relevancy_score
+                    current_file_relevancy_items.append(relevancy_entry)
+                    all_relevancy_entries.append(relevancy_entry)
 
-                if is_deepeval_format:
-                    metrics_to_check = data["metrics_used"]
-                    print(
-                        f"    Detected DeepEval format (metrics: {metrics_to_check})."
-                    )
-                    for result_item in data["results"]:
-                        query_id = result_item.get("query_id")
-                        question = result_item.get("question")
-                        answer = result_item.get("answer")
-                        reference = result_item.get("reference")
+                faithfulness_score = item.get("faithfulness", {}).get("score")
+                if faithfulness_score is not None:
+                    faithfulness_entry = common_data.copy()
+                    faithfulness_entry["faithfulness_score"] = faithfulness_score
+                    current_file_faithfulness_items.append(faithfulness_entry)
+                    all_faithfulness_entries.append(faithfulness_entry)
 
-                        if (
-                            question is None
-                            or answer is None
-                            or reference is None
-                        ):
-                            print(
-                                f"    Warning: Item missing 'question', 'answer', or 'reference'. Skipping."
-                            )
-                            continue
-                        if query_id is None:
-                            print(
-                                f"    Warning: DeepEval item missing 'query_id'. Question: '{question[:30]}...'"
-                            )
+        # Get N lowest for the current file for relevancy
+        current_file_relevancy_items.sort(key=lambda x: x["answer_relevancy_score"])
+        per_file_lowest_relevancy[filepath.name] = current_file_relevancy_items[:N_LOWEST_PER_FILE]
 
-                        for metric_name in metrics_to_check:
-                            metric_data = result_item.get(metric_name)
-                            if isinstance(metric_data, dict):
-                                score = metric_data.get("score")
-                                if isinstance(score, (int, float)):
-                                    score_data_list.append(
-                                        {
-                                            "score": score,
-                                            "question": question,
-                                            "answer": answer,
-                                            "reference": reference,
-                                            "query_id": query_id,
-                                        }
-                                    )
-                else:
-                    print(
-                        f"    Assuming BertScore format (looking for 'f1' score)."
-                    )
-                    bertscore_found = False
-                    for result_item in data["results"]:
-                        question = (
-                            result_item.get("question")
-                            or f"QueryID: {result_item.get('query_id', 'N/A')}"
-                        )
-                        answer = result_item.get("answer")
-                        reference = result_item.get("reference")
-                        f1_score = result_item.get("f1")
+        # Get N lowest for the current file for faithfulness
+        current_file_faithfulness_items.sort(key=lambda x: x["faithfulness_score"])
+        per_file_lowest_faithfulness[filepath.name] = current_file_faithfulness_items[:N_LOWEST_PER_FILE]
 
-                        if answer is None or reference is None:
-                            print(
-                                f"    Warning: Item missing 'answer' or 'reference'. Skipping."
-                            )
-                            continue
+    except json.JSONDecodeError:
+        print(f"    Error decoding JSON from {filepath.name}")
+    except Exception as e:
+        print(f"    An error occurred while processing {filepath.name}: {e}")
 
-                        if isinstance(f1_score, (int, float)):
-                            bertscore_found = True
-                            score_data_list.append(
-                                {
-                                    "score": f1_score,
-                                    "question": question,
-                                    "answer": answer,
-                                    "reference": reference,
-                                }
-                            )
-                    if not bertscore_found:
-                        print(
-                            f"    Warning: No 'f1' scores found in assumed BertScore file {filename}."
-                        )
+output_per_file_f1_path = OUTPUT_DIR / f"per_file_lowest_scores_bertscore_f1.json"
+print(f"\nWriting per-file lowest {N_LOWEST_PER_FILE} F1 scores to: {output_per_file_f1_path}")
+with open(output_per_file_f1_path, 'w', encoding='utf-8') as f:
+    json.dump(per_file_lowest_f1, f, indent=2)
 
-                if not score_data_list:
-                    print(
-                        f"    No valid score data entries found or extracted in {filename}."
-                    )
-                    continue
+output_per_file_relevancy_path = OUTPUT_DIR / f"per_file_lowest_scores_answer_relevancy.json"
+print(f"Writing per-file lowest {N_LOWEST_PER_FILE} Answer Relevancy scores to: {output_per_file_relevancy_path}")
+with open(output_per_file_relevancy_path, 'w', encoding='utf-8') as f:
+    json.dump(per_file_lowest_relevancy, f, indent=2)
 
-                lowest_items = heapq.nsmallest(
-                    num_lowest, score_data_list, key=lambda x: x["score"]
-                )
-
-                output_list = []
-                for item in lowest_items:
-                    output_entry = {
-                        "score": item["score"],
-                        "question": item["question"],
-                        "answer": item["answer"],
-                        "reference": item["reference"],
-                    }
-                    if "query_id" in item and item["query_id"] is not None:
-                        output_entry["query_id"] = item["query_id"]
-                    output_list.append(output_entry)
-
-                results_for_this_dir[filename] = output_list
-                print(
-                    f"    Found {len(score_data_list)} score data entries. Identified {len(lowest_items)} lowest."
-                )
-
-            except json.JSONDecodeError:
-                print(
-                    f"    Error: Could not decode JSON from {filename}. Skipping."
-                )
-            except FileNotFoundError:
-                print(
-                    f"    Error: File not found {filename} during processing. Skipping."
-                )
-            except Exception as e:
-                print(
-                    f"    An unexpected error occurred processing {filename}: {e}. Skipping."
-                )
-
-    if not found_json_files_in_dir:
-        print(f"  No JSON files found in this directory.")
-        return {}
-
-    return results_for_this_dir
+output_per_file_faithfulness_path = OUTPUT_DIR / f"per_file_lowest_scores_faithfulness.json"
+print(f"Writing per-file lowest {N_LOWEST_PER_FILE} Faithfulness scores to: {output_per_file_faithfulness_path}")
+with open(output_per_file_faithfulness_path, 'w', encoding='utf-8') as f:
+    json.dump(per_file_lowest_faithfulness, f, indent=2)
 
 
-if __name__ == "__main__":
-    overall_success = True
-    any_results_generated = False
+print(f"\n--- Saving Overall lowest {LOWEST_N_OVERALL_TO_SAVE} Lowest Scores to Files ---")
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.abspath(
-        os.path.join(script_dir, "..", "Results/Lowest-Scores")
-    )
-    os.makedirs(output_dir, exist_ok=True)
+if all_f1_entries:
+    all_f1_entries.sort(key=lambda x: x["f1_score"])
+    lowest_overall_f1 = all_f1_entries[:LOWEST_N_OVERALL_TO_SAVE]
+    output_overall_f1_path = OUTPUT_DIR / f"overall_lowest_scores_bertscore_f1.json"
+    print(f"Writing overall lowest {LOWEST_N_OVERALL_TO_SAVE} lowest F1 scores to: {output_overall_f1_path}")
+    with open(output_overall_f1_path, 'w', encoding='utf-8') as f:
+        json.dump(lowest_overall_f1, f, indent=2)
+else:
+    print("No F1 scores found to create overall lowest F1 file.")
 
-    print(f"Output files will be saved in: {output_dir}")
+if all_relevancy_entries:
+    all_relevancy_entries.sort(key=lambda x: x["answer_relevancy_score"])
+    lowest_overall_relevancy = all_relevancy_entries[:LOWEST_N_OVERALL_TO_SAVE]
+    output_overall_relevancy_path = OUTPUT_DIR / f"overall_lowest_scores_answer_relevancy.json"
+    print(f"Writing overall lowest {LOWEST_N_OVERALL_TO_SAVE} lowest Answer Relevancy scores to: {output_overall_relevancy_path}")
+    with open(output_overall_relevancy_path, 'w', encoding='utf-8') as f:
+        json.dump(lowest_overall_relevancy, f, indent=2)
+else:
+    print("No Answer Relevancy scores found to create overall lowest Answer Relevancy file.")
 
-    for target_dir in DIRECTORIES_TO_SCAN:
-        dir_results = process_directory(target_dir, NUM_LOWEST)
+if all_faithfulness_entries:
+    all_faithfulness_entries.sort(key=lambda x: x["faithfulness_score"])
+    lowest_overall_faithfulness = all_faithfulness_entries[:LOWEST_N_OVERALL_TO_SAVE]
+    output_overall_faithfulness_path = OUTPUT_DIR / f"overall_lowest_scores_faithfulness.json"
+    print(f"Writing overall lowest {LOWEST_N_OVERALL_TO_SAVE} lowest Faithfulness scores to: {output_overall_faithfulness_path}")
+    with open(output_overall_faithfulness_path, 'w', encoding='utf-8') as f:
+        json.dump(lowest_overall_faithfulness, f, indent=2)
+else:
+    print("No Faithfulness scores found to create overall lowest Faithfulness file.")
 
-        if dir_results is None:
-            overall_success = False
-            continue
-
-        output_filename = generate_output_filename(
-            target_dir, OUTPUT_FILE_PREFIX
-        )
-        output_path = os.path.join(output_dir, output_filename)
-
-        if dir_results:
-            any_results_generated = True
-
-        try:
-            output_json = json.dumps(dir_results, indent=4)
-            with open(output_path, "w", encoding="utf-8") as outfile:
-                outfile.write(output_json)
-            if dir_results:
-                print(
-                    f"Results for '{target_dir}' successfully saved to {output_path}"
-                )
-            else:
-                print(
-                    f"No results generated for directory '{target_dir}', empty report file saved to {output_path}"
-                )
-
-        except IOError as e:
-            print(f"Error writing output file '{output_path}': {e}")
-            overall_success = False
-        except TypeError as e:
-            print(f"Error serializing results for '{target_dir}' to JSON: {e}")
-            overall_success = False
-
-    print("\n--- Script Finished ---")
-    if not overall_success:
-        print("Completed with some errors.")
-        sys.exit(1)
-    elif not any_results_generated:
-        print(
-            "Completed, but no results were generated across any directories (check directories and file contents)."
-        )
-    else:
-        print("Completed successfully.")
+print("\nScript finished.")
