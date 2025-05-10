@@ -199,7 +199,7 @@ if __name__ == "__main__":
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.abspath(
-        os.path.join(script_dir, "..", "Results/Lowest-Scores1")
+        os.path.join(script_dir, "..", "Results/Lowest-Scores")
     )
     os.makedirs(output_dir, exist_ok=True)
 
