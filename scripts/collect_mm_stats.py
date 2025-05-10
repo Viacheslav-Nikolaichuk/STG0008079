@@ -41,7 +41,6 @@ for fpath in root.glob("*.json"):
     with open(fpath, encoding="utf-8") as fp:
         blob = json.load(fp)
 
-
     # deduce LLM name from filename
     llm_name = fpath.stem.replace("_temp1_0_responses", "").replace(
         "_responses", ""
@@ -66,8 +65,10 @@ header = f"{'Model':<25} {'No MM':>7} {'Correct MM':>12} {'Off-label':>12}"
 print(header)
 print("-" * len(header))
 
+
 def pct(part: int, whole: int) -> float:
     return round(100.0 * part / whole, 1) if whole else 0.0
+
 
 for llm in [
     "deepseek-r1-1.5b",
