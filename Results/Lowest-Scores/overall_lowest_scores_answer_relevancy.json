@@ -223,5 +223,230 @@
     "reference": "Evidence suggests that a higher price on sugary beverages does reduce consumption to some degree, but the impact can vary depending on how readily consumers can substitute to other sugary products or shop outside the taxed area. The measure can still be effective, though not universally, in lowering overall sugar intake.",
     "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
     "answer_relevancy_score": 0.2
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "17_1",
+    "scenario_id": "17",
+    "answer": "The school district should consider enforcing uniforms based on academic benefits and individual student well-being rather than uniformity risks.",
+    "reference": "Uniform policies can level the playing field by downplaying clothing-based social status differences and may reduce certain behavioral problems. However, care must be taken to maintain student autonomy and respect for personal identity.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.2
+  },
+  {
+    "model": "Social Signaling",
+    "query_id": "24_2",
+    "scenario_id": "24",
+    "answer": "The student might buy the console because his $50 extra means he has valuable money to use effectively as a signal of status, indicating his ability to generate income without directly claiming competence.",
+    "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.2
+  },
+  {
+    "model": "Risk-Reward Analysis + Evidence-Based Decision Making",
+    "query_id": "20_1",
+    "scenario_id": "20",
+    "answer": "Adopting a strict low-carb diet may not be the most balanced decision without strong evidence of its specific benefits over their current healthy lifestyle, given the potential nutritional deficiencies and enjoyment loss it could entail, despite the perceived reduction in cardiovascular risk.",
+    "reference": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "",
+    "query_id": "11_2",
+    "scenario_id": "11",
+    "answer": "Adding more bike lanes may not significantly reduce car usage because many drivers prefer driving and may resist shifting to cycling.",
+    "reference": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "11_2",
+    "scenario_id": "11",
+    "answer": "Some residents argue that adding more bike lanes won't significantly decrease car usage because most people prefer to drive. Is this concern valid, or can enough drivers be swayed to cycling?",
+    "reference": "Studies from multiple cities show that well-designed, protected bike lanes can persuade a noticeable portion of residents to switch from cars to bikes. While not everyone will convert, even moderate shifts can reduce traffic and emissions, especially when combined with broader multimodal initiatives.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Tragedy of the Commons",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "The answer should highlight how each group benefits from switching alone, potentially leading to unintended negative outcomes due to shared resources. Answer: The claim ignores broader environmental impacts, as it doesn't address potential adverse effects on other consumers or the resource's depletion. Answer in one sentence: Environmentalists don't solve the problem by themselves; they must consider broader consequences. Environmentalists argue that switching alone won't resolve waste, but it may deplete shared resources and harm others' choices.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "19_1",
+    "scenario_id": "19",
+    "answer": "Yes.",
+    "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "23_5",
+    "scenario_id": "23",
+    "answer": "It's better for the student to consider alternative savings or investment options before investing in Bitcoin due to its high-risk nature.",
+    "reference": "No. While a short-term high-risk bet might yield fast gains, the downside is catastrophic if the investment fails, especially for someone with limited capital and no safety net. Diversification and prudent saving are necessary.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Tragedy of the Commons",
+    "query_id": "39_3",
+    "scenario_id": "39",
+    "answer": "To balance environmental benefits of congestion charges with mitigating harm to low-income residents and local businesses, a system could be created where each group manages their traffic impact through alternative transportation options, efficient parking strategies, or eco-friendly alternatives, ensuring the congestion charge isn't overused beyond necessary management.",
+    "reference": "Introducing tiered pricing based on vehicle emissions or offering exemptions for essential workers can reduce regressive effects. Revenue from the congestion charge could fund expanded public transport services, making alternatives more viable. Tax credits or subsidies could be provided to low-income drivers needing cleaner vehicles. Partnering with local businesses to develop 'car-free' delivery or discount programs might also offset potential losses in foot traffic. Clear communication, phased rollouts, and ongoing data-driven evaluations are essential so policymakers can refine and improve the system over time.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "ROI Analysis + Risk Aversion",
+    "query_id": "15_4",
+    "scenario_id": "15",
+    "answer": "The cooperative should delay adopting hydroponic systems until securing external funding or partnerships, as this strategy would help minimize financial and technical risks associated with high upfront costs and complexity.",
+    "reference": "Seeking external funding can lower the coop's financial exposure. However, waiting too long could result in missed growth opportunities if competitor farms adopt modern techniques first.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "23_3",
+    "scenario_id": "23",
+    "answer": "The student should research Bitcoin's current value, assess their risk tolerance, consider diversification strategies, evaluate the credibility of experts' opinions on Bitcoin's future, review fees and security measures of potential platforms, compare returns against other investments, ensure emergency funds are set aside, consult credible sources on tax implications, and possibly seek advice from a financial advisor before deciding.",
+    "reference": "The student should protect their financial stability by keeping most of their money in safe, stable assets for emergencies and only consider investing a small, affordable amount in Bitcoin if they have extra funds, while also diversifying into less risky options.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Risk Diversification",
+    "query_id": "23_3",
+    "scenario_id": "23",
+    "answer": "The student should consider allocating a portion of their funds to a diversified portfolio that includes low-risk assets to maintain liquidity and minimize potential losses, rather than risking everything on a single investment like Bitcoin.",
+    "reference": "The student should protect their financial stability by keeping most of their money in safe, stable assets for emergencies and only consider investing a small, affordable amount in Bitcoin if they have extra funds, while also diversifying into less risky options.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "Opportunity Cost",
+    "query_id": "24_1",
+    "scenario_id": "24",
+    "answer": "The student would be giving up $50 of potential savings for future college expenses, representing the opportunity cost of choosing to buy the gaming console now.",
+    "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.25
+  },
+  {
+    "model": "ROI Analysis + Risk Aversion",
+    "query_id": "15_2",
+    "scenario_id": "15",
+    "answer": "The farm cooperative should focus on reducing manual tasks through hybridization techniques, explore cost-effective solutions using existing resources, and leverage experts for pilot programs to assess feasibility. This approach balances automation potential with initial investment in a simplified manner.",
+    "reference": "Offering training and partnering with local agricultural colleges can develop in-house expertise, reducing reliance on external consultants. A small but trained core team can maintain and troubleshoot systems effectively.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.2857142857142857
+  },
+  {
+    "model": "Change Management",
+    "query_id": "5_1",
+    "scenario_id": "5",
+    "answer": "Phased implementation with thorough data security protocols and comprehensive employee training will mitigate risks and facilitate successful adoption by addressing immediate concerns and allowing for iterative improvements.",
+    "reference": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.2857142857142857
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "14_2",
+    "scenario_id": "14",
+    "answer": "Leadership should prioritize realistic expectations, clear communication, and balancing service expansion with resource management to address both donors' concerns and ensure a smooth volunteer capacity.",
+    "reference": "Transparent communication about program objectives, budgets, and progress can reassure donors. Demonstrating careful planning and readiness to adapt as needs evolve fosters trust and continued financial support.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "Yes, environmentalists are correct-they argue that combining eco-friendly packaging strategies with other measures like reduced plastic use and better waste management could effectively address the restaurant's overall waste problem.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "Risk-Reward Analysis",
+    "query_id": "20_3",
+    "scenario_id": "20",
+    "answer": "The decision balances a possible reduction in cardiovascular risk against risking lost dietary variety and enjoyment.",
+    "reference": "Extreme carbohydrate restriction without robust evidence may not be warranted, especially if it reduces overall dietary satisfaction. A moderate approach guided by clinical data is advisable unless strong research suggests otherwise.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "24_2",
+    "scenario_id": "24",
+    "answer": "The student might want to buy the console because it allows them to use the saved funds effectively rather than investing it for potentially larger needs like textbooks.",
+    "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "24_2",
+    "scenario_id": "24",
+    "answer": "The student might benefit from spending the extra $50 on a gaming console instead of saving it, as it provides immediate use value.",
+    "reference": "They might be tempted by instant fun, peer pressure from friends with consoles, or a reward mindset after working hard.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "31_3",
+    "scenario_id": "31",
+    "answer": "The foundation can leverage data to assess various strategies, adapt to changing conditions in real-time, and prioritize projects that foster long-term sustainability.",
+    "reference": "Key steps include establishing a real-time monitoring system to track evolving needs and impacts, partnering with reputable local NGOs for continuous feedback, and setting clear milestones for both immediate relief and longer-term development projects. Regular audits should be conducted to ensure accountability, and the foundation should revisit its strategy based on newly emerging data or shifts in the conflict. Building in contingency budgets or reserve funds further allows for swift reallocation when emergencies surge or when evidence suggests a pivot. In essence, agility, transparency, and robust, ongoing data collection are critical to an adaptive philanthropic strategy that remains responsive to the complex realities on the ground.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "33_2",
+    "scenario_id": "33",
+    "answer": "It is an ethical challenge to delay security updates for short-term financial gain without significant risk of breach or reputational damage.",
+    "reference": "An ethical justification for postponing critical security updates is difficult to maintain, given the potential harm to customers and other stakeholders if a breach occurs. While short-term financial considerations matter for the company's bottom line, ethical responsibility dictates actively protecting sensitive data, maintaining trust, and safeguarding customer privacy. Failing to address known vulnerabilities could be seen as neglecting a fundamental duty of care. Ultimately, the ethics hinge on the risk tolerance the firm is willing to impose on its customers, employees, and partners, especially if postponing leaves them vulnerable to significant harm.",
+    "source_file": "deepeval_detailed_deepseek-r1-1.5b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "His reasoning is flawed because a previous win does not change the inherently negative prospects of future bets-the statistical likelihood of loss remains unchanged regardless of current winnings, meaning that while the win might temporarily offset a loss, it doesn't alter the average unprofitable outcome of each gamble.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "Opportunity Cost + Short-Term vs. Long-Term",
+    "query_id": "24_1",
+    "scenario_id": "24",
+    "answer": "While the console would offer instant enjoyment, it sacrifices nearly all the funds needed for important educational supplies, making it a less prudent option in balancing immediate desires against essential future needs.",
+    "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+    "source_file": "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "2_1",
+    "scenario_id": "2",
+    "answer": "A single anecdotal win does not statistically negate the inherent house edge, which ensures long-term casino profitability at the population level despite individual short-term gains.",
+    "reference": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+    "source_file": "deepeval_detailed_deepseek-r1_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "answer_relevancy_score": 0.3333333333333333
   }
 ]

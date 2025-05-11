@@ -223,5 +223,230 @@
     "reference": "Banning scooters from pedestrian zones may alleviate parking and accident issues in those areas, but could also reduce their accessibility and impact their overall effectiveness in reducing traffic congestion.",
     "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
     "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Risk Assessment",
+    "query_id": "13_1",
+    "scenario_id": "13",
+    "answer": "The library should conduct a thorough risk assessment by evaluating the likelihood and impact of potential patron alienation against the benefits of cost savings and improved resource accessibility, while also addressing vulnerabilities such as staff adaptation to new technologies and the importance of preserving community engagement in decision-making, ultimately leading to a balanced strategy that mitigates adverse outcomes while advancing the library's mission in a digital age.",
+    "reference": "While digital resources can improve accessibility and lower storage costs, a sudden or complete transition risks losing patrons who rely on physical books. Balancing innovation with community needs through a phased rollout or a hybrid approach can mitigate abrupt disruptions and preserve long-standing relationships.",
+    "source_file": "deepeval_detailed_gpt-4o-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Availability Bias + Overconfidence Bias",
+    "query_id": "27_2",
+    "scenario_id": "27",
+    "answer": "Given that short-term, emotionally charged data and the client's enthusiasm can obscure underlying long-term market trends, it is more prudent to recommend a diversified investment strategy rather than heavily investing in the volatile tech stock based solely on recent hype.",
+    "reference": "It is not wise to recommend investing heavily based primarily on the seminar's insights and your client's enthusiasm. The seminar's data reflects a short, volatile period, which may not predict future performance, and the client's enthusiasm stems from selective news rather than a balanced view. A prudent recommendation should prioritize long-term market trends, risk assessment, and diversification, rather than being swayed by a single event's hype or client pressure, to protect the client's financial interests.",
+    "source_file": "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Stakeholder Engagement",
+    "query_id": "29_2",
+    "scenario_id": "29",
+    "answer": "While economic gains offer tangible benefits, ethically it is questionable to prioritize them when such an approach compromises long-held public rights, environmental sustainability, and the diverse needs of the community.",
+    "reference": "Determining ethical justifiability depends on how the new development balances broad community benefits against the loss of a communal asset. While economic gains can boost jobs and revenue, restricting public access to a resource that has long been open to everyone raises equity and fairness concerns. A truly ethical approach would seek to ensure that those impacted by diminished river access\u2014particularly smaller businesses and lower-income residents\u2014are neither disproportionately burdened nor excluded from future benefits. Thoughtful public consultation, environmental protection measures, and equitable compensation or alternative access solutions can help address the moral complexities.",
+    "source_file": "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Fear of Missing Out + Halo Effect",
+    "query_id": "38_4",
+    "scenario_id": "38",
+    "answer": "Emerging trends in ethical consumerism are likely to bolster the long-term, values-based approach-enhancing sustained brand loyalty and positive reputation-while diminishing the allure of short-term, scarcity-driven tactics that may clash with increasingly conscientious consumer values.",
+    "reference": "As consumers grow increasingly aware of environmental and social impacts, authentic brand commitments often carry greater weight. FOMO-driven strategies may see diminishing returns if audiences perceive them as manipulative. Conversely, values-driven marketing could benefit from escalating demand for transparency, with consumers rewarding brands that demonstrate consistent action. Over time, any approach perceived as 'greenwashing' might invite backlash. Thus, brands that demonstrate tangible sustainability measures, coupled with honest communication, are more likely to thrive as ethical consumerism evolves. This trend underscores the importance of an integrated, values-aligned strategy rather than short-lived promotional tactics.",
+    "source_file": "deepeval_detailed_o3-mini_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "19_1",
+    "scenario_id": "19",
+    "answer": "The investment is a high-risk, break-even proposition (expected value equal to current revenue) but may be justified if long-term growth potential outweighs the 50% chance of a $50,000 loss.",
+    "reference": "This is a risky investment that may not be worthwhile; a $50,000 cost against a $100,000 revenue with only a 50% success chance could strain finances significantly, especially without guaranteed returns outweighing the potential loss.",
+    "source_file": "deepeval_detailed_deepseek-r1_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "20_1",
+    "scenario_id": "20",
+    "answer": "While a low-carb diet may offer benefits, its strict adoption is unnecessary for someone already maintaining a balanced diet and exercise, and could risk nutrient deficiencies or unsustainable habits without personalized medical guidance.",
+    "reference": "Not necessarily. While a low-carb diet may benefit some, the individual's current balanced diet and exercise routine may already mitigate their heart disease risk effectively, and a drastic change could lead to nutritional deficiencies or reduced enjoyment without clear evidence of superior outcomes.",
+    "source_file": "deepeval_detailed_deepseek-r1_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_3",
+    "scenario_id": "2",
+    "answer": "The belief that a slot machine becomes 'hot' after recent wins is not statistically justified, as each spin is independent and does not increase future payout likelihood.",
+    "reference": "No. Each spin on a modern slot machine is generated by an independent random number process. A recent payout does not increase the probability of another one; the notion of \u201chot\u201d machines is a misconception.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Cost-Benefit Analysis + Change Management",
+    "query_id": "5_3",
+    "scenario_id": "5",
+    "answer": "They should measure success by evaluating key performance indicators such as inventory accuracy, order fulfillment times, cost reduction, employee adoption rates, and the frequency of data security incidents.",
+    "reference": "Success should be measured by the degree to which the system reduces inventory costs, minimizes stockouts, and improves order fulfillment rates while maintaining data security and positive employee adoption metrics.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "Environmentalists are correct; transitioning to fully plant-based packaging alone won't comprehensively solve the chain's waste issues without complementary measures like reduced food waste, improved recycling, and infrastructure enhancements.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Fear of Missing Out + Halo Effect",
+    "query_id": "38_1",
+    "scenario_id": "38",
+    "answer": "The moderate, values-based strategy that emphasizes sustainability and long-term benefits is preferable as it aligns with the brand's historical commitment to authenticity and environmental responsibility, fostering deeper connections with eco-conscious consumers while maintaining a genuine brand image.",
+    "reference": "An effective evaluation looks at both short-term marketing metrics (like spike in sales, online buzz) and the risk of diluting the brand's core promise. While a FOMO-based campaign can generate immediate results, it can appear disingenuous or contradictory if the brand historically emphasizes sustainability and steady, responsible consumption. Market research is crucial to gauge whether the target audience values consistency in messaging over quick deals. An in-depth cost-benefit analysis should include intangible factors like brand trust and negative backlash from dedicated consumers who see the pivot as opportunistic.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_9",
+    "scenario_id": "2",
+    "answer": "The existence of casino loyalty programs and generous rewards does not significantly alter the mathematical advantage held by casinos, as the amounts offered are typically insufficient to compensate for the expected losses incurred over time.",
+    "reference": "Loyalty perks can reduce a fraction of your losses but rarely exceed the built-in disadvantage. They are designed to encourage continued play, not to provide a true positive expected value over time.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Systems Thinking",
+    "query_id": "37_1",
+    "scenario_id": "37",
+    "answer": "To inform your decision, weigh the short-term benefits of rapid stabilization through temporary shelters against their potential long-term trade-offs, such as diverting resources from policy advocacy and permanent supportive housing solutions that may ultimately reduce homelessness incidence rates over time.",
+    "reference": "A solid comparison weighs the immediacy and visibility of shelters\u2014reducing short-term suffering\u2014against the potentially transformative but resource-intensive nature of permanent solutions. Factoring in capacity limits, ongoing operating costs, and the ultimate goal of genuinely ending homelessness is key. While shelters provide rapid relief, they can become a stopgap if not paired with pathways to stable homes. The evaluation should also assess community acceptance, policy environment, and the viability of each approach's funding model to determine a balanced allocation of resources that meets urgent needs without derailing fundamental change.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Change Management",
+    "query_id": "5_3",
+    "scenario_id": "5",
+    "answer": "Success should be measured by tracking key performance indicators like inventory turnover rate, order fulfillment time, stockout frequency, and employee adoption rates, alongside monitoring security breach attempts and associated data loss incidents.",
+    "reference": "Success should be measured by the degree to which the system reduces inventory costs, minimizes stockouts, and improves order fulfillment rates while maintaining data security and positive employee adoption metrics.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "38_3",
+    "scenario_id": "38",
+    "answer": "Employ limited-time promotions highlighting sustainable features to generate immediate sales while reinforcing the brand's eco-friendly values.",
+    "reference": "A dual-focused strategy might highlight limited-time offers that showcase sustainable products or donation match efforts (e.g., part of profits go to environmental causes). Transparent communication about eco-friendly sourcing and packaging can provide urgency while reinforcing brand authenticity. Additionally, using social proof\u2014like testimonials from environmental groups or recognized certifications\u2014can strengthen credibility. Marketers can embed a sense of urgency without resorting solely to fear, for example by inviting customers to take part in time-bound collective action that benefits both them and the environment.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "",
+    "query_id": "40_1",
+    "scenario_id": "40",
+    "answer": "Quantify the potential exponential growth of a broader market against the quantifiable risks of diluting our distinctive value and exceeding resource capacity.",
+    "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.3333333333333333
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "30_2",
+    "scenario_id": "30",
+    "answer": "It is not ethically justifiable to prioritize renewable energy expansion over preserving farmland that sustains local families and the food supply, as the long-term consequences for food security, biodiversity, and community well-being outweigh the immediate benefits of revenue generation.",
+    "reference": "Determining ethical justifiability involves balancing broader societal needs\u2014like mitigating climate change and supporting sustainable energy initiatives\u2014with the rights and livelihood of local farmers and the community. While promoting renewable energy is crucial, so is recognizing that farmland plays a vital role in food security and regional identity. A purely profit-driven approach that dismisses local traditions and necessities risks overlooking moral obligations to support agricultural communities. Ultimately, decisions should incorporate careful consideration of stakeholder input, equitable compensation, and contingency plans to mitigate adverse effects on farmers and food production.",
+    "source_file": "deepeval_detailed_deepseek-r1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.4
+  },
+  {
+    "model": "Systems Thinking",
+    "query_id": "35_4",
+    "scenario_id": "35",
+    "answer": "The viability of the new ML approach will be influenced by a complex interplay between evolving consumer expectations, emerging data protection regulations, and technological advancements, which may necessitate continuous adaptation and potential trade-offs between personalization, user trust, and cost-effectiveness.",
+    "reference": "As consumers become more privacy-conscious, demands for transparency and user control are likely to grow. Heightened regulations\u2014potentially global in scope\u2014could increase compliance overheads and restrict certain data-collection practices. These shifts might mean that what currently seems like a profitable personalization strategy could incur higher operational costs and limitations over time. Companies able to adapt quickly, either by pivoting to privacy-preserving techniques or collaborating with regulators to shape standards, will be better positioned to sustain innovation. In essence, agile compliance and user-centric design will be crucial for maintaining a competitive edge while safeguarding trust.",
+    "source_file": "deepeval_detailed_llama3.1-8b_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.4
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "5_1",
+    "scenario_id": "5",
+    "answer": "To decide whether to implement the AI inventory system across all departments simultaneously, the company should quantify the expected operational cost reductions against the system's initial expenses, weigh potential data security risks and disruption against productivity gains, and consider a phased rollout to mitigate employee adaptation challenges and lessen financial risks.",
+    "reference": "No, a phased rollout with robust data security protocols and comprehensive employee training would mitigate risk and allow for adjustments based on real-world implementation.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "5_4",
+    "scenario_id": "5",
+    "answer": "The business should conduct a thorough assessment of the potential costs and benefits associated with addressing data security internally versus outsourcing, factoring in not only financial implications and security efficacy but also potential employee adaptation challenges and overall impact on business operations.",
+    "reference": "The business should prioritize a layered approach to data security, involving both robust internal protocols and an external vendor specializing in AI system security, to mitigate risks effectively and ensure comprehensive protection.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Nudge Theory",
+    "query_id": "14_3",
+    "scenario_id": "14",
+    "answer": "Yes, the concern is legitimate, as quick expansion without adequate resources could overwhelm existing systems, risking diminished personalized attention and effective service delivery.",
+    "reference": "Growing too fast can strain staff and volunteers, leading to less individualized attention for clients. Implementing structured training and maintaining reasonable caseloads can help preserve quality as services expand.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Opportunity Cost",
+    "query_id": "24_1",
+    "scenario_id": "24",
+    "answer": "Buying the gaming console means losing the opportunity to alleviate future college textbook expenses, suggesting a short-term pleasure may outweigh a potentially valuable long-term investment in education.",
+    "reference": "It's probably not smart as the console uses almost all their savings for entertainment, while saving for textbooks supports a future need with greater long-term value.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "27_3",
+    "scenario_id": "27",
+    "answer": "Recommend a balanced investment approach by conducting a comprehensive risk assessment, considering diversification, reviewing the tech stock's fundamentals and historical performance, and aligning with your client's long-term financial goals and risk tolerance.",
+    "reference": "To ensure a well-rounded recommendation, you should analyze historical performance data for the tech stock and its sector, including volatility and risk metrics beyond the recent surge. Consult with other financial experts for diverse perspectives, review independent market analyses, and assess your client's risk tolerance and portfolio diversity. Additionally, explain the difference between short-term gains and long-term trends to your client, setting realistic expectations based on comprehensive evidence rather than recent highlights or their excitement.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Risk Diversification + Tragedy of the Commons",
+    "query_id": "39_2",
+    "scenario_id": "39",
+    "answer": "Ethically, implementing the policy demands balancing short-term financial burdens on lower-income drivers with long-term societal benefits and fairness strategies, like subsidized alternatives or exemptions, to prevent resource exploitation by ensuring equitable participation in environmental objectives.",
+    "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
+    "source_file": "deepeval_detailed_gpt-4o_temp1_0_answer_relevancy_faithfulness_ground_truth.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Evidence-Based Decision Making",
+    "query_id": "40_1",
+    "scenario_id": "40",
+    "answer": "To make a sound choice, rigorously weigh the data-supported upside of mass market revenue against the empirically-evidenced downside of diluting the specific features that currently drive your niche's proven success.",
+    "reference": "A detailed evaluation should account for the current product's uniqueness and how it sets the brand apart from competitors. Potential mass-market success demands measuring the magnitude of new customer acquisition against possible churn among existing loyal users. Financially, this involves factoring in increased production, marketing, and support costs as well as potential brand repositioning. Qualitative concerns\u2014like whether the product's authenticity or specialized features survive scaling\u2014are equally important. Weighing these numerical and intangible factors clarifies whether the pivot is worth potentially sacrificing the brand's distinct identity.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.5
+  },
+  {
+    "model": "Evidence-Based Decision Making",
+    "query_id": "40_2",
+    "scenario_id": "40",
+    "answer": "Prioritizing larger profits over a loyal niche is ethically sound only if data demonstrably confirms a net positive outcome considering both broader societal benefit and minimized harm to the original user base.",
+    "reference": "Ethical justifiability depends on whether existing customers rely on specialized features or community aspects that broader expansions might diminish. If the pivot undercuts promises made to this niche, like ongoing support or product exclusivity, there could be a sense of betrayal. On the other hand, responsible growth that maintains core commitments and transparently communicates changes can be ethically sound if it benefits both new and existing users. Ultimately, balancing stakeholder interests\u2014investors seeking returns and customers needing a reliable product\u2014requires honesty, integrity, and perhaps compromise to remain fair to all parties.",
+    "source_file": "deepeval_detailed_gemini-2.0-flash-thinking_temp1_0_answer_relevancy_faithfulness_ground_truth_lastquestions.json",
+    "faithfulness_score": 0.5
   }
 ]

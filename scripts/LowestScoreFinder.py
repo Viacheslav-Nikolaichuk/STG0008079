@@ -5,7 +5,7 @@ BERTCORE_DIR = Path("Results/Results-Bertscore-Detailed")
 DEEPEVAL_DIR = Path("Results/Results-DeepEval-Detailed")
 OUTPUT_DIR = Path("Results/Lowest-Scores")
 N_LOWEST_PER_FILE = 15
-LOWEST_N_OVERALL_TO_SAVE = 25
+LOWEST_N_OVERALL_TO_SAVE = 50
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

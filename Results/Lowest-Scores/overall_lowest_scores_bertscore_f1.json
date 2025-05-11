@@ -223,5 +223,230 @@
     "reference": "Employ synchronous methods for urgent issues, complex planning, and team bonding, while relying on asynchronous channels for routine updates and longer-term discussions. This balance reduces meeting fatigue and supports flexible schedules.",
     "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
     "f1_score": 0.5336480736732483
+  },
+  {
+    "model": "",
+    "query_id": "2_10",
+    "scenario_id": "2",
+    "answer": "Betting randomly and using odds as your guide is best.",
+    "reference": "No. Each roulette spin is independent, and the house edge remains the same regardless of past outcomes. Observing multiple big wins does not increase your odds on subsequent spins.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5337462425231934
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "The reasoning holds, but the conclusion might be too strong because while their success confirms skill, it doesn't necessarily reinforce the casino's inherent advantage without considering systemic factors and individual game rules.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5361403226852417
+  },
+  {
+    "model": "Risk Assessment",
+    "query_id": "33_2",
+    "scenario_id": "33",
+    "answer": "Yes, by prioritizing immediate financial stability over long-term security risks.",
+    "reference": "An ethical justification for postponing critical security updates is difficult to maintain, given the potential harm to customers and other stakeholders if a breach occurs. While short-term financial considerations matter for the company's bottom line, ethical responsibility dictates actively protecting sensitive data, maintaining trust, and safeguarding customer privacy. Failing to address known vulnerabilities could be seen as neglecting a fundamental duty of care. Ultimately, the ethics hinge on the risk tolerance the firm is willing to impose on its customers, employees, and partners, especially if postponing leaves them vulnerable to significant harm.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5362380743026733
+  },
+  {
+    "model": "Tragedy of the Commons",
+    "query_id": "39_4",
+    "scenario_id": "39",
+    "answer": "Technological progress mitigating individual burdens on shared urban resources might lessen the continuous necessity for usage fees to manage collective impact on those resources.",
+    "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
+    "source_file": "bertscore_detailed_gemini-2.0-flash-thinking_temp1_0_ground_truth.json",
+    "f1_score": 0.5368003845214844
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "36_4",
+    "scenario_id": "36",
+    "answer": "The committee should balance immediate risks with the potential long-term benefits of advancing rare disease research.",
+    "reference": "Rare disease research often relies on cutting-edge science and innovative methodologies because traditional commercial incentives are lower. Many past breakthroughs in orphan drug development emerged from smaller, riskier initiatives that eventually gained regulatory traction. However, success rates can be low, and rigorous backing\u2014both financial and institutional\u2014is typically needed. In addition, when a breakthrough does occur, it can transform medical protocols and open pathways for future research. Thus, while the probability of revolutionizing treatment isn't guaranteed, there is precedent suggesting that under-supported, high-potential efforts can yield dramatic advances, especially with a committed infrastructure behind them.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5369970798492432
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "While a recent win may update beliefs about gambling's profitability, the expected value analysis indicates that casinos hold an advantage, suggesting the reasoning isn't entirely sound.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-8b_temp1_0_ground_truth.json",
+    "f1_score": 0.5376656651496887
+  },
+  {
+    "model": "Tragedy of the Commons + Nudge Theory",
+    "query_id": "18_3",
+    "scenario_id": "18",
+    "answer": "The fast-food chain should consider implementing multiple strategies beyond switching to plant-based packaging to address both cost and sustainability issues. Step-by-step explanation: 1. Identify the Problem: The issue is a shared resource (food waste) being depleted by individual choices leading to environmental harm. 2. Apply Tragedy of the Commons: Each place's actions (e.g., packaging cost) may cause collective depletion, unlike a single resource where everyone benefits. 3. Understand Nudge Theory: Positive reinforcement can encourage sustainable practices beyond packaging changes. 4. Evaluate Measures: Beyond plant-based packaging, strategies like sourcing ingredients sustainably, reducing plastic use, promoting eco-friendly packaging, and enhancing demand contribute to overall waste reduction. 5. Conclusion: Combining these factors addresses environmental sustainability more effectively than relying solely on one solution. Answer: Yes, the chain should consider other sustainable practices alongside plant-based packaging for a comprehensive approach.",
+    "reference": "Plant-based packaging is just one step. Reducing excess packaging, improving recycling infrastructure, and educating consumers about disposal habits are crucial for meaningful long-term waste reduction.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5384954214096069
+  },
+  {
+    "model": "Status Quo Bias",
+    "query_id": "6_1",
+    "scenario_id": "6",
+    "answer": "While automation offers efficiency gains, the company should weigh the substantial transition costs and potential employee resistance against long-term benefits, as immediate replacement risks disruption from ingrained operational familiarity and aversion to altering established workflows.",
+    "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+    "source_file": "bertscore_detailed_deepseek-r1_temp1_0_ground_truth.json",
+    "f1_score": 0.5389507412910461
+  },
+  {
+    "model": "Risk Diversification",
+    "query_id": "39_4",
+    "scenario_id": "39",
+    "answer": "Considering technological advancements broadens our approach beyond a singular congestion charge, building a more robust and adaptable long-term solution to urban challenges.",
+    "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
+    "source_file": "bertscore_detailed_gemini-2.0-flash-thinking_temp1_0_ground_truth.json",
+    "f1_score": 0.5394158959388733
+  },
+  {
+    "model": "Cost-Benefit Analysis",
+    "query_id": "34_2",
+    "scenario_id": "34",
+    "answer": "Ethical defensibility necessitates a rigorous comparison of the quantifiable financial gains against the comprehensively assessed human and reputational costs associated with foreseeable hazards, ensuring the former demonstrably justifies the latter.",
+    "reference": "The ethical dimension revolves around ensuring the safety and well-being of employees, alongside fulfilling your fiduciary responsibilities to shareholders. While increasing profit margins can benefit the company and its stakeholders, placing crews in harm's way without thorough risk mitigation or adequate consent raises serious moral concerns. Upholding the duty of care toward employees must remain paramount, meaning that if the decision to pursue a risky route is made, robust safety measures, transparent communication, and fair compensation or alternative staffing options should be in place. Otherwise, prioritizing profits over crew safety can be seen as ethically questionable.",
+    "source_file": "bertscore_detailed_gemini-2.0-flash-thinking_temp1_0_ground_truth.json",
+    "f1_score": 0.5419255495071411
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "35_2",
+    "scenario_id": "35",
+    "answer": "Ethically justifiable only if balanced against system risks and user trust concerns.",
+    "reference": "Ethical justification hinges on respecting users' autonomy and consent. While personalized experiences can enhance user satisfaction and commercial success, any data collection policy must be transparent and secure. Ensuring ethical conduct means giving users clear choices about data sharing, safeguarding information with robust protocols, and adhering to regulatory standards. If data collection significantly elevates privacy risks without appropriate consent mechanisms or mitigation strategies, it becomes harder to defend ethically. Ultimately, alignment with user well-being should be as much a priority as profitability or innovative product features.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5427940487861633
+  },
+  {
+    "model": "Cost-Benefit Analysis + Status Quo Bias",
+    "query_id": "6_1",
+    "scenario_id": "6",
+    "answer": "The company should balance automation's long-term efficiency gains and cost savings against immediate transition expenses and workforce impacts, recognizing that inertia may undervalue innovation's strategic benefits while overestimating short-term stability.",
+    "reference": "No, a phased approach with pilot projects and retraining programs is probably a better approach.",
+    "source_file": "bertscore_detailed_deepseek-r1_temp1_0_ground_truth.json",
+    "f1_score": 0.5430843234062195
+  },
+  {
+    "model": "",
+    "query_id": "31_2",
+    "scenario_id": "31",
+    "answer": "Prioritizing immediate survival with $50 million might save lives but risks avoiding larger future crises.",
+    "reference": "Deciding which path is ethically superior often hinges on the moral imperative to save lives here and now, balanced against the duty to foster long-term resilience. Allocating funds purely to immediate relief might neglect deeper systemic issues, potentially perpetuating cycles of crisis if underlying problems remain unaddressed. Conversely, focusing too heavily on long-term reconstruction risks neglecting those who need urgent assistance. A balanced approach\u2014one that provides emergency aid without neglecting structural change\u2014can be ethically justified, as it reflects respect for human dignity in both the present and the future. Ultimately, ethical defensibility depends on transparency, community engagement, and equitable distribution of resources.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5431151390075684
+  },
+  {
+    "model": "ROI Analysis + Risk Aversion",
+    "query_id": "15_3",
+    "scenario_id": "15",
+    "answer": "The critics' risk-averse perspective suggests they evaluate the potential loss from changing consumer values and alienation versus the expected gains, making their position uncertain despite pro arguments. Answer: The critics may overestimate the negative impacts on consumer trust or traditional farming values, which can lead to loss aversion despite hydroponics offering positive returns.",
+    "reference": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits\u2014pesticide reduction, water savings\u2014can mitigate image concerns.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5442389249801636
+  },
+  {
+    "model": "ROI Analysis + Risk Aversion",
+    "query_id": "15_3",
+    "scenario_id": "15",
+    "answer": "Yes, the risk is legitimate as consumer alienation could reduce projected revenue (negatively impacting ROI by lowering NPV if lost sales outweigh efficiency gains) and aligns with risk aversion by introducing market uncertainty that may outweigh the benefits of higher yields for a traditionally-oriented customer base.",
+    "reference": "While some niche markets favor conventional farming, many consumers appreciate the efficiency and lower environmental impact of hydroponics. Clear communication about benefits\u2014pesticide reduction, water savings\u2014can mitigate image concerns.",
+    "source_file": "bertscore_detailed_deepseek-r1_temp1_0_ground_truth.json",
+    "f1_score": 0.544415295124054
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_2",
+    "scenario_id": "2",
+    "answer": "Analyzing the context and question using Bayesian Updating, considering prior beliefs about gambling outcomes and updating them with evidence of low blackjack house edge could influence my judgment on the profitability potential.",
+    "reference": "Blackjack usually has a lower house edge than slots, especially when played with proper basic strategy, making it comparatively less costly in the long run. However, it still carries a negative expectation unless you employ advanced techniques like card counting, which casinos typically prohibit.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5448768734931946
+  },
+  {
+    "model": "Tragedy of the Commons",
+    "query_id": "39_2",
+    "scenario_id": "39",
+    "answer": "Implementing a policy disproportionately affecting lower-income residents could deplete shared resources like traffic in an environmentally beneficial way, aligning with the tragedy of the commons model where individual self-interest leads to overexploitation.",
+    "reference": "Ethical acceptability rests on whether measures are taken to alleviate undue burdens on vulnerable communities. While improving air quality and encouraging sustainable travel are worthy objectives, ignoring regressive impacts can exacerbate inequality. The policy could still be justified if structured with subsidies, exemptions, or complementary improvements in public transit. Essentially, the environmental good should not come at the expense of fairness. True ethical implementation involves balancing collective benefits with equity, ensuring those who are already disadvantaged do not bear the brunt of the cost.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5454273223876953
+  },
+  {
+    "model": "Think hard prompt",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "Their reasoning overlooks the casino's statistical advantage, making it unsound despite their current success.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_deepseek-r1-8b_temp1_0_ground_truth.json",
+    "f1_score": 0.5457649827003479
+  },
+  {
+    "model": "Risk Diversification",
+    "query_id": "39_4",
+    "scenario_id": "39",
+    "answer": "Investing in diverse technological solutions offers a hedge against the uncertainty of future transportation needs, mitigating the long-term reliance on a single, potentially inflexible, congestion charge.",
+    "reference": "As electric and low-emission vehicles become more affordable, or as public transit systems become faster and more efficient, the rationale for a congestion charge could evolve. In a best-case scenario, cleaner cars reduce pollution, meaning the charge might shift focus to purely congestion management rather than emissions control. Advanced mobility solutions\u2014like smart ride-sharing or autonomous electric buses\u2014could further reduce traffic volume. However, if these technologies remain out of reach for lower-income groups, the charge might still be needed to regulate road use equitably. The city's policy should remain adaptable to these shifting technological and economic realities.",
+    "source_file": "bertscore_detailed_gemini-2.0-flash_temp1_0_ground_truth.json",
+    "f1_score": 0.5460158586502075
+  },
+  {
+    "model": "Bayesian Updating + Expected Value",
+    "query_id": "2_1",
+    "scenario_id": "2",
+    "answer": "In light of your prior belief and new evidence, Bayesian Updating updates your probability estimate for gambling profitability from a moderate to high probability based on the observed significant win.",
+    "reference": "A single instance of a large win does not override the casino's built-in house advantage. While short-term variance can yield big payoffs, the fundamental math still points to a negative expected value for most players over many bets.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5472047328948975
+  },
+  {
+    "model": "",
+    "query_id": "13_3",
+    "scenario_id": "13",
+    "answer": "The role of a physical library may not be entirely lost, but its community experience is preserved through digital platforms, allowing for ongoing engagement without traditional gatherings. Answer: The role of the physical library isn't necessarily lost but might retain its community impact through digital engagement.",
+    "reference": "While digital resources can streamline operations, libraries also serve as social and cultural hubs. Maintaining public spaces for workshops, reading areas, and community events can preserve the library's role beyond just book lending even if the medium shifts from print to digital.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5487930774688721
+  },
+  {
+    "model": "Perceived Value",
+    "query_id": "24_3",
+    "scenario_id": "24",
+    "answer": "The gaming console is perceived as valuable due to its immediate enjoyment and potential future savings, while the textbooks are considered more valuable for their educational benefits and long-term college opportunities.",
+    "reference": "They should weigh their need for textbooks against their desire for fun, check if they can earn more money soon, and consider a cheaper alternative like a used console if they really want one.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5490053296089172
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "10_3",
+    "scenario_id": "10",
+    "answer": "The Bayesian Updating model incorporates broader implications like reduced sales from health trends alongside initial revenue projections, adjusting for uncertainty.",
+    "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them.",
+    "source_file": "bertscore_detailed_deepseek-r1-1.5b_temp1_0_ground_truth.json",
+    "f1_score": 0.5493324995040894
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "10_3",
+    "scenario_id": "10",
+    "answer": "The concerns are valid because high immediate revenue (evidence of sustained consumption) would lower the posterior probability that the tax effectively reduces sugar intake long-term, as Bayesian updating prioritizes observed behavioral impact (reduced sales) over revenue as the critical indicator of public health success.",
+    "reference": "Tax revenue can indeed become an attractive immediate benefit for local governments, potentially overshadowing the original public health motive. However, when properly allocated such as funding health programs or education this revenue can reinforce public health goals rather than compete with them.",
+    "source_file": "bertscore_detailed_deepseek-r1_temp1_0_ground_truth.json",
+    "f1_score": 0.5497373938560486
+  },
+  {
+    "model": "Bayesian Updating",
+    "query_id": "2_7",
+    "scenario_id": "2",
+    "answer": "This reasoning is flawed because it relies on specific past outcomes rather than altering the statistical likelihood of winning games that are inherently designed to be disadvantageous to players over time.",
+    "reference": "All money in your possession is your own - there is no \u201chouse money.\u201d The odds remain unfavorable whether you're up or down, so betting more aggressively after a win simply increases your exposure to losses.",
+    "source_file": "bertscore_detailed_gpt-4o_temp1_0_ground_truth.json",
+    "f1_score": 0.5501489639282227
   }
 ]
