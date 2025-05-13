@@ -88,7 +88,7 @@ python scripts/LowestScoreFinder.py
 ### Showing LLM mental model usage stats
 
 ```console
-python scripts/collect_mm_stats.py
+python scripts/CollectMMStats.py
 ```
 
 # Dataset
