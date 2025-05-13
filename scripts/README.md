@@ -9,3 +9,5 @@ DeepEval.py calculates and outputs the DeepEval answer_relevancy and faithfulnes
 GetResponses.py collects all the LLM responses through their APIs and outputs them in the same json format at the custom dataset.
 
 LowestScoreFinder.py finds and saves the overall lowest scores, and the per-file lowest scores from each metric in their own json file in Results/Lowest-Scores.
+
+AverageScores.py finds the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt" and saves the results to the Results/Average-Scores directory.

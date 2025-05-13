@@ -1,0 +1,62 @@
+{
+  "deepseek-r1": {
+    "no_mental_model": 0.666415348307777,
+    "one_mental_model": 0.6530884331419268,
+    "two_mental_models": 0.6530673285477034,
+    "think_hard_prompt": 0.65740130511859
+  },
+  "gpt-4o": {
+    "no_mental_model": 0.658696441249993,
+    "one_mental_model": 0.6528641900033442,
+    "two_mental_models": 0.6547235145823647,
+    "think_hard_prompt": 0.6640141492581549
+  },
+  "deepseek-v3": {
+    "no_mental_model": 0.656107606778618,
+    "one_mental_model": 0.6539899609016098,
+    "two_mental_models": 0.6569861523977673,
+    "think_hard_prompt": 0.6589173237786038
+  },
+  "deepseek-r1-8b": {
+    "no_mental_model": 0.6486213528017961,
+    "one_mental_model": 0.647624151624796,
+    "two_mental_models": 0.647453646168454,
+    "think_hard_prompt": 0.649471212889402
+  },
+  "llama3.1-8b": {
+    "no_mental_model": 0.6524253096289307,
+    "one_mental_model": 0.6490848387470682,
+    "two_mental_models": 0.6488681804132825,
+    "think_hard_prompt": 0.6523875817087771
+  },
+  "deepseek-r1-1.5b": {
+    "no_mental_model": 0.6149184828951159,
+    "one_mental_model": 0.6039702808128968,
+    "two_mental_models": 0.6060411547886506,
+    "think_hard_prompt": 0.6083861803280488
+  },
+  "o3-mini": {
+    "no_mental_model": 0.6565497217287544,
+    "one_mental_model": 0.6520003965337768,
+    "two_mental_models": 0.6509784355418373,
+    "think_hard_prompt": 0.6577442893545136
+  },
+  "gemini-2.0-flash-thinking": {
+    "no_mental_model": 0.6401546324482401,
+    "one_mental_model": 0.6335496111908032,
+    "two_mental_models": 0.6369769868959907,
+    "think_hard_prompt": 0.6404732706892582
+  },
+  "gpt-4o-mini": {
+    "no_mental_model": 0.6627895094966161,
+    "one_mental_model": 0.6651214231516569,
+    "two_mental_models": 0.6660653794084797,
+    "think_hard_prompt": 0.6617663052245861
+  },
+  "gemini-2.0-flash": {
+    "no_mental_model": 0.6534424183022884,
+    "one_mental_model": 0.6355063379493379,
+    "two_mental_models": 0.6405403805143051,
+    "think_hard_prompt": 0.6530233430498429
+  }
+}
