@@ -1,0 +1,62 @@
+{
+  "deepseek-r1": {
+    "no_mental_model": 0.6786294929853832,
+    "one_mental_model": 0.6539976917605363,
+    "two_mental_models": 0.6516652330187441,
+    "think_hard_prompt": 0.6748813982228287
+  },
+  "gpt-4o": {
+    "no_mental_model": 0.6793727492558137,
+    "one_mental_model": 0.6643295736258267,
+    "two_mental_models": 0.6632363996432937,
+    "think_hard_prompt": 0.683169708452152
+  },
+  "deepseek-v3": {
+    "no_mental_model": 0.6786579917405398,
+    "one_mental_model": 0.6608213554811841,
+    "two_mental_models": 0.6580970150823812,
+    "think_hard_prompt": 0.6796000167613722
+  },
+  "deepseek-r1-8b": {
+    "no_mental_model": 0.6668469437206065,
+    "one_mental_model": 0.662964295567447,
+    "two_mental_models": 0.6600101399057694,
+    "think_hard_prompt": 0.6691210065179198
+  },
+  "llama3.1-8b": {
+    "no_mental_model": 0.6653764684691684,
+    "one_mental_model": 0.6538862301648118,
+    "two_mental_models": 0.6525469799988143,
+    "think_hard_prompt": 0.665128975879145
+  },
+  "deepseek-r1-1.5b": {
+    "no_mental_model": 0.636130828666323,
+    "one_mental_model": 0.6202580124594783,
+    "two_mental_models": 0.6187547745595452,
+    "think_hard_prompt": 0.6325272744848528
+  },
+  "o3-mini": {
+    "no_mental_model": 0.6769638225322462,
+    "one_mental_model": 0.6601098361816115,
+    "two_mental_models": 0.6573627081536154,
+    "think_hard_prompt": 0.6774110461919363
+  },
+  "gemini-2.0-flash-thinking": {
+    "no_mental_model": 0.6663517829116065,
+    "one_mental_model": 0.6490001876390618,
+    "two_mental_models": 0.6484929468795544,
+    "think_hard_prompt": 0.6661996427383131
+  },
+  "gpt-4o-mini": {
+    "no_mental_model": 0.6797169838242858,
+    "one_mental_model": 0.6631659840354482,
+    "two_mental_models": 0.6590920504722887,
+    "think_hard_prompt": 0.6804654457186925
+  },
+  "gemini-2.0-flash": {
+    "no_mental_model": 0.6750836172176682,
+    "one_mental_model": 0.6476839755782644,
+    "two_mental_models": 0.6472962562364476,
+    "think_hard_prompt": 0.6748958407467558
+  }
+}

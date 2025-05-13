@@ -7,14 +7,6 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/vinaysetty/1cc32e6b43d911995bf07adb1cce4e89/raw/coverage.template-project.main.json)
 
-# Testing and GitHub actions
-
-Using `pre-commit` hooks, `flake8`, `black`, `mypy`, `docformatter`, `pydocstyle` and `pytest` are locally run on every commit. For more details on how to use `pre-commit` hooks see [here](https://github.com/iai-group/guidelines/tree/main/python#install-pre-commit-hooks).
-
-Similarly, Github actions are used to run `flake8`, `black`, `mypy`, `docformatter`, `pydocstyle` and `pytest` on every push and pull request and merge to main. The `pytest` also runs coverage. GitHub actions are explained in detail [here](https://github.com/iai-group/guidelines/blob/main/github/Actions.md).
-
-For GitHub actions/CI Setup see [here](docs/CI_setup.md)
-
 # Instructions
 
 This repository contains datasets, Python scripts, and evaluation results for assessing the decision-making capabilities of Large Language Models (LLMs). It supports a study investigating whether multi-perspective prompting can enhance LLM reasoning, evaluated using BERTScore, DeepEval, and human assessments. The repository includes JSON datasets with decision-making tasks, scripts for response collection and evaluation, and organized results for benchmarking and analysis.
@@ -27,7 +19,8 @@ This repository contains datasets, Python scripts, and evaluation results for as
   - `DeepEval.py`: Evaluates responses using the DeepEval framework.
   - `BERTScore.py`: Evaluates responses using BERTScore metrics.
   - `LowestScoreFinder.py`: Identifies the lowest scores from evaluation results.
-  - `collect_mm_stats.py`: Collects stats on which LLMs uses mental models in the responses.
+  - `CollectMMStats.py`: Collects stats on which LLMs uses mental models in the responses.
+  - `AverageScores.py`: Aggregates the average scores for each automated metric per LLM
 - **Results**: Organized directories with detailed and aggregated evaluation results for BERTScore, DeepEval, and human evaluations, including benchmark tests for metric thresholds.
 
 ## Setup
@@ -91,6 +84,12 @@ python scripts/LowestScoreFinder.py
 python scripts/CollectMMStats.py
 ```
 
+### Aggregating the average scores for each LLM
+
+```console
+python scripts/AverageScores.py
+```
+
 # Dataset
 
 The primary dataset (data/dataset.json) contains 40 scenarios with 131 questions total. Each scenario includes:
@@ -131,3 +130,5 @@ Pre-computed results from the experiments described in the thesis are stored in 
     Results-*[Detailed|Aggregated]/: Evaluation scores (BERTScore, DeepEval, Human) stored in detailed (per-response) and aggregated formats.
 
     Lowest-Scores/: Lists of responses identified as having the lowest scores by LowestScoreFinder.py.
+
+    Average-Scores/: Output of the AverageScores.py showing the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt".

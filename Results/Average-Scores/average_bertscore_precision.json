@@ -1,0 +1,62 @@
+{
+  "deepseek-r1": {
+    "no_mental_model": 0.6931360755257934,
+    "one_mental_model": 0.6568765117011908,
+    "two_mental_models": 0.6522538580057275,
+    "think_hard_prompt": 0.69546999503638
+  },
+  "gpt-4o": {
+    "no_mental_model": 0.703797394992741,
+    "one_mental_model": 0.6785017201918682,
+    "two_mental_models": 0.6743047628693908,
+    "think_hard_prompt": 0.7056144999183771
+  },
+  "deepseek-v3": {
+    "no_mental_model": 0.7046800510573933,
+    "one_mental_model": 0.6700246284026226,
+    "two_mental_models": 0.6613338976415969,
+    "think_hard_prompt": 0.7036085442732308
+  },
+  "deepseek-r1-8b": {
+    "no_mental_model": 0.6882510974661995,
+    "one_mental_model": 0.681311785037281,
+    "two_mental_models": 0.675335485971611,
+    "think_hard_prompt": 0.6919840023717807
+  },
+  "llama3.1-8b": {
+    "no_mental_model": 0.6808465396174948,
+    "one_mental_model": 0.6610887403251561,
+    "two_mental_models": 0.6583553297829082,
+    "think_hard_prompt": 0.680380063202545
+  },
+  "deepseek-r1-1.5b": {
+    "no_mental_model": 0.6624689179522391,
+    "one_mental_model": 0.6409609003831412,
+    "two_mental_models": 0.6357865008234068,
+    "think_hard_prompt": 0.6643861846159432
+  },
+  "o3-mini": {
+    "no_mental_model": 0.7008185973604217,
+    "one_mental_model": 0.6706015322044605,
+    "two_mental_models": 0.6661353466164974,
+    "think_hard_prompt": 0.7007953706588453
+  },
+  "gemini-2.0-flash-thinking": {
+    "no_mental_model": 0.6970658925653413,
+    "one_mental_model": 0.6672276706640957,
+    "two_mental_models": 0.6626524324635513,
+    "think_hard_prompt": 0.6963418267155421
+  },
+  "gpt-4o-mini": {
+    "no_mental_model": 0.699211546937928,
+    "one_mental_model": 0.6634649224863708,
+    "two_mental_models": 0.6546672491626885,
+    "think_hard_prompt": 0.7021723480625007
+  },
+  "gemini-2.0-flash": {
+    "no_mental_model": 0.7003744849721893,
+    "one_mental_model": 0.6624826281580306,
+    "two_mental_models": 0.6564203282348983,
+    "think_hard_prompt": 0.7002328097365285
+  }
+}
