@@ -1,0 +1,26 @@
+{
+  "gpt-4o": {
+    "no_mental_model": 0.694771021604538,
+    "one_mental_model": 0.6777168691158295,
+    "two_mental_models": 0.6767078906297683,
+    "think_hard_prompt": 0.6847929418087005
+  },
+  "gemini-2.0-flash-thinking": {
+    "no_mental_model": 0.6849096268415451,
+    "one_mental_model": 0.6677620559930801,
+    "two_mental_models": 0.6637214392423629,
+    "think_hard_prompt": 0.686139139533043
+  },
+  "gemini-2.0-flash": {
+    "no_mental_model": 0.6917641490697861,
+    "one_mental_model": 0.6711702510714531,
+    "two_mental_models": 0.6648501068353653,
+    "think_hard_prompt": 0.687184190750122
+  },
+  "o3-mini": {
+    "no_mental_model": 0.6936101704835892,
+    "one_mental_model": 0.6741946429014206,
+    "two_mental_models": 0.6725994288921356,
+    "think_hard_prompt": 0.6949427634477615
+  }
+}

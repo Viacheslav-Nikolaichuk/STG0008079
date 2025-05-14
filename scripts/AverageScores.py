@@ -58,7 +58,7 @@ def process_files_in_directory(input_dir, file_type, all_averages_by_metric):
     if not input_dir.is_dir(): return
 
     for file_path in input_dir.glob("*.json"):
-        if "lastquestions" in file_path.name.lower(): continue
+        if ("lastquestions" in file_path.name.lower()): continue
 
         stem_parts = file_path.stem.split('_')
         model_name_from_file = "unknown_model"

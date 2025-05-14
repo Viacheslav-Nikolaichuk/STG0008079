@@ -10,4 +10,4 @@ GetResponses.py collects all the LLM responses through their APIs and outputs th
 
 LowestScoreFinder.py finds and saves the overall lowest scores, and the per-file lowest scores from each metric in their own json file in Results/Lowest-Scores.
 
-AverageScores.py finds the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt" and saves the results to the Results/Average-Scores directory.
+AverageScores.py finds the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt" and saves the results to the Results/Average-Scores directory. To only get the scores from the last questions (excluding the different temperature results) change line 61 in AverageScores.py to: if not ("lastquestions" in file_path.name.lower() and "1_0" in file_path.name.lower()): continue

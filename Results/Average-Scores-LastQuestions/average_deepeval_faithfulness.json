@@ -1,0 +1,26 @@
+{
+  "gemini-2.0-flash-thinking": {
+    "no_mental_model": 0.95,
+    "one_mental_model": 0.95,
+    "two_mental_models": 0.9541666666666666,
+    "think_hard_prompt": 0.9208333333333334
+  },
+  "gemini-2.0-flash": {
+    "no_mental_model": 0.9875,
+    "one_mental_model": 0.96875,
+    "two_mental_models": 0.9416666666666667,
+    "think_hard_prompt": 0.9583333333333334
+  },
+  "gpt-4o": {
+    "no_mental_model": 0.9833333333333334,
+    "one_mental_model": 0.99375,
+    "two_mental_models": 0.9875,
+    "think_hard_prompt": 0.9258333333333333
+  },
+  "o3-mini": {
+    "no_mental_model": 1.0,
+    "one_mental_model": 0.9574999999999999,
+    "two_mental_models": 0.9875,
+    "think_hard_prompt": 0.925
+  }
+}

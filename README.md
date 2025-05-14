@@ -132,3 +132,5 @@ Pre-computed results from the experiments described in the thesis are stored in 
     Lowest-Scores/: Lists of responses identified as having the lowest scores by LowestScoreFinder.py.
 
     Average-Scores/: Output of the AverageScores.py showing the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt".
+
+    Average-Scores-LastQuestions/: Output of the AverageScores.py showing the average scores per automated metric according to 0 mental models, one mental model, two mental models and "think hard prompt", only for the last 5 scenarios (20 questions)

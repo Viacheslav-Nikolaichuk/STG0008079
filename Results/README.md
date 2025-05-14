@@ -15,3 +15,7 @@
 /Results-Human-Aggregated - Contains the aggregated results from the manual human evaluation by both evaluators for the four chosen LLMs in the last 20 questions.
 
 /Results-Human-Detailed - Contains the detailed results from the manual human evaluation by both evaluators for the four chosen LLMs in the last 20 questions.
+
+/Average-Scores - Contains the average scores for each automated metric per LLM for the entire dataset, categorized by prompt.
+
+/Average-Scores-LastQuestions - Contains the average scores for each automated metric per LLM for the last 5 scenarios (20 questions), categorized by prompt.
